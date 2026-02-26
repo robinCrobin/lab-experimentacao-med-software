@@ -1,6 +1,7 @@
 import os
 import sys
 import requests
+import json
 from dotenv import load_dotenv
 
 GRAPHQL_URL = "https://api.github.com/graphql"
@@ -69,7 +70,7 @@ def fetch_page(token, cursor=None):
         }
     }
 
-    response = requests.post(GRAPHQL_URL, json=payload, headers=headers)
+    response = requests.post(GRAPHQL_URL, json=payload, headers=headers, timeout=TIMEOUT)
 
     if response.status_code != 200:
         print(f"Erro HTTP {response.status_code}: {response.text}")
@@ -85,25 +86,30 @@ def fetch_page(token, cursor=None):
 
 def main():
     token = get_token()
+    all_repos = []
+    cursor = None
+    has_next = True
 
-    headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
-    payload = {
-        "query":"{ viewer { login } }"
-    }
 
-    response = requests.post(
-                GRAPHQL_URL,
-                json=payload,
-                headers=headers,
-                timeout=TIMEOUT
-    )
 
-    if response.status_code != 200:
-                print(f"Erro HTTP {response.status_code}: {response.text}")
-                sys.exit(1)
+    print("Iniciando coleta")
 
-    data = response.json()
-    print(data)
+    while has_next and len(all_repos) < TARGET_REPOS:
+        result = fetch_page(token, cursor)
+
+        nodes = result["nodes"]
+        page_info = result["pageInfo"]
+
+        all_repos.extend(nodes)
+
+        cursor = page_info["endCursor"]
+        has_next = page_info["hasNextPage"]
+
+        print(f"Coletados até agora: {len(all_repos)}")
+
+
+    print("\nColeta finalizada. Total de repositórios coletados:", len(all_repos))
+    print(json.dumps(all_repos, ensure_ascii=False, indent=2))
 
 if __name__ == "__main__":
     main()

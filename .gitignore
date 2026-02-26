@@ -1,0 +1,47 @@
+# Pasta local – Rascunhos e ideias para trabalhar
+Auxiliar/
+
+# Ambiente e tokens (não versionar)
+.env
+.env.local
+.env.*.local
+*.env
+GITHUB_TOKEN*
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Dados sensíveis ou muito grandes (Comentar para versionar)
+Laboratorios/Lab-01/repos_1000.csv
+Laboratorios/Lab-01/*.json
+Laboratorios/Lab-01/data/
+
+# Logs e temporários
+*.log
+*.tmp
+.cache/

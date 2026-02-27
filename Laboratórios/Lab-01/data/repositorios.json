@@ -3,7 +3,7 @@
     "name": "build-your-own-x",
     "nameWithOwner": "codecrafters-io/build-your-own-x",
     "url": "https://github.com/codecrafters-io/build-your-own-x",
-    "stargazerCount": 469569,
+    "stargazerCount": 469780,
     "createdAt": "2018-05-09T12:03:18Z",
     "pushedAt": "2026-02-21T09:34:54Z",
     "primaryLanguage": {
@@ -26,7 +26,7 @@
     "name": "awesome",
     "nameWithOwner": "sindresorhus/awesome",
     "url": "https://github.com/sindresorhus/awesome",
-    "stargazerCount": 440947,
+    "stargazerCount": 441122,
     "createdAt": "2014-07-11T13:42:37Z",
     "pushedAt": "2026-01-28T14:08:49Z",
     "primaryLanguage": null,
@@ -47,30 +47,30 @@
     "name": "freeCodeCamp",
     "nameWithOwner": "freeCodeCamp/freeCodeCamp",
     "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-    "stargazerCount": 437555,
+    "stargazerCount": 437572,
     "createdAt": "2014-12-24T17:49:19Z",
-    "pushedAt": "2026-02-26T16:56:57Z",
+    "pushedAt": "2026-02-27T15:02:49Z",
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "pullRequests": {
-      "totalCount": 27675
+      "totalCount": 27688
     },
     "releases": {
       "totalCount": 0
     },
     "issues": {
-      "totalCount": 21132
+      "totalCount": 21133
     },
     "closedIssues": {
-      "totalCount": 20928
+      "totalCount": 20933
     }
   },
   {
     "name": "public-apis",
     "nameWithOwner": "public-apis/public-apis",
     "url": "https://github.com/public-apis/public-apis",
-    "stargazerCount": 400567,
+    "stargazerCount": 400813,
     "createdAt": "2016-03-20T23:49:42Z",
     "pushedAt": "2026-02-19T15:14:35Z",
     "primaryLanguage": {
@@ -93,7 +93,7 @@
     "name": "free-programming-books",
     "nameWithOwner": "EbookFoundation/free-programming-books",
     "url": "https://github.com/EbookFoundation/free-programming-books",
-    "stargazerCount": 383151,
+    "stargazerCount": 383171,
     "createdAt": "2013-10-11T06:50:37Z",
     "pushedAt": "2026-02-26T17:01:58Z",
     "primaryLanguage": {
@@ -116,30 +116,30 @@
     "name": "developer-roadmap",
     "nameWithOwner": "kamranahmedse/developer-roadmap",
     "url": "https://github.com/kamranahmedse/developer-roadmap",
-    "stargazerCount": 349816,
+    "stargazerCount": 349842,
     "createdAt": "2017-03-15T13:45:52Z",
-    "pushedAt": "2026-02-25T14:57:36Z",
+    "pushedAt": "2026-02-27T14:58:10Z",
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "pullRequests": {
-      "totalCount": 4046
+      "totalCount": 4050
     },
     "releases": {
       "totalCount": 1
     },
     "issues": {
-      "totalCount": 3075
+      "totalCount": 3076
     },
     "closedIssues": {
-      "totalCount": 3048
+      "totalCount": 3049
     }
   },
   {
     "name": "coding-interview-university",
     "nameWithOwner": "jwasham/coding-interview-university",
     "url": "https://github.com/jwasham/coding-interview-university",
-    "stargazerCount": 337465,
+    "stargazerCount": 337480,
     "createdAt": "2016-06-06T02:34:12Z",
     "pushedAt": "2025-08-28T14:42:47Z",
     "primaryLanguage": null,
@@ -160,7 +160,7 @@
     "name": "system-design-primer",
     "nameWithOwner": "donnemartin/system-design-primer",
     "url": "https://github.com/donnemartin/system-design-primer",
-    "stargazerCount": 336768,
+    "stargazerCount": 336841,
     "createdAt": "2017-02-26T16:15:28Z",
     "pushedAt": "2025-11-03T12:06:22Z",
     "primaryLanguage": {
@@ -183,7 +183,7 @@
     "name": "awesome-python",
     "nameWithOwner": "vinta/awesome-python",
     "url": "https://github.com/vinta/awesome-python",
-    "stargazerCount": 284676,
+    "stargazerCount": 284775,
     "createdAt": "2014-06-27T21:00:06Z",
     "pushedAt": "2026-02-25T06:09:33Z",
     "primaryLanguage": {
@@ -203,31 +203,10 @@
     }
   },
   {
-    "name": "996.ICU",
-    "nameWithOwner": "996icu/996.ICU",
-    "url": "https://github.com/996icu/996.ICU",
-    "stargazerCount": 275557,
-    "createdAt": "2019-03-26T07:31:14Z",
-    "pushedAt": "2025-08-22T06:01:29Z",
-    "primaryLanguage": null,
-    "pullRequests": {
-      "totalCount": 1072
-    },
-    "releases": {
-      "totalCount": 0
-    },
-    "issues": {
-      "totalCount": 0
-    },
-    "closedIssues": {
-      "totalCount": 0
-    }
-  },
-  {
     "name": "awesome-selfhosted",
     "nameWithOwner": "awesome-selfhosted/awesome-selfhosted",
     "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "stargazerCount": 275511,
+    "stargazerCount": 275648,
     "createdAt": "2015-06-01T02:33:17Z",
     "pushedAt": "2026-02-22T11:14:11Z",
     "primaryLanguage": null,
@@ -245,10 +224,31 @@
     }
   },
   {
+    "name": "996.ICU",
+    "nameWithOwner": "996icu/996.ICU",
+    "url": "https://github.com/996icu/996.ICU",
+    "stargazerCount": 275564,
+    "createdAt": "2019-03-26T07:31:14Z",
+    "pushedAt": "2025-08-22T06:01:29Z",
+    "primaryLanguage": null,
+    "pullRequests": {
+      "totalCount": 1072
+    },
+    "releases": {
+      "totalCount": 0
+    },
+    "issues": {
+      "totalCount": 0
+    },
+    "closedIssues": {
+      "totalCount": 0
+    }
+  },
+  {
     "name": "project-based-learning",
     "nameWithOwner": "practical-tutorials/project-based-learning",
     "url": "https://github.com/practical-tutorials/project-based-learning",
-    "stargazerCount": 259591,
+    "stargazerCount": 259652,
     "createdAt": "2017-04-12T05:07:46Z",
     "pushedAt": "2024-08-15T05:33:54Z",
     "primaryLanguage": null,
@@ -269,55 +269,55 @@
     "name": "react",
     "nameWithOwner": "facebook/react",
     "url": "https://github.com/facebook/react",
-    "stargazerCount": 243316,
+    "stargazerCount": 243340,
     "createdAt": "2013-05-24T16:15:54Z",
-    "pushedAt": "2026-02-26T22:37:41Z",
+    "pushedAt": "2026-02-27T14:53:52Z",
     "primaryLanguage": {
       "name": "JavaScript"
     },
     "pullRequests": {
-      "totalCount": 12760
+      "totalCount": 12762
     },
     "releases": {
       "totalCount": 118
     },
     "issues": {
-      "totalCount": 14377
+      "totalCount": 14378
     },
     "closedIssues": {
-      "totalCount": 13562
+      "totalCount": 13563
     }
   },
   {
     "name": "openclaw",
     "nameWithOwner": "openclaw/openclaw",
     "url": "https://github.com/openclaw/openclaw",
-    "stargazerCount": 233007,
+    "stargazerCount": 236080,
     "createdAt": "2025-11-24T10:16:47Z",
-    "pushedAt": "2026-02-27T00:45:59Z",
+    "pushedAt": "2026-02-27T15:56:09Z",
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "pullRequests": {
-      "totalCount": 2102
+      "totalCount": 2125
     },
     "releases": {
       "totalCount": 57
     },
     "issues": {
-      "totalCount": 12755
+      "totalCount": 13050
     },
     "closedIssues": {
-      "totalCount": 9020
+      "totalCount": 9068
     }
   },
   {
     "name": "linux",
     "nameWithOwner": "torvalds/linux",
     "url": "https://github.com/torvalds/linux",
-    "stargazerCount": 219449,
+    "stargazerCount": 219627,
     "createdAt": "2011-09-04T22:48:12Z",
-    "pushedAt": "2026-02-26T18:47:33Z",
+    "pushedAt": "2026-02-27T01:55:16Z",
     "primaryLanguage": {
       "name": "C"
     },
@@ -338,7 +338,7 @@
     "name": "Python",
     "nameWithOwner": "TheAlgorithms/Python",
     "url": "https://github.com/TheAlgorithms/Python",
-    "stargazerCount": 218177,
+    "stargazerCount": 218197,
     "createdAt": "2016-07-16T09:44:01Z",
     "pushedAt": "2026-02-02T18:20:16Z",
     "primaryLanguage": {
@@ -361,7 +361,7 @@
     "name": "vue",
     "nameWithOwner": "vuejs/vue",
     "url": "https://github.com/vuejs/vue",
-    "stargazerCount": 209923,
+    "stargazerCount": 209928,
     "createdAt": "2013-07-29T03:24:51Z",
     "pushedAt": "2024-10-10T07:24:15Z",
     "primaryLanguage": {
@@ -384,7 +384,7 @@
     "name": "the-book-of-secret-knowledge",
     "nameWithOwner": "trimstray/the-book-of-secret-knowledge",
     "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
-    "stargazerCount": 207926,
+    "stargazerCount": 208004,
     "createdAt": "2018-06-23T10:43:14Z",
     "pushedAt": "2024-11-19T14:00:38Z",
     "primaryLanguage": null,
@@ -405,7 +405,7 @@
     "name": "computer-science",
     "nameWithOwner": "ossu/computer-science",
     "url": "https://github.com/ossu/computer-science",
-    "stargazerCount": 201680,
+    "stargazerCount": 201704,
     "createdAt": "2014-05-04T00:18:39Z",
     "pushedAt": "2026-02-25T06:00:19Z",
     "primaryLanguage": {
@@ -428,7 +428,7 @@
     "name": "javascript-algorithms",
     "nameWithOwner": "trekhleb/javascript-algorithms",
     "url": "https://github.com/trekhleb/javascript-algorithms",
-    "stargazerCount": 195697,
+    "stargazerCount": 195700,
     "createdAt": "2018-03-24T07:47:04Z",
     "pushedAt": "2026-02-18T09:20:06Z",
     "primaryLanguage": {
@@ -451,14 +451,14 @@
     "name": "tensorflow",
     "nameWithOwner": "tensorflow/tensorflow",
     "url": "https://github.com/tensorflow/tensorflow",
-    "stargazerCount": 193931,
+    "stargazerCount": 193935,
     "createdAt": "2015-11-07T01:19:20Z",
-    "pushedAt": "2026-02-27T01:15:53Z",
+    "pushedAt": "2026-02-27T15:52:32Z",
     "primaryLanguage": {
       "name": "C++"
     },
     "pullRequests": {
-      "totalCount": 42060
+      "totalCount": 42086
     },
     "releases": {
       "totalCount": 220
@@ -467,14 +467,14 @@
       "totalCount": 41172
     },
     "closedIssues": {
-      "totalCount": 40290
+      "totalCount": 40297
     }
   },
   {
     "name": "ohmyzsh",
     "nameWithOwner": "ohmyzsh/ohmyzsh",
     "url": "https://github.com/ohmyzsh/ohmyzsh",
-    "stargazerCount": 184981,
+    "stargazerCount": 184997,
     "createdAt": "2009-08-28T18:15:37Z",
     "pushedAt": "2026-02-25T10:42:24Z",
     "primaryLanguage": {
@@ -497,7 +497,7 @@
     "name": "You-Dont-Know-JS",
     "nameWithOwner": "getify/You-Dont-Know-JS",
     "url": "https://github.com/getify/You-Dont-Know-JS",
-    "stargazerCount": 184436,
+    "stargazerCount": 184439,
     "createdAt": "2013-11-16T02:37:24Z",
     "pushedAt": "2026-02-15T04:36:44Z",
     "primaryLanguage": null,
@@ -518,7 +518,7 @@
     "name": "CS-Notes",
     "nameWithOwner": "CyC2018/CS-Notes",
     "url": "https://github.com/CyC2018/CS-Notes",
-    "stargazerCount": 183720,
+    "stargazerCount": 183727,
     "createdAt": "2018-02-13T14:56:24Z",
     "pushedAt": "2024-08-21T09:40:10Z",
     "primaryLanguage": null,
@@ -539,43 +539,43 @@
     "name": "vscode",
     "nameWithOwner": "microsoft/vscode",
     "url": "https://github.com/microsoft/vscode",
-    "stargazerCount": 182103,
+    "stargazerCount": 182122,
     "createdAt": "2015-09-03T20:23:38Z",
-    "pushedAt": "2026-02-27T01:23:08Z",
+    "pushedAt": "2026-02-27T16:04:06Z",
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "pullRequests": {
-      "totalCount": 42936
+      "totalCount": 42961
     },
     "releases": {
       "totalCount": 196
     },
     "issues": {
-      "totalCount": 231193
+      "totalCount": 231292
     },
     "closedIssues": {
-      "totalCount": 218056
+      "totalCount": 218122
     }
   },
   {
     "name": "AutoGPT",
     "nameWithOwner": "Significant-Gravitas/AutoGPT",
     "url": "https://github.com/Significant-Gravitas/AutoGPT",
-    "stargazerCount": 182043,
+    "stargazerCount": 182075,
     "createdAt": "2023-03-16T09:21:07Z",
-    "pushedAt": "2026-02-27T00:58:55Z",
+    "pushedAt": "2026-02-27T15:58:55Z",
     "primaryLanguage": {
       "name": "Python"
     },
     "pullRequests": {
-      "totalCount": 3934
+      "totalCount": 3937
     },
     "releases": {
       "totalCount": 93
     },
     "issues": {
-      "totalCount": 3728
+      "totalCount": 3729
     },
     "closedIssues": {
       "totalCount": 3498
@@ -585,7 +585,7 @@
     "name": "Python-100-Days",
     "nameWithOwner": "jackfrued/Python-100-Days",
     "url": "https://github.com/jackfrued/Python-100-Days",
-    "stargazerCount": 179043,
+    "stargazerCount": 179064,
     "createdAt": "2018-03-01T16:05:52Z",
     "pushedAt": "2026-02-25T03:39:28Z",
     "primaryLanguage": {
@@ -608,55 +608,55 @@
     "name": "n8n",
     "nameWithOwner": "n8n-io/n8n",
     "url": "https://github.com/n8n-io/n8n",
-    "stargazerCount": 176566,
+    "stargazerCount": 176691,
     "createdAt": "2019-06-22T09:24:21Z",
-    "pushedAt": "2026-02-26T23:45:29Z",
+    "pushedAt": "2026-02-27T16:04:53Z",
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "pullRequests": {
-      "totalCount": 13939
+      "totalCount": 13960
     },
     "releases": {
-      "totalCount": 541
+      "totalCount": 543
     },
     "issues": {
-      "totalCount": 8130
+      "totalCount": 8143
     },
     "closedIssues": {
-      "totalCount": 7630
+      "totalCount": 7641
     }
   },
   {
     "name": "flutter",
     "nameWithOwner": "flutter/flutter",
     "url": "https://github.com/flutter/flutter",
-    "stargazerCount": 175338,
+    "stargazerCount": 175359,
     "createdAt": "2015-03-06T22:54:58Z",
-    "pushedAt": "2026-02-27T01:19:20Z",
+    "pushedAt": "2026-02-27T16:03:58Z",
     "primaryLanguage": {
       "name": "Dart"
     },
     "pullRequests": {
-      "totalCount": 46807
+      "totalCount": 46820
     },
     "releases": {
       "totalCount": 7
     },
     "issues": {
-      "totalCount": 112317
+      "totalCount": 112328
     },
     "closedIssues": {
-      "totalCount": 100140
+      "totalCount": 100148
     }
   },
   {
     "name": "bootstrap",
     "nameWithOwner": "twbs/bootstrap",
     "url": "https://github.com/twbs/bootstrap",
-    "stargazerCount": 174004,
+    "stargazerCount": 174003,
     "createdAt": "2011-07-29T21:19:00Z",
-    "pushedAt": "2026-02-26T23:43:57Z",
+    "pushedAt": "2026-02-27T08:05:32Z",
     "primaryLanguage": {
       "name": "MDX"
     },
@@ -677,7 +677,7 @@
     "name": "gitignore",
     "nameWithOwner": "github/gitignore",
     "url": "https://github.com/github/gitignore",
-    "stargazerCount": 172697,
+    "stargazerCount": 172710,
     "createdAt": "2010-11-08T20:17:14Z",
     "pushedAt": "2026-02-12T17:50:51Z",
     "primaryLanguage": null,
@@ -698,7 +698,7 @@
     "name": "Microsoft-Activation-Scripts",
     "nameWithOwner": "massgravel/Microsoft-Activation-Scripts",
     "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
-    "stargazerCount": 167078,
+    "stargazerCount": 167159,
     "createdAt": "2020-01-12T23:03:34Z",
     "pushedAt": "2026-02-22T00:26:42Z",
     "primaryLanguage": {
@@ -711,24 +711,24 @@
       "totalCount": 29
     },
     "issues": {
-      "totalCount": 904
+      "totalCount": 905
     },
     "closedIssues": {
-      "totalCount": 902
+      "totalCount": 903
     }
   },
   {
     "name": "awesome-go",
     "nameWithOwner": "avelino/awesome-go",
     "url": "https://github.com/avelino/awesome-go",
-    "stargazerCount": 166109,
+    "stargazerCount": 166156,
     "createdAt": "2014-07-06T13:42:15Z",
-    "pushedAt": "2026-02-19T19:43:56Z",
+    "pushedAt": "2026-02-27T10:57:35Z",
     "primaryLanguage": {
       "name": "Go"
     },
     "pullRequests": {
-      "totalCount": 3569
+      "totalCount": 3570
     },
     "releases": {
       "totalCount": 0
@@ -744,30 +744,30 @@
     "name": "ollama",
     "nameWithOwner": "ollama/ollama",
     "url": "https://github.com/ollama/ollama",
-    "stargazerCount": 163515,
+    "stargazerCount": 163583,
     "createdAt": "2023-06-26T19:39:32Z",
-    "pushedAt": "2026-02-27T00:13:32Z",
+    "pushedAt": "2026-02-27T02:38:28Z",
     "primaryLanguage": {
       "name": "Go"
     },
     "pullRequests": {
-      "totalCount": 3048
+      "totalCount": 3050
     },
     "releases": {
-      "totalCount": 184
+      "totalCount": 186
     },
     "issues": {
-      "totalCount": 9392
+      "totalCount": 9407
     },
     "closedIssues": {
-      "totalCount": 7431
+      "totalCount": 7440
     }
   },
   {
     "name": "stable-diffusion-webui",
     "nameWithOwner": "AUTOMATIC1111/stable-diffusion-webui",
     "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-    "stargazerCount": 161342,
+    "stargazerCount": 161369,
     "createdAt": "2022-08-22T14:05:26Z",
     "pushedAt": "2025-12-18T14:41:34Z",
     "primaryLanguage": {
@@ -790,7 +790,7 @@
     "name": "the-art-of-command-line",
     "nameWithOwner": "jlevy/the-art-of-command-line",
     "url": "https://github.com/jlevy/the-art-of-command-line",
-    "stargazerCount": 159969,
+    "stargazerCount": 159973,
     "createdAt": "2015-05-20T15:11:03Z",
     "pushedAt": "2024-06-25T18:13:44Z",
     "primaryLanguage": null,
@@ -811,30 +811,30 @@
     "name": "transformers",
     "nameWithOwner": "huggingface/transformers",
     "url": "https://github.com/huggingface/transformers",
-    "stargazerCount": 157047,
+    "stargazerCount": 157094,
     "createdAt": "2018-10-29T13:56:00Z",
-    "pushedAt": "2026-02-27T00:21:35Z",
+    "pushedAt": "2026-02-27T15:58:48Z",
     "primaryLanguage": {
       "name": "Python"
     },
     "pullRequests": {
-      "totalCount": 18666
+      "totalCount": 18677
     },
     "releases": {
       "totalCount": 243
     },
     "issues": {
-      "totalCount": 18627
+      "totalCount": 18630
     },
     "closedIssues": {
-      "totalCount": 17546
+      "totalCount": 17550
     }
   },
   {
     "name": "JavaGuide",
     "nameWithOwner": "Snailclimb/JavaGuide",
     "url": "https://github.com/Snailclimb/JavaGuide",
-    "stargazerCount": 153891,
+    "stargazerCount": 153905,
     "createdAt": "2018-05-07T13:27:00Z",
     "pushedAt": "2026-02-23T16:04:41Z",
     "primaryLanguage": {
@@ -857,7 +857,7 @@
     "name": "FreeDomain",
     "nameWithOwner": "DigitalPlatDev/FreeDomain",
     "url": "https://github.com/DigitalPlatDev/FreeDomain",
-    "stargazerCount": 149480,
+    "stargazerCount": 149636,
     "createdAt": "2024-05-30T13:23:00Z",
     "pushedAt": "2026-01-09T15:44:07Z",
     "primaryLanguage": {
@@ -880,7 +880,7 @@
     "name": "yt-dlp",
     "nameWithOwner": "yt-dlp/yt-dlp",
     "url": "https://github.com/yt-dlp/yt-dlp",
-    "stargazerCount": 148731,
+    "stargazerCount": 148852,
     "createdAt": "2020-10-26T04:22:55Z",
     "pushedAt": "2026-02-26T16:26:17Z",
     "primaryLanguage": {
@@ -893,19 +893,19 @@
       "totalCount": 130
     },
     "issues": {
-      "totalCount": 11080
+      "totalCount": 11085
     },
     "closedIssues": {
-      "totalCount": 9277
+      "totalCount": 9283
     }
   },
   {
     "name": "prompts.chat",
     "nameWithOwner": "f/prompts.chat",
     "url": "https://github.com/f/prompts.chat",
-    "stargazerCount": 148161,
+    "stargazerCount": 148459,
     "createdAt": "2022-12-05T13:54:13Z",
-    "pushedAt": "2026-02-26T03:51:34Z",
+    "pushedAt": "2026-02-27T07:10:39Z",
     "primaryLanguage": {
       "name": "HTML"
     },
@@ -916,17 +916,17 @@
       "totalCount": 0
     },
     "issues": {
-      "totalCount": 128
+      "totalCount": 130
     },
     "closedIssues": {
-      "totalCount": 124
+      "totalCount": 126
     }
   },
   {
     "name": "javascript",
     "nameWithOwner": "airbnb/javascript",
     "url": "https://github.com/airbnb/javascript",
-    "stargazerCount": 148088,
+    "stargazerCount": 148093,
     "createdAt": "2012-11-01T23:13:50Z",
     "pushedAt": "2026-02-24T14:05:16Z",
     "primaryLanguage": {
@@ -949,14 +949,14 @@
     "name": "langflow",
     "nameWithOwner": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
-    "stargazerCount": 145094,
+    "stargazerCount": 145122,
     "createdAt": "2023-02-08T22:28:03Z",
-    "pushedAt": "2026-02-27T00:52:06Z",
+    "pushedAt": "2026-02-27T16:02:08Z",
     "primaryLanguage": {
       "name": "Python"
     },
     "pullRequests": {
-      "totalCount": 5702
+      "totalCount": 5710
     },
     "releases": {
       "totalCount": 280
@@ -972,7 +972,7 @@
     "name": "HelloGitHub",
     "nameWithOwner": "521xueweihan/HelloGitHub",
     "url": "https://github.com/521xueweihan/HelloGitHub",
-    "stargazerCount": 143946,
+    "stargazerCount": 144040,
     "createdAt": "2016-05-04T06:24:11Z",
     "pushedAt": "2026-01-28T01:25:45Z",
     "primaryLanguage": {
@@ -985,7 +985,7 @@
       "totalCount": 62
     },
     "issues": {
-      "totalCount": 2955
+      "totalCount": 2956
     },
     "closedIssues": {
       "totalCount": 2681
@@ -995,7 +995,7 @@
     "name": "youtube-dl",
     "nameWithOwner": "ytdl-org/youtube-dl",
     "url": "https://github.com/ytdl-org/youtube-dl",
-    "stargazerCount": 139738,
+    "stargazerCount": 139741,
     "createdAt": "2010-10-31T14:35:07Z",
     "pushedAt": "2026-02-19T16:45:25Z",
     "primaryLanguage": {
@@ -1018,30 +1018,30 @@
     "name": "next.js",
     "nameWithOwner": "vercel/next.js",
     "url": "https://github.com/vercel/next.js",
-    "stargazerCount": 138005,
+    "stargazerCount": 138025,
     "createdAt": "2016-10-05T23:32:51Z",
-    "pushedAt": "2026-02-27T01:17:28Z",
+    "pushedAt": "2026-02-27T15:22:32Z",
     "primaryLanguage": {
       "name": "JavaScript"
     },
     "pullRequests": {
-      "totalCount": 26026
+      "totalCount": 26042
     },
     "releases": {
       "totalCount": 1000
     },
     "issues": {
-      "totalCount": 24293
+      "totalCount": 24295
     },
     "closedIssues": {
-      "totalCount": 22242
+      "totalCount": 22245
     }
   },
   {
     "name": "tech-interview-handbook",
     "nameWithOwner": "yangshun/tech-interview-handbook",
     "url": "https://github.com/yangshun/tech-interview-handbook",
-    "stargazerCount": 137875,
+    "stargazerCount": 137888,
     "createdAt": "2016-07-05T05:00:48Z",
     "pushedAt": "2026-01-26T00:36:45Z",
     "primaryLanguage": {
@@ -1064,7 +1064,7 @@
     "name": "scrcpy",
     "nameWithOwner": "Genymobile/scrcpy",
     "url": "https://github.com/Genymobile/scrcpy",
-    "stargazerCount": 136213,
+    "stargazerCount": 136244,
     "createdAt": "2017-11-21T18:00:27Z",
     "pushedAt": "2026-02-25T23:25:37Z",
     "primaryLanguage": {
@@ -1087,7 +1087,7 @@
     "name": "fucking-algorithm",
     "nameWithOwner": "labuladong/fucking-algorithm",
     "url": "https://github.com/labuladong/fucking-algorithm",
-    "stargazerCount": 132818,
+    "stargazerCount": 132835,
     "createdAt": "2020-02-19T09:01:23Z",
     "pushedAt": "2026-01-19T09:38:44Z",
     "primaryLanguage": {
@@ -1100,19 +1100,19 @@
       "totalCount": 1
     },
     "issues": {
-      "totalCount": 960
+      "totalCount": 961
     },
     "closedIssues": {
-      "totalCount": 960
+      "totalCount": 961
     }
   },
   {
     "name": "go",
     "nameWithOwner": "golang/go",
     "url": "https://github.com/golang/go",
-    "stargazerCount": 132775,
+    "stargazerCount": 132792,
     "createdAt": "2014-08-19T04:33:40Z",
-    "pushedAt": "2026-02-27T00:03:16Z",
+    "pushedAt": "2026-02-27T04:38:32Z",
     "primaryLanguage": {
       "name": "Go"
     },
@@ -1123,65 +1123,65 @@
       "totalCount": 0
     },
     "issues": {
-      "totalCount": 70285
+      "totalCount": 70293
     },
     "closedIssues": {
-      "totalCount": 60872
+      "totalCount": 60879
     }
   },
   {
     "name": "dify",
     "nameWithOwner": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
-    "stargazerCount": 130477,
+    "stargazerCount": 130583,
     "createdAt": "2023-04-12T07:40:24Z",
-    "pushedAt": "2026-02-26T23:53:45Z",
+    "pushedAt": "2026-02-27T15:09:57Z",
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "pullRequests": {
-      "totalCount": 9573
+      "totalCount": 9596
     },
     "releases": {
       "totalCount": 158
     },
     "issues": {
-      "totalCount": 16573
+      "totalCount": 16600
     },
     "closedIssues": {
-      "totalCount": 16151
+      "totalCount": 16171
     }
   },
   {
     "name": "PowerToys",
     "nameWithOwner": "microsoft/PowerToys",
     "url": "https://github.com/microsoft/PowerToys",
-    "stargazerCount": 130108,
+    "stargazerCount": 130130,
     "createdAt": "2019-05-01T17:44:02Z",
-    "pushedAt": "2026-02-26T19:28:25Z",
+    "pushedAt": "2026-02-27T16:02:23Z",
     "primaryLanguage": {
       "name": "C#"
     },
     "pullRequests": {
-      "totalCount": 6311
+      "totalCount": 6313
     },
     "releases": {
       "totalCount": 127
     },
     "issues": {
-      "totalCount": 38157
+      "totalCount": 38164
     },
     "closedIssues": {
-      "totalCount": 30075
+      "totalCount": 30081
     }
   },
   {
     "name": "langchain",
     "nameWithOwner": "langchain-ai/langchain",
     "url": "https://github.com/langchain-ai/langchain",
-    "stargazerCount": 127567,
+    "stargazerCount": 127653,
     "createdAt": "2022-10-17T02:58:36Z",
-    "pushedAt": "2026-02-26T19:50:18Z",
+    "pushedAt": "2026-02-27T08:12:53Z",
     "primaryLanguage": {
       "name": "Python"
     },
@@ -1192,7 +1192,7 @@
       "totalCount": 1000
     },
     "issues": {
-      "totalCount": 9095
+      "totalCount": 9096
     },
     "closedIssues": {
       "totalCount": 8865
@@ -1202,9 +1202,9 @@
     "name": "30-seconds-of-code",
     "nameWithOwner": "Chalarangelo/30-seconds-of-code",
     "url": "https://github.com/Chalarangelo/30-seconds-of-code",
-    "stargazerCount": 126874,
+    "stargazerCount": 126889,
     "createdAt": "2017-11-29T17:35:03Z",
-    "pushedAt": "2026-02-24T07:34:43Z",
+    "pushedAt": "2026-02-27T09:26:02Z",
     "primaryLanguage": {
       "name": "JavaScript"
     },
@@ -1222,12 +1222,33 @@
     }
   },
   {
+    "name": "system-prompts-and-models-of-ai-tools",
+    "nameWithOwner": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "stargazerCount": 125653,
+    "createdAt": "2025-03-05T16:38:29Z",
+    "pushedAt": "2026-02-17T11:22:32Z",
+    "primaryLanguage": null,
+    "pullRequests": {
+      "totalCount": 45
+    },
+    "releases": {
+      "totalCount": 0
+    },
+    "issues": {
+      "totalCount": 188
+    },
+    "closedIssues": {
+      "totalCount": 102
+    }
+  },
+  {
     "name": "react-native",
     "nameWithOwner": "facebook/react-native",
     "url": "https://github.com/facebook/react-native",
-    "stargazerCount": 125447,
+    "stargazerCount": 125456,
     "createdAt": "2015-01-09T18:10:16Z",
-    "pushedAt": "2026-02-26T20:15:16Z",
+    "pushedAt": "2026-02-27T16:05:27Z",
     "primaryLanguage": {
       "name": "C++"
     },
@@ -1241,35 +1262,14 @@
       "totalCount": 27571
     },
     "closedIssues": {
-      "totalCount": 26822
-    }
-  },
-  {
-    "name": "system-prompts-and-models-of-ai-tools",
-    "nameWithOwner": "x1xhlol/system-prompts-and-models-of-ai-tools",
-    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-    "stargazerCount": 125144,
-    "createdAt": "2025-03-05T16:38:29Z",
-    "pushedAt": "2026-02-17T11:22:32Z",
-    "primaryLanguage": null,
-    "pullRequests": {
-      "totalCount": 45
-    },
-    "releases": {
-      "totalCount": 0
-    },
-    "issues": {
-      "totalCount": 187
-    },
-    "closedIssues": {
-      "totalCount": 102
+      "totalCount": 26823
     }
   },
   {
     "name": "open-webui",
     "nameWithOwner": "open-webui/open-webui",
     "url": "https://github.com/open-webui/open-webui",
-    "stargazerCount": 125054,
+    "stargazerCount": 125144,
     "createdAt": "2023-10-06T22:08:27Z",
     "pushedAt": "2026-02-26T21:34:42Z",
     "primaryLanguage": {
@@ -1282,17 +1282,17 @@
       "totalCount": 149
     },
     "issues": {
-      "totalCount": 7725
+      "totalCount": 7732
     },
     "closedIssues": {
-      "totalCount": 7558
+      "totalCount": 7561
     }
   },
   {
     "name": "hello-algo",
     "nameWithOwner": "krahets/hello-algo",
     "url": "https://github.com/krahets/hello-algo",
-    "stargazerCount": 122489,
+    "stargazerCount": 122511,
     "createdAt": "2022-11-04T11:08:34Z",
     "pushedAt": "2026-01-23T10:40:44Z",
     "primaryLanguage": {
@@ -1315,32 +1315,32 @@
     "name": "kubernetes",
     "nameWithOwner": "kubernetes/kubernetes",
     "url": "https://github.com/kubernetes/kubernetes",
-    "stargazerCount": 120798,
+    "stargazerCount": 120809,
     "createdAt": "2014-06-06T22:56:04Z",
-    "pushedAt": "2026-02-27T01:17:58Z",
+    "pushedAt": "2026-02-27T13:59:31Z",
     "primaryLanguage": {
       "name": "Go"
     },
     "pullRequests": {
-      "totalCount": 63909
+      "totalCount": 63914
     },
     "releases": {
       "totalCount": 784
     },
     "issues": {
-      "totalCount": 48582
+      "totalCount": 48585
     },
     "closedIssues": {
-      "totalCount": 46752
+      "totalCount": 46756
     }
   },
   {
     "name": "electron",
     "nameWithOwner": "electron/electron",
     "url": "https://github.com/electron/electron",
-    "stargazerCount": 120225,
+    "stargazerCount": 120230,
     "createdAt": "2013-04-12T01:47:36Z",
-    "pushedAt": "2026-02-27T00:48:39Z",
+    "pushedAt": "2026-02-27T15:54:21Z",
     "primaryLanguage": {
       "name": "C++"
     },
@@ -1351,24 +1351,24 @@
       "totalCount": 1000
     },
     "issues": {
-      "totalCount": 21460
+      "totalCount": 21462
     },
     "closedIssues": {
-      "totalCount": 20721
+      "totalCount": 20722
     }
   },
   {
     "name": "free-for-dev",
     "nameWithOwner": "ripienaar/free-for-dev",
     "url": "https://github.com/ripienaar/free-for-dev",
-    "stargazerCount": 118143,
+    "stargazerCount": 118159,
     "createdAt": "2015-03-18T21:06:26Z",
-    "pushedAt": "2026-02-26T18:45:20Z",
+    "pushedAt": "2026-02-27T04:56:07Z",
     "primaryLanguage": {
       "name": "HTML"
     },
     "pullRequests": {
-      "totalCount": 2887
+      "totalCount": 2888
     },
     "releases": {
       "totalCount": 0
@@ -1384,7 +1384,7 @@
     "name": "excalidraw",
     "nameWithOwner": "excalidraw/excalidraw",
     "url": "https://github.com/excalidraw/excalidraw",
-    "stargazerCount": 117593,
+    "stargazerCount": 117641,
     "createdAt": "2020-01-02T01:04:43Z",
     "pushedAt": "2026-02-26T21:20:44Z",
     "primaryLanguage": {
@@ -1397,7 +1397,7 @@
       "totalCount": 14
     },
     "issues": {
-      "totalCount": 4632
+      "totalCount": 4633
     },
     "closedIssues": {
       "totalCount": 2538
@@ -1407,7 +1407,7 @@
     "name": "free-programming-books-zh_CN",
     "nameWithOwner": "justjavac/free-programming-books-zh_CN",
     "url": "https://github.com/justjavac/free-programming-books-zh_CN",
-    "stargazerCount": 116360,
+    "stargazerCount": 116365,
     "createdAt": "2013-11-04T01:59:19Z",
     "pushedAt": "2024-07-15T08:55:20Z",
     "primaryLanguage": null,
@@ -1428,30 +1428,30 @@
     "name": "node",
     "nameWithOwner": "nodejs/node",
     "url": "https://github.com/nodejs/node",
-    "stargazerCount": 115969,
+    "stargazerCount": 115980,
     "createdAt": "2014-11-26T19:57:11Z",
-    "pushedAt": "2026-02-27T00:15:53Z",
+    "pushedAt": "2026-02-27T13:52:00Z",
     "primaryLanguage": {
       "name": "JavaScript"
     },
     "pullRequests": {
-      "totalCount": 11839
+      "totalCount": 11842
     },
     "releases": {
       "totalCount": 483
     },
     "issues": {
-      "totalCount": 20068
+      "totalCount": 20070
     },
     "closedIssues": {
-      "totalCount": 18311
+      "totalCount": 18313
     }
   },
   {
     "name": "d3",
     "nameWithOwner": "d3/d3",
     "url": "https://github.com/d3/d3",
-    "stargazerCount": 112427,
+    "stargazerCount": 112429,
     "createdAt": "2010-09-27T17:22:42Z",
     "pushedAt": "2025-12-02T17:48:19Z",
     "primaryLanguage": {
@@ -1471,132 +1471,132 @@
     }
   },
   {
-    "name": "iptv",
-    "nameWithOwner": "iptv-org/iptv",
-    "url": "https://github.com/iptv-org/iptv",
-    "stargazerCount": 112068,
-    "createdAt": "2018-11-14T22:00:57Z",
-    "pushedAt": "2026-02-27T00:18:22Z",
-    "primaryLanguage": {
-      "name": "TypeScript"
-    },
-    "pullRequests": {
-      "totalCount": 6810
-    },
-    "releases": {
-      "totalCount": 0
-    },
-    "issues": {
-      "totalCount": 21540
-    },
-    "closedIssues": {
-      "totalCount": 21216
-    }
-  },
-  {
     "name": "opencode",
     "nameWithOwner": "anomalyco/opencode",
     "url": "https://github.com/anomalyco/opencode",
-    "stargazerCount": 111709,
+    "stargazerCount": 112309,
     "createdAt": "2025-04-30T20:08:00Z",
-    "pushedAt": "2026-02-27T01:04:31Z",
+    "pushedAt": "2026-02-27T15:48:10Z",
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "pullRequests": {
-      "totalCount": 2515
+      "totalCount": 2525
     },
     "releases": {
       "totalCount": 725
     },
     "issues": {
-      "totalCount": 9239
+      "totalCount": 9292
     },
     "closedIssues": {
-      "totalCount": 4882
+      "totalCount": 4909
+    }
+  },
+  {
+    "name": "iptv",
+    "nameWithOwner": "iptv-org/iptv",
+    "url": "https://github.com/iptv-org/iptv",
+    "stargazerCount": 112092,
+    "createdAt": "2018-11-14T22:00:57Z",
+    "pushedAt": "2026-02-27T07:17:09Z",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "pullRequests": {
+      "totalCount": 6811
+    },
+    "releases": {
+      "totalCount": 0
+    },
+    "issues": {
+      "totalCount": 21558
+    },
+    "closedIssues": {
+      "totalCount": 21218
     }
   },
   {
     "name": "three.js",
     "nameWithOwner": "mrdoob/three.js",
     "url": "https://github.com/mrdoob/three.js",
-    "stargazerCount": 111094,
+    "stargazerCount": 111106,
     "createdAt": "2010-03-23T18:58:01Z",
-    "pushedAt": "2026-02-26T20:38:17Z",
+    "pushedAt": "2026-02-27T11:03:04Z",
     "primaryLanguage": {
       "name": "JavaScript"
     },
     "pullRequests": {
-      "totalCount": 15203
+      "totalCount": 15210
     },
     "releases": {
       "totalCount": 175
     },
     "issues": {
-      "totalCount": 13495
+      "totalCount": 13497
     },
     "closedIssues": {
-      "totalCount": 13053
+      "totalCount": 13055
     }
   },
   {
     "name": "rust",
     "nameWithOwner": "rust-lang/rust",
     "url": "https://github.com/rust-lang/rust",
-    "stargazerCount": 110733,
+    "stargazerCount": 110763,
     "createdAt": "2010-06-16T20:39:03Z",
-    "pushedAt": "2026-02-26T23:14:11Z",
+    "pushedAt": "2026-02-27T15:16:59Z",
     "primaryLanguage": {
       "name": "Rust"
     },
     "pullRequests": {
-      "totalCount": 69403
+      "totalCount": 69406
     },
     "releases": {
       "totalCount": 146
     },
     "issues": {
-      "totalCount": 61520
+      "totalCount": 61527
     },
     "closedIssues": {
-      "totalCount": 50390
+      "totalCount": 50393
     }
   },
   {
     "name": "axios",
     "nameWithOwner": "axios/axios",
     "url": "https://github.com/axios/axios",
-    "stargazerCount": 108582,
+    "stargazerCount": 108583,
     "createdAt": "2014-08-18T22:30:27Z",
-    "pushedAt": "2026-02-26T15:26:02Z",
+    "pushedAt": "2026-02-27T15:42:02Z",
     "primaryLanguage": {
       "name": "JavaScript"
     },
     "pullRequests": {
-      "totalCount": 1130
+      "totalCount": 1132
     },
     "releases": {
-      "totalCount": 108
+      "totalCount": 109
     },
     "issues": {
-      "totalCount": 4952
+      "totalCount": 4954
     },
     "closedIssues": {
-      "totalCount": 4754
+      "totalCount": 4755
     }
   },
   {
     "name": "rustdesk",
     "nameWithOwner": "rustdesk/rustdesk",
     "url": "https://github.com/rustdesk/rustdesk",
-    "stargazerCount": 108193,
+    "stargazerCount": 108240,
     "createdAt": "2020-09-28T15:36:08Z",
-    "pushedAt": "2026-02-26T10:28:19Z",
+    "pushedAt": "2026-02-27T13:50:20Z",
     "primaryLanguage": {
       "name": "Rust"
     },
     "pullRequests": {
-      "totalCount": 3931
+      "totalCount": 3934
     },
     "releases": {
       "totalCount": 35
@@ -1605,14 +1605,14 @@
       "totalCount": 3997
     },
     "closedIssues": {
-      "totalCount": 3929
+      "totalCount": 3930
     }
   },
   {
     "name": "TypeScript",
     "nameWithOwner": "microsoft/TypeScript",
     "url": "https://github.com/microsoft/TypeScript",
-    "stargazerCount": 107958,
+    "stargazerCount": 107960,
     "createdAt": "2014-06-17T15:28:39Z",
     "pushedAt": "2026-02-25T22:20:51Z",
     "primaryLanguage": {
@@ -1625,17 +1625,17 @@
       "totalCount": 214
     },
     "issues": {
-      "totalCount": 42953
+      "totalCount": 42955
     },
     "closedIssues": {
-      "totalCount": 37980
+      "totalCount": 37982
     }
   },
   {
     "name": "Awesome-Hacking",
     "nameWithOwner": "Hack-with-Github/Awesome-Hacking",
     "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
-    "stargazerCount": 107379,
+    "stargazerCount": 107422,
     "createdAt": "2016-03-30T15:47:10Z",
     "pushedAt": "2025-01-18T01:48:02Z",
     "primaryLanguage": null,
@@ -1656,30 +1656,30 @@
     "name": "ui",
     "nameWithOwner": "shadcn-ui/ui",
     "url": "https://github.com/shadcn-ui/ui",
-    "stargazerCount": 107360,
+    "stargazerCount": 107413,
     "createdAt": "2023-01-04T12:43:27Z",
-    "pushedAt": "2026-02-26T19:44:20Z",
+    "pushedAt": "2026-02-27T05:29:51Z",
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "pullRequests": {
-      "totalCount": 997
+      "totalCount": 999
     },
     "releases": {
       "totalCount": 75
     },
     "issues": {
-      "totalCount": 3919
+      "totalCount": 3920
     },
     "closedIssues": {
-      "totalCount": 2930
+      "totalCount": 2931
     }
   },
   {
     "name": "generative-ai-for-beginners",
     "nameWithOwner": "microsoft/generative-ai-for-beginners",
     "url": "https://github.com/microsoft/generative-ai-for-beginners",
-    "stargazerCount": 107117,
+    "stargazerCount": 107173,
     "createdAt": "2023-06-19T16:28:59Z",
     "pushedAt": "2026-02-25T09:07:52Z",
     "primaryLanguage": {
@@ -1702,30 +1702,30 @@
     "name": "godot",
     "nameWithOwner": "godotengine/godot",
     "url": "https://github.com/godotengine/godot",
-    "stargazerCount": 107112,
+    "stargazerCount": 107141,
     "createdAt": "2014-01-04T16:05:36Z",
-    "pushedAt": "2026-02-26T22:24:07Z",
+    "pushedAt": "2026-02-27T15:42:01Z",
     "primaryLanguage": {
       "name": "C++"
     },
     "pullRequests": {
-      "totalCount": 41334
+      "totalCount": 41347
     },
     "releases": {
       "totalCount": 66
     },
     "issues": {
-      "totalCount": 61168
+      "totalCount": 61176
     },
     "closedIssues": {
-      "totalCount": 48208
+      "totalCount": 48219
     }
   },
   {
     "name": "GitHub-Chinese-Top-Charts",
     "nameWithOwner": "GrowingGit/GitHub-Chinese-Top-Charts",
     "url": "https://github.com/GrowingGit/GitHub-Chinese-Top-Charts",
-    "stargazerCount": 106355,
+    "stargazerCount": 106364,
     "createdAt": "2019-09-05T03:01:56Z",
     "pushedAt": "2024-10-12T06:51:36Z",
     "primaryLanguage": {
@@ -1748,30 +1748,30 @@
     "name": "deno",
     "nameWithOwner": "denoland/deno",
     "url": "https://github.com/denoland/deno",
-    "stargazerCount": 106275,
+    "stargazerCount": 106282,
     "createdAt": "2018-05-15T01:34:26Z",
-    "pushedAt": "2026-02-26T21:54:25Z",
+    "pushedAt": "2026-02-27T15:41:14Z",
     "primaryLanguage": {
       "name": "Rust"
     },
     "pullRequests": {
-      "totalCount": 14199
+      "totalCount": 14204
     },
     "releases": {
       "totalCount": 365
     },
     "issues": {
-      "totalCount": 13936
+      "totalCount": 13939
     },
     "closedIssues": {
-      "totalCount": 11502
+      "totalCount": 11507
     }
   },
   {
     "name": "nodebestpractices",
     "nameWithOwner": "goldbergyoni/nodebestpractices",
     "url": "https://github.com/goldbergyoni/nodebestpractices",
-    "stargazerCount": 105126,
+    "stargazerCount": 105131,
     "createdAt": "2017-09-15T08:33:19Z",
     "pushedAt": "2025-04-15T21:52:42Z",
     "primaryLanguage": {
@@ -1794,7 +1794,7 @@
     "name": "frp",
     "nameWithOwner": "fatedier/frp",
     "url": "https://github.com/fatedier/frp",
-    "stargazerCount": 104698,
+    "stargazerCount": 104723,
     "createdAt": "2015-12-21T15:24:59Z",
     "pushedAt": "2026-02-13T07:37:30Z",
     "primaryLanguage": {
@@ -1817,9 +1817,9 @@
     "name": "ComfyUI",
     "nameWithOwner": "Comfy-Org/ComfyUI",
     "url": "https://github.com/Comfy-Org/ComfyUI",
-    "stargazerCount": 104307,
+    "stargazerCount": 104389,
     "createdAt": "2023-01-17T03:15:56Z",
-    "pushedAt": "2026-02-27T01:16:14Z",
+    "pushedAt": "2026-02-27T10:20:38Z",
     "primaryLanguage": {
       "name": "Python"
     },
@@ -1830,10 +1830,10 @@
       "totalCount": 121
     },
     "issues": {
-      "totalCount": 7912
+      "totalCount": 7918
     },
     "closedIssues": {
-      "totalCount": 4476
+      "totalCount": 4478
     }
   },
   {
@@ -1863,7 +1863,7 @@
     "name": "papers-we-love",
     "nameWithOwner": "papers-we-love/papers-we-love",
     "url": "https://github.com/papers-we-love/papers-we-love",
-    "stargazerCount": 103649,
+    "stargazerCount": 103663,
     "createdAt": "2013-12-15T14:31:41Z",
     "pushedAt": "2026-02-22T13:38:07Z",
     "primaryLanguage": {
@@ -1886,7 +1886,7 @@
     "name": "tauri",
     "nameWithOwner": "tauri-apps/tauri",
     "url": "https://github.com/tauri-apps/tauri",
-    "stargazerCount": 103339,
+    "stargazerCount": 103377,
     "createdAt": "2019-07-13T09:09:37Z",
     "pushedAt": "2026-02-26T14:33:36Z",
     "primaryLanguage": {
@@ -1899,40 +1899,40 @@
       "totalCount": 0
     },
     "issues": {
-      "totalCount": 6157
+      "totalCount": 6158
     },
     "closedIssues": {
-      "totalCount": 4903
+      "totalCount": 4904
     }
   },
   {
     "name": "terminal",
     "nameWithOwner": "microsoft/terminal",
     "url": "https://github.com/microsoft/terminal",
-    "stargazerCount": 101922,
+    "stargazerCount": 101931,
     "createdAt": "2017-08-11T18:38:22Z",
-    "pushedAt": "2026-02-27T00:10:09Z",
+    "pushedAt": "2026-02-27T01:59:50Z",
     "primaryLanguage": {
       "name": "C++"
     },
     "pullRequests": {
-      "totalCount": 4365
+      "totalCount": 4366
     },
     "releases": {
       "totalCount": 146
     },
     "issues": {
-      "totalCount": 13805
+      "totalCount": 13806
     },
     "closedIssues": {
-      "totalCount": 12156
+      "totalCount": 12157
     }
   },
   {
     "name": "DeepSeek-V3",
     "nameWithOwner": "deepseek-ai/DeepSeek-V3",
     "url": "https://github.com/deepseek-ai/DeepSeek-V3",
-    "stargazerCount": 101757,
+    "stargazerCount": 101770,
     "createdAt": "2024-12-26T09:52:40Z",
     "pushedAt": "2025-08-28T03:24:37Z",
     "primaryLanguage": {
@@ -1945,7 +1945,7 @@
       "totalCount": 1
     },
     "issues": {
-      "totalCount": 714
+      "totalCount": 715
     },
     "closedIssues": {
       "totalCount": 670
@@ -1955,7 +1955,7 @@
     "name": "angular",
     "nameWithOwner": "angular/angular",
     "url": "https://github.com/angular/angular",
-    "stargazerCount": 100022,
+    "stargazerCount": 100027,
     "createdAt": "2014-09-18T16:12:01Z",
     "pushedAt": "2026-02-26T23:52:16Z",
     "primaryLanguage": {
@@ -1968,24 +1968,24 @@
       "totalCount": 606
     },
     "issues": {
-      "totalCount": 30356
+      "totalCount": 30358
     },
     "closedIssues": {
-      "totalCount": 29359
+      "totalCount": 29360
     }
   },
   {
     "name": "awesome-mac",
     "nameWithOwner": "jaywcjlove/awesome-mac",
     "url": "https://github.com/jaywcjlove/awesome-mac",
-    "stargazerCount": 99304,
+    "stargazerCount": 99320,
     "createdAt": "2016-07-17T15:33:47Z",
-    "pushedAt": "2026-02-26T14:31:35Z",
+    "pushedAt": "2026-02-27T07:01:31Z",
     "primaryLanguage": {
       "name": "JavaScript"
     },
     "pullRequests": {
-      "totalCount": 1074
+      "totalCount": 1075
     },
     "releases": {
       "totalCount": 13
@@ -2001,20 +2001,20 @@
     "name": "clash-verge-rev",
     "nameWithOwner": "clash-verge-rev/clash-verge-rev",
     "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-    "stargazerCount": 98971,
+    "stargazerCount": 99199,
     "createdAt": "2023-11-21T18:24:03Z",
-    "pushedAt": "2026-02-26T21:05:28Z",
+    "pushedAt": "2026-02-27T15:06:01Z",
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "pullRequests": {
-      "totalCount": 741
+      "totalCount": 743
     },
     "releases": {
       "totalCount": 62
     },
     "issues": {
-      "totalCount": 4972
+      "totalCount": 4973
     },
     "closedIssues": {
       "totalCount": 4818
@@ -2024,7 +2024,7 @@
     "name": "HowToCook",
     "nameWithOwner": "Anduin2017/HowToCook",
     "url": "https://github.com/Anduin2017/HowToCook",
-    "stargazerCount": 98284,
+    "stargazerCount": 98331,
     "createdAt": "2020-02-29T10:43:49Z",
     "pushedAt": "2026-02-21T16:42:33Z",
     "primaryLanguage": {
@@ -2047,30 +2047,30 @@
     "name": "supabase",
     "nameWithOwner": "supabase/supabase",
     "url": "https://github.com/supabase/supabase",
-    "stargazerCount": 98224,
+    "stargazerCount": 98258,
     "createdAt": "2019-10-12T05:56:49Z",
-    "pushedAt": "2026-02-27T01:14:53Z",
+    "pushedAt": "2026-02-27T15:57:49Z",
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "pullRequests": {
-      "totalCount": 15464
+      "totalCount": 15475
     },
     "releases": {
       "totalCount": 25
     },
     "issues": {
-      "totalCount": 5213
+      "totalCount": 5218
     },
     "closedIssues": {
-      "totalCount": 4945
+      "totalCount": 4949
     }
   },
   {
     "name": "every-programmer-should-know",
     "nameWithOwner": "mtdvio/every-programmer-should-know",
     "url": "https://github.com/mtdvio/every-programmer-should-know",
-    "stargazerCount": 98026,
+    "stargazerCount": 98071,
     "createdAt": "2017-08-24T13:18:26Z",
     "pushedAt": "2025-12-29T19:37:02Z",
     "primaryLanguage": null,
@@ -2091,14 +2091,14 @@
     "name": "material-ui",
     "nameWithOwner": "mui/material-ui",
     "url": "https://github.com/mui/material-ui",
-    "stargazerCount": 97967,
+    "stargazerCount": 97976,
     "createdAt": "2014-08-18T19:11:54Z",
-    "pushedAt": "2026-02-26T21:48:35Z",
+    "pushedAt": "2026-02-27T15:59:28Z",
     "primaryLanguage": {
       "name": "JavaScript"
     },
     "pullRequests": {
-      "totalCount": 21456
+      "totalCount": 21459
     },
     "releases": {
       "totalCount": 555
@@ -2107,16 +2107,16 @@
       "totalCount": 20343
     },
     "closedIssues": {
-      "totalCount": 18745
+      "totalCount": 18748
     }
   },
   {
     "name": "pytorch",
     "nameWithOwner": "pytorch/pytorch",
     "url": "https://github.com/pytorch/pytorch",
-    "stargazerCount": 97783,
+    "stargazerCount": 97800,
     "createdAt": "2016-08-13T05:26:41Z",
-    "pushedAt": "2026-02-27T01:17:37Z",
+    "pushedAt": "2026-02-27T16:03:24Z",
     "primaryLanguage": {
       "name": "Python"
     },
@@ -2127,63 +2127,40 @@
       "totalCount": 64
     },
     "issues": {
-      "totalCount": 56974
+      "totalCount": 56986
     },
     "closedIssues": {
-      "totalCount": 40901
+      "totalCount": 40908
     }
   },
   {
     "name": "ant-design",
     "nameWithOwner": "ant-design/ant-design",
     "url": "https://github.com/ant-design/ant-design",
-    "stargazerCount": 97621,
+    "stargazerCount": 97629,
     "createdAt": "2015-04-24T15:37:24Z",
-    "pushedAt": "2026-02-27T01:08:05Z",
+    "pushedAt": "2026-02-27T15:41:07Z",
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "pullRequests": {
-      "totalCount": 17005
+      "totalCount": 17012
     },
     "releases": {
       "totalCount": 740
     },
     "issues": {
-      "totalCount": 32374
+      "totalCount": 32383
     },
     "closedIssues": {
-      "totalCount": 31085
-    }
-  },
-  {
-    "name": "v2rayN",
-    "nameWithOwner": "2dust/v2rayN",
-    "url": "https://github.com/2dust/v2rayN",
-    "stargazerCount": 97470,
-    "createdAt": "2019-07-30T03:47:24Z",
-    "pushedAt": "2026-02-26T18:44:05Z",
-    "primaryLanguage": {
-      "name": "C#"
-    },
-    "pullRequests": {
-      "totalCount": 380
-    },
-    "releases": {
-      "totalCount": 298
-    },
-    "issues": {
-      "totalCount": 6580
-    },
-    "closedIssues": {
-      "totalCount": 6564
+      "totalCount": 31091
     }
   },
   {
     "name": "awesome-llm-apps",
     "nameWithOwner": "Shubhamsaboo/awesome-llm-apps",
     "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-    "stargazerCount": 97237,
+    "stargazerCount": 97544,
     "createdAt": "2024-04-29T05:30:25Z",
     "pushedAt": "2026-02-25T05:42:10Z",
     "primaryLanguage": {
@@ -2203,17 +2180,40 @@
     }
   },
   {
+    "name": "v2rayN",
+    "nameWithOwner": "2dust/v2rayN",
+    "url": "https://github.com/2dust/v2rayN",
+    "stargazerCount": 97522,
+    "createdAt": "2019-07-30T03:47:24Z",
+    "pushedAt": "2026-02-27T07:15:31Z",
+    "primaryLanguage": {
+      "name": "C#"
+    },
+    "pullRequests": {
+      "totalCount": 384
+    },
+    "releases": {
+      "totalCount": 298
+    },
+    "issues": {
+      "totalCount": 6581
+    },
+    "closedIssues": {
+      "totalCount": 6564
+    }
+  },
+  {
     "name": "neovim",
     "nameWithOwner": "neovim/neovim",
     "url": "https://github.com/neovim/neovim",
-    "stargazerCount": 96793,
+    "stargazerCount": 96808,
     "createdAt": "2014-01-31T13:39:22Z",
-    "pushedAt": "2026-02-26T23:32:08Z",
+    "pushedAt": "2026-02-27T13:04:51Z",
     "primaryLanguage": {
       "name": "Vim Script"
     },
     "pullRequests": {
-      "totalCount": 17680
+      "totalCount": 17687
     },
     "releases": {
       "totalCount": 48
@@ -2222,53 +2222,53 @@
       "totalCount": 13735
     },
     "closedIssues": {
-      "totalCount": 12081
+      "totalCount": 12086
     }
   },
   {
     "name": "llama.cpp",
     "nameWithOwner": "ggml-org/llama.cpp",
     "url": "https://github.com/ggml-org/llama.cpp",
-    "stargazerCount": 95994,
+    "stargazerCount": 96069,
     "createdAt": "2023-03-10T18:58:00Z",
-    "pushedAt": "2026-02-27T00:43:41Z",
+    "pushedAt": "2026-02-27T15:16:49Z",
     "primaryLanguage": {
       "name": "C++"
     },
     "pullRequests": {
-      "totalCount": 7437
+      "totalCount": 7443
     },
     "releases": {
       "totalCount": 1000
     },
     "issues": {
-      "totalCount": 7046
+      "totalCount": 7052
     },
     "closedIssues": {
-      "totalCount": 6630
+      "totalCount": 6635
     }
   },
   {
     "name": "gemini-cli",
     "nameWithOwner": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
-    "stargazerCount": 95815,
+    "stargazerCount": 95883,
     "createdAt": "2025-04-17T17:04:31Z",
-    "pushedAt": "2026-02-27T01:20:45Z",
+    "pushedAt": "2026-02-27T16:06:41Z",
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "pullRequests": {
-      "totalCount": 5094
+      "totalCount": 5107
     },
     "releases": {
       "totalCount": 378
     },
     "issues": {
-      "totalCount": 10414
+      "totalCount": 10430
     },
     "closedIssues": {
-      "totalCount": 8414
+      "totalCount": 8430
     }
   }
 ]

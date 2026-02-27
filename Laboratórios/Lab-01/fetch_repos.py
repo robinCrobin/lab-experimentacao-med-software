@@ -109,7 +109,27 @@ def main():
 
 
     print("\nColeta finalizada. Total de repositórios coletados:", len(all_repos))
-    print(json.dumps(all_repos, ensure_ascii=False, indent=2))
+
+    # Persistência dos dados coletados
+    import os
+    data_dir = os.path.join(os.path.dirname(__file__), "data")
+    os.makedirs(data_dir, exist_ok=True)
+    json_path = os.path.join(data_dir, "repositorios.json")
+    with open(json_path, "w", encoding="utf-8") as f:
+        # Salva apenas os primeiros 100 repositórios
+        json.dump(all_repos[:100], f, ensure_ascii=False, indent=2)
+    print(f"Dados salvos em {json_path} (100 repositórios)")
+    print("\n Operação concluída com sucesso! Os dados dos 100 repositórios mais populares foram salvos em formato JSON na pasta 'data/'.")
+    print("Você pode utilizar esse arquivo para análises futuras ou integração com outros experimentos.")
+
+    # Validação simples de integridade
+    with open(json_path, "r", encoding="utf-8") as f:
+        repos = json.load(f)
+    valid = len(repos) == 100 and all("name" in r and "url" in r for r in repos)
+    if valid:
+      print("\nValidação: arquivo contém 100 repositórios com campos essenciais.")
+    else:
+      print("\nValidação: arquivo não está íntegro. Verifique a coleta.")
 
 if __name__ == "__main__":
     main()

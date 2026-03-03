@@ -13,6 +13,7 @@ PAGE_SIZE = 10
 load_dotenv()
 
 def get_token():
+    """Lê o token de acesso do GitHub da variável de ambiente GITHUB_TOKEN."""
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
         print("Erro: defina GITHUB_TOKEN.")
@@ -20,6 +21,7 @@ def get_token():
     return token
 
 def build_query():
+    """Monta e retorna a query GraphQL usada para buscar os repositórios com mais estrelas."""
     return """
     query TopRepos($cursor: String, $first: Int!) {
       search(
@@ -60,7 +62,9 @@ def build_query():
       }
     }
     """
+
 def fetch_page(token, cursor=None):
+    """Busca uma página de repositórios na API GraphQL do GitHub usando o cursor informado."""
     headers = {"Authorization": f"Bearer {token}"}
     payload = {
         "query": build_query(),
@@ -84,13 +88,13 @@ def fetch_page(token, cursor=None):
 
     return data["data"]["search"]
 
+
 def main():
+    """Coleta até 100 repositórios populares e salva os dados em um arquivo JSON na pasta data/."""
     token = get_token()
     all_repos = []
     cursor = None
     has_next = True
-
-
 
     print("Iniciando coleta")
 
@@ -106,7 +110,6 @@ def main():
         has_next = page_info["hasNextPage"]
 
         print(f"Coletados até agora: {len(all_repos)}")
-
 
     print("\nColeta finalizada. Total de repositórios coletados:", len(all_repos))
 

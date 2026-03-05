@@ -36,10 +36,10 @@ Thumbs.db
 .DS_Store
 desktop.ini
 
-# Dados sensíveis ou muito grandes (Comentar para versionar)
-Laboratorios/Lab-01/repos_1000.csv
-Laboratorios/Lab-01/*.json
-Laboratorios/Lab-01/data/
+# # Dados sensíveis ou muito grandes (Comentar para versionar)
+# Laboratorios/Lab-01/repos_1000.csv
+# Laboratorios/Lab-01/*.json
+# Laboratorios/Lab-01/data/
 
 # Logs e temporários
 *.log

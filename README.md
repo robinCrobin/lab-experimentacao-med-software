@@ -28,14 +28,12 @@ Estudar, por meio de experimentação prática, as principais características d
 
 **Execução:** Script automatizado (`fetch_repos.py`) coleta e salva os dados em `data/repositorios.json`.
 
-**Documentação:** Detalhes do funcionamento do script em `docs/FUNCIONALIDADES-fetch_repos.md`.
-
 ---
 
 ### Lab01S02 – Paginação e análise de 1000 repositórios
 **Objetivo:** Coletar dados dos 1.000 repositórios com mais estrelas no GitHub, exportar para CSV e preparar a primeira versão do relatório com hipóteses informais.
 
-**Execução:** Script `fetch_repos_1000.py` coleta e exporta os dados para `data/repositorios_1000.csv`. Relatório inicial em `data/RelatorioAnaliseInicialRepos.md`.
+**Execução:** Script `fetch_repos.py` coleta e exporta os dados para `data/repositorios_processados.csv`.
 
 ---
 

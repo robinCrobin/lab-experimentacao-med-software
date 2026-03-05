@@ -14,8 +14,6 @@ Coletar dados dos repositórios populares do GitHub utilizando consulta GraphQL 
 | `.env.example` | Exemplo de configuração de variáveis de ambiente |
 | `data/` | Subpasta para dados coletados |
 | `data/repositorios.json` | Dados coletados (gerado pelo script) |
-| `docs/` | Subpasta para documentação |
-| `docs/FUNCIONALIDADES-fetch_repos.md` | Documentação das funcionalidades do script |
 
 ## Execução
 
@@ -32,4 +30,3 @@ Coletar dados dos repositórios populares do GitHub utilizando consulta GraphQL 
 
 ## Observações
 - O script utiliza consulta GraphQL para obter dados dos repositórios.
-- Consulte o arquivo de funcionalidades em `docs/FUNCIONALIDADES-fetch_repos.md` para detalhes sobre o funcionamento do script.

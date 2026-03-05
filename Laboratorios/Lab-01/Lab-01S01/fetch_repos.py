@@ -5,9 +5,9 @@ import json
 from dotenv import load_dotenv
 
 GRAPHQL_URL = "https://api.github.com/graphql"
-TIMEOUT = 30
+TIMEOUT = 60
 
-TARGET_REPOS = 100
+TARGET_REPOS = 1000
 PAGE_SIZE = 10
 
 load_dotenv()
@@ -74,7 +74,12 @@ def fetch_page(token, cursor=None):
         }
     }
 
-    response = requests.post(GRAPHQL_URL, json=payload, headers=headers, timeout=TIMEOUT)
+    response = requests.post(
+      GRAPHQL_URL,
+      json=payload, 
+      headers=headers, 
+      timeout=TIMEOUT
+    )
 
     if response.status_code != 200:
         print(f"Erro HTTP {response.status_code}: {response.text}")

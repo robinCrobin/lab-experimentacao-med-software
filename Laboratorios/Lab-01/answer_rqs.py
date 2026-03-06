@@ -27,10 +27,21 @@ def compute_metrics(repos):
         "releases.totalCount": "releases_total",
         "createdAt": "created_at",
         "pushedAt": "pushed_at",
+        # campos de issues (ajuste se o JSON usar outros nomes)
+        "issues.totalCount": "issues_total",
+        "closedIssues.totalCount": "issues_closed",
     })
 
     # garantir colunas existem
-    for col in ["created_at", "pushed_at", "pull_requests_total", "releases_total", "primary_language"]:
+    for col in [
+        "created_at",
+        "pushed_at",
+        "pull_requests_total",
+        "releases_total",
+        "primary_language",
+        "issues_total",
+        "issues_closed",
+    ]:
         if col not in df.columns:
             df[col] = pd.NA
 
@@ -45,6 +56,17 @@ def compute_metrics(repos):
     # converter contadores para numeric (alguns podem ser nulos)
     df["pull_requests_total"] = pd.to_numeric(df["pull_requests_total"], errors="coerce").fillna(0)
     df["releases_total"] = pd.to_numeric(df["releases_total"], errors="coerce").fillna(0)
+    df["issues_total"] = pd.to_numeric(df["issues_total"], errors="coerce")
+    df["issues_closed"] = pd.to_numeric(df["issues_closed"], errors="coerce")
+
+    df["issues_closed_ratio"] = df.apply(
+        lambda row: (
+            row["issues_closed"] / row["issues_total"]
+            if pd.notna(row["issues_closed"]) and pd.notna(row["issues_total"]) and row["issues_total"] > 0
+            else pd.NA
+        ),
+        axis=1,
+    )
 
     # Calcular médias (ignorar valores NaN onde apropriado)
     metrics = {
@@ -52,6 +74,7 @@ def compute_metrics(repos):
         "RQ02_mean_merged_pull_requests": df["pull_requests_total"].mean(),
         "RQ03_mean_releases_total": df["releases_total"].mean(),
         "RQ04_mean_days_since_last_update": df["days_since_last_update"].dropna().mean(),
+        "RQ06_mean_closed_issues_ratio": df["issues_closed_ratio"].dropna().mean(),
     }
 
     # Linguagem primária: distribuição (counts + percent)
@@ -94,7 +117,6 @@ def main():
         if v is None or pd.isna(v):
             print(f"  {k}: N/A")
         else:
-            # formatar arredondando quando faz sentido
             if "days" in k or "age" in k:
                 print(f"  {k}: {v:.2f} dias")
             else:

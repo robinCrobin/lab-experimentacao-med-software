@@ -1,5 +1,6 @@
 metric,value
-RQ01_mean_repo_age_days,2992.1285882847105
+RQ01_mean_repo_age_days,2992.18243290647
 RQ02_mean_merged_pull_requests,3954.306
 RQ03_mean_releases_total,120.62
-RQ04_mean_days_since_last_update,113.54132306480325
+RQ04_mean_days_since_last_update,113.59516768656252
+RQ06_mean_closed_issues_ratio,0.8055822932066937

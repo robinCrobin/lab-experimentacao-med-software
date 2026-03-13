@@ -85,13 +85,39 @@ def compute_metrics(repos):
     lang_df = pd.DataFrame({
         "language": lang_counts.index,
         "count": lang_counts.values,
-        "percentage": lang_pct.values
+        "percentage": lang_pct.values,
     })
 
-    return metrics, lang_df
+    # ---------------- RQ07: métricas por linguagem ----------------
+    # agrupar por linguagem para RQ02, RQ03 e RQ04
+    df["primary_language"] = df["primary_language"].fillna("<unknown>")
+    metrics_by_lang_df = (
+        df.groupby("primary_language")[
+            ["pull_requests_total", "releases_total", "days_since_last_update"]
+        ]
+        .mean()
+        .reset_index()
+        .rename(
+            columns={
+                "primary_language": "language",
+                "pull_requests_total": "mean_pull_requests_total",
+                "releases_total": "mean_releases_total",
+                "days_since_last_update": "mean_days_since_last_update",
+            }
+        )
+    )
+
+    return metrics, lang_df, metrics_by_lang_df
 
 
-def save_results(metrics, lang_df, out_summary="rqs_summary.csv", out_langs="language_distribution.csv"):
+def save_results(
+    metrics,
+    lang_df,
+    metrics_by_lang_df,
+    out_summary="resumo.csv",
+    out_langs="distribuicao_linguagem.csv",
+    out_metrics_by_lang="metricas_por_linguagem.csv",
+):
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     # salvar summary (métricas numéricas)
@@ -104,13 +130,17 @@ def save_results(metrics, lang_df, out_summary="rqs_summary.csv", out_langs="lan
     lang_path = DATA_DIR / out_langs
     lang_df.to_csv(lang_path, index=False)
 
-    return summary_path, lang_path
+    # salvar métricas RQ02, RQ03, RQ04 por linguagem (RQ07)
+    metrics_by_lang_path = DATA_DIR / out_metrics_by_lang
+    metrics_by_lang_df.to_csv(metrics_by_lang_path, index=False)
+
+    return summary_path, lang_path, metrics_by_lang_path
 
 
 def main():
     repos = load_repos()
-    metrics, lang_df = compute_metrics(repos)
-    summary_path, lang_path = save_results(metrics, lang_df)
+    metrics, lang_df, metrics_by_lang_df = compute_metrics(repos)
+    summary_path, lang_path, metrics_by_lang_path = save_results(metrics, lang_df, metrics_by_lang_df)
 
     print("Métricas calculadas:")
     for k, v in metrics.items():
@@ -122,8 +152,21 @@ def main():
             else:
                 print(f"  {k}: {v:.2f}")
 
+    print("\nDistribuição de linguagens (RQ05):")
+    for _, row in lang_df.iterrows():
+        print(f"  {row['language']}: {row['count']} repos ({row['percentage']:.1f}% )")
+
+    print("\nMétricas por linguagem (RQ07):")
+    for _, row in metrics_by_lang_df.iterrows():
+        print(
+            f"  {row['language']}: PR médios = {row['mean_pull_requests_total']:.2f}, "
+            f"releases médias = {row['mean_releases_total']:.2f}, "
+            f"dias médios desde última atualização = {row['mean_days_since_last_update']:.2f}"
+        )
+
     print(f"\nArquivo resumo salvo em: {summary_path}")
     print(f"Distribuição de linguagens salva em: {lang_path}")
+    print(f"Métricas por linguagem (RQ07) salvas em: {metrics_by_lang_path}")
 
 
 if __name__ == "__main__":

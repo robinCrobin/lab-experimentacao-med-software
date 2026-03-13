@@ -52,6 +52,27 @@ O script `fetch_repos.py` possui **duas funcionalidades principais**, controlada
    - Salva o resultado em `data/repositorios_processados.csv`.
    - Exibe um resumo das primeiras linhas no terminal.
 
+## Como gerar os dados para análise das RQs
+
+Os dados utilizados para responder às RQs (resumo das métricas, distribuição de linguagens e métricas por linguagem) são gerados pelo script `answer_rqs.py`.
+
+### Passos para execução
+1. Abra um terminal na pasta raiz do repositório (onde está a pasta `Laboratorios/`).
+2. Vá até a pasta do laboratório 01:
+   ```bash
+   cd Laboratorios/Lab-01
+   ```
+3. Execute o script que calcula as métricas:
+   ```bash
+   python answer_rqs.py
+   ```
+
+### Arquivos gerados
+Após a execução, serão criados/atualizados os seguintes arquivos na pasta `Laboratorios/Lab-01/data/`:
+- `resumo.csv`: métricas agregadas para RQ01, RQ02, RQ03, RQ04 e RQ06.
+- `distribuicao_linguagem.csv`: distribuição das linguagens (RQ05).
+- `metricas_por_linguagem.csv`: métricas de RQ02, RQ03 e RQ04 agrupadas por linguagem (RQ07).
+
 ## Pré-requisitos
 
 - Python 3 instalado.

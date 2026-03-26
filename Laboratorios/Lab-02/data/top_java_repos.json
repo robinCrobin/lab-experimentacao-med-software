@@ -1,0 +1,5002 @@
+[
+  {
+    "nameWithOwner": "Snailclimb/JavaGuide",
+    "url": "https://github.com/Snailclimb/JavaGuide",
+    "stargazerCount": 154489
+  },
+  {
+    "nameWithOwner": "krahets/hello-algo",
+    "url": "https://github.com/krahets/hello-algo",
+    "stargazerCount": 124039
+  },
+  {
+    "nameWithOwner": "GrowingGit/GitHub-Chinese-Top-Charts",
+    "url": "https://github.com/GrowingGit/GitHub-Chinese-Top-Charts",
+    "stargazerCount": 107111
+  },
+  {
+    "nameWithOwner": "iluwatar/java-design-patterns",
+    "url": "https://github.com/iluwatar/java-design-patterns",
+    "stargazerCount": 93837
+  },
+  {
+    "nameWithOwner": "macrozheng/mall",
+    "url": "https://github.com/macrozheng/mall",
+    "stargazerCount": 83249
+  },
+  {
+    "nameWithOwner": "spring-projects/spring-boot",
+    "url": "https://github.com/spring-projects/spring-boot",
+    "stargazerCount": 80311
+  },
+  {
+    "nameWithOwner": "doocs/advanced-java",
+    "url": "https://github.com/doocs/advanced-java",
+    "stargazerCount": 78915
+  },
+  {
+    "nameWithOwner": "MisterBooo/LeetCodeAnimation",
+    "url": "https://github.com/MisterBooo/LeetCodeAnimation",
+    "stargazerCount": 76703
+  },
+  {
+    "nameWithOwner": "elastic/elasticsearch",
+    "url": "https://github.com/elastic/elasticsearch",
+    "stargazerCount": 76399
+  },
+  {
+    "nameWithOwner": "NationalSecurityAgency/ghidra",
+    "url": "https://github.com/NationalSecurityAgency/ghidra",
+    "stargazerCount": 66191
+  },
+  {
+    "nameWithOwner": "TheAlgorithms/Java",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "stargazerCount": 65281
+  },
+  {
+    "nameWithOwner": "kdn251/interviews",
+    "url": "https://github.com/kdn251/interviews",
+    "stargazerCount": 64936
+  },
+  {
+    "nameWithOwner": "spring-projects/spring-framework",
+    "url": "https://github.com/spring-projects/spring-framework",
+    "stargazerCount": 59784
+  },
+  {
+    "nameWithOwner": "termux/termux-app",
+    "url": "https://github.com/termux/termux-app",
+    "stargazerCount": 52516
+  },
+  {
+    "nameWithOwner": "google/guava",
+    "url": "https://github.com/google/guava",
+    "stargazerCount": 51506
+  },
+  {
+    "nameWithOwner": "dbeaver/dbeaver",
+    "url": "https://github.com/dbeaver/dbeaver",
+    "stargazerCount": 49295
+  },
+  {
+    "nameWithOwner": "ReactiveX/RxJava",
+    "url": "https://github.com/ReactiveX/RxJava",
+    "stargazerCount": 48466
+  },
+  {
+    "nameWithOwner": "skylot/jadx",
+    "url": "https://github.com/skylot/jadx",
+    "stargazerCount": 47803
+  },
+  {
+    "nameWithOwner": "jeecgboot/JeecgBoot",
+    "url": "https://github.com/jeecgboot/JeecgBoot",
+    "stargazerCount": 45576
+  },
+  {
+    "nameWithOwner": "apache/dubbo",
+    "url": "https://github.com/apache/dubbo",
+    "stargazerCount": 41711
+  },
+  {
+    "nameWithOwner": "PhilJay/MPAndroidChart",
+    "url": "https://github.com/PhilJay/MPAndroidChart",
+    "stargazerCount": 38228
+  },
+  {
+    "nameWithOwner": "halo-dev/halo",
+    "url": "https://github.com/halo-dev/halo",
+    "stargazerCount": 38150
+  },
+  {
+    "nameWithOwner": "TeamNewPipe/NewPipe",
+    "url": "https://github.com/TeamNewPipe/NewPipe",
+    "stargazerCount": 37664
+  },
+  {
+    "nameWithOwner": "eugenp/tutorials",
+    "url": "https://github.com/eugenp/tutorials",
+    "stargazerCount": 37350
+  },
+  {
+    "nameWithOwner": "alibaba/arthas",
+    "url": "https://github.com/alibaba/arthas",
+    "stargazerCount": 37214
+  },
+  {
+    "nameWithOwner": "YunaiV/ruoyi-vue-pro",
+    "url": "https://github.com/YunaiV/ruoyi-vue-pro",
+    "stargazerCount": 36040
+  },
+  {
+    "nameWithOwner": "geekxh/hello-algorithm",
+    "url": "https://github.com/geekxh/hello-algorithm",
+    "stargazerCount": 36038
+  },
+  {
+    "nameWithOwner": "doocs/leetcode",
+    "url": "https://github.com/doocs/leetcode",
+    "stargazerCount": 35825
+  },
+  {
+    "nameWithOwner": "airbnb/lottie-android",
+    "url": "https://github.com/airbnb/lottie-android",
+    "stargazerCount": 35602
+  },
+  {
+    "nameWithOwner": "ashishps1/awesome-system-design-resources",
+    "url": "https://github.com/ashishps1/awesome-system-design-resources",
+    "stargazerCount": 35562
+  },
+  {
+    "nameWithOwner": "bumptech/glide",
+    "url": "https://github.com/bumptech/glide",
+    "stargazerCount": 35032
+  },
+  {
+    "nameWithOwner": "netty/netty",
+    "url": "https://github.com/netty/netty",
+    "stargazerCount": 34898
+  },
+  {
+    "nameWithOwner": "SeleniumHQ/selenium",
+    "url": "https://github.com/SeleniumHQ/selenium",
+    "stargazerCount": 34183
+  },
+  {
+    "nameWithOwner": "xkcoding/spring-boot-demo",
+    "url": "https://github.com/xkcoding/spring-boot-demo",
+    "stargazerCount": 34112
+  },
+  {
+    "nameWithOwner": "zxing/zxing",
+    "url": "https://github.com/zxing/zxing",
+    "stargazerCount": 33901
+  },
+  {
+    "nameWithOwner": "alibaba/easyexcel",
+    "url": "https://github.com/alibaba/easyexcel",
+    "stargazerCount": 33769
+  },
+  {
+    "nameWithOwner": "Blankj/AndroidUtilCode",
+    "url": "https://github.com/Blankj/AndroidUtilCode",
+    "stargazerCount": 33707
+  },
+  {
+    "nameWithOwner": "keycloak/keycloak",
+    "url": "https://github.com/keycloak/keycloak",
+    "stargazerCount": 33584
+  },
+  {
+    "nameWithOwner": "alibaba/nacos",
+    "url": "https://github.com/alibaba/nacos",
+    "stargazerCount": 32765
+  },
+  {
+    "nameWithOwner": "binarywang/WxJava",
+    "url": "https://github.com/binarywang/WxJava",
+    "stargazerCount": 32671
+  },
+  {
+    "nameWithOwner": "apache/kafka",
+    "url": "https://github.com/apache/kafka",
+    "stargazerCount": 32237
+  },
+  {
+    "nameWithOwner": "conductor-oss/conductor",
+    "url": "https://github.com/conductor-oss/conductor",
+    "stargazerCount": 31566
+  },
+  {
+    "nameWithOwner": "ityouknow/spring-boot-examples",
+    "url": "https://github.com/ityouknow/spring-boot-examples",
+    "stargazerCount": 30638
+  },
+  {
+    "nameWithOwner": "chinabugotech/hutool",
+    "url": "https://github.com/chinabugotech/hutool",
+    "stargazerCount": 30327
+  },
+  {
+    "nameWithOwner": "xuxueli/xxl-job",
+    "url": "https://github.com/xuxueli/xxl-job",
+    "stargazerCount": 29994
+  },
+  {
+    "nameWithOwner": "apolloconfig/apollo",
+    "url": "https://github.com/apolloconfig/apollo",
+    "stargazerCount": 29767
+  },
+  {
+    "nameWithOwner": "alibaba/canal",
+    "url": "https://github.com/alibaba/canal",
+    "stargazerCount": 29645
+  },
+  {
+    "nameWithOwner": "yuliskov/SmartTube",
+    "url": "https://github.com/yuliskov/SmartTube",
+    "stargazerCount": 29102
+  },
+  {
+    "nameWithOwner": "alibaba/spring-cloud-alibaba",
+    "url": "https://github.com/alibaba/spring-cloud-alibaba",
+    "stargazerCount": 29081
+  },
+  {
+    "nameWithOwner": "wuyouzhuguli/SpringAll",
+    "url": "https://github.com/wuyouzhuguli/SpringAll",
+    "stargazerCount": 29012
+  },
+  {
+    "nameWithOwner": "DrKLO/Telegram",
+    "url": "https://github.com/DrKLO/Telegram",
+    "stargazerCount": 28762
+  },
+  {
+    "nameWithOwner": "alibaba/druid",
+    "url": "https://github.com/alibaba/druid",
+    "stargazerCount": 28212
+  },
+  {
+    "nameWithOwner": "lenve/vhr",
+    "url": "https://github.com/lenve/vhr",
+    "stargazerCount": 28099
+  },
+  {
+    "nameWithOwner": "Anuken/Mindustry",
+    "url": "https://github.com/Anuken/Mindustry",
+    "stargazerCount": 27034
+  },
+  {
+    "nameWithOwner": "crossoverJie/JCSprout",
+    "url": "https://github.com/crossoverJie/JCSprout",
+    "stargazerCount": 27000
+  },
+  {
+    "nameWithOwner": "qiurunze123/miaosha",
+    "url": "https://github.com/qiurunze123/miaosha",
+    "stargazerCount": 26604
+  },
+  {
+    "nameWithOwner": "kestra-io/kestra",
+    "url": "https://github.com/kestra-io/kestra",
+    "stargazerCount": 26602
+  },
+  {
+    "nameWithOwner": "OpenAPITools/openapi-generator",
+    "url": "https://github.com/OpenAPITools/openapi-generator",
+    "stargazerCount": 26031
+  },
+  {
+    "nameWithOwner": "apache/incubator-seata",
+    "url": "https://github.com/apache/incubator-seata",
+    "stargazerCount": 25966
+  },
+  {
+    "nameWithOwner": "apache/flink",
+    "url": "https://github.com/apache/flink",
+    "stargazerCount": 25898
+  },
+  {
+    "nameWithOwner": "alibaba/fastjson",
+    "url": "https://github.com/alibaba/fastjson",
+    "stargazerCount": 25701
+  },
+  {
+    "nameWithOwner": "hollischuang/toBeTopJavaer",
+    "url": "https://github.com/hollischuang/toBeTopJavaer",
+    "stargazerCount": 25457
+  },
+  {
+    "nameWithOwner": "JakeWharton/butterknife",
+    "url": "https://github.com/JakeWharton/butterknife",
+    "stargazerCount": 25413
+  },
+  {
+    "nameWithOwner": "CodePhiliaX/Chat2DB",
+    "url": "https://github.com/CodePhiliaX/Chat2DB",
+    "stargazerCount": 25280
+  },
+  {
+    "nameWithOwner": "bazelbuild/bazel",
+    "url": "https://github.com/bazelbuild/bazel",
+    "stargazerCount": 25264
+  },
+  {
+    "nameWithOwner": "scwang90/SmartRefreshLayout",
+    "url": "https://github.com/scwang90/SmartRefreshLayout",
+    "stargazerCount": 25174
+  },
+  {
+    "nameWithOwner": "jenkinsci/jenkins",
+    "url": "https://github.com/jenkinsci/jenkins",
+    "stargazerCount": 25132
+  },
+  {
+    "nameWithOwner": "libgdx/libgdx",
+    "url": "https://github.com/libgdx/libgdx",
+    "stargazerCount": 24951
+  },
+  {
+    "nameWithOwner": "proxyee-down-org/proxyee-down",
+    "url": "https://github.com/proxyee-down-org/proxyee-down",
+    "stargazerCount": 24787
+  },
+  {
+    "nameWithOwner": "apache/skywalking",
+    "url": "https://github.com/apache/skywalking",
+    "stargazerCount": 24764
+  },
+  {
+    "nameWithOwner": "greenrobot/EventBus",
+    "url": "https://github.com/greenrobot/EventBus",
+    "stargazerCount": 24746
+  },
+  {
+    "nameWithOwner": "Netflix/Hystrix",
+    "url": "https://github.com/Netflix/Hystrix",
+    "stargazerCount": 24467
+  },
+  {
+    "nameWithOwner": "google/gson",
+    "url": "https://github.com/google/gson",
+    "stargazerCount": 24349
+  },
+  {
+    "nameWithOwner": "redisson/redisson",
+    "url": "https://github.com/redisson/redisson",
+    "stargazerCount": 24275
+  },
+  {
+    "nameWithOwner": "iBotPeaches/Apktool",
+    "url": "https://github.com/iBotPeaches/Apktool",
+    "stargazerCount": 24149
+  },
+  {
+    "nameWithOwner": "dataease/dataease",
+    "url": "https://github.com/dataease/dataease",
+    "stargazerCount": 23679
+  },
+  {
+    "nameWithOwner": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "url": "https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "stargazerCount": 23570
+  },
+  {
+    "nameWithOwner": "LSPosed/LSPosed",
+    "url": "https://github.com/LSPosed/LSPosed",
+    "stargazerCount": 23244
+  },
+  {
+    "nameWithOwner": "doocs/source-code-hunter",
+    "url": "https://github.com/doocs/source-code-hunter",
+    "stargazerCount": 23136
+  },
+  {
+    "nameWithOwner": "alibaba/Sentinel",
+    "url": "https://github.com/alibaba/Sentinel",
+    "stargazerCount": 23105
+  },
+  {
+    "nameWithOwner": "ashishps1/awesome-low-level-design",
+    "url": "https://github.com/ashishps1/awesome-low-level-design",
+    "stargazerCount": 22924
+  },
+  {
+    "nameWithOwner": "openjdk/jdk",
+    "url": "https://github.com/openjdk/jdk",
+    "stargazerCount": 22739
+  },
+  {
+    "nameWithOwner": "apache/rocketmq",
+    "url": "https://github.com/apache/rocketmq",
+    "stargazerCount": 22387
+  },
+  {
+    "nameWithOwner": "kunal-kushwaha/DSA-Bootcamp-Java",
+    "url": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java",
+    "stargazerCount": 22384
+  },
+  {
+    "nameWithOwner": "google/ExoPlayer",
+    "url": "https://github.com/google/ExoPlayer",
+    "stargazerCount": 21936
+  },
+  {
+    "nameWithOwner": "elunez/eladmin",
+    "url": "https://github.com/elunez/eladmin",
+    "stargazerCount": 21936
+  },
+  {
+    "nameWithOwner": "oracle/graal",
+    "url": "https://github.com/oracle/graal",
+    "stargazerCount": 21532
+  },
+  {
+    "nameWithOwner": "CarGuo/GSYVideoPlayer",
+    "url": "https://github.com/CarGuo/GSYVideoPlayer",
+    "stargazerCount": 21431
+  },
+  {
+    "nameWithOwner": "thingsboard/thingsboard",
+    "url": "https://github.com/thingsboard/thingsboard",
+    "stargazerCount": 21422
+  },
+  {
+    "nameWithOwner": "brettwooldridge/HikariCP",
+    "url": "https://github.com/brettwooldridge/HikariCP",
+    "stargazerCount": 21075
+  },
+  {
+    "nameWithOwner": "apache/shardingsphere",
+    "url": "https://github.com/apache/shardingsphere",
+    "stargazerCount": 20703
+  },
+  {
+    "nameWithOwner": "didi/DoKit",
+    "url": "https://github.com/didi/DoKit",
+    "stargazerCount": 20434
+  },
+  {
+    "nameWithOwner": "mybatis/mybatis-3",
+    "url": "https://github.com/mybatis/mybatis-3",
+    "stargazerCount": 20401
+  },
+  {
+    "nameWithOwner": "linlinjava/litemall",
+    "url": "https://github.com/linlinjava/litemall",
+    "stargazerCount": 20209
+  },
+  {
+    "nameWithOwner": "ReactiveX/RxAndroid",
+    "url": "https://github.com/ReactiveX/RxAndroid",
+    "stargazerCount": 20181
+  },
+  {
+    "nameWithOwner": "yudaocode/SpringBoot-Labs",
+    "url": "https://github.com/yudaocode/SpringBoot-Labs",
+    "stargazerCount": 20077
+  },
+  {
+    "nameWithOwner": "JetBrains/intellij-community",
+    "url": "https://github.com/JetBrains/intellij-community",
+    "stargazerCount": 19876
+  },
+  {
+    "nameWithOwner": "dianping/cat",
+    "url": "https://github.com/dianping/cat",
+    "stargazerCount": 18971
+  },
+  {
+    "nameWithOwner": "lionsoul2014/ip2region",
+    "url": "https://github.com/lionsoul2014/ip2region",
+    "stargazerCount": 18872
+  },
+  {
+    "nameWithOwner": "Baseflow/PhotoView",
+    "url": "https://github.com/Baseflow/PhotoView",
+    "stargazerCount": 18859
+  },
+  {
+    "nameWithOwner": "antlr/antlr4",
+    "url": "https://github.com/antlr/antlr4",
+    "stargazerCount": 18806
+  },
+  {
+    "nameWithOwner": "YunaiV/yudao-cloud",
+    "url": "https://github.com/YunaiV/yudao-cloud",
+    "stargazerCount": 18709
+  },
+  {
+    "nameWithOwner": "dromara/Sa-Token",
+    "url": "https://github.com/dromara/Sa-Token",
+    "stargazerCount": 18707
+  },
+  {
+    "nameWithOwner": "williamfiset/Algorithms",
+    "url": "https://github.com/williamfiset/Algorithms",
+    "stargazerCount": 18540
+  },
+  {
+    "nameWithOwner": "Tencent/APIJSON",
+    "url": "https://github.com/Tencent/APIJSON",
+    "stargazerCount": 18408
+  },
+  {
+    "nameWithOwner": "LMAX-Exchange/disruptor",
+    "url": "https://github.com/LMAX-Exchange/disruptor",
+    "stargazerCount": 18273
+  },
+  {
+    "nameWithOwner": "forezp/SpringCloudLearning",
+    "url": "https://github.com/forezp/SpringCloudLearning",
+    "stargazerCount": 17978
+  },
+  {
+    "nameWithOwner": "Tencent/tinker",
+    "url": "https://github.com/Tencent/tinker",
+    "stargazerCount": 17819
+  },
+  {
+    "nameWithOwner": "ben-manes/caffeine",
+    "url": "https://github.com/ben-manes/caffeine",
+    "stargazerCount": 17574
+  },
+  {
+    "nameWithOwner": "infinilabs/analysis-ik",
+    "url": "https://github.com/infinilabs/analysis-ik",
+    "stargazerCount": 17434
+  },
+  {
+    "nameWithOwner": "openzipkin/zipkin",
+    "url": "https://github.com/openzipkin/zipkin",
+    "stargazerCount": 17418
+  },
+  {
+    "nameWithOwner": "justauth/JustAuth",
+    "url": "https://github.com/justauth/JustAuth",
+    "stargazerCount": 17415
+  },
+  {
+    "nameWithOwner": "baomidou/mybatis-plus",
+    "url": "https://github.com/baomidou/mybatis-plus",
+    "stargazerCount": 17324
+  },
+  {
+    "nameWithOwner": "gyoogle/tech-interview-for-developer",
+    "url": "https://github.com/gyoogle/tech-interview-for-developer",
+    "stargazerCount": 17232
+  },
+  {
+    "nameWithOwner": "material-components/material-components-android",
+    "url": "https://github.com/material-components/material-components-android",
+    "stargazerCount": 17217
+  },
+  {
+    "nameWithOwner": "facebook/fresco",
+    "url": "https://github.com/facebook/fresco",
+    "stargazerCount": 17163
+  },
+  {
+    "nameWithOwner": "alibaba/DataX",
+    "url": "https://github.com/alibaba/DataX",
+    "stargazerCount": 17146
+  },
+  {
+    "nameWithOwner": "nostra13/Android-Universal-Image-Loader",
+    "url": "https://github.com/nostra13/Android-Universal-Image-Loader",
+    "stargazerCount": 17056
+  },
+  {
+    "nameWithOwner": "heibaiying/BigData-Notes",
+    "url": "https://github.com/heibaiying/BigData-Notes",
+    "stargazerCount": 16882
+  },
+  {
+    "nameWithOwner": "questdb/questdb",
+    "url": "https://github.com/questdb/questdb",
+    "stargazerCount": 16789
+  },
+  {
+    "nameWithOwner": "winterbe/java8-tutorial",
+    "url": "https://github.com/winterbe/java8-tutorial",
+    "stargazerCount": 16768
+  },
+  {
+    "nameWithOwner": "Grasscutters/Grasscutter",
+    "url": "https://github.com/Grasscutters/Grasscutter",
+    "stargazerCount": 16768
+  },
+  {
+    "nameWithOwner": "shuzheng/zheng",
+    "url": "https://github.com/shuzheng/zheng",
+    "stargazerCount": 16703
+  },
+  {
+    "nameWithOwner": "prestodb/presto",
+    "url": "https://github.com/prestodb/presto",
+    "stargazerCount": 16667
+  },
+  {
+    "nameWithOwner": "JeffLi1993/springboot-learning-example",
+    "url": "https://github.com/JeffLi1993/springboot-learning-example",
+    "stargazerCount": 16595
+  },
+  {
+    "nameWithOwner": "neo4j/neo4j",
+    "url": "https://github.com/neo4j/neo4j",
+    "stargazerCount": 16186
+  },
+  {
+    "nameWithOwner": "ashishps1/awesome-leetcode-resources",
+    "url": "https://github.com/ashishps1/awesome-leetcode-resources",
+    "stargazerCount": 16093
+  },
+  {
+    "nameWithOwner": "android-hacker/VirtualXposed",
+    "url": "https://github.com/android-hacker/VirtualXposed",
+    "stargazerCount": 15989
+  },
+  {
+    "nameWithOwner": "dyc87112/SpringBoot-Learning",
+    "url": "https://github.com/dyc87112/SpringBoot-Learning",
+    "stargazerCount": 15792
+  },
+  {
+    "nameWithOwner": "android10/Android-CleanArchitecture",
+    "url": "https://github.com/android10/Android-CleanArchitecture",
+    "stargazerCount": 15561
+  },
+  {
+    "nameWithOwner": "quarkusio/quarkus",
+    "url": "https://github.com/quarkusio/quarkus",
+    "stargazerCount": 15561
+  },
+  {
+    "nameWithOwner": "apache/hadoop",
+    "url": "https://github.com/apache/hadoop",
+    "stargazerCount": 15511
+  },
+  {
+    "nameWithOwner": "Konloch/bytecode-viewer",
+    "url": "https://github.com/Konloch/bytecode-viewer",
+    "stargazerCount": 15460
+  },
+  {
+    "nameWithOwner": "mockito/mockito",
+    "url": "https://github.com/mockito/mockito",
+    "stargazerCount": 15435
+  },
+  {
+    "nameWithOwner": "apache/pulsar",
+    "url": "https://github.com/apache/pulsar",
+    "stargazerCount": 15177
+  },
+  {
+    "nameWithOwner": "apache/doris",
+    "url": "https://github.com/apache/doris",
+    "stargazerCount": 15156
+  },
+  {
+    "nameWithOwner": "java-decompiler/jd-gui",
+    "url": "https://github.com/java-decompiler/jd-gui",
+    "stargazerCount": 15059
+  },
+  {
+    "nameWithOwner": "zhisheng17/flink-learning",
+    "url": "https://github.com/zhisheng17/flink-learning",
+    "stargazerCount": 15056
+  },
+  {
+    "nameWithOwner": "supertokens/supertokens-core",
+    "url": "https://github.com/supertokens/supertokens-core",
+    "stargazerCount": 14988
+  },
+  {
+    "nameWithOwner": "zaproxy/zaproxy",
+    "url": "https://github.com/zaproxy/zaproxy",
+    "stargazerCount": 14913
+  },
+  {
+    "nameWithOwner": "cryptomator/cryptomator",
+    "url": "https://github.com/cryptomator/cryptomator",
+    "stargazerCount": 14841
+  },
+  {
+    "nameWithOwner": "elastic/logstash",
+    "url": "https://github.com/elastic/logstash",
+    "stargazerCount": 14815
+  },
+  {
+    "nameWithOwner": "theonedev/onedev",
+    "url": "https://github.com/theonedev/onedev",
+    "stargazerCount": 14802
+  },
+  {
+    "nameWithOwner": "eclipse-vertx/vert.x",
+    "url": "https://github.com/eclipse-vertx/vert.x",
+    "stargazerCount": 14658
+  },
+  {
+    "nameWithOwner": "arduino/Arduino",
+    "url": "https://github.com/arduino/Arduino",
+    "stargazerCount": 14552
+  },
+  {
+    "nameWithOwner": "hdodenhof/CircleImageView",
+    "url": "https://github.com/hdodenhof/CircleImageView",
+    "stargazerCount": 14543
+  },
+  {
+    "nameWithOwner": "Tencent/QMUI_Android",
+    "url": "https://github.com/Tencent/QMUI_Android",
+    "stargazerCount": 14522
+  },
+  {
+    "nameWithOwner": "alibaba/ARouter",
+    "url": "https://github.com/alibaba/ARouter",
+    "stargazerCount": 14501
+  },
+  {
+    "nameWithOwner": "GoogleContainerTools/jib",
+    "url": "https://github.com/GoogleContainerTools/jib",
+    "stargazerCount": 14362
+  },
+  {
+    "nameWithOwner": "languagetool-org/languagetool",
+    "url": "https://github.com/languagetool-org/languagetool",
+    "stargazerCount": 14217
+  },
+  {
+    "nameWithOwner": "deeplearning4j/deeplearning4j",
+    "url": "https://github.com/deeplearning4j/deeplearning4j",
+    "stargazerCount": 14214
+  },
+  {
+    "nameWithOwner": "apache/dolphinscheduler",
+    "url": "https://github.com/apache/dolphinscheduler",
+    "stargazerCount": 14203
+  },
+  {
+    "nameWithOwner": "DuGuQiuBai/Java",
+    "url": "https://github.com/DuGuQiuBai/Java",
+    "stargazerCount": 14193
+  },
+  {
+    "nameWithOwner": "kekingcn/kkFileView",
+    "url": "https://github.com/kekingcn/kkFileView",
+    "stargazerCount": 14025
+  },
+  {
+    "nameWithOwner": "Netflix/zuul",
+    "url": "https://github.com/Netflix/zuul",
+    "stargazerCount": 14000
+  },
+  {
+    "nameWithOwner": "janishar/mit-deep-learning-book-pdf",
+    "url": "https://github.com/janishar/mit-deep-learning-book-pdf",
+    "stargazerCount": 13970
+  },
+  {
+    "nameWithOwner": "apache/druid",
+    "url": "https://github.com/apache/druid",
+    "stargazerCount": 13967
+  },
+  {
+    "nameWithOwner": "xpipe-io/xpipe",
+    "url": "https://github.com/xpipe-io/xpipe",
+    "stargazerCount": 13913
+  },
+  {
+    "nameWithOwner": "sqshq/piggymetrics",
+    "url": "https://github.com/sqshq/piggymetrics",
+    "stargazerCount": 13882
+  },
+  {
+    "nameWithOwner": "orhanobut/logger",
+    "url": "https://github.com/orhanobut/logger",
+    "stargazerCount": 13879
+  },
+  {
+    "nameWithOwner": "pinpoint-apm/pinpoint",
+    "url": "https://github.com/pinpoint-apm/pinpoint",
+    "stargazerCount": 13815
+  },
+  {
+    "nameWithOwner": "lgvalle/Material-Animations",
+    "url": "https://github.com/lgvalle/Material-Animations",
+    "stargazerCount": 13799
+  },
+  {
+    "nameWithOwner": "seaswalker/spring-analysis",
+    "url": "https://github.com/seaswalker/spring-analysis",
+    "stargazerCount": 13764
+  },
+  {
+    "nameWithOwner": "JessYanCoding/AndroidAutoSize",
+    "url": "https://github.com/JessYanCoding/AndroidAutoSize",
+    "stargazerCount": 13748
+  },
+  {
+    "nameWithOwner": "LuckSiege/PictureSelector",
+    "url": "https://github.com/LuckSiege/PictureSelector",
+    "stargazerCount": 13595
+  },
+  {
+    "nameWithOwner": "tink-crypto/tink",
+    "url": "https://github.com/tink-crypto/tink",
+    "stargazerCount": 13559
+  },
+  {
+    "nameWithOwner": "Bigkoo/Android-PickerView",
+    "url": "https://github.com/Bigkoo/Android-PickerView",
+    "stargazerCount": 13469
+  },
+  {
+    "nameWithOwner": "projectlombok/lombok",
+    "url": "https://github.com/projectlombok/lombok",
+    "stargazerCount": 13429
+  },
+  {
+    "nameWithOwner": "macrozheng/mall-learning",
+    "url": "https://github.com/macrozheng/mall-learning",
+    "stargazerCount": 13365
+  },
+  {
+    "nameWithOwner": "pxb1988/dex2jar",
+    "url": "https://github.com/pxb1988/dex2jar",
+    "stargazerCount": 13100
+  },
+  {
+    "nameWithOwner": "metersphere/metersphere",
+    "url": "https://github.com/metersphere/metersphere",
+    "stargazerCount": 13045
+  },
+  {
+    "nameWithOwner": "youth5201314/banner",
+    "url": "https://github.com/youth5201314/banner",
+    "stargazerCount": 13040
+  },
+  {
+    "nameWithOwner": "alibaba/COLA",
+    "url": "https://github.com/alibaba/COLA",
+    "stargazerCount": 12920
+  },
+  {
+    "nameWithOwner": "macrozheng/mall-swarm",
+    "url": "https://github.com/macrozheng/mall-swarm",
+    "stargazerCount": 12890
+  },
+  {
+    "nameWithOwner": "plantuml/plantuml",
+    "url": "https://github.com/plantuml/plantuml",
+    "stargazerCount": 12838
+  },
+  {
+    "nameWithOwner": "codecentric/spring-boot-admin",
+    "url": "https://github.com/codecentric/spring-boot-admin",
+    "stargazerCount": 12824
+  },
+  {
+    "nameWithOwner": "Netflix/conductor",
+    "url": "https://github.com/Netflix/conductor",
+    "stargazerCount": 12788
+  },
+  {
+    "nameWithOwner": "apache/zookeeper",
+    "url": "https://github.com/apache/zookeeper",
+    "stargazerCount": 12743
+  },
+  {
+    "nameWithOwner": "google/guice",
+    "url": "https://github.com/google/guice",
+    "stargazerCount": 12733
+  },
+  {
+    "nameWithOwner": "microg/GmsCore",
+    "url": "https://github.com/microg/GmsCore",
+    "stargazerCount": 12709
+  },
+  {
+    "nameWithOwner": "facebook/stetho",
+    "url": "https://github.com/facebook/stetho",
+    "stargazerCount": 12701
+  },
+  {
+    "nameWithOwner": "Netflix/eureka",
+    "url": "https://github.com/Netflix/eureka",
+    "stargazerCount": 12697
+  },
+  {
+    "nameWithOwner": "trinodb/trino",
+    "url": "https://github.com/trinodb/trino",
+    "stargazerCount": 12665
+  },
+  {
+    "nameWithOwner": "opensearch-project/OpenSearch",
+    "url": "https://github.com/opensearch-project/OpenSearch",
+    "stargazerCount": 12647
+  },
+  {
+    "nameWithOwner": "greenrobot/greenDAO",
+    "url": "https://github.com/greenrobot/greenDAO",
+    "stargazerCount": 12617
+  },
+  {
+    "nameWithOwner": "zhihu/Matisse",
+    "url": "https://github.com/zhihu/Matisse",
+    "stargazerCount": 12564
+  },
+  {
+    "nameWithOwner": "debezium/debezium",
+    "url": "https://github.com/debezium/debezium",
+    "stargazerCount": 12551
+  },
+  {
+    "nameWithOwner": "daimajia/AndroidViewAnimations",
+    "url": "https://github.com/daimajia/AndroidViewAnimations",
+    "stargazerCount": 12473
+  },
+  {
+    "nameWithOwner": "LawnchairLauncher/lawnchair",
+    "url": "https://github.com/LawnchairLauncher/lawnchair",
+    "stargazerCount": 12449
+  },
+  {
+    "nameWithOwner": "pagehelper-org/Mybatis-PageHelper",
+    "url": "https://github.com/pagehelper-org/Mybatis-PageHelper",
+    "stargazerCount": 12383
+  },
+  {
+    "nameWithOwner": "daimajia/AndroidSwipeLayout",
+    "url": "https://github.com/daimajia/AndroidSwipeLayout",
+    "stargazerCount": 12382
+  },
+  {
+    "nameWithOwner": "redis/jedis",
+    "url": "https://github.com/redis/jedis",
+    "stargazerCount": 12298
+  },
+  {
+    "nameWithOwner": "amitshekhariitbhu/android-interview-questions",
+    "url": "https://github.com/amitshekhariitbhu/android-interview-questions",
+    "stargazerCount": 12292
+  },
+  {
+    "nameWithOwner": "Team-xManager/xManager",
+    "url": "https://github.com/Team-xManager/xManager",
+    "stargazerCount": 12185
+  },
+  {
+    "nameWithOwner": "beemdevelopment/Aegis",
+    "url": "https://github.com/beemdevelopment/Aegis",
+    "stargazerCount": 12176
+  },
+  {
+    "nameWithOwner": "Yalantis/uCrop",
+    "url": "https://github.com/Yalantis/uCrop",
+    "stargazerCount": 12121
+  },
+  {
+    "nameWithOwner": "PaperMC/Paper",
+    "url": "https://github.com/PaperMC/Paper",
+    "stargazerCount": 12036
+  },
+  {
+    "nameWithOwner": "grpc/grpc-java",
+    "url": "https://github.com/grpc/grpc-java",
+    "stargazerCount": 11999
+  },
+  {
+    "nameWithOwner": "Tencent/matrix",
+    "url": "https://github.com/Tencent/matrix",
+    "stargazerCount": 11998
+  },
+  {
+    "nameWithOwner": "provectus/kafka-ui",
+    "url": "https://github.com/provectus/kafka-ui",
+    "stargazerCount": 11983
+  },
+  {
+    "nameWithOwner": "Tencent/VasSonic",
+    "url": "https://github.com/Tencent/VasSonic",
+    "stargazerCount": 11879
+  },
+  {
+    "nameWithOwner": "OpenRefine/OpenRefine",
+    "url": "https://github.com/OpenRefine/OpenRefine",
+    "stargazerCount": 11788
+  },
+  {
+    "nameWithOwner": "datahub-project/datahub",
+    "url": "https://github.com/datahub-project/datahub",
+    "stargazerCount": 11724
+  },
+  {
+    "nameWithOwner": "frank-lam/fullstack-tutorial",
+    "url": "https://github.com/frank-lam/fullstack-tutorial",
+    "stargazerCount": 11698
+  },
+  {
+    "nameWithOwner": "code4craft/webmagic",
+    "url": "https://github.com/code4craft/webmagic",
+    "stargazerCount": 11696
+  },
+  {
+    "nameWithOwner": "jd-opensource/joyagent-jdgenie",
+    "url": "https://github.com/jd-opensource/joyagent-jdgenie",
+    "stargazerCount": 11584
+  },
+  {
+    "nameWithOwner": "newbee-ltd/newbee-mall",
+    "url": "https://github.com/newbee-ltd/newbee-mall",
+    "stargazerCount": 11540
+  },
+  {
+    "nameWithOwner": "StarRocks/starrocks",
+    "url": "https://github.com/StarRocks/starrocks",
+    "stargazerCount": 11514
+  },
+  {
+    "nameWithOwner": "realm/realm-java",
+    "url": "https://github.com/realm/realm-java",
+    "stargazerCount": 11489
+  },
+  {
+    "nameWithOwner": "careercup/CtCI-6th-Edition",
+    "url": "https://github.com/careercup/CtCI-6th-Edition",
+    "stargazerCount": 11476
+  },
+  {
+    "nameWithOwner": "gyf-dev/ImmersionBar",
+    "url": "https://github.com/gyf-dev/ImmersionBar",
+    "stargazerCount": 11469
+  },
+  {
+    "nameWithOwner": "jhy/jsoup",
+    "url": "https://github.com/jhy/jsoup",
+    "stargazerCount": 11360
+  },
+  {
+    "nameWithOwner": "ssssssss-team/spider-flow",
+    "url": "https://github.com/ssssssss-team/spider-flow",
+    "stargazerCount": 11318
+  },
+  {
+    "nameWithOwner": "langchain4j/langchain4j",
+    "url": "https://github.com/langchain4j/langchain4j",
+    "stargazerCount": 11317
+  },
+  {
+    "nameWithOwner": "mission-peace/interview",
+    "url": "https://github.com/mission-peace/interview",
+    "stargazerCount": 11309
+  },
+  {
+    "nameWithOwner": "apereo/cas",
+    "url": "https://github.com/apereo/cas",
+    "stargazerCount": 11308
+  },
+  {
+    "nameWithOwner": "permissions-dispatcher/PermissionsDispatcher",
+    "url": "https://github.com/permissions-dispatcher/PermissionsDispatcher",
+    "stargazerCount": 11204
+  },
+  {
+    "nameWithOwner": "daniulive/SmarterStreaming",
+    "url": "https://github.com/daniulive/SmarterStreaming",
+    "stargazerCount": 11165
+  },
+  {
+    "nameWithOwner": "lingochamp/FileDownloader",
+    "url": "https://github.com/lingochamp/FileDownloader",
+    "stargazerCount": 11124
+  },
+  {
+    "nameWithOwner": "H07000223/FlycoTabLayout",
+    "url": "https://github.com/H07000223/FlycoTabLayout",
+    "stargazerCount": 11112
+  },
+  {
+    "nameWithOwner": "apple/pkl",
+    "url": "https://github.com/apple/pkl",
+    "stargazerCount": 11105
+  },
+  {
+    "nameWithOwner": "jwtk/jjwt",
+    "url": "https://github.com/jwtk/jjwt",
+    "stargazerCount": 11054
+  },
+  {
+    "nameWithOwner": "jfeinstein10/SlidingMenu",
+    "url": "https://github.com/jfeinstein10/SlidingMenu",
+    "stargazerCount": 11025
+  },
+  {
+    "nameWithOwner": "androidannotations/androidannotations",
+    "url": "https://github.com/androidannotations/androidannotations",
+    "stargazerCount": 11008
+  },
+  {
+    "nameWithOwner": "asLody/VirtualApp",
+    "url": "https://github.com/asLody/VirtualApp",
+    "stargazerCount": 10950
+  },
+  {
+    "nameWithOwner": "square/javapoet",
+    "url": "https://github.com/square/javapoet",
+    "stargazerCount": 10859
+  },
+  {
+    "nameWithOwner": "clojure/clojure",
+    "url": "https://github.com/clojure/clojure",
+    "stargazerCount": 10834
+  },
+  {
+    "nameWithOwner": "aosp-mirror/platform_frameworks_base",
+    "url": "https://github.com/aosp-mirror/platform_frameworks_base",
+    "stargazerCount": 10823
+  },
+  {
+    "nameWithOwner": "TooTallNate/Java-WebSocket",
+    "url": "https://github.com/TooTallNate/Java-WebSocket",
+    "stargazerCount": 10801
+  },
+  {
+    "nameWithOwner": "alibaba/vlayout",
+    "url": "https://github.com/alibaba/vlayout",
+    "stargazerCount": 10761
+  },
+  {
+    "nameWithOwner": "iflytek/astron-agent",
+    "url": "https://github.com/iflytek/astron-agent",
+    "stargazerCount": 10725
+  },
+  {
+    "nameWithOwner": "zfile-dev/zfile",
+    "url": "https://github.com/zfile-dev/zfile",
+    "stargazerCount": 10712
+  },
+  {
+    "nameWithOwner": "android-async-http/android-async-http",
+    "url": "https://github.com/android-async-http/android-async-http",
+    "stargazerCount": 10622
+  },
+  {
+    "nameWithOwner": "resilience4j/resilience4j",
+    "url": "https://github.com/resilience4j/resilience4j",
+    "stargazerCount": 10605
+  },
+  {
+    "nameWithOwner": "jeasonlzy/okhttp-OkGo",
+    "url": "https://github.com/jeasonlzy/okhttp-OkGo",
+    "stargazerCount": 10587
+  },
+  {
+    "nameWithOwner": "google/auto",
+    "url": "https://github.com/google/auto",
+    "stargazerCount": 10557
+  },
+  {
+    "nameWithOwner": "Activiti/Activiti",
+    "url": "https://github.com/Activiti/Activiti",
+    "stargazerCount": 10522
+  },
+  {
+    "nameWithOwner": "lipangit/JiaoZiVideoPlayer",
+    "url": "https://github.com/lipangit/JiaoZiVideoPlayer",
+    "stargazerCount": 10504
+  },
+  {
+    "nameWithOwner": "signalapp/Signal-Server",
+    "url": "https://github.com/signalapp/Signal-Server",
+    "stargazerCount": 10457
+  },
+  {
+    "nameWithOwner": "tbruyelle/RxPermissions",
+    "url": "https://github.com/tbruyelle/RxPermissions",
+    "stargazerCount": 10441
+  },
+  {
+    "nameWithOwner": "awsdocs/aws-doc-sdk-examples",
+    "url": "https://github.com/awsdocs/aws-doc-sdk-examples",
+    "stargazerCount": 10385
+  },
+  {
+    "nameWithOwner": "SonarSource/sonarqube",
+    "url": "https://github.com/SonarSource/sonarqube",
+    "stargazerCount": 10368
+  },
+  {
+    "nameWithOwner": "JingMatrix/LSPosed",
+    "url": "https://github.com/JingMatrix/LSPosed",
+    "stargazerCount": 10281
+  },
+  {
+    "nameWithOwner": "JessYanCoding/MVPArms",
+    "url": "https://github.com/JessYanCoding/MVPArms",
+    "stargazerCount": 10275
+  },
+  {
+    "nameWithOwner": "ZCShou/GoGoGo",
+    "url": "https://github.com/ZCShou/GoGoGo",
+    "stargazerCount": 10129
+  },
+  {
+    "nameWithOwner": "JakeWharton/ViewPagerIndicator",
+    "url": "https://github.com/JakeWharton/ViewPagerIndicator",
+    "stargazerCount": 10086
+  },
+  {
+    "nameWithOwner": "stanfordnlp/CoreNLP",
+    "url": "https://github.com/stanfordnlp/CoreNLP",
+    "stargazerCount": 10063
+  },
+  {
+    "nameWithOwner": "happydog-intj/JsBridge",
+    "url": "https://github.com/happydog-intj/JsBridge",
+    "stargazerCount": 9930
+  },
+  {
+    "nameWithOwner": "xuchengsheng/spring-reading",
+    "url": "https://github.com/xuchengsheng/spring-reading",
+    "stargazerCount": 9928
+  },
+  {
+    "nameWithOwner": "wasabeef/glide-transformations",
+    "url": "https://github.com/wasabeef/glide-transformations",
+    "stargazerCount": 9911
+  },
+  {
+    "nameWithOwner": "googlesamples/easypermissions",
+    "url": "https://github.com/googlesamples/easypermissions",
+    "stargazerCount": 9899
+  },
+  {
+    "nameWithOwner": "paascloud/paascloud-master",
+    "url": "https://github.com/paascloud/paascloud-master",
+    "stargazerCount": 9886
+  },
+  {
+    "nameWithOwner": "hackware1993/MagicIndicator",
+    "url": "https://github.com/hackware1993/MagicIndicator",
+    "stargazerCount": 9812
+  },
+  {
+    "nameWithOwner": "OpenFeign/feign",
+    "url": "https://github.com/OpenFeign/feign",
+    "stargazerCount": 9787
+  },
+  {
+    "nameWithOwner": "HarlonWang/AVLoadingIndicatorView",
+    "url": "https://github.com/HarlonWang/AVLoadingIndicatorView",
+    "stargazerCount": 9779
+  },
+  {
+    "nameWithOwner": "lihengming/spring-boot-api-project-seed",
+    "url": "https://github.com/lihengming/spring-boot-api-project-seed",
+    "stargazerCount": 9715
+  },
+  {
+    "nameWithOwner": "spinnaker/spinnaker",
+    "url": "https://github.com/spinnaker/spinnaker",
+    "stargazerCount": 9708
+  },
+  {
+    "nameWithOwner": "YoKeyword/Fragmentation",
+    "url": "https://github.com/YoKeyword/Fragmentation",
+    "stargazerCount": 9706
+  },
+  {
+    "nameWithOwner": "apache/cassandra",
+    "url": "https://github.com/apache/cassandra",
+    "stargazerCount": 9677
+  },
+  {
+    "nameWithOwner": "perwendel/spark",
+    "url": "https://github.com/perwendel/spark",
+    "stargazerCount": 9665
+  },
+  {
+    "nameWithOwner": "koral--/android-gif-drawable",
+    "url": "https://github.com/koral--/android-gif-drawable",
+    "stargazerCount": 9661
+  },
+  {
+    "nameWithOwner": "react-native-camera/react-native-camera",
+    "url": "https://github.com/react-native-camera/react-native-camera",
+    "stargazerCount": 9648
+  },
+  {
+    "nameWithOwner": "AutoMQ/automq",
+    "url": "https://github.com/AutoMQ/automq",
+    "stargazerCount": 9628
+  },
+  {
+    "nameWithOwner": "opendataloader-project/opendataloader-pdf",
+    "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+    "stargazerCount": 9628
+  },
+  {
+    "nameWithOwner": "ksoichiro/Android-ObservableScrollView",
+    "url": "https://github.com/ksoichiro/Android-ObservableScrollView",
+    "stargazerCount": 9626
+  },
+  {
+    "nameWithOwner": "flyway/flyway",
+    "url": "https://github.com/flyway/flyway",
+    "stargazerCount": 9623
+  },
+  {
+    "nameWithOwner": "bilibili/DanmakuFlameMaster",
+    "url": "https://github.com/bilibili/DanmakuFlameMaster",
+    "stargazerCount": 9613
+  },
+  {
+    "nameWithOwner": "seven332/EhViewer",
+    "url": "https://github.com/seven332/EhViewer",
+    "stargazerCount": 9550
+  },
+  {
+    "nameWithOwner": "MyCATApache/Mycat-Server",
+    "url": "https://github.com/MyCATApache/Mycat-Server",
+    "stargazerCount": 9542
+  },
+  {
+    "nameWithOwner": "liaohuqiu/android-Ultra-Pull-To-Refresh",
+    "url": "https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh",
+    "stargazerCount": 9531
+  },
+  {
+    "nameWithOwner": "crossoverJie/cim",
+    "url": "https://github.com/crossoverJie/cim",
+    "stargazerCount": 9489
+  },
+  {
+    "nameWithOwner": "umano/AndroidSlidingUpPanel",
+    "url": "https://github.com/umano/AndroidSlidingUpPanel",
+    "stargazerCount": 9484
+  },
+  {
+    "nameWithOwner": "spring-projects/spring-security",
+    "url": "https://github.com/spring-projects/spring-security",
+    "stargazerCount": 9476
+  },
+  {
+    "nameWithOwner": "Justson/AgentWeb",
+    "url": "https://github.com/Justson/AgentWeb",
+    "stargazerCount": 9411
+  },
+  {
+    "nameWithOwner": "json-path/JsonPath",
+    "url": "https://github.com/json-path/JsonPath",
+    "stargazerCount": 9394
+  },
+  {
+    "nameWithOwner": "pockethub/PocketHub",
+    "url": "https://github.com/pockethub/PocketHub",
+    "stargazerCount": 9381
+  },
+  {
+    "nameWithOwner": "huanghaibin-dev/CalendarView",
+    "url": "https://github.com/huanghaibin-dev/CalendarView",
+    "stargazerCount": 9370
+  },
+  {
+    "nameWithOwner": "GcsSloop/AndroidNote",
+    "url": "https://github.com/GcsSloop/AndroidNote",
+    "stargazerCount": 9340
+  },
+  {
+    "nameWithOwner": "android/testing-samples",
+    "url": "https://github.com/android/testing-samples",
+    "stargazerCount": 9302
+  },
+  {
+    "nameWithOwner": "apache/jmeter",
+    "url": "https://github.com/apache/jmeter",
+    "stargazerCount": 9290
+  },
+  {
+    "nameWithOwner": "apache/seatunnel",
+    "url": "https://github.com/apache/seatunnel",
+    "stargazerCount": 9202
+  },
+  {
+    "nameWithOwner": "cats-oss/android-gpuimage",
+    "url": "https://github.com/cats-oss/android-gpuimage",
+    "stargazerCount": 9158
+  },
+  {
+    "nameWithOwner": "flowable/flowable-engine",
+    "url": "https://github.com/flowable/flowable-engine",
+    "stargazerCount": 9148
+  },
+  {
+    "nameWithOwner": "didi/VirtualAPK",
+    "url": "https://github.com/didi/VirtualAPK",
+    "stargazerCount": 9067
+  },
+  {
+    "nameWithOwner": "HMCL-dev/HMCL",
+    "url": "https://github.com/HMCL-dev/HMCL",
+    "stargazerCount": 9010
+  },
+  {
+    "nameWithOwner": "alibaba/spring-ai-alibaba",
+    "url": "https://github.com/alibaba/spring-ai-alibaba",
+    "stargazerCount": 8954
+  },
+  {
+    "nameWithOwner": "KunMinX/Jetpack-MVVM-Best-Practice",
+    "url": "https://github.com/KunMinX/Jetpack-MVVM-Best-Practice",
+    "stargazerCount": 8951
+  },
+  {
+    "nameWithOwner": "navasmdc/MaterialDesignLibrary",
+    "url": "https://github.com/navasmdc/MaterialDesignLibrary",
+    "stargazerCount": 8944
+  },
+  {
+    "nameWithOwner": "Freelander/Android_Data",
+    "url": "https://github.com/Freelander/Android_Data",
+    "stargazerCount": 8917
+  },
+  {
+    "nameWithOwner": "LSPosed/LSPatch",
+    "url": "https://github.com/LSPosed/LSPatch",
+    "stargazerCount": 8913
+  },
+  {
+    "nameWithOwner": "java-native-access/jna",
+    "url": "https://github.com/java-native-access/jna",
+    "stargazerCount": 8909
+  },
+  {
+    "nameWithOwner": "checkstyle/checkstyle",
+    "url": "https://github.com/checkstyle/checkstyle",
+    "stargazerCount": 8903
+  },
+  {
+    "nameWithOwner": "frohoff/ysoserial",
+    "url": "https://github.com/frohoff/ysoserial",
+    "stargazerCount": 8826
+  },
+  {
+    "nameWithOwner": "karatelabs/karate",
+    "url": "https://github.com/karatelabs/karate",
+    "stargazerCount": 8814
+  },
+  {
+    "nameWithOwner": "PojavLauncherTeam/PojavLauncher",
+    "url": "https://github.com/PojavLauncherTeam/PojavLauncher",
+    "stargazerCount": 8805
+  },
+  {
+    "nameWithOwner": "nathanmarz/storm",
+    "url": "https://github.com/nathanmarz/storm",
+    "stargazerCount": 8789
+  },
+  {
+    "nameWithOwner": "apache/shenyu",
+    "url": "https://github.com/apache/shenyu",
+    "stargazerCount": 8783
+  },
+  {
+    "nameWithOwner": "laobie/StatusBarUtil",
+    "url": "https://github.com/laobie/StatusBarUtil",
+    "stargazerCount": 8771
+  },
+  {
+    "nameWithOwner": "cabaletta/baritone",
+    "url": "https://github.com/cabaletta/baritone",
+    "stargazerCount": 8759
+  },
+  {
+    "nameWithOwner": "Blankj/awesome-java-leetcode",
+    "url": "https://github.com/Blankj/awesome-java-leetcode",
+    "stargazerCount": 8737
+  },
+  {
+    "nameWithOwner": "apache/iceberg",
+    "url": "https://github.com/apache/iceberg",
+    "stargazerCount": 8667
+  },
+  {
+    "nameWithOwner": "chrisbanes/Android-PullToRefresh",
+    "url": "https://github.com/chrisbanes/Android-PullToRefresh",
+    "stargazerCount": 8665
+  },
+  {
+    "nameWithOwner": "ybq/Android-SpinKit",
+    "url": "https://github.com/ybq/Android-SpinKit",
+    "stargazerCount": 8653
+  },
+  {
+    "nameWithOwner": "amitshekhariitbhu/Android-Debug-Database",
+    "url": "https://github.com/amitshekhariitbhu/Android-Debug-Database",
+    "stargazerCount": 8645
+  },
+  {
+    "nameWithOwner": "react-native-image-picker/react-native-image-picker",
+    "url": "https://github.com/react-native-image-picker/react-native-image-picker",
+    "stargazerCount": 8637
+  },
+  {
+    "nameWithOwner": "shwenzhang/AndResGuard",
+    "url": "https://github.com/shwenzhang/AndResGuard",
+    "stargazerCount": 8634
+  },
+  {
+    "nameWithOwner": "testcontainers/testcontainers-java",
+    "url": "https://github.com/testcontainers/testcontainers-java",
+    "stargazerCount": 8617
+  },
+  {
+    "nameWithOwner": "dropwizard/dropwizard",
+    "url": "https://github.com/dropwizard/dropwizard",
+    "stargazerCount": 8602
+  },
+  {
+    "nameWithOwner": "airbnb/epoxy",
+    "url": "https://github.com/airbnb/epoxy",
+    "stargazerCount": 8571
+  },
+  {
+    "nameWithOwner": "facebook/buck",
+    "url": "https://github.com/facebook/buck",
+    "stargazerCount": 8562
+  },
+  {
+    "nameWithOwner": "google/tsunami-security-scanner",
+    "url": "https://github.com/google/tsunami-security-scanner",
+    "stargazerCount": 8557
+  },
+  {
+    "nameWithOwner": "junit-team/junit4",
+    "url": "https://github.com/junit-team/junit4",
+    "stargazerCount": 8554
+  },
+  {
+    "nameWithOwner": "chrisjenx/Calligraphy",
+    "url": "https://github.com/chrisjenx/Calligraphy",
+    "stargazerCount": 8545
+  },
+  {
+    "nameWithOwner": "aeron-io/aeron",
+    "url": "https://github.com/aeron-io/aeron",
+    "stargazerCount": 8532
+  },
+  {
+    "nameWithOwner": "apache/beam",
+    "url": "https://github.com/apache/beam",
+    "stargazerCount": 8527
+  },
+  {
+    "nameWithOwner": "wildfirechat/im-server",
+    "url": "https://github.com/wildfirechat/im-server",
+    "stargazerCount": 8463
+  },
+  {
+    "nameWithOwner": "DImuthuUpe/AndroidPdfViewer",
+    "url": "https://github.com/DImuthuUpe/AndroidPdfViewer",
+    "stargazerCount": 8463
+  },
+  {
+    "nameWithOwner": "hs-web/hsweb-framework",
+    "url": "https://github.com/hs-web/hsweb-framework",
+    "stargazerCount": 8404
+  },
+  {
+    "nameWithOwner": "roughike/BottomBar",
+    "url": "https://github.com/roughike/BottomBar",
+    "stargazerCount": 8386
+  },
+  {
+    "nameWithOwner": "pentaho/pentaho-kettle",
+    "url": "https://github.com/pentaho/pentaho-kettle",
+    "stargazerCount": 8325
+  },
+  {
+    "nameWithOwner": "spring-projects/spring-ai",
+    "url": "https://github.com/spring-projects/spring-ai",
+    "stargazerCount": 8312
+  },
+  {
+    "nameWithOwner": "bytedeco/javacv",
+    "url": "https://github.com/bytedeco/javacv",
+    "stargazerCount": 8305
+  },
+  {
+    "nameWithOwner": "alibaba/transmittable-thread-local",
+    "url": "https://github.com/alibaba/transmittable-thread-local",
+    "stargazerCount": 8270
+  },
+  {
+    "nameWithOwner": "aritraroy/UltimateAndroidReference",
+    "url": "https://github.com/aritraroy/UltimateAndroidReference",
+    "stargazerCount": 8261
+  },
+  {
+    "nameWithOwner": "apache/shardingsphere-elasticjob",
+    "url": "https://github.com/apache/shardingsphere-elasticjob",
+    "stargazerCount": 8221
+  },
+  {
+    "nameWithOwner": "krahets/LeetCode-Book",
+    "url": "https://github.com/krahets/LeetCode-Book",
+    "stargazerCount": 8191
+  },
+  {
+    "nameWithOwner": "alibaba/atlas",
+    "url": "https://github.com/alibaba/atlas",
+    "stargazerCount": 8170
+  },
+  {
+    "nameWithOwner": "alibaba/otter",
+    "url": "https://github.com/alibaba/otter",
+    "stargazerCount": 8133
+  },
+  {
+    "nameWithOwner": "apache/tomcat",
+    "url": "https://github.com/apache/tomcat",
+    "stargazerCount": 8128
+  },
+  {
+    "nameWithOwner": "florent37/MaterialViewPager",
+    "url": "https://github.com/florent37/MaterialViewPager",
+    "stargazerCount": 8106
+  },
+  {
+    "nameWithOwner": "guolindev/LitePal",
+    "url": "https://github.com/guolindev/LitePal",
+    "stargazerCount": 8084
+  },
+  {
+    "nameWithOwner": "LaurieWired/GhidraMCP",
+    "url": "https://github.com/LaurieWired/GhidraMCP",
+    "stargazerCount": 8054
+  },
+  {
+    "nameWithOwner": "junixapp/XPopup",
+    "url": "https://github.com/junixapp/XPopup",
+    "stargazerCount": 8023
+  },
+  {
+    "nameWithOwner": "davemorrissey/subsampling-scale-image-view",
+    "url": "https://github.com/davemorrissey/subsampling-scale-image-view",
+    "stargazerCount": 8009
+  },
+  {
+    "nameWithOwner": "gunnarmorling/1brc",
+    "url": "https://github.com/gunnarmorling/1brc",
+    "stargazerCount": 7987
+  },
+  {
+    "nameWithOwner": "Graylog2/graylog2-server",
+    "url": "https://github.com/Graylog2/graylog2-server",
+    "stargazerCount": 7986
+  },
+  {
+    "nameWithOwner": "Netflix/SimianArmy",
+    "url": "https://github.com/Netflix/SimianArmy",
+    "stargazerCount": 7983
+  },
+  {
+    "nameWithOwner": "JakeWharton/hugo",
+    "url": "https://github.com/JakeWharton/hugo",
+    "stargazerCount": 7913
+  },
+  {
+    "nameWithOwner": "jeecgboot/jimureport",
+    "url": "https://github.com/jeecgboot/jimureport",
+    "stargazerCount": 7892
+  },
+  {
+    "nameWithOwner": "dropwizard/metrics",
+    "url": "https://github.com/dropwizard/metrics",
+    "stargazerCount": 7851
+  },
+  {
+    "nameWithOwner": "exadel-inc/CompreFace",
+    "url": "https://github.com/exadel-inc/CompreFace",
+    "stargazerCount": 7851
+  },
+  {
+    "nameWithOwner": "HannahMitt/HomeMirror",
+    "url": "https://github.com/HannahMitt/HomeMirror",
+    "stargazerCount": 7831
+  },
+  {
+    "nameWithOwner": "lecho/hellocharts-android",
+    "url": "https://github.com/lecho/hellocharts-android",
+    "stargazerCount": 7795
+  },
+  {
+    "nameWithOwner": "ChrisRM/material-theme-jetbrains",
+    "url": "https://github.com/ChrisRM/material-theme-jetbrains",
+    "stargazerCount": 7767
+  },
+  {
+    "nameWithOwner": "AntennaPod/AntennaPod",
+    "url": "https://github.com/AntennaPod/AntennaPod",
+    "stargazerCount": 7756
+  },
+  {
+    "nameWithOwner": "Tencent/Shadow",
+    "url": "https://github.com/Tencent/Shadow",
+    "stargazerCount": 7743
+  },
+  {
+    "nameWithOwner": "PowerJob/PowerJob",
+    "url": "https://github.com/PowerJob/PowerJob",
+    "stargazerCount": 7717
+  },
+  {
+    "nameWithOwner": "goldze/MVVMHabit",
+    "url": "https://github.com/goldze/MVVMHabit",
+    "stargazerCount": 7709
+  },
+  {
+    "nameWithOwner": "MuntashirAkon/AppManager",
+    "url": "https://github.com/MuntashirAkon/AppManager",
+    "stargazerCount": 7695
+  },
+  {
+    "nameWithOwner": "trello-archive/RxLifecycle",
+    "url": "https://github.com/trello-archive/RxLifecycle",
+    "stargazerCount": 7670
+  },
+  {
+    "nameWithOwner": "vipshop/vjtools",
+    "url": "https://github.com/vipshop/vjtools",
+    "stargazerCount": 7655
+  },
+  {
+    "nameWithOwner": "mapstruct/mapstruct",
+    "url": "https://github.com/mapstruct/mapstruct",
+    "stargazerCount": 7632
+  },
+  {
+    "nameWithOwner": "FongMi/TV",
+    "url": "https://github.com/FongMi/TV",
+    "stargazerCount": 7628
+  },
+  {
+    "nameWithOwner": "gedoor/MyBookshelf",
+    "url": "https://github.com/gedoor/MyBookshelf",
+    "stargazerCount": 7624
+  },
+  {
+    "nameWithOwner": "google/android-classyshark",
+    "url": "https://github.com/google/android-classyshark",
+    "stargazerCount": 7597
+  },
+  {
+    "nameWithOwner": "MinecraftForge/MinecraftForge",
+    "url": "https://github.com/MinecraftForge/MinecraftForge",
+    "stargazerCount": 7566
+  },
+  {
+    "nameWithOwner": "koush/AndroidAsync",
+    "url": "https://github.com/koush/AndroidAsync",
+    "stargazerCount": 7550
+  },
+  {
+    "nameWithOwner": "kaushikgopal/RxJava-Android-Samples",
+    "url": "https://github.com/kaushikgopal/RxJava-Android-Samples",
+    "stargazerCount": 7527
+  },
+  {
+    "nameWithOwner": "kevin-wayne/algs4",
+    "url": "https://github.com/kevin-wayne/algs4",
+    "stargazerCount": 7524
+  },
+  {
+    "nameWithOwner": "swagger-api/swagger-core",
+    "url": "https://github.com/swagger-api/swagger-core",
+    "stargazerCount": 7522
+  },
+  {
+    "nameWithOwner": "Genymobile/gnirehtet",
+    "url": "https://github.com/Genymobile/gnirehtet",
+    "stargazerCount": 7504
+  },
+  {
+    "nameWithOwner": "yuanguangxin/LeetCode",
+    "url": "https://github.com/yuanguangxin/LeetCode",
+    "stargazerCount": 7492
+  },
+  {
+    "nameWithOwner": "dependency-check/DependencyCheck",
+    "url": "https://github.com/dependency-check/DependencyCheck",
+    "stargazerCount": 7466
+  },
+  {
+    "nameWithOwner": "enso-org/enso",
+    "url": "https://github.com/enso-org/enso",
+    "stargazerCount": 7437
+  },
+  {
+    "nameWithOwner": "lenve/VBlog",
+    "url": "https://github.com/lenve/VBlog",
+    "stargazerCount": 7433
+  },
+  {
+    "nameWithOwner": "dyc87112/SpringCloud-Learning",
+    "url": "https://github.com/dyc87112/SpringCloud-Learning",
+    "stargazerCount": 7395
+  },
+  {
+    "nameWithOwner": "abel533/Mapper",
+    "url": "https://github.com/abel533/Mapper",
+    "stargazerCount": 7385
+  },
+  {
+    "nameWithOwner": "gocd/gocd",
+    "url": "https://github.com/gocd/gocd",
+    "stargazerCount": 7383
+  },
+  {
+    "nameWithOwner": "iflytek/astron-rpa",
+    "url": "https://github.com/iflytek/astron-rpa",
+    "stargazerCount": 7381
+  },
+  {
+    "nameWithOwner": "Qihoo360/RePlugin",
+    "url": "https://github.com/Qihoo360/RePlugin",
+    "stargazerCount": 7349
+  },
+  {
+    "nameWithOwner": "leolin310148/ShortcutBadger",
+    "url": "https://github.com/leolin310148/ShortcutBadger",
+    "stargazerCount": 7341
+  },
+  {
+    "nameWithOwner": "square/dagger",
+    "url": "https://github.com/square/dagger",
+    "stargazerCount": 7310
+  },
+  {
+    "nameWithOwner": "Bearded-Hen/Android-Bootstrap",
+    "url": "https://github.com/Bearded-Hen/Android-Bootstrap",
+    "stargazerCount": 7255
+  },
+  {
+    "nameWithOwner": "zhongyi-tong/WeChatLuckyMoney",
+    "url": "https://github.com/zhongyi-tong/WeChatLuckyMoney",
+    "stargazerCount": 7245
+  },
+  {
+    "nameWithOwner": "Exrick/xmall",
+    "url": "https://github.com/Exrick/xmall",
+    "stargazerCount": 7245
+  },
+  {
+    "nameWithOwner": "crazycodeboy/TakePhoto",
+    "url": "https://github.com/crazycodeboy/TakePhoto",
+    "stargazerCount": 7238
+  },
+  {
+    "nameWithOwner": "pedant/sweet-alert-dialog",
+    "url": "https://github.com/pedant/sweet-alert-dialog",
+    "stargazerCount": 7232
+  },
+  {
+    "nameWithOwner": "NanoHttpd/nanohttpd",
+    "url": "https://github.com/NanoHttpd/nanohttpd",
+    "stargazerCount": 7213
+  },
+  {
+    "nameWithOwner": "cymcsg/UltimateRecyclerView",
+    "url": "https://github.com/cymcsg/UltimateRecyclerView",
+    "stargazerCount": 7195
+  },
+  {
+    "nameWithOwner": "wiremock/wiremock",
+    "url": "https://github.com/wiremock/wiremock",
+    "stargazerCount": 7179
+  },
+  {
+    "nameWithOwner": "didi/KnowStreaming",
+    "url": "https://github.com/didi/KnowStreaming",
+    "stargazerCount": 7178
+  },
+  {
+    "nameWithOwner": "Alluxio/alluxio",
+    "url": "https://github.com/Alluxio/alluxio",
+    "stargazerCount": 7173
+  },
+  {
+    "nameWithOwner": "google/error-prone",
+    "url": "https://github.com/google/error-prone",
+    "stargazerCount": 7150
+  },
+  {
+    "nameWithOwner": "apache/hertzbeat",
+    "url": "https://github.com/apache/hertzbeat",
+    "stargazerCount": 7139
+  },
+  {
+    "nameWithOwner": "google/agera",
+    "url": "https://github.com/google/agera",
+    "stargazerCount": 7134
+  },
+  {
+    "nameWithOwner": "rest-assured/rest-assured",
+    "url": "https://github.com/rest-assured/rest-assured",
+    "stargazerCount": 7126
+  },
+  {
+    "nameWithOwner": "h2pl/JavaTutorial",
+    "url": "https://github.com/h2pl/JavaTutorial",
+    "stargazerCount": 7120
+  },
+  {
+    "nameWithOwner": "traccar/traccar",
+    "url": "https://github.com/traccar/traccar",
+    "stargazerCount": 7117
+  },
+  {
+    "nameWithOwner": "ogaclejapan/SmartTabLayout",
+    "url": "https://github.com/ogaclejapan/SmartTabLayout",
+    "stargazerCount": 7084
+  },
+  {
+    "nameWithOwner": "JakeWharton/ActionBarSherlock",
+    "url": "https://github.com/JakeWharton/ActionBarSherlock",
+    "stargazerCount": 7072
+  },
+  {
+    "nameWithOwner": "CoderLeixiaoshuai/java-eight-part",
+    "url": "https://github.com/CoderLeixiaoshuai/java-eight-part",
+    "stargazerCount": 7066
+  },
+  {
+    "nameWithOwner": "Col-E/Recaf",
+    "url": "https://github.com/Col-E/Recaf",
+    "stargazerCount": 7065
+  },
+  {
+    "nameWithOwner": "naman14/Timber",
+    "url": "https://github.com/naman14/Timber",
+    "stargazerCount": 7051
+  },
+  {
+    "nameWithOwner": "mrniko/netty-socketio",
+    "url": "https://github.com/mrniko/netty-socketio",
+    "stargazerCount": 7025
+  },
+  {
+    "nameWithOwner": "NLPchina/elasticsearch-sql",
+    "url": "https://github.com/NLPchina/elasticsearch-sql",
+    "stargazerCount": 7023
+  },
+  {
+    "nameWithOwner": "junit-team/junit-framework",
+    "url": "https://github.com/junit-team/junit-framework",
+    "stargazerCount": 6993
+  },
+  {
+    "nameWithOwner": "DroidPluginTeam/DroidPlugin",
+    "url": "https://github.com/DroidPluginTeam/DroidPlugin",
+    "stargazerCount": 6976
+  },
+  {
+    "nameWithOwner": "alibaba/jvm-sandbox",
+    "url": "https://github.com/alibaba/jvm-sandbox",
+    "stargazerCount": 6959
+  },
+  {
+    "nameWithOwner": "logisim-evolution/logisim-evolution",
+    "url": "https://github.com/logisim-evolution/logisim-evolution",
+    "stargazerCount": 6918
+  },
+  {
+    "nameWithOwner": "macrozheng/springcloud-learning",
+    "url": "https://github.com/macrozheng/springcloud-learning",
+    "stargazerCount": 6915
+  },
+  {
+    "nameWithOwner": "rabbitmq/rabbitmq-tutorials",
+    "url": "https://github.com/rabbitmq/rabbitmq-tutorials",
+    "stargazerCount": 6874
+  },
+  {
+    "nameWithOwner": "smuyyh/BookReader",
+    "url": "https://github.com/smuyyh/BookReader",
+    "stargazerCount": 6873
+  },
+  {
+    "nameWithOwner": "Meituan-Dianping/walle",
+    "url": "https://github.com/Meituan-Dianping/walle",
+    "stargazerCount": 6866
+  },
+  {
+    "nameWithOwner": "getActivity/AndroidProject",
+    "url": "https://github.com/getActivity/AndroidProject",
+    "stargazerCount": 6865
+  },
+  {
+    "nameWithOwner": "hongyangAndroid/okhttputils",
+    "url": "https://github.com/hongyangAndroid/okhttputils",
+    "stargazerCount": 6857
+  },
+  {
+    "nameWithOwner": "vespa-engine/vespa",
+    "url": "https://github.com/vespa-engine/vespa",
+    "stargazerCount": 6835
+  },
+  {
+    "nameWithOwner": "guardianproject/haven",
+    "url": "https://github.com/guardianproject/haven",
+    "stargazerCount": 6798
+  },
+  {
+    "nameWithOwner": "zo0r/react-native-push-notification",
+    "url": "https://github.com/zo0r/react-native-push-notification",
+    "stargazerCount": 6791
+  },
+  {
+    "nameWithOwner": "raphw/byte-buddy",
+    "url": "https://github.com/raphw/byte-buddy",
+    "stargazerCount": 6788
+  },
+  {
+    "nameWithOwner": "Angel-ML/angel",
+    "url": "https://github.com/Angel-ML/angel",
+    "stargazerCount": 6787
+  },
+  {
+    "nameWithOwner": "fuzhengwei/itstack-demo-design",
+    "url": "https://github.com/fuzhengwei/itstack-demo-design",
+    "stargazerCount": 6780
+  },
+  {
+    "nameWithOwner": "527515025/springBoot",
+    "url": "https://github.com/527515025/springBoot",
+    "stargazerCount": 6773
+  },
+  {
+    "nameWithOwner": "gzu-liyujiang/AndroidPicker",
+    "url": "https://github.com/gzu-liyujiang/AndroidPicker",
+    "stargazerCount": 6772
+  },
+  {
+    "nameWithOwner": "CeuiLiSA/Pixiv-Shaft",
+    "url": "https://github.com/CeuiLiSA/Pixiv-Shaft",
+    "stargazerCount": 6767
+  },
+  {
+    "nameWithOwner": "Meituan-Dianping/Leaf",
+    "url": "https://github.com/Meituan-Dianping/Leaf",
+    "stargazerCount": 6736
+  },
+  {
+    "nameWithOwner": "648540858/wvp-GB28181-pro",
+    "url": "https://github.com/648540858/wvp-GB28181-pro",
+    "stargazerCount": 6733
+  },
+  {
+    "nameWithOwner": "markzhai/AndroidPerformanceMonitor",
+    "url": "https://github.com/markzhai/AndroidPerformanceMonitor",
+    "stargazerCount": 6733
+  },
+  {
+    "nameWithOwner": "quartz-scheduler/quartz",
+    "url": "https://github.com/quartz-scheduler/quartz",
+    "stargazerCount": 6709
+  },
+  {
+    "nameWithOwner": "zouzg/mybatis-generator-gui",
+    "url": "https://github.com/zouzg/mybatis-generator-gui",
+    "stargazerCount": 6708
+  },
+  {
+    "nameWithOwner": "getActivity/XXPermissions",
+    "url": "https://github.com/getActivity/XXPermissions",
+    "stargazerCount": 6708
+  },
+  {
+    "nameWithOwner": "hongyangAndroid/AndroidAutoLayout",
+    "url": "https://github.com/hongyangAndroid/AndroidAutoLayout",
+    "stargazerCount": 6691
+  },
+  {
+    "nameWithOwner": "Suwayomi/Suwayomi-Server",
+    "url": "https://github.com/Suwayomi/Suwayomi-Server",
+    "stargazerCount": 6685
+  },
+  {
+    "nameWithOwner": "jOOQ/jOOQ",
+    "url": "https://github.com/jOOQ/jOOQ",
+    "stargazerCount": 6685
+  },
+  {
+    "nameWithOwner": "apache/storm",
+    "url": "https://github.com/apache/storm",
+    "stargazerCount": 6676
+  },
+  {
+    "nameWithOwner": "yanzhenjie/AndPermission",
+    "url": "https://github.com/yanzhenjie/AndPermission",
+    "stargazerCount": 6647
+  },
+  {
+    "nameWithOwner": "JesusFreke/smali",
+    "url": "https://github.com/JesusFreke/smali",
+    "stargazerCount": 6615
+  },
+  {
+    "nameWithOwner": "apache/zeppelin",
+    "url": "https://github.com/apache/zeppelin",
+    "stargazerCount": 6607
+  },
+  {
+    "nameWithOwner": "hazelcast/hazelcast",
+    "url": "https://github.com/hazelcast/hazelcast",
+    "stargazerCount": 6605
+  },
+  {
+    "nameWithOwner": "pig-mesh/pig",
+    "url": "https://github.com/pig-mesh/pig",
+    "stargazerCount": 6600
+  },
+  {
+    "nameWithOwner": "GrenderG/Toasty",
+    "url": "https://github.com/GrenderG/Toasty",
+    "stargazerCount": 6594
+  },
+  {
+    "nameWithOwner": "NLPchina/ansj_seg",
+    "url": "https://github.com/NLPchina/ansj_seg",
+    "stargazerCount": 6545
+  },
+  {
+    "nameWithOwner": "ximsfei/Android-skin-support",
+    "url": "https://github.com/ximsfei/Android-skin-support",
+    "stargazerCount": 6521
+  },
+  {
+    "nameWithOwner": "processing/processing",
+    "url": "https://github.com/processing/processing",
+    "stargazerCount": 6496
+  },
+  {
+    "nameWithOwner": "nayuki/QR-Code-generator",
+    "url": "https://github.com/nayuki/QR-Code-generator",
+    "stargazerCount": 6486
+  },
+  {
+    "nameWithOwner": "hibernate/hibernate-orm",
+    "url": "https://github.com/hibernate/hibernate-orm",
+    "stargazerCount": 6464
+  },
+  {
+    "nameWithOwner": "ArthurHub/Android-Image-Cropper",
+    "url": "https://github.com/ArthurHub/Android-Image-Cropper",
+    "stargazerCount": 6430
+  },
+  {
+    "nameWithOwner": "wxiaoqi/Spring-Cloud-Platform",
+    "url": "https://github.com/wxiaoqi/Spring-Cloud-Platform",
+    "stargazerCount": 6429
+  },
+  {
+    "nameWithOwner": "freeok/so-novel",
+    "url": "https://github.com/freeok/so-novel",
+    "stargazerCount": 6425
+  },
+  {
+    "nameWithOwner": "vinc3m1/RoundedImageView",
+    "url": "https://github.com/vinc3m1/RoundedImageView",
+    "stargazerCount": 6420
+  },
+  {
+    "nameWithOwner": "jetlinks/jetlinks-community",
+    "url": "https://github.com/jetlinks/jetlinks-community",
+    "stargazerCount": 6418
+  },
+  {
+    "nameWithOwner": "Javen205/IJPay",
+    "url": "https://github.com/Javen205/IJPay",
+    "stargazerCount": 6413
+  },
+  {
+    "nameWithOwner": "gephi/gephi",
+    "url": "https://github.com/gephi/gephi",
+    "stargazerCount": 6411
+  },
+  {
+    "nameWithOwner": "AsyncHttpClient/async-http-client",
+    "url": "https://github.com/AsyncHttpClient/async-http-client",
+    "stargazerCount": 6409
+  },
+  {
+    "nameWithOwner": "micronaut-projects/micronaut-core",
+    "url": "https://github.com/micronaut-projects/micronaut-core",
+    "stargazerCount": 6394
+  },
+  {
+    "nameWithOwner": "apache/flink-cdc",
+    "url": "https://github.com/apache/flink-cdc",
+    "stargazerCount": 6383
+  },
+  {
+    "nameWithOwner": "aa112901/remusic",
+    "url": "https://github.com/aa112901/remusic",
+    "stargazerCount": 6383
+  },
+  {
+    "nameWithOwner": "graphhopper/graphhopper",
+    "url": "https://github.com/graphhopper/graphhopper",
+    "stargazerCount": 6380
+  },
+  {
+    "nameWithOwner": "joelittlejohn/jsonschema2pojo",
+    "url": "https://github.com/joelittlejohn/jsonschema2pojo",
+    "stargazerCount": 6368
+  },
+  {
+    "nameWithOwner": "haifengl/smile",
+    "url": "https://github.com/haifengl/smile",
+    "stargazerCount": 6357
+  },
+  {
+    "nameWithOwner": "DerekYRC/mini-spring",
+    "url": "https://github.com/DerekYRC/mini-spring",
+    "stargazerCount": 6355
+  },
+  {
+    "nameWithOwner": "wasabeef/richeditor-android",
+    "url": "https://github.com/wasabeef/richeditor-android",
+    "stargazerCount": 6348
+  },
+  {
+    "nameWithOwner": "sshahine/JFoenix",
+    "url": "https://github.com/sshahine/JFoenix",
+    "stargazerCount": 6347
+  },
+  {
+    "nameWithOwner": "amitshekhariitbhu/from-java-to-kotlin",
+    "url": "https://github.com/amitshekhariitbhu/from-java-to-kotlin",
+    "stargazerCount": 6337
+  },
+  {
+    "nameWithOwner": "apache/iotdb",
+    "url": "https://github.com/apache/iotdb",
+    "stargazerCount": 6301
+  },
+  {
+    "nameWithOwner": "lightbend/config",
+    "url": "https://github.com/lightbend/config",
+    "stargazerCount": 6296
+  },
+  {
+    "nameWithOwner": "koush/ion",
+    "url": "https://github.com/koush/ion",
+    "stargazerCount": 6264
+  },
+  {
+    "nameWithOwner": "graphql-java/graphql-java",
+    "url": "https://github.com/graphql-java/graphql-java",
+    "stargazerCount": 6234
+  },
+  {
+    "nameWithOwner": "apache/incubator-kie-drools",
+    "url": "https://github.com/apache/incubator-kie-drools",
+    "stargazerCount": 6231
+  },
+  {
+    "nameWithOwner": "ityouknow/spring-cloud-examples",
+    "url": "https://github.com/ityouknow/spring-cloud-examples",
+    "stargazerCount": 6217
+  },
+  {
+    "nameWithOwner": "auth0/java-jwt",
+    "url": "https://github.com/auth0/java-jwt",
+    "stargazerCount": 6207
+  },
+  {
+    "nameWithOwner": "google/grafika",
+    "url": "https://github.com/google/grafika",
+    "stargazerCount": 6160
+  },
+  {
+    "nameWithOwner": "apache/camel",
+    "url": "https://github.com/apache/camel",
+    "stargazerCount": 6156
+  },
+  {
+    "nameWithOwner": "Vedenin/useful-java-links",
+    "url": "https://github.com/Vedenin/useful-java-links",
+    "stargazerCount": 6155
+  },
+  {
+    "nameWithOwner": "alipay/SoloPi",
+    "url": "https://github.com/alipay/SoloPi",
+    "stargazerCount": 6147
+  },
+  {
+    "nameWithOwner": "loks666/get_jobs",
+    "url": "https://github.com/loks666/get_jobs",
+    "stargazerCount": 6142
+  },
+  {
+    "nameWithOwner": "vavr-io/vavr",
+    "url": "https://github.com/vavr-io/vavr",
+    "stargazerCount": 6128
+  },
+  {
+    "nameWithOwner": "LandGrey/SpringBootVulExploit",
+    "url": "https://github.com/LandGrey/SpringBootVulExploit",
+    "stargazerCount": 6127
+  },
+  {
+    "nameWithOwner": "obsidiandynamics/kafdrop",
+    "url": "https://github.com/obsidiandynamics/kafdrop",
+    "stargazerCount": 6125
+  },
+  {
+    "nameWithOwner": "apache/hudi",
+    "url": "https://github.com/apache/hudi",
+    "stargazerCount": 6125
+  },
+  {
+    "nameWithOwner": "ikew0ng/SwipeBackLayout",
+    "url": "https://github.com/ikew0ng/SwipeBackLayout",
+    "stargazerCount": 6104
+  },
+  {
+    "nameWithOwner": "rengwuxian/MaterialEditText",
+    "url": "https://github.com/rengwuxian/MaterialEditText",
+    "stargazerCount": 6099
+  },
+  {
+    "nameWithOwner": "google/google-java-format",
+    "url": "https://github.com/google/google-java-format",
+    "stargazerCount": 6096
+  },
+  {
+    "nameWithOwner": "daimajia/NumberProgressBar",
+    "url": "https://github.com/daimajia/NumberProgressBar",
+    "stargazerCount": 6095
+  },
+  {
+    "nameWithOwner": "javaparser/javaparser",
+    "url": "https://github.com/javaparser/javaparser",
+    "stargazerCount": 6063
+  },
+  {
+    "nameWithOwner": "apache/pinot",
+    "url": "https://github.com/apache/pinot",
+    "stargazerCount": 6050
+  },
+  {
+    "nameWithOwner": "google/j2objc",
+    "url": "https://github.com/google/j2objc",
+    "stargazerCount": 6045
+  },
+  {
+    "nameWithOwner": "ZhongFuCheng3y/austin",
+    "url": "https://github.com/ZhongFuCheng3y/austin",
+    "stargazerCount": 6045
+  },
+  {
+    "nameWithOwner": "singwhatiwanna/dynamic-load-apk",
+    "url": "https://github.com/singwhatiwanna/dynamic-load-apk",
+    "stargazerCount": 6026
+  },
+  {
+    "nameWithOwner": "apache/nifi",
+    "url": "https://github.com/apache/nifi",
+    "stargazerCount": 6025
+  },
+  {
+    "nameWithOwner": "apache/hive",
+    "url": "https://github.com/apache/hive",
+    "stargazerCount": 6020
+  },
+  {
+    "nameWithOwner": "pedrovgs/EffectiveAndroidUI",
+    "url": "https://github.com/pedrovgs/EffectiveAndroidUI",
+    "stargazerCount": 6014
+  },
+  {
+    "nameWithOwner": "jeequan/jeepay",
+    "url": "https://github.com/jeequan/jeepay",
+    "stargazerCount": 6002
+  },
+  {
+    "nameWithOwner": "robolectric/robolectric",
+    "url": "https://github.com/robolectric/robolectric",
+    "stargazerCount": 6001
+  },
+  {
+    "nameWithOwner": "opengoofy/hippo4j",
+    "url": "https://github.com/opengoofy/hippo4j",
+    "stargazerCount": 5994
+  },
+  {
+    "nameWithOwner": "WeiYe-Jing/datax-web",
+    "url": "https://github.com/WeiYe-Jing/datax-web",
+    "stargazerCount": 5991
+  },
+  {
+    "nameWithOwner": "btraceio/btrace",
+    "url": "https://github.com/btraceio/btrace",
+    "stargazerCount": 5987
+  },
+  {
+    "nameWithOwner": "google/physical-web",
+    "url": "https://github.com/google/physical-web",
+    "stargazerCount": 5981
+  },
+  {
+    "nameWithOwner": "00-Evan/shattered-pixel-dungeon",
+    "url": "https://github.com/00-Evan/shattered-pixel-dungeon",
+    "stargazerCount": 5975
+  },
+  {
+    "nameWithOwner": "rey5137/material",
+    "url": "https://github.com/rey5137/material",
+    "stargazerCount": 5967
+  },
+  {
+    "nameWithOwner": "youtube/api-samples",
+    "url": "https://github.com/youtube/api-samples",
+    "stargazerCount": 5960
+  },
+  {
+    "nameWithOwner": "wyouflf/xUtils3",
+    "url": "https://github.com/wyouflf/xUtils3",
+    "stargazerCount": 5959
+  },
+  {
+    "nameWithOwner": "liyifeng1994/ssm",
+    "url": "https://github.com/liyifeng1994/ssm",
+    "stargazerCount": 5939
+  },
+  {
+    "nameWithOwner": "springfox/springfox",
+    "url": "https://github.com/springfox/springfox",
+    "stargazerCount": 5938
+  },
+  {
+    "nameWithOwner": "JSQLParser/JSqlParser",
+    "url": "https://github.com/JSQLParser/JSqlParser",
+    "stargazerCount": 5936
+  },
+  {
+    "nameWithOwner": "journeyapps/zxing-android-embedded",
+    "url": "https://github.com/journeyapps/zxing-android-embedded",
+    "stargazerCount": 5935
+  },
+  {
+    "nameWithOwner": "prolificinteractive/material-calendarview",
+    "url": "https://github.com/prolificinteractive/material-calendarview",
+    "stargazerCount": 5930
+  },
+  {
+    "nameWithOwner": "antoniolg/androidmvp",
+    "url": "https://github.com/antoniolg/androidmvp",
+    "stargazerCount": 5910
+  },
+  {
+    "nameWithOwner": "weibocom/motan",
+    "url": "https://github.com/weibocom/motan",
+    "stargazerCount": 5907
+  },
+  {
+    "nameWithOwner": "Archmage83/tvapk",
+    "url": "https://github.com/Archmage83/tvapk",
+    "stargazerCount": 5906
+  },
+  {
+    "nameWithOwner": "apache/fesod",
+    "url": "https://github.com/apache/fesod",
+    "stargazerCount": 5899
+  },
+  {
+    "nameWithOwner": "amitshekhariitbhu/Fast-Android-Networking",
+    "url": "https://github.com/amitshekhariitbhu/Fast-Android-Networking",
+    "stargazerCount": 5891
+  },
+  {
+    "nameWithOwner": "lets-blade/blade",
+    "url": "https://github.com/lets-blade/blade",
+    "stargazerCount": 5884
+  },
+  {
+    "nameWithOwner": "JakeWharton/DiskLruCache",
+    "url": "https://github.com/JakeWharton/DiskLruCache",
+    "stargazerCount": 5865
+  },
+  {
+    "nameWithOwner": "ikarus23/MifareClassicTool",
+    "url": "https://github.com/ikarus23/MifareClassicTool",
+    "stargazerCount": 5859
+  },
+  {
+    "nameWithOwner": "ffay/lanproxy",
+    "url": "https://github.com/ffay/lanproxy",
+    "stargazerCount": 5857
+  },
+  {
+    "nameWithOwner": "PBH-BTN/PeerBanHelper",
+    "url": "https://github.com/PBH-BTN/PeerBanHelper",
+    "stargazerCount": 5856
+  },
+  {
+    "nameWithOwner": "meefik/linuxdeploy",
+    "url": "https://github.com/meefik/linuxdeploy",
+    "stargazerCount": 5795
+  },
+  {
+    "nameWithOwner": "Nightonke/BoomMenu",
+    "url": "https://github.com/Nightonke/BoomMenu",
+    "stargazerCount": 5791
+  },
+  {
+    "nameWithOwner": "yarolegovich/DiscreteScrollView",
+    "url": "https://github.com/yarolegovich/DiscreteScrollView",
+    "stargazerCount": 5786
+  },
+  {
+    "nameWithOwner": "changmingxie/tcc-transaction",
+    "url": "https://github.com/changmingxie/tcc-transaction",
+    "stargazerCount": 5776
+  },
+  {
+    "nameWithOwner": "Nepxion/Discovery",
+    "url": "https://github.com/Nepxion/Discovery",
+    "stargazerCount": 5774
+  },
+  {
+    "nameWithOwner": "dmytrodanylyk/circular-progress-button",
+    "url": "https://github.com/dmytrodanylyk/circular-progress-button",
+    "stargazerCount": 5757
+  },
+  {
+    "nameWithOwner": "strimzi/strimzi-kafka-operator",
+    "url": "https://github.com/strimzi/strimzi-kafka-operator",
+    "stargazerCount": 5752
+  },
+  {
+    "nameWithOwner": "houbb/sensitive-word",
+    "url": "https://github.com/houbb/sensitive-word",
+    "stargazerCount": 5751
+  },
+  {
+    "nameWithOwner": "JanusGraph/janusgraph",
+    "url": "https://github.com/JanusGraph/janusgraph",
+    "stargazerCount": 5747
+  },
+  {
+    "nameWithOwner": "k0shk0sh/FastHub",
+    "url": "https://github.com/k0shk0sh/FastHub",
+    "stargazerCount": 5736
+  },
+  {
+    "nameWithOwner": "dromara/lamp-cloud",
+    "url": "https://github.com/dromara/lamp-cloud",
+    "stargazerCount": 5732
+  },
+  {
+    "nameWithOwner": "jagrosh/MusicBot",
+    "url": "https://github.com/jagrosh/MusicBot",
+    "stargazerCount": 5730
+  },
+  {
+    "nameWithOwner": "redis/lettuce",
+    "url": "https://github.com/redis/lettuce",
+    "stargazerCount": 5728
+  },
+  {
+    "nameWithOwner": "ZHENFENG13/spring-boot-projects",
+    "url": "https://github.com/ZHENFENG13/spring-boot-projects",
+    "stargazerCount": 5721
+  },
+  {
+    "nameWithOwner": "yanzhenjie/SwipeRecyclerView",
+    "url": "https://github.com/yanzhenjie/SwipeRecyclerView",
+    "stargazerCount": 5718
+  },
+  {
+    "nameWithOwner": "ddd-by-examples/library",
+    "url": "https://github.com/ddd-by-examples/library",
+    "stargazerCount": 5711
+  },
+  {
+    "nameWithOwner": "jpush/aurora-imui",
+    "url": "https://github.com/jpush/aurora-imui",
+    "stargazerCount": 5708
+  },
+  {
+    "nameWithOwner": "Devlight/InfiniteCycleViewPager",
+    "url": "https://github.com/Devlight/InfiniteCycleViewPager",
+    "stargazerCount": 5703
+  },
+  {
+    "nameWithOwner": "201206030/novel",
+    "url": "https://github.com/201206030/novel",
+    "stargazerCount": 5676
+  },
+  {
+    "nameWithOwner": "crazycodeboy/react-native-splash-screen",
+    "url": "https://github.com/crazycodeboy/react-native-splash-screen",
+    "stargazerCount": 5667
+  },
+  {
+    "nameWithOwner": "springside/springside4",
+    "url": "https://github.com/springside/springside4",
+    "stargazerCount": 5666
+  },
+  {
+    "nameWithOwner": "ElderDrivers/EdXposed",
+    "url": "https://github.com/ElderDrivers/EdXposed",
+    "stargazerCount": 5664
+  },
+  {
+    "nameWithOwner": "JakeWharton/u2020",
+    "url": "https://github.com/JakeWharton/u2020",
+    "stargazerCount": 5662
+  },
+  {
+    "nameWithOwner": "wasabeef/Blurry",
+    "url": "https://github.com/wasabeef/Blurry",
+    "stargazerCount": 5660
+  },
+  {
+    "nameWithOwner": "hanks-zyh/HTextView",
+    "url": "https://github.com/hanks-zyh/HTextView",
+    "stargazerCount": 5657
+  },
+  {
+    "nameWithOwner": "microsoft/typespec",
+    "url": "https://github.com/microsoft/typespec",
+    "stargazerCount": 5646
+  },
+  {
+    "nameWithOwner": "daimajia/AndroidImageSlider",
+    "url": "https://github.com/daimajia/AndroidImageSlider",
+    "stargazerCount": 5620
+  },
+  {
+    "nameWithOwner": "TommyLemon/Android-ZBLibrary",
+    "url": "https://github.com/TommyLemon/Android-ZBLibrary",
+    "stargazerCount": 5607
+  },
+  {
+    "nameWithOwner": "osmandapp/OsmAnd",
+    "url": "https://github.com/osmandapp/OsmAnd",
+    "stargazerCount": 5607
+  },
+  {
+    "nameWithOwner": "hongyangAndroid/FlowLayout",
+    "url": "https://github.com/hongyangAndroid/FlowLayout",
+    "stargazerCount": 5587
+  },
+  {
+    "nameWithOwner": "apache/hbase",
+    "url": "https://github.com/apache/hbase",
+    "stargazerCount": 5581
+  },
+  {
+    "nameWithOwner": "baidu/uid-generator",
+    "url": "https://github.com/baidu/uid-generator",
+    "stargazerCount": 5581
+  },
+  {
+    "nameWithOwner": "alibaba/jetcache",
+    "url": "https://github.com/alibaba/jetcache",
+    "stargazerCount": 5572
+  },
+  {
+    "nameWithOwner": "hneemann/Digital",
+    "url": "https://github.com/hneemann/Digital",
+    "stargazerCount": 5563
+  },
+  {
+    "nameWithOwner": "amlcurran/ShowcaseView",
+    "url": "https://github.com/amlcurran/ShowcaseView",
+    "stargazerCount": 5562
+  },
+  {
+    "nameWithOwner": "mik3y/usb-serial-for-android",
+    "url": "https://github.com/mik3y/usb-serial-for-android",
+    "stargazerCount": 5562
+  },
+  {
+    "nameWithOwner": "alibaba/QLExpress",
+    "url": "https://github.com/alibaba/QLExpress",
+    "stargazerCount": 5552
+  },
+  {
+    "nameWithOwner": "SuperMonster003/AutoJs6",
+    "url": "https://github.com/SuperMonster003/AutoJs6",
+    "stargazerCount": 5546
+  },
+  {
+    "nameWithOwner": "nhaarman/ListViewAnimations",
+    "url": "https://github.com/nhaarman/ListViewAnimations",
+    "stargazerCount": 5539
+  },
+  {
+    "nameWithOwner": "knightliao/disconf",
+    "url": "https://github.com/knightliao/disconf",
+    "stargazerCount": 5533
+  },
+  {
+    "nameWithOwner": "danikula/AndroidVideoCache",
+    "url": "https://github.com/danikula/AndroidVideoCache",
+    "stargazerCount": 5516
+  },
+  {
+    "nameWithOwner": "wuhaoyu1990/MagicCamera",
+    "url": "https://github.com/wuhaoyu1990/MagicCamera",
+    "stargazerCount": 5515
+  },
+  {
+    "nameWithOwner": "CaffeineMC/sodium",
+    "url": "https://github.com/CaffeineMC/sodium",
+    "stargazerCount": 5512
+  },
+  {
+    "nameWithOwner": "cinit/QAuxiliary",
+    "url": "https://github.com/cinit/QAuxiliary",
+    "stargazerCount": 5500
+  },
+  {
+    "nameWithOwner": "jindrapetrik/jpexs-decompiler",
+    "url": "https://github.com/jindrapetrik/jpexs-decompiler",
+    "stargazerCount": 5489
+  },
+  {
+    "nameWithOwner": "GeyserMC/Geyser",
+    "url": "https://github.com/GeyserMC/Geyser",
+    "stargazerCount": 5485
+  },
+  {
+    "nameWithOwner": "emilsjolander/StickyListHeaders",
+    "url": "https://github.com/emilsjolander/StickyListHeaders",
+    "stargazerCount": 5482
+  },
+  {
+    "nameWithOwner": "Jasonchenlijian/FastBle",
+    "url": "https://github.com/Jasonchenlijian/FastBle",
+    "stargazerCount": 5476
+  },
+  {
+    "nameWithOwner": "motianhuo/wechat",
+    "url": "https://github.com/motianhuo/wechat",
+    "stargazerCount": 5469
+  },
+  {
+    "nameWithOwner": "scribejava/scribejava",
+    "url": "https://github.com/scribejava/scribejava",
+    "stargazerCount": 5469
+  },
+  {
+    "nameWithOwner": "alibaba/freeline",
+    "url": "https://github.com/alibaba/freeline",
+    "stargazerCount": 5464
+  },
+  {
+    "nameWithOwner": "KeepSafe/TapTargetView",
+    "url": "https://github.com/KeepSafe/TapTargetView",
+    "stargazerCount": 5462
+  },
+  {
+    "nameWithOwner": "liquibase/liquibase",
+    "url": "https://github.com/liquibase/liquibase",
+    "stargazerCount": 5461
+  },
+  {
+    "nameWithOwner": "sockeqwe/mosby",
+    "url": "https://github.com/sockeqwe/mosby",
+    "stargazerCount": 5460
+  },
+  {
+    "nameWithOwner": "dm77/barcodescanner",
+    "url": "https://github.com/dm77/barcodescanner",
+    "stargazerCount": 5444
+  },
+  {
+    "nameWithOwner": "apache/groovy",
+    "url": "https://github.com/apache/groovy",
+    "stargazerCount": 5438
+  },
+  {
+    "nameWithOwner": "TGX-Android/Telegram-X",
+    "url": "https://github.com/TGX-Android/Telegram-X",
+    "stargazerCount": 5437
+  },
+  {
+    "nameWithOwner": "rubenlagus/TelegramBots",
+    "url": "https://github.com/rubenlagus/TelegramBots",
+    "stargazerCount": 5426
+  },
+  {
+    "nameWithOwner": "spring-projects/spring-data-examples",
+    "url": "https://github.com/spring-projects/spring-data-examples",
+    "stargazerCount": 5415
+  },
+  {
+    "nameWithOwner": "socketio/socket.io-client-java",
+    "url": "https://github.com/socketio/socket.io-client-java",
+    "stargazerCount": 5413
+  },
+  {
+    "nameWithOwner": "facebookarchive/rebound",
+    "url": "https://github.com/facebookarchive/rebound",
+    "stargazerCount": 5405
+  },
+  {
+    "nameWithOwner": "tonikelope/megabasterd",
+    "url": "https://github.com/tonikelope/megabasterd",
+    "stargazerCount": 5404
+  },
+  {
+    "nameWithOwner": "apache/dubbo-spring-boot-project",
+    "url": "https://github.com/apache/dubbo-spring-boot-project",
+    "stargazerCount": 5397
+  },
+  {
+    "nameWithOwner": "coobird/thumbnailator",
+    "url": "https://github.com/coobird/thumbnailator",
+    "stargazerCount": 5397
+  },
+  {
+    "nameWithOwner": "killbill/killbill",
+    "url": "https://github.com/killbill/killbill",
+    "stargazerCount": 5391
+  },
+  {
+    "nameWithOwner": "LFDT-web3j/web3j",
+    "url": "https://github.com/LFDT-web3j/web3j",
+    "stargazerCount": 5384
+  },
+  {
+    "nameWithOwner": "diffplug/spotless",
+    "url": "https://github.com/diffplug/spotless",
+    "stargazerCount": 5380
+  },
+  {
+    "nameWithOwner": "facebookarchive/shimmer-android",
+    "url": "https://github.com/facebookarchive/shimmer-android",
+    "stargazerCount": 5364
+  },
+  {
+    "nameWithOwner": "Evernote/android-job",
+    "url": "https://github.com/Evernote/android-job",
+    "stargazerCount": 5362
+  },
+  {
+    "nameWithOwner": "pmd/pmd",
+    "url": "https://github.com/pmd/pmd",
+    "stargazerCount": 5357
+  },
+  {
+    "nameWithOwner": "h6ah4i/android-advancedrecyclerview",
+    "url": "https://github.com/h6ah4i/android-advancedrecyclerview",
+    "stargazerCount": 5339
+  },
+  {
+    "nameWithOwner": "commonsguy/cw-omnibus",
+    "url": "https://github.com/commonsguy/cw-omnibus",
+    "stargazerCount": 5337
+  },
+  {
+    "nameWithOwner": "remkop/picocli",
+    "url": "https://github.com/remkop/picocli",
+    "stargazerCount": 5335
+  },
+  {
+    "nameWithOwner": "jgilfelt/SystemBarTint",
+    "url": "https://github.com/jgilfelt/SystemBarTint",
+    "stargazerCount": 5334
+  },
+  {
+    "nameWithOwner": "runelite/runelite",
+    "url": "https://github.com/runelite/runelite",
+    "stargazerCount": 5331
+  },
+  {
+    "nameWithOwner": "google/google-authenticator",
+    "url": "https://github.com/google/google-authenticator",
+    "stargazerCount": 5322
+  },
+  {
+    "nameWithOwner": "gsantner/markor",
+    "url": "https://github.com/gsantner/markor",
+    "stargazerCount": 5322
+  },
+  {
+    "nameWithOwner": "XRecyclerView/XRecyclerView",
+    "url": "https://github.com/XRecyclerView/XRecyclerView",
+    "stargazerCount": 5322
+  },
+  {
+    "nameWithOwner": "allure-framework/allure2",
+    "url": "https://github.com/allure-framework/allure2",
+    "stargazerCount": 5320
+  },
+  {
+    "nameWithOwner": "mybatis/generator",
+    "url": "https://github.com/mybatis/generator",
+    "stargazerCount": 5318
+  },
+  {
+    "nameWithOwner": "dunwu/db-tutorial",
+    "url": "https://github.com/dunwu/db-tutorial",
+    "stargazerCount": 5318
+  },
+  {
+    "nameWithOwner": "Doikki/DKVideoPlayer",
+    "url": "https://github.com/Doikki/DKVideoPlayer",
+    "stargazerCount": 5308
+  },
+  {
+    "nameWithOwner": "LWJGL/lwjgl3",
+    "url": "https://github.com/LWJGL/lwjgl3",
+    "stargazerCount": 5305
+  },
+  {
+    "nameWithOwner": "zfdang/Android-Touch-Helper",
+    "url": "https://github.com/zfdang/Android-Touch-Helper",
+    "stargazerCount": 5292
+  },
+  {
+    "nameWithOwner": "Fuzion24/JustTrustMe",
+    "url": "https://github.com/Fuzion24/JustTrustMe",
+    "stargazerCount": 5289
+  },
+  {
+    "nameWithOwner": "evant/gradle-retrolambda",
+    "url": "https://github.com/evant/gradle-retrolambda",
+    "stargazerCount": 5283
+  },
+  {
+    "nameWithOwner": "Docile-Alligator/Infinity-For-Reddit",
+    "url": "https://github.com/Docile-Alligator/Infinity-For-Reddit",
+    "stargazerCount": 5270
+  },
+  {
+    "nameWithOwner": "yixia/VitamioBundle",
+    "url": "https://github.com/yixia/VitamioBundle",
+    "stargazerCount": 5269
+  },
+  {
+    "nameWithOwner": "xxv/android-lifecycle",
+    "url": "https://github.com/xxv/android-lifecycle",
+    "stargazerCount": 5266
+  },
+  {
+    "nameWithOwner": "citerus/dddsample-core",
+    "url": "https://github.com/citerus/dddsample-core",
+    "stargazerCount": 5264
+  },
+  {
+    "nameWithOwner": "CodingDocs/springboot-guide",
+    "url": "https://github.com/CodingDocs/springboot-guide",
+    "stargazerCount": 5263
+  },
+  {
+    "nameWithOwner": "lingochamp/okdownload",
+    "url": "https://github.com/lingochamp/okdownload",
+    "stargazerCount": 5258
+  },
+  {
+    "nameWithOwner": "razerdp/BasePopup",
+    "url": "https://github.com/razerdp/BasePopup",
+    "stargazerCount": 5257
+  },
+  {
+    "nameWithOwner": "thinkaurelius/titan",
+    "url": "https://github.com/thinkaurelius/titan",
+    "stargazerCount": 5237
+  },
+  {
+    "nameWithOwner": "j-easy/easy-rules",
+    "url": "https://github.com/j-easy/easy-rules",
+    "stargazerCount": 5236
+  },
+  {
+    "nameWithOwner": "Yalantis/Side-Menu.Android",
+    "url": "https://github.com/Yalantis/Side-Menu.Android",
+    "stargazerCount": 5234
+  },
+  {
+    "nameWithOwner": "novicezk/midjourney-proxy",
+    "url": "https://github.com/novicezk/midjourney-proxy",
+    "stargazerCount": 5233
+  },
+  {
+    "nameWithOwner": "huangyanbin/smartTable",
+    "url": "https://github.com/huangyanbin/smartTable",
+    "stargazerCount": 5231
+  },
+  {
+    "nameWithOwner": "CellularPrivacy/Android-IMSI-Catcher-Detector",
+    "url": "https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector",
+    "stargazerCount": 5223
+  },
+  {
+    "nameWithOwner": "lucasr/twoway-view",
+    "url": "https://github.com/lucasr/twoway-view",
+    "stargazerCount": 5218
+  },
+  {
+    "nameWithOwner": "bitcoinj/bitcoinj",
+    "url": "https://github.com/bitcoinj/bitcoinj",
+    "stargazerCount": 5212
+  },
+  {
+    "nameWithOwner": "reactor/reactor-core",
+    "url": "https://github.com/reactor/reactor-core",
+    "stargazerCount": 5211
+  },
+  {
+    "nameWithOwner": "Karumi/Dexter",
+    "url": "https://github.com/Karumi/Dexter",
+    "stargazerCount": 5208
+  },
+  {
+    "nameWithOwner": "oshi/oshi",
+    "url": "https://github.com/oshi/oshi",
+    "stargazerCount": 5197
+  },
+  {
+    "nameWithOwner": "brianfrankcooper/YCSB",
+    "url": "https://github.com/brianfrankcooper/YCSB",
+    "stargazerCount": 5197
+  },
+  {
+    "nameWithOwner": "hustcc/JS-Sorting-Algorithm",
+    "url": "https://github.com/hustcc/JS-Sorting-Algorithm",
+    "stargazerCount": 5194
+  },
+  {
+    "nameWithOwner": "zhanglei-workspace/shopping-management-system",
+    "url": "https://github.com/zhanglei-workspace/shopping-management-system",
+    "stargazerCount": 5190
+  },
+  {
+    "nameWithOwner": "Clans/FloatingActionButton",
+    "url": "https://github.com/Clans/FloatingActionButton",
+    "stargazerCount": 5187
+  },
+  {
+    "nameWithOwner": "Exrick/xpay",
+    "url": "https://github.com/Exrick/xpay",
+    "stargazerCount": 5181
+  },
+  {
+    "nameWithOwner": "android/views-widgets-samples",
+    "url": "https://github.com/android/views-widgets-samples",
+    "stargazerCount": 5181
+  },
+  {
+    "nameWithOwner": "killme2008/aviatorscript",
+    "url": "https://github.com/killme2008/aviatorscript",
+    "stargazerCount": 5177
+  },
+  {
+    "nameWithOwner": "baomidou/dynamic-datasource",
+    "url": "https://github.com/baomidou/dynamic-datasource",
+    "stargazerCount": 5153
+  },
+  {
+    "nameWithOwner": "careercup/ctci",
+    "url": "https://github.com/careercup/ctci",
+    "stargazerCount": 5145
+  },
+  {
+    "nameWithOwner": "square/otto",
+    "url": "https://github.com/square/otto",
+    "stargazerCount": 5135
+  },
+  {
+    "nameWithOwner": "natario1/CameraView",
+    "url": "https://github.com/natario1/CameraView",
+    "stargazerCount": 5127
+  },
+  {
+    "nameWithOwner": "deathmarine/Luyten",
+    "url": "https://github.com/deathmarine/Luyten",
+    "stargazerCount": 5117
+  },
+  {
+    "nameWithOwner": "tianshiyeben/wgcloud",
+    "url": "https://github.com/tianshiyeben/wgcloud",
+    "stargazerCount": 5114
+  },
+  {
+    "nameWithOwner": "apache/calcite",
+    "url": "https://github.com/apache/calcite",
+    "stargazerCount": 5103
+  },
+  {
+    "nameWithOwner": "youlookwhat/DesignPattern",
+    "url": "https://github.com/youlookwhat/DesignPattern",
+    "stargazerCount": 5100
+  },
+  {
+    "nameWithOwner": "line/armeria",
+    "url": "https://github.com/line/armeria",
+    "stargazerCount": 5084
+  },
+  {
+    "nameWithOwner": "spring-projects/spring-authorization-server",
+    "url": "https://github.com/spring-projects/spring-authorization-server",
+    "stargazerCount": 5083
+  },
+  {
+    "nameWithOwner": "sofastack/sofa-boot",
+    "url": "https://github.com/sofastack/sofa-boot",
+    "stargazerCount": 5078
+  },
+  {
+    "nameWithOwner": "xuexiangjys/XUI",
+    "url": "https://github.com/xuexiangjys/XUI",
+    "stargazerCount": 5073
+  },
+  {
+    "nameWithOwner": "bisq-network/bisq",
+    "url": "https://github.com/bisq-network/bisq",
+    "stargazerCount": 5068
+  },
+  {
+    "nameWithOwner": "OpenTSDB/opentsdb",
+    "url": "https://github.com/OpenTSDB/opentsdb",
+    "stargazerCount": 5064
+  },
+  {
+    "nameWithOwner": "apache/ignite",
+    "url": "https://github.com/apache/ignite",
+    "stargazerCount": 5059
+  },
+  {
+    "nameWithOwner": "Sayi/poi-tl",
+    "url": "https://github.com/Sayi/poi-tl",
+    "stargazerCount": 5050
+  },
+  {
+    "nameWithOwner": "wequick/Small",
+    "url": "https://github.com/wequick/Small",
+    "stargazerCount": 5042
+  },
+  {
+    "nameWithOwner": "Kodezi/Chronos",
+    "url": "https://github.com/Kodezi/Chronos",
+    "stargazerCount": 5041
+  },
+  {
+    "nameWithOwner": "2227324689/gpmall",
+    "url": "https://github.com/2227324689/gpmall",
+    "stargazerCount": 5039
+  },
+  {
+    "nameWithOwner": "jankotek/mapdb",
+    "url": "https://github.com/jankotek/mapdb",
+    "stargazerCount": 5036
+  },
+  {
+    "nameWithOwner": "javastacks/spring-boot-best-practice",
+    "url": "https://github.com/javastacks/spring-boot-best-practice",
+    "stargazerCount": 5035
+  },
+  {
+    "nameWithOwner": "Trinea/android-common",
+    "url": "https://github.com/Trinea/android-common",
+    "stargazerCount": 5023
+  },
+  {
+    "nameWithOwner": "yipianfengye/android-zxingLibrary",
+    "url": "https://github.com/yipianfengye/android-zxingLibrary",
+    "stargazerCount": 5018
+  },
+  {
+    "nameWithOwner": "youlookwhat/CloudReader",
+    "url": "https://github.com/youlookwhat/CloudReader",
+    "stargazerCount": 5008
+  },
+  {
+    "nameWithOwner": "apache/maven",
+    "url": "https://github.com/apache/maven",
+    "stargazerCount": 5001
+  },
+  {
+    "nameWithOwner": "rubensousa/GravitySnapHelper",
+    "url": "https://github.com/rubensousa/GravitySnapHelper",
+    "stargazerCount": 5000
+  },
+  {
+    "nameWithOwner": "ageerle/ruoyi-ai",
+    "url": "https://github.com/ageerle/ruoyi-ai",
+    "stargazerCount": 4990
+  },
+  {
+    "nameWithOwner": "JodaOrg/joda-time",
+    "url": "https://github.com/JodaOrg/joda-time",
+    "stargazerCount": 4989
+  },
+  {
+    "nameWithOwner": "DingMouRen/LayoutManagerGroup",
+    "url": "https://github.com/DingMouRen/LayoutManagerGroup",
+    "stargazerCount": 4988
+  },
+  {
+    "nameWithOwner": "spring-attic/spring-mvc-showcase",
+    "url": "https://github.com/spring-attic/spring-mvc-showcase",
+    "stargazerCount": 4985
+  },
+  {
+    "nameWithOwner": "rstudio/rstudio",
+    "url": "https://github.com/rstudio/rstudio",
+    "stargazerCount": 4976
+  },
+  {
+    "nameWithOwner": "orhanobut/dialogplus",
+    "url": "https://github.com/orhanobut/dialogplus",
+    "stargazerCount": 4975
+  },
+  {
+    "nameWithOwner": "alibaba/UltraViewPager",
+    "url": "https://github.com/alibaba/UltraViewPager",
+    "stargazerCount": 4966
+  },
+  {
+    "nameWithOwner": "spring-cloud/spring-cloud-netflix",
+    "url": "https://github.com/spring-cloud/spring-cloud-netflix",
+    "stargazerCount": 4963
+  },
+  {
+    "nameWithOwner": "roncoo/roncoo-pay",
+    "url": "https://github.com/roncoo/roncoo-pay",
+    "stargazerCount": 4963
+  },
+  {
+    "nameWithOwner": "querydsl/querydsl",
+    "url": "https://github.com/querydsl/querydsl",
+    "stargazerCount": 4960
+  },
+  {
+    "nameWithOwner": "frogermcs/InstaMaterial",
+    "url": "https://github.com/frogermcs/InstaMaterial",
+    "stargazerCount": 4954
+  },
+  {
+    "nameWithOwner": "react-native-config/react-native-config",
+    "url": "https://github.com/react-native-config/react-native-config",
+    "stargazerCount": 4954
+  },
+  {
+    "nameWithOwner": "react-native-webrtc/react-native-webrtc",
+    "url": "https://github.com/react-native-webrtc/react-native-webrtc",
+    "stargazerCount": 4950
+  },
+  {
+    "nameWithOwner": "orientechnologies/orientdb",
+    "url": "https://github.com/orientechnologies/orientdb",
+    "stargazerCount": 4943
+  },
+  {
+    "nameWithOwner": "Devlight/NavigationTabBar",
+    "url": "https://github.com/Devlight/NavigationTabBar",
+    "stargazerCount": 4935
+  },
+  {
+    "nameWithOwner": "amitshekhariitbhu/RxJava2-Android-Samples",
+    "url": "https://github.com/amitshekhariitbhu/RxJava2-Android-Samples",
+    "stargazerCount": 4926
+  },
+  {
+    "nameWithOwner": "DiUS/java-faker",
+    "url": "https://github.com/DiUS/java-faker",
+    "stargazerCount": 4925
+  },
+  {
+    "nameWithOwner": "HeliBorg/HeliBoard",
+    "url": "https://github.com/HeliBorg/HeliBoard",
+    "stargazerCount": 4923
+  },
+  {
+    "nameWithOwner": "traex/RippleEffect",
+    "url": "https://github.com/traex/RippleEffect",
+    "stargazerCount": 4904
+  },
+  {
+    "nameWithOwner": "fuzhengwei/small-spring",
+    "url": "https://github.com/fuzhengwei/small-spring",
+    "stargazerCount": 4899
+  },
+  {
+    "nameWithOwner": "cglib/cglib",
+    "url": "https://github.com/cglib/cglib",
+    "stargazerCount": 4895
+  },
+  {
+    "nameWithOwner": "angryip/ipscan",
+    "url": "https://github.com/angryip/ipscan",
+    "stargazerCount": 4895
+  },
+  {
+    "nameWithOwner": "Ramotion/folding-cell-android",
+    "url": "https://github.com/Ramotion/folding-cell-android",
+    "stargazerCount": 4894
+  },
+  {
+    "nameWithOwner": "Threekiii/Awesome-POC",
+    "url": "https://github.com/Threekiii/Awesome-POC",
+    "stargazerCount": 4885
+  },
+  {
+    "nameWithOwner": "reactive-streams/reactive-streams-jvm",
+    "url": "https://github.com/reactive-streams/reactive-streams-jvm",
+    "stargazerCount": 4872
+  },
+  {
+    "nameWithOwner": "zhkl0228/unidbg",
+    "url": "https://github.com/zhkl0228/unidbg",
+    "stargazerCount": 4867
+  },
+  {
+    "nameWithOwner": "mock-server/mockserver",
+    "url": "https://github.com/mock-server/mockserver",
+    "stargazerCount": 4860
+  },
+  {
+    "nameWithOwner": "spring-cloud/spring-cloud-gateway",
+    "url": "https://github.com/spring-cloud/spring-cloud-gateway",
+    "stargazerCount": 4842
+  },
+  {
+    "nameWithOwner": "micrometer-metrics/micrometer",
+    "url": "https://github.com/micrometer-metrics/micrometer",
+    "stargazerCount": 4833
+  },
+  {
+    "nameWithOwner": "mcxiaoke/packer-ng-plugin",
+    "url": "https://github.com/mcxiaoke/packer-ng-plugin",
+    "stargazerCount": 4814
+  },
+  {
+    "nameWithOwner": "andkulikov/Transitions-Everywhere",
+    "url": "https://github.com/andkulikov/Transitions-Everywhere",
+    "stargazerCount": 4798
+  },
+  {
+    "nameWithOwner": "deepjavalibrary/djl",
+    "url": "https://github.com/deepjavalibrary/djl",
+    "stargazerCount": 4794
+  },
+  {
+    "nameWithOwner": "claritylab/lucida",
+    "url": "https://github.com/claritylab/lucida",
+    "stargazerCount": 4790
+  },
+  {
+    "nameWithOwner": "oracle/opengrok",
+    "url": "https://github.com/oracle/opengrok",
+    "stargazerCount": 4785
+  },
+  {
+    "nameWithOwner": "tuguangquan/mybatis",
+    "url": "https://github.com/tuguangquan/mybatis",
+    "stargazerCount": 4776
+  },
+  {
+    "nameWithOwner": "ronmamo/reflections",
+    "url": "https://github.com/ronmamo/reflections",
+    "stargazerCount": 4774
+  },
+  {
+    "nameWithOwner": "etsy/AndroidStaggeredGrid",
+    "url": "https://github.com/etsy/AndroidStaggeredGrid",
+    "stargazerCount": 4771
+  },
+  {
+    "nameWithOwner": "tencentmusic/supersonic",
+    "url": "https://github.com/tencentmusic/supersonic",
+    "stargazerCount": 4764
+  },
+  {
+    "nameWithOwner": "TheoKanning/openai-java",
+    "url": "https://github.com/TheoKanning/openai-java",
+    "stargazerCount": 4763
+  },
+  {
+    "nameWithOwner": "zq2599/blog_demos",
+    "url": "https://github.com/zq2599/blog_demos",
+    "stargazerCount": 4759
+  },
+  {
+    "nameWithOwner": "saiwu-bigkoo/Android-ConvenientBanner",
+    "url": "https://github.com/saiwu-bigkoo/Android-ConvenientBanner",
+    "stargazerCount": 4757
+  },
+  {
+    "nameWithOwner": "dromara/dynamic-tp",
+    "url": "https://github.com/dromara/dynamic-tp",
+    "stargazerCount": 4753
+  },
+  {
+    "nameWithOwner": "nisrulz/android-tips-tricks",
+    "url": "https://github.com/nisrulz/android-tips-tricks",
+    "stargazerCount": 4752
+  },
+  {
+    "nameWithOwner": "zlt2000/microservices-platform",
+    "url": "https://github.com/zlt2000/microservices-platform",
+    "stargazerCount": 4749
+  },
+  {
+    "nameWithOwner": "kyleduo/SwitchButton",
+    "url": "https://github.com/kyleduo/SwitchButton",
+    "stargazerCount": 4746
+  },
+  {
+    "nameWithOwner": "grobidOrg/grobid",
+    "url": "https://github.com/grobidOrg/grobid",
+    "stargazerCount": 4740
+  },
+  {
+    "nameWithOwner": "hongyangAndroid/baseAdapter",
+    "url": "https://github.com/hongyangAndroid/baseAdapter",
+    "stargazerCount": 4732
+  },
+  {
+    "nameWithOwner": "saysky/ForestBlog",
+    "url": "https://github.com/saysky/ForestBlog",
+    "stargazerCount": 4721
+  },
+  {
+    "nameWithOwner": "stleary/JSON-java",
+    "url": "https://github.com/stleary/JSON-java",
+    "stargazerCount": 4717
+  },
+  {
+    "nameWithOwner": "google/cameraview",
+    "url": "https://github.com/google/cameraview",
+    "stargazerCount": 4713
+  },
+  {
+    "nameWithOwner": "spring-attic/spring-security-oauth",
+    "url": "https://github.com/spring-attic/spring-security-oauth",
+    "stargazerCount": 4700
+  },
+  {
+    "nameWithOwner": "cjlin1/libsvm",
+    "url": "https://github.com/cjlin1/libsvm",
+    "stargazerCount": 4696
+  },
+  {
+    "nameWithOwner": "hansonwang99/Spring-Boot-In-Action",
+    "url": "https://github.com/hansonwang99/Spring-Boot-In-Action",
+    "stargazerCount": 4695
+  },
+  {
+    "nameWithOwner": "SPLWare/esProc",
+    "url": "https://github.com/SPLWare/esProc",
+    "stargazerCount": 4692
+  },
+  {
+    "nameWithOwner": "charles2gan/GDA-android-reversing-Tool",
+    "url": "https://github.com/charles2gan/GDA-android-reversing-Tool",
+    "stargazerCount": 4691
+  },
+  {
+    "nameWithOwner": "pardom-zz/ActiveAndroid",
+    "url": "https://github.com/pardom-zz/ActiveAndroid",
+    "stargazerCount": 4688
+  },
+  {
+    "nameWithOwner": "bytedeco/javacpp",
+    "url": "https://github.com/bytedeco/javacpp",
+    "stargazerCount": 4687
+  },
+  {
+    "nameWithOwner": "jgilfelt/chuck",
+    "url": "https://github.com/jgilfelt/chuck",
+    "stargazerCount": 4686
+  },
+  {
+    "nameWithOwner": "981011512/--",
+    "url": "https://github.com/981011512/--",
+    "stargazerCount": 4684
+  },
+  {
+    "nameWithOwner": "bepass-org/oblivion",
+    "url": "https://github.com/bepass-org/oblivion",
+    "stargazerCount": 4682
+  },
+  {
+    "nameWithOwner": "Heeexy/SpringBoot-Shiro-Vue",
+    "url": "https://github.com/Heeexy/SpringBoot-Shiro-Vue",
+    "stargazerCount": 4678
+  },
+  {
+    "nameWithOwner": "karma9874/AndroRAT",
+    "url": "https://github.com/karma9874/AndroRAT",
+    "stargazerCount": 4667
+  },
+  {
+    "nameWithOwner": "ant-media/Ant-Media-Server",
+    "url": "https://github.com/ant-media/Ant-Media-Server",
+    "stargazerCount": 4653
+  },
+  {
+    "nameWithOwner": "JZ-Darkal/AndroidHttpCapture",
+    "url": "https://github.com/JZ-Darkal/AndroidHttpCapture",
+    "stargazerCount": 4650
+  },
+  {
+    "nameWithOwner": "discord-jda/JDA",
+    "url": "https://github.com/discord-jda/JDA",
+    "stargazerCount": 4650
+  },
+  {
+    "nameWithOwner": "wdullaer/MaterialDateTimePicker",
+    "url": "https://github.com/wdullaer/MaterialDateTimePicker",
+    "stargazerCount": 4642
+  },
+  {
+    "nameWithOwner": "rememberber/WePush",
+    "url": "https://github.com/rememberber/WePush",
+    "stargazerCount": 4640
+  },
+  {
+    "nameWithOwner": "CalebFenton/simplify",
+    "url": "https://github.com/CalebFenton/simplify",
+    "stargazerCount": 4638
+  },
+  {
+    "nameWithOwner": "chewiebug/GCViewer",
+    "url": "https://github.com/chewiebug/GCViewer",
+    "stargazerCount": 4634
+  },
+  {
+    "nameWithOwner": "romandanylyk/PageIndicatorView",
+    "url": "https://github.com/romandanylyk/PageIndicatorView",
+    "stargazerCount": 4633
+  },
+  {
+    "nameWithOwner": "gabrielemariotti/cardslib",
+    "url": "https://github.com/gabrielemariotti/cardslib",
+    "stargazerCount": 4632
+  },
+  {
+    "nameWithOwner": "zongzibinbin/MallChat",
+    "url": "https://github.com/zongzibinbin/MallChat",
+    "stargazerCount": 4631
+  },
+  {
+    "nameWithOwner": "yasserg/crawler4j",
+    "url": "https://github.com/yasserg/crawler4j",
+    "stargazerCount": 4627
+  },
+  {
+    "nameWithOwner": "linhaojun857/aurora",
+    "url": "https://github.com/linhaojun857/aurora",
+    "stargazerCount": 4625
+  },
+  {
+    "nameWithOwner": "RedSpider1/concurrent",
+    "url": "https://github.com/RedSpider1/concurrent",
+    "stargazerCount": 4621
+  },
+  {
+    "nameWithOwner": "h2database/h2database",
+    "url": "https://github.com/h2database/h2database",
+    "stargazerCount": 4619
+  },
+  {
+    "nameWithOwner": "Netflix/ribbon",
+    "url": "https://github.com/Netflix/ribbon",
+    "stargazerCount": 4617
+  },
+  {
+    "nameWithOwner": "apache/rocketmq-externals",
+    "url": "https://github.com/apache/rocketmq-externals",
+    "stargazerCount": 4615
+  },
+  {
+    "nameWithOwner": "nICEnnnnnnnLee/BilibiliDown",
+    "url": "https://github.com/nICEnnnnnnnLee/BilibiliDown",
+    "stargazerCount": 4604
+  },
+  {
+    "nameWithOwner": "objectbox/objectbox-java",
+    "url": "https://github.com/objectbox/objectbox-java",
+    "stargazerCount": 4599
+  },
+  {
+    "nameWithOwner": "SplashCodes/JAViewer",
+    "url": "https://github.com/SplashCodes/JAViewer",
+    "stargazerCount": 4591
+  },
+  {
+    "nameWithOwner": "hussien89aa/AndroidTutorialForBeginners",
+    "url": "https://github.com/hussien89aa/AndroidTutorialForBeginners",
+    "stargazerCount": 4585
+  },
+  {
+    "nameWithOwner": "puniverse/quasar",
+    "url": "https://github.com/puniverse/quasar",
+    "stargazerCount": 4565
+  },
+  {
+    "nameWithOwner": "chentao0707/SimplifyReader",
+    "url": "https://github.com/chentao0707/SimplifyReader",
+    "stargazerCount": 4559
+  },
+  {
+    "nameWithOwner": "zhanghai/Douya",
+    "url": "https://github.com/zhanghai/Douya",
+    "stargazerCount": 4558
+  },
+  {
+    "nameWithOwner": "ReChronoRain/HyperCeiler",
+    "url": "https://github.com/ReChronoRain/HyperCeiler",
+    "stargazerCount": 4554
+  },
+  {
+    "nameWithOwner": "javagrowing/JGrowing",
+    "url": "https://github.com/javagrowing/JGrowing",
+    "stargazerCount": 4552
+  },
+  {
+    "nameWithOwner": "tiann/epic",
+    "url": "https://github.com/tiann/epic",
+    "stargazerCount": 4543
+  },
+  {
+    "nameWithOwner": "go-lang-plugin-org/go-lang-idea-plugin",
+    "url": "https://github.com/go-lang-plugin-org/go-lang-idea-plugin",
+    "stargazerCount": 4540
+  },
+  {
+    "nameWithOwner": "danielzeller/Depth-LIB-Android-",
+    "url": "https://github.com/danielzeller/Depth-LIB-Android-",
+    "stargazerCount": 4540
+  },
+  {
+    "nameWithOwner": "square/sqlbrite",
+    "url": "https://github.com/square/sqlbrite",
+    "stargazerCount": 4537
+  },
+  {
+    "nameWithOwner": "jdamcd/android-crop",
+    "url": "https://github.com/jdamcd/android-crop",
+    "stargazerCount": 4535
+  },
+  {
+    "nameWithOwner": "phishman3579/java-algorithms-implementation",
+    "url": "https://github.com/phishman3579/java-algorithms-implementation",
+    "stargazerCount": 4532
+  },
+  {
+    "nameWithOwner": "201206030/novel-plus",
+    "url": "https://github.com/201206030/novel-plus",
+    "stargazerCount": 4518
+  },
+  {
+    "nameWithOwner": "alibaba/dexposed",
+    "url": "https://github.com/alibaba/dexposed",
+    "stargazerCount": 4518
+  },
+  {
+    "nameWithOwner": "jacoco/jacoco",
+    "url": "https://github.com/jacoco/jacoco",
+    "stargazerCount": 4517
+  },
+  {
+    "nameWithOwner": "IoT-Technology/IoT-Technical-Guide",
+    "url": "https://github.com/IoT-Technology/IoT-Technical-Guide",
+    "stargazerCount": 4516
+  },
+  {
+    "nameWithOwner": "azkaban/azkaban",
+    "url": "https://github.com/azkaban/azkaban",
+    "stargazerCount": 4515
+  },
+  {
+    "nameWithOwner": "castorflex/SmoothProgressBar",
+    "url": "https://github.com/castorflex/SmoothProgressBar",
+    "stargazerCount": 4515
+  },
+  {
+    "nameWithOwner": "Flipboard/bottomsheet",
+    "url": "https://github.com/Flipboard/bottomsheet",
+    "stargazerCount": 4506
+  },
+  {
+    "nameWithOwner": "Freeyourgadget/Gadgetbridge",
+    "url": "https://github.com/Freeyourgadget/Gadgetbridge",
+    "stargazerCount": 4487
+  },
+  {
+    "nameWithOwner": "HotBitmapGG/bilibili-android-client",
+    "url": "https://github.com/HotBitmapGG/bilibili-android-client",
+    "stargazerCount": 4486
+  },
+  {
+    "nameWithOwner": "water8394/flink-recommandSystem-demo",
+    "url": "https://github.com/water8394/flink-recommandSystem-demo",
+    "stargazerCount": 4473
+  },
+  {
+    "nameWithOwner": "JakeWharton/NineOldAndroids",
+    "url": "https://github.com/JakeWharton/NineOldAndroids",
+    "stargazerCount": 4472
+  },
+  {
+    "nameWithOwner": "Meituan-Dianping/Robust",
+    "url": "https://github.com/Meituan-Dianping/Robust",
+    "stargazerCount": 4468
+  },
+  {
+    "nameWithOwner": "s4kibs4mi/java-developer-roadmap",
+    "url": "https://github.com/s4kibs4mi/java-developer-roadmap",
+    "stargazerCount": 4454
+  },
+  {
+    "nameWithOwner": "flutter-webrtc/flutter-webrtc",
+    "url": "https://github.com/flutter-webrtc/flutter-webrtc",
+    "stargazerCount": 4452
+  },
+  {
+    "nameWithOwner": "apache/shiro",
+    "url": "https://github.com/apache/shiro",
+    "stargazerCount": 4439
+  },
+  {
+    "nameWithOwner": "janishar/android-mvp-architecture",
+    "url": "https://github.com/janishar/android-mvp-architecture",
+    "stargazerCount": 4432
+  },
+  {
+    "nameWithOwner": "dreamhead/moco",
+    "url": "https://github.com/dreamhead/moco",
+    "stargazerCount": 4431
+  },
+  {
+    "nameWithOwner": "square/android-times-square",
+    "url": "https://github.com/square/android-times-square",
+    "stargazerCount": 4427
+  },
+  {
+    "nameWithOwner": "Tencent/GT",
+    "url": "https://github.com/Tencent/GT",
+    "stargazerCount": 4415
+  },
+  {
+    "nameWithOwner": "ThirtyDegreesRay/OpenHub",
+    "url": "https://github.com/ThirtyDegreesRay/OpenHub",
+    "stargazerCount": 4397
+  },
+  {
+    "nameWithOwner": "Snailclimb/guide-rpc-framework",
+    "url": "https://github.com/Snailclimb/guide-rpc-framework",
+    "stargazerCount": 4396
+  },
+  {
+    "nameWithOwner": "robinhood/ticker",
+    "url": "https://github.com/robinhood/ticker",
+    "stargazerCount": 4383
+  },
+  {
+    "nameWithOwner": "crate/crate",
+    "url": "https://github.com/crate/crate",
+    "stargazerCount": 4375
+  },
+  {
+    "nameWithOwner": "Querz/mcaselector",
+    "url": "https://github.com/Querz/mcaselector",
+    "stargazerCount": 4365
+  },
+  {
+    "nameWithOwner": "pytorch/serve",
+    "url": "https://github.com/pytorch/serve",
+    "stargazerCount": 4360
+  },
+  {
+    "nameWithOwner": "awangdev/leet-code",
+    "url": "https://github.com/awangdev/leet-code",
+    "stargazerCount": 4358
+  },
+  {
+    "nameWithOwner": "Ashok-Varma/BottomNavigation",
+    "url": "https://github.com/Ashok-Varma/BottomNavigation",
+    "stargazerCount": 4358
+  },
+  {
+    "nameWithOwner": "eirslett/frontend-maven-plugin",
+    "url": "https://github.com/eirslett/frontend-maven-plugin",
+    "stargazerCount": 4350
+  },
+  {
+    "nameWithOwner": "AsamK/signal-cli",
+    "url": "https://github.com/AsamK/signal-cli",
+    "stargazerCount": 4343
+  },
+  {
+    "nameWithOwner": "mywalkb/LSPosed_mod",
+    "url": "https://github.com/mywalkb/LSPosed_mod",
+    "stargazerCount": 4341
+  },
+  {
+    "nameWithOwner": "iterate-ch/cyberduck",
+    "url": "https://github.com/iterate-ch/cyberduck",
+    "stargazerCount": 4339
+  },
+  {
+    "nameWithOwner": "BoCloud/folib",
+    "url": "https://github.com/BoCloud/folib",
+    "stargazerCount": 4325
+  },
+  {
+    "nameWithOwner": "dragonwell-project/dragonwell8",
+    "url": "https://github.com/dragonwell-project/dragonwell8",
+    "stargazerCount": 4321
+  },
+  {
+    "nameWithOwner": "jlegewie/zotfile",
+    "url": "https://github.com/jlegewie/zotfile",
+    "stargazerCount": 4320
+  },
+  {
+    "nameWithOwner": "jitsi/jitsi",
+    "url": "https://github.com/jitsi/jitsi",
+    "stargazerCount": 4319
+  },
+  {
+    "nameWithOwner": "jeasonlzy/ImagePicker",
+    "url": "https://github.com/jeasonlzy/ImagePicker",
+    "stargazerCount": 4311
+  },
+  {
+    "nameWithOwner": "google/open-location-code",
+    "url": "https://github.com/google/open-location-code",
+    "stargazerCount": 4309
+  },
+  {
+    "nameWithOwner": "failsafe-lib/failsafe",
+    "url": "https://github.com/failsafe-lib/failsafe",
+    "stargazerCount": 4307
+  },
+  {
+    "nameWithOwner": "torakiki/pdfsam",
+    "url": "https://github.com/torakiki/pdfsam",
+    "stargazerCount": 4306
+  },
+  {
+    "nameWithOwner": "bingoogolapple/BGARefreshLayout-Android",
+    "url": "https://github.com/bingoogolapple/BGARefreshLayout-Android",
+    "stargazerCount": 4304
+  },
+  {
+    "nameWithOwner": "geoserver/geoserver",
+    "url": "https://github.com/geoserver/geoserver",
+    "stargazerCount": 4303
+  },
+  {
+    "nameWithOwner": "apache/streampark",
+    "url": "https://github.com/apache/streampark",
+    "stargazerCount": 4301
+  },
+  {
+    "nameWithOwner": "JabRef/jabref",
+    "url": "https://github.com/JabRef/jabref",
+    "stargazerCount": 4296
+  },
+  {
+    "nameWithOwner": "brianway/java-learning",
+    "url": "https://github.com/brianway/java-learning",
+    "stargazerCount": 4290
+  },
+  {
+    "nameWithOwner": "apache/fory",
+    "url": "https://github.com/apache/fory",
+    "stargazerCount": 4287
+  },
+  {
+    "nameWithOwner": "alibaba/fastjson2",
+    "url": "https://github.com/alibaba/fastjson2",
+    "stargazerCount": 4281
+  },
+  {
+    "nameWithOwner": "bjmashibing/InternetArchitect",
+    "url": "https://github.com/bjmashibing/InternetArchitect",
+    "stargazerCount": 4281
+  },
+  {
+    "nameWithOwner": "mcxiaoke/android-volley",
+    "url": "https://github.com/mcxiaoke/android-volley",
+    "stargazerCount": 4272
+  },
+  {
+    "nameWithOwner": "camunda/camunda-bpm-platform",
+    "url": "https://github.com/camunda/camunda-bpm-platform",
+    "stargazerCount": 4268
+  },
+  {
+    "nameWithOwner": "ongakuer/CircleIndicator",
+    "url": "https://github.com/ongakuer/CircleIndicator",
+    "stargazerCount": 4266
+  },
+  {
+    "nameWithOwner": "grantland/android-autofittextview",
+    "url": "https://github.com/grantland/android-autofittextview",
+    "stargazerCount": 4263
+  },
+  {
+    "nameWithOwner": "aporter/coursera-android",
+    "url": "https://github.com/aporter/coursera-android",
+    "stargazerCount": 4256
+  },
+  {
+    "nameWithOwner": "M66B/FairEmail",
+    "url": "https://github.com/M66B/FairEmail",
+    "stargazerCount": 4255
+  },
+  {
+    "nameWithOwner": "microsoft/malmo",
+    "url": "https://github.com/microsoft/malmo",
+    "stargazerCount": 4253
+  },
+  {
+    "nameWithOwner": "mybatis/spring-boot-starter",
+    "url": "https://github.com/mybatis/spring-boot-starter",
+    "stargazerCount": 4249
+  },
+  {
+    "nameWithOwner": "dromara/hmily",
+    "url": "https://github.com/dromara/hmily",
+    "stargazerCount": 4248
+  },
+  {
+    "nameWithOwner": "nining377/dolby_beta",
+    "url": "https://github.com/nining377/dolby_beta",
+    "stargazerCount": 4247
+  },
+  {
+    "nameWithOwner": "zendesk/maxwell",
+    "url": "https://github.com/zendesk/maxwell",
+    "stargazerCount": 4240
+  },
+  {
+    "nameWithOwner": "jboss-javassist/javassist",
+    "url": "https://github.com/jboss-javassist/javassist",
+    "stargazerCount": 4230
+  },
+  {
+    "nameWithOwner": "LibrePDF/OpenPDF",
+    "url": "https://github.com/LibrePDF/OpenPDF",
+    "stargazerCount": 4217
+  },
+  {
+    "nameWithOwner": "JetBrains/fernflower",
+    "url": "https://github.com/JetBrains/fernflower",
+    "stargazerCount": 4214
+  },
+  {
+    "nameWithOwner": "ChadCSong/ShineButton",
+    "url": "https://github.com/ChadCSong/ShineButton",
+    "stargazerCount": 4202
+  },
+  {
+    "nameWithOwner": "aws/aws-sdk-java",
+    "url": "https://github.com/aws/aws-sdk-java",
+    "stargazerCount": 4198
+  },
+  {
+    "nameWithOwner": "yhaolpz/FloatWindow",
+    "url": "https://github.com/yhaolpz/FloatWindow",
+    "stargazerCount": 4198
+  },
+  {
+    "nameWithOwner": "powermock/powermock",
+    "url": "https://github.com/powermock/powermock",
+    "stargazerCount": 4187
+  },
+  {
+    "nameWithOwner": "Jacksgong/JKeyboardPanelSwitch",
+    "url": "https://github.com/Jacksgong/JKeyboardPanelSwitch",
+    "stargazerCount": 4184
+  },
+  {
+    "nameWithOwner": "syncthing/syncthing-android",
+    "url": "https://github.com/syncthing/syncthing-android",
+    "stargazerCount": 4183
+  },
+  {
+    "nameWithOwner": "hugeterry/CoordinatorTabLayout",
+    "url": "https://github.com/hugeterry/CoordinatorTabLayout",
+    "stargazerCount": 4183
+  },
+  {
+    "nameWithOwner": "oddfar/campus-imaotai",
+    "url": "https://github.com/oddfar/campus-imaotai",
+    "stargazerCount": 4183
+  },
+  {
+    "nameWithOwner": "codingapi/tx-lcn",
+    "url": "https://github.com/codingapi/tx-lcn",
+    "stargazerCount": 4182
+  },
+  {
+    "nameWithOwner": "jMonkeyEngine/jmonkeyengine",
+    "url": "https://github.com/jMonkeyEngine/jmonkeyengine",
+    "stargazerCount": 4175
+  },
+  {
+    "nameWithOwner": "jishenghua/jshERP",
+    "url": "https://github.com/jishenghua/jshERP",
+    "stargazerCount": 4172
+  },
+  {
+    "nameWithOwner": "bingoogolapple/BGABanner-Android",
+    "url": "https://github.com/bingoogolapple/BGABanner-Android",
+    "stargazerCount": 4167
+  },
+  {
+    "nameWithOwner": "googlesamples/mlkit",
+    "url": "https://github.com/googlesamples/mlkit",
+    "stargazerCount": 4164
+  },
+  {
+    "nameWithOwner": "pedrovgs/AndroidWiFiADB",
+    "url": "https://github.com/pedrovgs/AndroidWiFiADB",
+    "stargazerCount": 4158
+  },
+  {
+    "nameWithOwner": "lilishop/lilishop",
+    "url": "https://github.com/lilishop/lilishop",
+    "stargazerCount": 4138
+  },
+  {
+    "nameWithOwner": "JFormDesigner/FlatLaf",
+    "url": "https://github.com/JFormDesigner/FlatLaf",
+    "stargazerCount": 4130
+  },
+  {
+    "nameWithOwner": "pqpo/SmartCropper",
+    "url": "https://github.com/pqpo/SmartCropper",
+    "stargazerCount": 4126
+  },
+  {
+    "nameWithOwner": "lukas-krecan/ShedLock",
+    "url": "https://github.com/lukas-krecan/ShedLock",
+    "stargazerCount": 4121
+  },
+  {
+    "nameWithOwner": "gh0stkey/HaE",
+    "url": "https://github.com/gh0stkey/HaE",
+    "stargazerCount": 4118
+  },
+  {
+    "nameWithOwner": "bitcoin-wallet/bitcoin-wallet",
+    "url": "https://github.com/bitcoin-wallet/bitcoin-wallet",
+    "stargazerCount": 4113
+  },
+  {
+    "nameWithOwner": "dinuscxj/LoadingDrawable",
+    "url": "https://github.com/dinuscxj/LoadingDrawable",
+    "stargazerCount": 4106
+  },
+  {
+    "nameWithOwner": "DTStack/chunjun",
+    "url": "https://github.com/DTStack/chunjun",
+    "stargazerCount": 4105
+  },
+  {
+    "nameWithOwner": "alibaba/Tangram-Android",
+    "url": "https://github.com/alibaba/Tangram-Android",
+    "stargazerCount": 4103
+  },
+  {
+    "nameWithOwner": "code4craft/tiny-spring",
+    "url": "https://github.com/code4craft/tiny-spring",
+    "stargazerCount": 4089
+  },
+  {
+    "nameWithOwner": "qunarcorp/bistoury",
+    "url": "https://github.com/qunarcorp/bistoury",
+    "stargazerCount": 4087
+  },
+  {
+    "nameWithOwner": "Manabu-GT/ExpandableTextView",
+    "url": "https://github.com/Manabu-GT/ExpandableTextView",
+    "stargazerCount": 4077
+  },
+  {
+    "nameWithOwner": "oblac/jodd",
+    "url": "https://github.com/oblac/jodd",
+    "stargazerCount": 4074
+  },
+  {
+    "nameWithOwner": "orhanobut/hawk",
+    "url": "https://github.com/orhanobut/hawk",
+    "stargazerCount": 4072
+  },
+  {
+    "nameWithOwner": "rubensousa/ViewPagerCards",
+    "url": "https://github.com/rubensousa/ViewPagerCards",
+    "stargazerCount": 4069
+  },
+  {
+    "nameWithOwner": "jetty/jetty.project",
+    "url": "https://github.com/jetty/jetty.project",
+    "stargazerCount": 4066
+  },
+  {
+    "nameWithOwner": "RipMeApp/ripme",
+    "url": "https://github.com/RipMeApp/ripme",
+    "stargazerCount": 4062
+  },
+  {
+    "nameWithOwner": "camunda/camunda",
+    "url": "https://github.com/camunda/camunda",
+    "stargazerCount": 4056
+  },
+  {
+    "nameWithOwner": "knowm/XChange",
+    "url": "https://github.com/knowm/XChange",
+    "stargazerCount": 4050
+  },
+  {
+    "nameWithOwner": "tronprotocol/java-tron",
+    "url": "https://github.com/tronprotocol/java-tron",
+    "stargazerCount": 4047
+  },
+  {
+    "nameWithOwner": "luckybilly/CC",
+    "url": "https://github.com/luckybilly/CC",
+    "stargazerCount": 4046
+  },
+  {
+    "nameWithOwner": "Creators-of-Create/Create",
+    "url": "https://github.com/Creators-of-Create/Create",
+    "stargazerCount": 4037
+  },
+  {
+    "nameWithOwner": "uber/NullAway",
+    "url": "https://github.com/uber/NullAway",
+    "stargazerCount": 4025
+  },
+  {
+    "nameWithOwner": "freeplane/freeplane",
+    "url": "https://github.com/freeplane/freeplane",
+    "stargazerCount": 4021
+  },
+  {
+    "nameWithOwner": "xcltapestry/XCL-Charts",
+    "url": "https://github.com/xcltapestry/XCL-Charts",
+    "stargazerCount": 4021
+  },
+  {
+    "nameWithOwner": "oldmanpushcart/greys-anatomy",
+    "url": "https://github.com/oldmanpushcart/greys-anatomy",
+    "stargazerCount": 4019
+  },
+  {
+    "nameWithOwner": "BoltsFramework/Bolts-Android",
+    "url": "https://github.com/BoltsFramework/Bolts-Android",
+    "stargazerCount": 4019
+  },
+  {
+    "nameWithOwner": "jbloch/effective-java-3e-source-code",
+    "url": "https://github.com/jbloch/effective-java-3e-source-code",
+    "stargazerCount": 4015
+  },
+  {
+    "nameWithOwner": "awaitility/awaitility",
+    "url": "https://github.com/awaitility/awaitility",
+    "stargazerCount": 4002
+  },
+  {
+    "nameWithOwner": "makovkastar/FloatingActionButton",
+    "url": "https://github.com/makovkastar/FloatingActionButton",
+    "stargazerCount": 3998
+  },
+  {
+    "nameWithOwner": "NotFound9/interviewGuide",
+    "url": "https://github.com/NotFound9/interviewGuide",
+    "stargazerCount": 3995
+  },
+  {
+    "nameWithOwner": "Yalantis/Phoenix",
+    "url": "https://github.com/Yalantis/Phoenix",
+    "stargazerCount": 3991
+  },
+  {
+    "nameWithOwner": "lcodecorex/TwinklingRefreshLayout",
+    "url": "https://github.com/lcodecorex/TwinklingRefreshLayout",
+    "stargazerCount": 3990
+  },
+  {
+    "nameWithOwner": "JeremyLiao/LiveEventBus",
+    "url": "https://github.com/JeremyLiao/LiveEventBus",
+    "stargazerCount": 3987
+  },
+  {
+    "nameWithOwner": "Piasy/BigImageViewer",
+    "url": "https://github.com/Piasy/BigImageViewer",
+    "stargazerCount": 3987
+  },
+  {
+    "nameWithOwner": "fishercoder1534/Leetcode",
+    "url": "https://github.com/fishercoder1534/Leetcode",
+    "stargazerCount": 3980
+  },
+  {
+    "nameWithOwner": "pingfangushi/screw",
+    "url": "https://github.com/pingfangushi/screw",
+    "stargazerCount": 3976
+  },
+  {
+    "nameWithOwner": "mouredev/hello-java",
+    "url": "https://github.com/mouredev/hello-java",
+    "stargazerCount": 3973
+  },
+  {
+    "nameWithOwner": "qstumn/BadgeView",
+    "url": "https://github.com/qstumn/BadgeView",
+    "stargazerCount": 3972
+  },
+  {
+    "nameWithOwner": "mercyblitz/tech-weekly",
+    "url": "https://github.com/mercyblitz/tech-weekly",
+    "stargazerCount": 3971
+  },
+  {
+    "nameWithOwner": "rovo89/XposedInstaller",
+    "url": "https://github.com/rovo89/XposedInstaller",
+    "stargazerCount": 3971
+  },
+  {
+    "nameWithOwner": "zzhoujay/RichText",
+    "url": "https://github.com/zzhoujay/RichText",
+    "stargazerCount": 3963
+  },
+  {
+    "nameWithOwner": "Dimezis/BlurView",
+    "url": "https://github.com/Dimezis/BlurView",
+    "stargazerCount": 3963
+  },
+  {
+    "nameWithOwner": "google/bundletool",
+    "url": "https://github.com/google/bundletool",
+    "stargazerCount": 3961
+  },
+  {
+    "nameWithOwner": "shuzijun/leetcode-editor",
+    "url": "https://github.com/shuzijun/leetcode-editor",
+    "stargazerCount": 3960
+  },
+  {
+    "nameWithOwner": "binIoter/GuideView",
+    "url": "https://github.com/binIoter/GuideView",
+    "stargazerCount": 3954
+  },
+  {
+    "nameWithOwner": "kubernetes-client/java",
+    "url": "https://github.com/kubernetes-client/java",
+    "stargazerCount": 3954
+  },
+  {
+    "nameWithOwner": "linyiqun/DataMiningAlgorithm",
+    "url": "https://github.com/linyiqun/DataMiningAlgorithm",
+    "stargazerCount": 3951
+  },
+  {
+    "nameWithOwner": "promeG/TinyPinyin",
+    "url": "https://github.com/promeG/TinyPinyin",
+    "stargazerCount": 3938
+  },
+  {
+    "nameWithOwner": "JoanZapata/android-iconify",
+    "url": "https://github.com/JoanZapata/android-iconify",
+    "stargazerCount": 3932
+  },
+  {
+    "nameWithOwner": "rengwuxian/RxJavaSamples",
+    "url": "https://github.com/rengwuxian/RxJavaSamples",
+    "stargazerCount": 3924
+  },
+  {
+    "nameWithOwner": "sofastack/sofa-rpc",
+    "url": "https://github.com/sofastack/sofa-rpc",
+    "stargazerCount": 3922
+  },
+  {
+    "nameWithOwner": "VaughnVernon/IDDD_Samples",
+    "url": "https://github.com/VaughnVernon/IDDD_Samples",
+    "stargazerCount": 3921
+  },
+  {
+    "nameWithOwner": "amirzaidi/Launcher3",
+    "url": "https://github.com/amirzaidi/Launcher3",
+    "stargazerCount": 3907
+  },
+  {
+    "nameWithOwner": "databricks/learning-spark",
+    "url": "https://github.com/databricks/learning-spark",
+    "stargazerCount": 3900
+  },
+  {
+    "nameWithOwner": "bluelinelabs/Conductor",
+    "url": "https://github.com/bluelinelabs/Conductor",
+    "stargazerCount": 3900
+  },
+  {
+    "nameWithOwner": "shopizer-ecommerce/shopizer",
+    "url": "https://github.com/shopizer-ecommerce/shopizer",
+    "stargazerCount": 3899
+  },
+  {
+    "nameWithOwner": "JavaNoober/BackgroundLibrary",
+    "url": "https://github.com/JavaNoober/BackgroundLibrary",
+    "stargazerCount": 3895
+  },
+  {
+    "nameWithOwner": "Exrick/xboot",
+    "url": "https://github.com/Exrick/xboot",
+    "stargazerCount": 3892
+  },
+  {
+    "nameWithOwner": "alibaba/jstorm",
+    "url": "https://github.com/alibaba/jstorm",
+    "stargazerCount": 3885
+  },
+  {
+    "nameWithOwner": "vipulasri/Timeline-View",
+    "url": "https://github.com/vipulasri/Timeline-View",
+    "stargazerCount": 3882
+  },
+  {
+    "nameWithOwner": "wendux/DSBridge-Android",
+    "url": "https://github.com/wendux/DSBridge-Android",
+    "stargazerCount": 3880
+  },
+  {
+    "nameWithOwner": "react-native-share/react-native-share",
+    "url": "https://github.com/react-native-share/react-native-share",
+    "stargazerCount": 3877
+  },
+  {
+    "nameWithOwner": "ZHENFENG13/My-Blog",
+    "url": "https://github.com/ZHENFENG13/My-Blog",
+    "stargazerCount": 3877
+  },
+  {
+    "nameWithOwner": "RikkaApps/Sui",
+    "url": "https://github.com/RikkaApps/Sui",
+    "stargazerCount": 3870
+  },
+  {
+    "nameWithOwner": "watabou/pixel-dungeon",
+    "url": "https://github.com/watabou/pixel-dungeon",
+    "stargazerCount": 3861
+  },
+  {
+    "nameWithOwner": "timehop/sticky-headers-recyclerview",
+    "url": "https://github.com/timehop/sticky-headers-recyclerview",
+    "stargazerCount": 3856
+  },
+  {
+    "nameWithOwner": "yanzhenjie/AndServer",
+    "url": "https://github.com/yanzhenjie/AndServer",
+    "stargazerCount": 3855
+  },
+  {
+    "nameWithOwner": "emanuele-f/PCAPdroid",
+    "url": "https://github.com/emanuele-f/PCAPdroid",
+    "stargazerCount": 3855
+  },
+  {
+    "nameWithOwner": "yacy/yacy_search_server",
+    "url": "https://github.com/yacy/yacy_search_server",
+    "stargazerCount": 3854
+  },
+  {
+    "nameWithOwner": "uncle-novel/uncle-novel",
+    "url": "https://github.com/uncle-novel/uncle-novel",
+    "stargazerCount": 3846
+  },
+  {
+    "nameWithOwner": "RoaringBitmap/RoaringBitmap",
+    "url": "https://github.com/RoaringBitmap/RoaringBitmap",
+    "stargazerCount": 3845
+  },
+  {
+    "nameWithOwner": "MovingBlocks/Terasology",
+    "url": "https://github.com/MovingBlocks/Terasology",
+    "stargazerCount": 3845
+  },
+  {
+    "nameWithOwner": "spotbugs/spotbugs",
+    "url": "https://github.com/spotbugs/spotbugs",
+    "stargazerCount": 3843
+  },
+  {
+    "nameWithOwner": "MiguelCatalan/MaterialSearchView",
+    "url": "https://github.com/MiguelCatalan/MaterialSearchView",
+    "stargazerCount": 3828
+  },
+  {
+    "nameWithOwner": "aurelhubert/ahbottomnavigation",
+    "url": "https://github.com/aurelhubert/ahbottomnavigation",
+    "stargazerCount": 3825
+  },
+  {
+    "nameWithOwner": "happydog-intj/CircleProgress",
+    "url": "https://github.com/happydog-intj/CircleProgress",
+    "stargazerCount": 3816
+  },
+  {
+    "nameWithOwner": "JCTools/JCTools",
+    "url": "https://github.com/JCTools/JCTools",
+    "stargazerCount": 3810
+  },
+  {
+    "nameWithOwner": "sofastack/sofa-jraft",
+    "url": "https://github.com/sofastack/sofa-jraft",
+    "stargazerCount": 3800
+  },
+  {
+    "nameWithOwner": "blossom-editor/blossom",
+    "url": "https://github.com/blossom-editor/blossom",
+    "stargazerCount": 3795
+  },
+  {
+    "nameWithOwner": "sunfusheng/MarqueeView",
+    "url": "https://github.com/sunfusheng/MarqueeView",
+    "stargazerCount": 3790
+  },
+  {
+    "nameWithOwner": "mcxtzhang/SwipeDelMenuLayout",
+    "url": "https://github.com/mcxtzhang/SwipeDelMenuLayout",
+    "stargazerCount": 3788
+  },
+  {
+    "nameWithOwner": "yanzhenjie/NoHttp",
+    "url": "https://github.com/yanzhenjie/NoHttp",
+    "stargazerCount": 3786
+  },
+  {
+    "nameWithOwner": "tchiotludo/akhq",
+    "url": "https://github.com/tchiotludo/akhq",
+    "stargazerCount": 3783
+  },
+  {
+    "nameWithOwner": "rbmonster/learning-note",
+    "url": "https://github.com/rbmonster/learning-note",
+    "stargazerCount": 3783
+  },
+  {
+    "nameWithOwner": "zhpanvip/BannerViewPager",
+    "url": "https://github.com/zhpanvip/BannerViewPager",
+    "stargazerCount": 3778
+  },
+  {
+    "nameWithOwner": "NotHarshhaa/DevOps-Projects",
+    "url": "https://github.com/NotHarshhaa/DevOps-Projects",
+    "stargazerCount": 3775
+  },
+  {
+    "nameWithOwner": "mpusher/mpush",
+    "url": "https://github.com/mpusher/mpush",
+    "stargazerCount": 3774
+  },
+  {
+    "nameWithOwner": "apache/kylin",
+    "url": "https://github.com/apache/kylin",
+    "stargazerCount": 3766
+  },
+  {
+    "nameWithOwner": "lygttpod/SuperTextView",
+    "url": "https://github.com/lygttpod/SuperTextView",
+    "stargazerCount": 3765
+  },
+  {
+    "nameWithOwner": "CameraKit/blurkit-android",
+    "url": "https://github.com/CameraKit/blurkit-android",
+    "stargazerCount": 3763
+  },
+  {
+    "nameWithOwner": "Ereza/CustomActivityOnCrash",
+    "url": "https://github.com/Ereza/CustomActivityOnCrash",
+    "stargazerCount": 3762
+  },
+  {
+    "nameWithOwner": "helidon-io/helidon",
+    "url": "https://github.com/helidon-io/helidon",
+    "stargazerCount": 3760
+  },
+  {
+    "nameWithOwner": "roboguice/roboguice",
+    "url": "https://github.com/roboguice/roboguice",
+    "stargazerCount": 3744
+  },
+  {
+    "nameWithOwner": "Atmosphere/atmosphere",
+    "url": "https://github.com/Atmosphere/atmosphere",
+    "stargazerCount": 3744
+  },
+  {
+    "nameWithOwner": "jtablesaw/tablesaw",
+    "url": "https://github.com/jtablesaw/tablesaw",
+    "stargazerCount": 3744
+  },
+  {
+    "nameWithOwner": "undertow-io/undertow",
+    "url": "https://github.com/undertow-io/undertow",
+    "stargazerCount": 3743
+  },
+  {
+    "nameWithOwner": "FCL-Team/FoldCraftLauncher",
+    "url": "https://github.com/FCL-Team/FoldCraftLauncher",
+    "stargazerCount": 3742
+  },
+  {
+    "nameWithOwner": "Netflix/maestro",
+    "url": "https://github.com/Netflix/maestro",
+    "stargazerCount": 3742
+  },
+  {
+    "nameWithOwner": "portfolio-performance/portfolio",
+    "url": "https://github.com/portfolio-performance/portfolio",
+    "stargazerCount": 3733
+  },
+  {
+    "nameWithOwner": "lihangleo2/ShadowLayout",
+    "url": "https://github.com/lihangleo2/ShadowLayout",
+    "stargazerCount": 3731
+  },
+  {
+    "nameWithOwner": "andOTP/andOTP",
+    "url": "https://github.com/andOTP/andOTP",
+    "stargazerCount": 3730
+  },
+  {
+    "nameWithOwner": "coderbruis/JavaSourceCodeLearning",
+    "url": "https://github.com/coderbruis/JavaSourceCodeLearning",
+    "stargazerCount": 3730
+  },
+  {
+    "nameWithOwner": "ethanhua/Skeleton",
+    "url": "https://github.com/ethanhua/Skeleton",
+    "stargazerCount": 3724
+  },
+  {
+    "nameWithOwner": "stfalcon-studio/ChatKit",
+    "url": "https://github.com/stfalcon-studio/ChatKit",
+    "stargazerCount": 3722
+  },
+  {
+    "nameWithOwner": "HelloWorld521/Java",
+    "url": "https://github.com/HelloWorld521/Java",
+    "stargazerCount": 3715
+  },
+  {
+    "nameWithOwner": "DataLinkDC/dinky",
+    "url": "https://github.com/DataLinkDC/dinky",
+    "stargazerCount": 3713
+  },
+  {
+    "nameWithOwner": "willowtreeapps/spruce-android",
+    "url": "https://github.com/willowtreeapps/spruce-android",
+    "stargazerCount": 3712
+  },
+  {
+    "nameWithOwner": "liuyubobobo/Play-with-Algorithms",
+    "url": "https://github.com/liuyubobobo/Play-with-Algorithms",
+    "stargazerCount": 3710
+  },
+  {
+    "nameWithOwner": "OpenHFT/Chronicle-Queue",
+    "url": "https://github.com/OpenHFT/Chronicle-Queue",
+    "stargazerCount": 3706
+  },
+  {
+    "nameWithOwner": "grpc-ecosystem/grpc-spring",
+    "url": "https://github.com/grpc-ecosystem/grpc-spring",
+    "stargazerCount": 3706
+  },
+  {
+    "nameWithOwner": "ByteLegend/ByteLegend",
+    "url": "https://github.com/ByteLegend/ByteLegend",
+    "stargazerCount": 3705
+  },
+  {
+    "nameWithOwner": "ryanhoo/StylishMusicPlayer",
+    "url": "https://github.com/ryanhoo/StylishMusicPlayer",
+    "stargazerCount": 3700
+  },
+  {
+    "nameWithOwner": "dromara/liteflow",
+    "url": "https://github.com/dromara/liteflow",
+    "stargazerCount": 3697
+  },
+  {
+    "nameWithOwner": "dingjikerbo/Android-BluetoothKit",
+    "url": "https://github.com/dingjikerbo/Android-BluetoothKit",
+    "stargazerCount": 3695
+  },
+  {
+    "nameWithOwner": "FasterXML/jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind",
+    "stargazerCount": 3694
+  },
+  {
+    "nameWithOwner": "IrisShaders/Iris",
+    "url": "https://github.com/IrisShaders/Iris",
+    "stargazerCount": 3692
+  },
+  {
+    "nameWithOwner": "DependencyTrack/dependency-track",
+    "url": "https://github.com/DependencyTrack/dependency-track",
+    "stargazerCount": 3690
+  },
+  {
+    "nameWithOwner": "microservices-patterns/ftgo-application",
+    "url": "https://github.com/microservices-patterns/ftgo-application",
+    "stargazerCount": 3690
+  },
+  {
+    "nameWithOwner": "springdoc/springdoc-openapi",
+    "url": "https://github.com/springdoc/springdoc-openapi",
+    "stargazerCount": 3689
+  },
+  {
+    "nameWithOwner": "apache/incubator-heron",
+    "url": "https://github.com/apache/incubator-heron",
+    "stargazerCount": 3687
+  },
+  {
+    "nameWithOwner": "1024-lab/smart-admin",
+    "url": "https://github.com/1024-lab/smart-admin",
+    "stargazerCount": 3687
+  },
+  {
+    "nameWithOwner": "Mojang/brigadier",
+    "url": "https://github.com/Mojang/brigadier",
+    "stargazerCount": 3680
+  },
+  {
+    "nameWithOwner": "linkedin/databus",
+    "url": "https://github.com/linkedin/databus",
+    "stargazerCount": 3677
+  },
+  {
+    "nameWithOwner": "networknt/light-4j",
+    "url": "https://github.com/networknt/light-4j",
+    "stargazerCount": 3676
+  },
+  {
+    "nameWithOwner": "Haleydu/Cimoc",
+    "url": "https://github.com/Haleydu/Cimoc",
+    "stargazerCount": 3675
+  },
+  {
+    "nameWithOwner": "lisawray/groupie",
+    "url": "https://github.com/lisawray/groupie",
+    "stargazerCount": 3668
+  },
+  {
+    "nameWithOwner": "yangfuhai/ASimpleCache",
+    "url": "https://github.com/yangfuhai/ASimpleCache",
+    "stargazerCount": 3666
+  },
+  {
+    "nameWithOwner": "mbechler/marshalsec",
+    "url": "https://github.com/mbechler/marshalsec",
+    "stargazerCount": 3665
+  },
+  {
+    "nameWithOwner": "google/rejoiner",
+    "url": "https://github.com/google/rejoiner",
+    "stargazerCount": 3664
+  },
+  {
+    "nameWithOwner": "spring-io/initializr",
+    "url": "https://github.com/spring-io/initializr",
+    "stargazerCount": 3659
+  },
+  {
+    "nameWithOwner": "KunMinX/Linkage-RecyclerView",
+    "url": "https://github.com/KunMinX/Linkage-RecyclerView",
+    "stargazerCount": 3659
+  },
+  {
+    "nameWithOwner": "dropbox/hackpad",
+    "url": "https://github.com/dropbox/hackpad",
+    "stargazerCount": 3659
+  },
+  {
+    "nameWithOwner": "anggrayudi/android-hidden-api",
+    "url": "https://github.com/anggrayudi/android-hidden-api",
+    "stargazerCount": 3658
+  },
+  {
+    "nameWithOwner": "apache/tika",
+    "url": "https://github.com/apache/tika",
+    "stargazerCount": 3658
+  },
+  {
+    "nameWithOwner": "fyhertz/libstreaming",
+    "url": "https://github.com/fyhertz/libstreaming",
+    "stargazerCount": 3656
+  },
+  {
+    "nameWithOwner": "huburt-Hu/NewbieGuide",
+    "url": "https://github.com/huburt-Hu/NewbieGuide",
+    "stargazerCount": 3645
+  },
+  {
+    "nameWithOwner": "TNG/ArchUnit",
+    "url": "https://github.com/TNG/ArchUnit",
+    "stargazerCount": 3641
+  },
+  {
+    "nameWithOwner": "fabric8io/kubernetes-client",
+    "url": "https://github.com/fabric8io/kubernetes-client",
+    "stargazerCount": 3637
+  },
+  {
+    "nameWithOwner": "litesuits/android-common",
+    "url": "https://github.com/litesuits/android-common",
+    "stargazerCount": 3630
+  },
+  {
+    "nameWithOwner": "spockframework/spock",
+    "url": "https://github.com/spockframework/spock",
+    "stargazerCount": 3625
+  },
+  {
+    "nameWithOwner": "alibaba/Alink",
+    "url": "https://github.com/alibaba/Alink",
+    "stargazerCount": 3620
+  },
+  {
+    "nameWithOwner": "PlexPt/chatgpt-java",
+    "url": "https://github.com/PlexPt/chatgpt-java",
+    "stargazerCount": 3619
+  },
+  {
+    "nameWithOwner": "dtinit/data-transfer-project",
+    "url": "https://github.com/dtinit/data-transfer-project",
+    "stargazerCount": 3610
+  },
+  {
+    "nameWithOwner": "rockerhieu/emojicon",
+    "url": "https://github.com/rockerhieu/emojicon",
+    "stargazerCount": 3608
+  },
+  {
+    "nameWithOwner": "hmkcode/Android",
+    "url": "https://github.com/hmkcode/Android",
+    "stargazerCount": 3605
+  },
+  {
+    "nameWithOwner": "oasisfeng/island",
+    "url": "https://github.com/oasisfeng/island",
+    "stargazerCount": 3603
+  },
+  {
+    "nameWithOwner": "googlemaps/android-maps-utils",
+    "url": "https://github.com/googlemaps/android-maps-utils",
+    "stargazerCount": 3602
+  },
+  {
+    "nameWithOwner": "Nekogram/Nekogram",
+    "url": "https://github.com/Nekogram/Nekogram",
+    "stargazerCount": 3595
+  },
+  {
+    "nameWithOwner": "termux/termux-api",
+    "url": "https://github.com/termux/termux-api",
+    "stargazerCount": 3593
+  },
+  {
+    "nameWithOwner": "cSploit/android",
+    "url": "https://github.com/cSploit/android",
+    "stargazerCount": 3592
+  },
+  {
+    "nameWithOwner": "apache/logging-log4j2",
+    "url": "https://github.com/apache/logging-log4j2",
+    "stargazerCount": 3588
+  },
+  {
+    "nameWithOwner": "tyrantgit/ExplosionField",
+    "url": "https://github.com/tyrantgit/ExplosionField",
+    "stargazerCount": 3585
+  },
+  {
+    "nameWithOwner": "vert-x3/vertx-examples",
+    "url": "https://github.com/vert-x3/vertx-examples",
+    "stargazerCount": 3584
+  },
+  {
+    "nameWithOwner": "WVector/AppUpdate",
+    "url": "https://github.com/WVector/AppUpdate",
+    "stargazerCount": 3582
+  },
+  {
+    "nameWithOwner": "kikoso/android-stackblur",
+    "url": "https://github.com/kikoso/android-stackblur",
+    "stargazerCount": 3582
+  },
+  {
+    "nameWithOwner": "AxonFramework/AxonFramework",
+    "url": "https://github.com/AxonFramework/AxonFramework",
+    "stargazerCount": 3570
+  },
+  {
+    "nameWithOwner": "davideas/FlexibleAdapter",
+    "url": "https://github.com/davideas/FlexibleAdapter",
+    "stargazerCount": 3570
+  },
+  {
+    "nameWithOwner": "dongjunkun/DropDownMenu",
+    "url": "https://github.com/dongjunkun/DropDownMenu",
+    "stargazerCount": 3567
+  },
+  {
+    "nameWithOwner": "LinShunKang/MyPerf4J",
+    "url": "https://github.com/LinShunKang/MyPerf4J",
+    "stargazerCount": 3565
+  },
+  {
+    "nameWithOwner": "JakeWharton/ThreeTenABP",
+    "url": "https://github.com/JakeWharton/ThreeTenABP",
+    "stargazerCount": 3558
+  },
+  {
+    "nameWithOwner": "code4craft/netty-learning",
+    "url": "https://github.com/code4craft/netty-learning",
+    "stargazerCount": 3554
+  },
+  {
+    "nameWithOwner": "bilibili/MagicaSakura",
+    "url": "https://github.com/bilibili/MagicaSakura",
+    "stargazerCount": 3552
+  },
+  {
+    "nameWithOwner": "immutables/immutables",
+    "url": "https://github.com/immutables/immutables",
+    "stargazerCount": 3548
+  },
+  {
+    "nameWithOwner": "dariuszseweryn/RxAndroidBle",
+    "url": "https://github.com/dariuszseweryn/RxAndroidBle",
+    "stargazerCount": 3547
+  },
+  {
+    "nameWithOwner": "Netflix/concurrency-limits",
+    "url": "https://github.com/Netflix/concurrency-limits",
+    "stargazerCount": 3546
+  },
+  {
+    "nameWithOwner": "johncarl81/parceler",
+    "url": "https://github.com/johncarl81/parceler",
+    "stargazerCount": 3538
+  },
+  {
+    "nameWithOwner": "arimorty/floatingsearchview",
+    "url": "https://github.com/arimorty/floatingsearchview",
+    "stargazerCount": 3534
+  },
+  {
+    "nameWithOwner": "spring-cloud/spring-cloud-kubernetes",
+    "url": "https://github.com/spring-cloud/spring-cloud-kubernetes",
+    "stargazerCount": 3532
+  },
+  {
+    "nameWithOwner": "M66B/NetGuard",
+    "url": "https://github.com/M66B/NetGuard",
+    "stargazerCount": 3532
+  },
+  {
+    "nameWithOwner": "Guardsquare/proguard",
+    "url": "https://github.com/Guardsquare/proguard",
+    "stargazerCount": 3532
+  },
+  {
+    "nameWithOwner": "luontola/retrolambda",
+    "url": "https://github.com/luontola/retrolambda",
+    "stargazerCount": 3527
+  },
+  {
+    "nameWithOwner": "andremion/Music-Player",
+    "url": "https://github.com/andremion/Music-Player",
+    "stargazerCount": 3523
+  },
+  {
+    "nameWithOwner": "rom1v/sndcpy",
+    "url": "https://github.com/rom1v/sndcpy",
+    "stargazerCount": 3519
+  },
+  {
+    "nameWithOwner": "lenve/JavaEETest",
+    "url": "https://github.com/lenve/JavaEETest",
+    "stargazerCount": 3514
+  },
+  {
+    "nameWithOwner": "eclipse-openj9/openj9",
+    "url": "https://github.com/eclipse-openj9/openj9",
+    "stargazerCount": 3509
+  },
+  {
+    "nameWithOwner": "nageoffer/12306",
+    "url": "https://github.com/nageoffer/12306",
+    "stargazerCount": 3508
+  },
+  {
+    "nameWithOwner": "lsjwzh/RecyclerViewPager",
+    "url": "https://github.com/lsjwzh/RecyclerViewPager",
+    "stargazerCount": 3506
+  },
+  {
+    "nameWithOwner": "Aefyr/SAI",
+    "url": "https://github.com/Aefyr/SAI",
+    "stargazerCount": 3506
+  },
+  {
+    "nameWithOwner": "nytimes/Store",
+    "url": "https://github.com/nytimes/Store",
+    "stargazerCount": 3503
+  },
+  {
+    "nameWithOwner": "baoyongzhang/SwipeMenuListView",
+    "url": "https://github.com/baoyongzhang/SwipeMenuListView",
+    "stargazerCount": 3501
+  },
+  {
+    "nameWithOwner": "codeestX/GeekNews",
+    "url": "https://github.com/codeestX/GeekNews",
+    "stargazerCount": 3500
+  },
+  {
+    "nameWithOwner": "apache/incubator-kie-optaplanner",
+    "url": "https://github.com/apache/incubator-kie-optaplanner",
+    "stargazerCount": 3490
+  },
+  {
+    "nameWithOwner": "Athou/commafeed",
+    "url": "https://github.com/Athou/commafeed",
+    "stargazerCount": 3488
+  },
+  {
+    "nameWithOwner": "KingJA/LoadSir",
+    "url": "https://github.com/KingJA/LoadSir",
+    "stargazerCount": 3486
+  },
+  {
+    "nameWithOwner": "getActivity/Toaster",
+    "url": "https://github.com/getActivity/Toaster",
+    "stargazerCount": 3480
+  },
+  {
+    "nameWithOwner": "phodal/migration",
+    "url": "https://github.com/phodal/migration",
+    "stargazerCount": 3477
+  },
+  {
+    "nameWithOwner": "ittianyu/BottomNavigationViewEx",
+    "url": "https://github.com/ittianyu/BottomNavigationViewEx",
+    "stargazerCount": 3474
+  },
+  {
+    "nameWithOwner": "WinterChenS/my-site",
+    "url": "https://github.com/WinterChenS/my-site",
+    "stargazerCount": 3474
+  }
+]

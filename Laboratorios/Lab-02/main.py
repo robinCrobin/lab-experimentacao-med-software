@@ -28,6 +28,105 @@ CK_JAR_PATH = Path(__file__).parent / "ck.jar"
 
 load_dotenv()
 
+def load_repos_from_csv(path: Path = CSV_PATH):
+    """Carrega a lista de repositórios a partir do CSV gerado na etapa de extração."""
+    if not path.exists():
+        print(f"Erro: arquivo {path} não encontrado. Rode primeiro --extract.")
+        sys.exit(1)
+
+    with open(path, "r", encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        return list(reader)
+
+
+def sanitize_repo_name(name_with_owner: str) -> str:
+    """Converte "owner/repo" em um nome seguro para diretório, ex: owner__repo."""
+    return name_with_owner.replace("/", "__")
+
+
+def clone_repo(name_with_owner: str, url: str, base_dir: Path = REPOS_DIR) -> Path:
+    """Clona um único repositório (se ainda não estiver clonado) e retorna o caminho local.
+
+    Usa `git clone --depth 1` para reduzir o tamanho do clone.
+    """
+
+    base_dir.mkdir(parents=True, exist_ok=True)
+    safe_name = sanitize_repo_name(name_with_owner)
+    dest = base_dir / safe_name
+
+    if dest.exists():
+        print(f"[clone] Repositório já clonado em {dest}")
+        return dest
+
+    print(f"[clone] Clonando {name_with_owner} em {dest}...")
+    try:
+        subprocess.run(
+            [
+                "git",
+                "clone",
+                "--depth",
+                "1",
+                url,
+                str(dest),
+            ],
+            check=True,
+        )
+    except FileNotFoundError:
+        print("Erro: git não encontrado no PATH. Instale o Git e tente novamente.")
+        sys.exit(1)
+    except subprocess.CalledProcessError as e:
+        print(f"Erro ao clonar {name_with_owner}: {e}")
+        # Não encerramos o script aqui para permitir continuar com outros repositórios
+    return dest
+
+
+def run_ck_on_repo(repo_path: Path, output_base_dir: Path = CK_RESULTS_DIR) -> Path:
+    """Executa a ferramenta CK em um repositório Java já clonado.
+
+    Retorna o diretório onde os arquivos CSV de métricas foram gerados.
+    """
+
+    if not CK_JAR_PATH.exists():
+        print(
+            f"Erro: arquivo CK JAR não encontrado em {CK_JAR_PATH}. "
+            "Baixe o JAR do projeto CK e renomeie para 'ck.jar' nesta pasta.",
+        )
+        sys.exit(1)
+
+    if not repo_path.exists():
+        print(f"Erro: diretório do repositório não encontrado: {repo_path}")
+        sys.exit(1)
+
+    output_base_dir.mkdir(parents=True, exist_ok=True)
+    safe_name = sanitize_repo_name(repo_path.name)
+    output_dir = output_base_dir / safe_name
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    print(f"[ck] Executando CK em {repo_path}...")
+    try:
+        subprocess.run(
+            [
+                "java",
+                "-jar",
+                str(CK_JAR_PATH),
+                str(repo_path),
+                "true",  # use jars
+                "0",  # max files per partition (0 = automático)
+                "false",  # variables and fields metrics? (false para reduzir tamanho)
+                str(output_dir),
+            ],
+            check=True,
+        )
+    except FileNotFoundError:
+        print("Erro: Java não encontrado no PATH. Instale o Java (>= 8) e tente novamente.")
+        sys.exit(1)
+    except subprocess.CalledProcessError as e:
+        print(f"Erro ao executar CK em {repo_path}: {e}")
+        sys.exit(1)
+
+    print(f"[ck] Métricas geradas em {output_dir}")
+    return output_dir
+
 
 def get_token():
     """Lê o token de acesso do GitHub da variável de ambiente GITHUB_TOKEN."""

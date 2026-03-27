@@ -2,6 +2,7 @@ import argparse
 import csv
 import json
 import os
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -18,6 +19,12 @@ PAGE_SIZE = 50
 DATA_DIR = Path(__file__).parent / "data"
 JSON_PATH = DATA_DIR / "top_java_repos.json"
 CSV_PATH = DATA_DIR / "top_java_repos.csv"
+
+REPOS_DIR = DATA_DIR / "repos"
+
+CK_RESULTS_DIR = DATA_DIR / "ck_results"
+
+CK_JAR_PATH = Path(__file__).parent / "ck.jar"
 
 load_dotenv()
 
@@ -133,6 +140,56 @@ def run_extract():
     print(f"CSV salvo em {CSV_PATH}")
 
 
+def clone_top_repos(limit: int = 10):
+    """Clona os primeiros N repositórios listados em `top_java_repos.csv`."""
+
+    repos = load_repos_from_csv()
+    limit = min(limit, len(repos))
+    print(f"Clonando os {limit} primeiros repositórios da lista...")
+
+    for i, repo in enumerate(repos[:limit], start=1):
+        name = repo["nameWithOwner"]
+        url = repo["url"]
+        print(f"[{i}/{limit}] {name}")
+        clone_repo(name, url)
+
+
+def measure_single_repo(index: int = 1):
+    """Clona (se necessário) e roda CK para **um** repositório da lista.
+
+    `index` é 1-based (1 = primeiro repositório do CSV).
+
+    Esta função atende ao requisito da Lab02S01 de gerar um `.csv` com
+    o resultado das medições de 1 repositório.
+    """
+
+    repos = load_repos_from_csv()
+
+    if index < 1 or index > len(repos):
+        print(f"Índice inválido: {index}. Deve estar entre 1 e {len(repos)}.")
+        sys.exit(1)
+
+    repo_info = repos[index - 1]
+    name = repo_info["nameWithOwner"]
+    url = repo_info["url"]
+    stars = repo_info["stargazerCount"]
+
+    print(f"Selecionado repositório #{index}: {name} ({stars} stars)")
+
+    local_repo_path = clone_repo(name, url)
+    ck_output_dir = run_ck_on_repo(local_repo_path)
+
+    print()
+    print("=== Resultado da medição ===")
+    print(f"Repositório: {name}")
+    print(f"Caminho local: {local_repo_path}")
+    print(f"Arquivos de métricas (por exemplo, class.csv, method.csv) em: {ck_output_dir}")
+    print(
+        "Use, por exemplo, o arquivo 'class.csv' gerado por CK como o arquivo de "
+        "resultado das medições para este repositório."
+    )
+
+
 def main():
     parser = argparse.ArgumentParser(description="Lab 02")
     parser.add_argument(
@@ -141,10 +198,47 @@ def main():
         help="Executa a extração e salva os Top Java repos em data/top_java_repos.csv",
     )
 
+    parser.add_argument(
+        "--clone",
+        action="store_true",
+        help=(
+            "Clona os repositórios listados em data/top_java_repos.csv "
+            "(veja também o parâmetro --limit)."
+        ),
+    )
+
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=10,
+        help=(
+            "Número máximo de repositórios a clonar (usado com --clone). "
+            "Padrão: 10. Para 1.000, use --limit 1000."
+        ),
+    )
+
+    parser.add_argument(
+        "--measure-one",
+        type=int,
+        metavar="IDX",
+        help=(
+            "Clona (se necessário) e executa CK para um único repositório da lista, "
+            "onde IDX é a posição (1-based) no CSV. Ex.: --measure-one 1."
+        ),
+    )
+
     args = parser.parse_args()
 
     if args.extract:
         run_extract()
+        return
+
+    if args.measure_one is not None:
+        measure_single_repo(args.measure_one)
+        return
+
+    if args.clone:
+        clone_top_repos(limit=args.limit)
         return
 
     parser.print_help()

@@ -26,6 +26,8 @@ CK_RESULTS_DIR = DATA_DIR / "ck_results"
 
 CK_JAR_PATH = Path(__file__).parent / "ck.jar"
 
+EXCLUDED_CSV = DATA_DIR / "ck_excluded.csv"
+
 load_dotenv()
 
 def load_repos_from_csv(path: Path = CSV_PATH):
@@ -80,10 +82,22 @@ def clone_repo(name_with_owner: str, url: str, base_dir: Path = REPOS_DIR) -> Pa
     return dest
 
 
-def run_ck_on_repo(repo_path: Path, output_base_dir: Path = CK_RESULTS_DIR) -> Path:
+def run_ck_on_repo(
+    repo_path: Path,
+    output_base_dir: Path = CK_RESULTS_DIR,
+    exit_on_error: bool = True,
+    use_jars: bool = True,
+) -> Path | None:
     """Executa a ferramenta CK em um repositório Java já clonado.
 
-    Retorna o diretório onde os arquivos CSV de métricas foram gerados.
+    Retorna o diretório onde os arquivos CSV de métricas foram gerados,
+    ou ``None`` em caso de falha quando ``exit_on_error`` for ``False``.
+
+    ``use_jars`` controla se o CK tentará resolver tipos externos a partir
+    dos JARs do projeto. Repos muito grandes ou multi-módulo às vezes
+    quebram o parser do JDT nesse modo; nesses casos, ``use_jars=False``
+    serve como fallback (perde-se precisão na resolução de tipos, mas as
+    métricas estruturais continuam corretas).
     """
 
     if not CK_JAR_PATH.exists():
@@ -95,22 +109,25 @@ def run_ck_on_repo(repo_path: Path, output_base_dir: Path = CK_RESULTS_DIR) -> P
 
     if not repo_path.exists():
         print(f"Erro: diretório do repositório não encontrado: {repo_path}")
-        sys.exit(1)
+        if exit_on_error:
+            sys.exit(1)
+        return None
 
     output_base_dir.mkdir(parents=True, exist_ok=True)
     safe_name = sanitize_repo_name(repo_path.name)
     output_dir = output_base_dir / safe_name
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"[ck] Executando CK em {repo_path}...")
+    print(f"[ck] Executando CK em {repo_path} (use_jars={use_jars})...")
     try:
         subprocess.run(
             [
                 "java",
+                "-Xmx8g",  # heap maior para repos grandes (elasticsearch, jdk, etc.)
                 "-jar",
                 str(CK_JAR_PATH),
                 str(repo_path),
-                "true",  # use jars
+                "true" if use_jars else "false",  # use jars
                 "0",  # max files per partition (0 = automático)
                 "false",  # variables and fields metrics? (false para reduzir tamanho)
                 str(output_dir),
@@ -122,7 +139,9 @@ def run_ck_on_repo(repo_path: Path, output_base_dir: Path = CK_RESULTS_DIR) -> P
         sys.exit(1)
     except subprocess.CalledProcessError as e:
         print(f"Erro ao executar CK em {repo_path}: {e}")
-        sys.exit(1)
+        if exit_on_error:
+            sys.exit(1)
+        return None
 
     print(f"[ck] Métricas geradas em {output_dir}")
     return output_dir
@@ -156,6 +175,10 @@ def build_query():
             nameWithOwner
             url
             stargazerCount
+            createdAt
+            releases {
+              totalCount
+            }
           }
         }
       }
@@ -225,10 +248,27 @@ def save_json(repos, path=JSON_PATH):
 
 def save_csv(repos, path=CSV_PATH):
     path.parent.mkdir(parents=True, exist_ok=True)
+    fieldnames = [
+        "nameWithOwner",
+        "url",
+        "stargazerCount",
+        "createdAt",
+        "releasesCount",
+    ]
     with open(path, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["nameWithOwner", "url", "stargazerCount"])
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(repos)
+        for repo in repos:
+            releases = repo.get("releases") or {}
+            writer.writerow(
+                {
+                    "nameWithOwner": repo.get("nameWithOwner"),
+                    "url": repo.get("url"),
+                    "stargazerCount": repo.get("stargazerCount"),
+                    "createdAt": repo.get("createdAt"),
+                    "releasesCount": releases.get("totalCount"),
+                }
+            )
 
 
 def run_extract():
@@ -251,6 +291,131 @@ def clone_top_repos(limit: int = 10):
         url = repo["url"]
         print(f"[{i}/{limit}] {name}")
         clone_repo(name, url)
+
+
+def _save_excluded(rows: list[dict]) -> None:
+    """Persiste a lista de repositorios excluidos em ``data/ck_excluded.csv``.
+
+    Mescla com entradas pre-existentes (mesmo nome = atualizado).
+    """
+    existing: dict[str, dict] = {}
+    if EXCLUDED_CSV.exists():
+        with open(EXCLUDED_CSV, "r", encoding="utf-8", newline="") as f:
+            for row in csv.DictReader(f):
+                existing[row["name_with_owner"]] = row
+
+    for row in rows:
+        existing[row["name_with_owner"]] = row
+
+    EXCLUDED_CSV.parent.mkdir(parents=True, exist_ok=True)
+    with open(EXCLUDED_CSV, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(
+            f, fieldnames=["name_with_owner", "reason", "stage", "excluded_at"]
+        )
+        writer.writeheader()
+        for row in existing.values():
+            writer.writerow(row)
+
+
+def measure_all_repos(limit: int | None = None, skip_existing: bool = True) -> None:
+    """Clona (se necessário) e executa CK para **todos** os repositórios da lista.
+
+    - ``limit``: se informado, processa apenas os ``limit`` primeiros repositórios.
+    - ``skip_existing``: pula repositórios que já possuem ``class.csv`` em
+      ``data/ck_results/<owner>__<repo>/`` (útil para retomar execuções).
+
+    Esta função é a versão "batch" de ``measure_single_repo`` e atende ao
+    requisito de coletar métricas para os 1.000 repositórios.
+    """
+
+    repos = load_repos_from_csv()
+    total = len(repos) if limit is None else min(limit, len(repos))
+    print(f"Iniciando medição em lote para {total} repositórios...")
+
+    from datetime import datetime, timezone
+
+    successes: list[str] = []
+    failures: list[dict] = []
+    skipped: list[str] = []
+
+    def _record_failure(name: str, reason: str, stage: str) -> None:
+        failures.append(
+            {
+                "name_with_owner": name,
+                "reason": reason,
+                "stage": stage,
+                "excluded_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            }
+        )
+
+    for i, repo_info in enumerate(repos[:total], start=1):
+        name = repo_info["nameWithOwner"]
+        url = repo_info["url"]
+        safe_name = sanitize_repo_name(name)
+        ck_output_dir = CK_RESULTS_DIR / safe_name
+
+        print()
+        print(f"=== [{i}/{total}] {name} ===")
+
+        class_csv = ck_output_dir / "class.csv"
+        if (
+            skip_existing
+            and class_csv.exists()
+            and class_csv.stat().st_size > 0
+        ):
+            print(f"[skip] CK já executado em {ck_output_dir}")
+            skipped.append(name)
+            continue
+
+        try:
+            local_repo_path = clone_repo(name, url)
+        except SystemExit:
+            _record_failure(name, "git não encontrado", "clone")
+            break
+        except Exception as e:
+            print(f"[erro] clone falhou para {name}: {e}")
+            _record_failure(name, f"clone: {e}", "clone")
+            continue
+
+        if not local_repo_path.exists():
+            print(f"[erro] diretório de clone ausente para {name}")
+            _record_failure(name, "clone ausente", "clone")
+            continue
+
+        result = run_ck_on_repo(local_repo_path, exit_on_error=False, use_jars=True)
+        if result is None:
+            # Fallback: tenta de novo sem resolucao de jars (perde precisao
+            # na resolucao de tipos externos, mas evita o crash do JDT em
+            # repos gigantes/multi-modulo).
+            print(f"[retry] {name}: tentando de novo com use_jars=False")
+            result = run_ck_on_repo(
+                local_repo_path, exit_on_error=False, use_jars=False
+            )
+            if result is not None:
+                successes.append(name)
+                continue
+            _record_failure(
+                name,
+                "CK NPE/erro mesmo com use_jars=False (provavel JDT incompativel com sintaxe Java moderna)",
+                "ck_both_modes",
+            )
+            continue
+
+        successes.append(name)
+
+    if failures:
+        _save_excluded(failures)
+
+    print()
+    print("=== Resumo da medição em lote ===")
+    print(f"Sucesso: {len(successes)}")
+    print(f"Pulados (já processados): {len(skipped)}")
+    print(f"Falhas: {len(failures)}")
+    if failures:
+        print(f"Exclusões registradas em: {EXCLUDED_CSV}")
+        print("Detalhes das falhas:")
+        for f in failures:
+            print(f"  - {f['name_with_owner']} [{f['stage']}]: {f['reason']}")
 
 
 def measure_single_repo(index: int = 1):
@@ -309,10 +474,11 @@ def main():
     parser.add_argument(
         "--limit",
         type=int,
-        default=10,
+        default=None,
         help=(
-            "Número máximo de repositórios a clonar (usado com --clone). "
-            "Padrão: 10. Para 1.000, use --limit 1000."
+            "Número máximo de repositórios a processar (usado com --clone "
+            "ou --measure-all). Padrão para --clone: 10. Padrão para "
+            "--measure-all: todos. Para 1.000, use --limit 1000."
         ),
     )
 
@@ -326,6 +492,15 @@ def main():
         ),
     )
 
+    parser.add_argument(
+        "--measure-all",
+        action="store_true",
+        help=(
+            "Clona (se necessário) e executa CK para todos os repositórios da lista. "
+            "Combine com --limit para processar apenas os N primeiros."
+        ),
+    )
+
     args = parser.parse_args()
 
     if args.extract:
@@ -336,8 +511,12 @@ def main():
         measure_single_repo(args.measure_one)
         return
 
+    if args.measure_all:
+        measure_all_repos(limit=args.limit)
+        return
+
     if args.clone:
-        clone_top_repos(limit=args.limit)
+        clone_top_repos(limit=args.limit if args.limit is not None else 10)
         return
 
     parser.print_help()

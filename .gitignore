@@ -45,4 +45,5 @@ desktop.ini
 *.log
 *.tmp
 .cache/
-**/data/ck_results
+**/data/ck-results
+**/data/repos

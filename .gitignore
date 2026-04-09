@@ -45,3 +45,4 @@ desktop.ini
 *.log
 *.tmp
 .cache/
+**/data/ck_results

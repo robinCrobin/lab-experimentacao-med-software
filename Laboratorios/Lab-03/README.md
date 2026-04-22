@@ -15,3 +15,31 @@ Aqui serão colocados o planejamento, scripts de coleta (ex.: API do GitHub para
 ## Material de apoio
 
 Os fichamentos em `Artigos/Fichamentos/` (GitHub API, estudos de caso, evidência empírica) e o uso da API no Lab 01 podem apoiar este laboratório.
+
+## Lab03S01 — Sprint 1
+
+### 1. Coleta dos repositórios (`coleta_repositorios.py`)
+
+Seleciona os 200 repositórios mais populares do GitHub que possuem no mínimo
+100 PRs (MERGED + CLOSED). A saída são dois arquivos em `data/`:
+
+- `repositorios.json` — payload bruto da API GraphQL.
+- `repositorios.csv` — versão tabular com `nameWithOwner`, `stars`,
+  `primary_language`, `mergedPRsCount`, `closedPRsCount` e `totalPRs`.
+
+**Pré-requisitos**
+
+```bash
+pip install -r requirements.txt
+export GITHUB_TOKEN=seu_token_aqui   # ou em um arquivo .env
+```
+
+**Como rodar**
+
+```bash
+# coleta via API
+python coleta_repositorios.py --fetch
+
+# regenera o CSV a partir do JSON já salvo
+python coleta_repositorios.py --analyze
+```

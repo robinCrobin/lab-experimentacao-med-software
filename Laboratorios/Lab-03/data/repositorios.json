@@ -1,0 +1,3552 @@
+[
+  {
+    "name": "build-your-own-x",
+    "nameWithOwner": "codecrafters-io/build-your-own-x",
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "stargazerCount": 492706,
+    "primaryLanguage": {
+      "name": "Markdown"
+    },
+    "mergedPRs": {
+      "totalCount": 155
+    },
+    "closedPRs": {
+      "totalCount": 186
+    },
+    "mergedPRsCount": 155,
+    "closedPRsCount": 186,
+    "totalPRs": 341
+  },
+  {
+    "name": "awesome",
+    "nameWithOwner": "sindresorhus/awesome",
+    "url": "https://github.com/sindresorhus/awesome",
+    "stargazerCount": 457885,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 695
+    },
+    "closedPRs": {
+      "totalCount": 1657
+    },
+    "mergedPRsCount": 695,
+    "closedPRsCount": 1657,
+    "totalPRs": 2352
+  },
+  {
+    "name": "freeCodeCamp",
+    "nameWithOwner": "freeCodeCamp/freeCodeCamp",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "stargazerCount": 443359,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 28162
+    },
+    "closedPRs": {
+      "totalCount": 16597
+    },
+    "mergedPRsCount": 28162,
+    "closedPRsCount": 16597,
+    "totalPRs": 44759
+  },
+  {
+    "name": "public-apis",
+    "nameWithOwner": "public-apis/public-apis",
+    "url": "https://github.com/public-apis/public-apis",
+    "stargazerCount": 425807,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 1872
+    },
+    "closedPRs": {
+      "totalCount": 1352
+    },
+    "mergedPRsCount": 1872,
+    "closedPRsCount": 1352,
+    "totalPRs": 3224
+  },
+  {
+    "name": "free-programming-books",
+    "nameWithOwner": "EbookFoundation/free-programming-books",
+    "url": "https://github.com/EbookFoundation/free-programming-books",
+    "stargazerCount": 385863,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 7359
+    },
+    "closedPRs": {
+      "totalCount": 4259
+    },
+    "mergedPRsCount": 7359,
+    "closedPRsCount": 4259,
+    "totalPRs": 11618
+  },
+  {
+    "name": "openclaw",
+    "nameWithOwner": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "stargazerCount": 362222,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 5645
+    },
+    "closedPRs": {
+      "totalCount": 25437
+    },
+    "mergedPRsCount": 5645,
+    "closedPRsCount": 25437,
+    "totalPRs": 31082
+  },
+  {
+    "name": "developer-roadmap",
+    "nameWithOwner": "kamranahmedse/developer-roadmap",
+    "url": "https://github.com/kamranahmedse/developer-roadmap",
+    "stargazerCount": 353372,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 4163
+    },
+    "closedPRs": {
+      "totalCount": 1802
+    },
+    "mergedPRsCount": 4163,
+    "closedPRsCount": 1802,
+    "totalPRs": 5965
+  },
+  {
+    "name": "system-design-primer",
+    "nameWithOwner": "donnemartin/system-design-primer",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "stargazerCount": 343669,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 210
+    },
+    "closedPRs": {
+      "totalCount": 162
+    },
+    "mergedPRsCount": 210,
+    "closedPRsCount": 162,
+    "totalPRs": 372
+  },
+  {
+    "name": "coding-interview-university",
+    "nameWithOwner": "jwasham/coding-interview-university",
+    "url": "https://github.com/jwasham/coding-interview-university",
+    "stargazerCount": 341543,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 415
+    },
+    "closedPRs": {
+      "totalCount": 597
+    },
+    "mergedPRsCount": 415,
+    "closedPRsCount": 597,
+    "totalPRs": 1012
+  },
+  {
+    "name": "awesome-python",
+    "nameWithOwner": "vinta/awesome-python",
+    "url": "https://github.com/vinta/awesome-python",
+    "stargazerCount": 293812,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 679
+    },
+    "closedPRs": {
+      "totalCount": 1690
+    },
+    "mergedPRsCount": 679,
+    "closedPRsCount": 1690,
+    "totalPRs": 2369
+  },
+  {
+    "name": "awesome-selfhosted",
+    "nameWithOwner": "awesome-selfhosted/awesome-selfhosted",
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "stargazerCount": 287556,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 2394
+    },
+    "closedPRs": {
+      "totalCount": 645
+    },
+    "mergedPRsCount": 2394,
+    "closedPRsCount": 645,
+    "totalPRs": 3039
+  },
+  {
+    "name": "996.ICU",
+    "nameWithOwner": "996icu/996.ICU",
+    "url": "https://github.com/996icu/996.ICU",
+    "stargazerCount": 275927,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 1072
+    },
+    "closedPRs": {
+      "totalCount": 919
+    },
+    "mergedPRsCount": 1072,
+    "closedPRsCount": 919,
+    "totalPRs": 1991
+  },
+  {
+    "name": "project-based-learning",
+    "nameWithOwner": "practical-tutorials/project-based-learning",
+    "url": "https://github.com/practical-tutorials/project-based-learning",
+    "stargazerCount": 263818,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 182
+    },
+    "closedPRs": {
+      "totalCount": 198
+    },
+    "mergedPRsCount": 182,
+    "closedPRsCount": 198,
+    "totalPRs": 380
+  },
+  {
+    "name": "react",
+    "nameWithOwner": "facebook/react",
+    "url": "https://github.com/facebook/react",
+    "stargazerCount": 244653,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 12829
+    },
+    "closedPRs": {
+      "totalCount": 6141
+    },
+    "mergedPRsCount": 12829,
+    "closedPRsCount": 6141,
+    "totalPRs": 18970
+  },
+  {
+    "name": "Python",
+    "nameWithOwner": "TheAlgorithms/Python",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "stargazerCount": 220039,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 3077
+    },
+    "closedPRs": {
+      "totalCount": 8283
+    },
+    "mergedPRsCount": 3077,
+    "closedPRsCount": 8283,
+    "totalPRs": 11360
+  },
+  {
+    "name": "the-book-of-secret-knowledge",
+    "nameWithOwner": "trimstray/the-book-of-secret-knowledge",
+    "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+    "stargazerCount": 216733,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 122
+    },
+    "closedPRs": {
+      "totalCount": 118
+    },
+    "mergedPRsCount": 122,
+    "closedPRsCount": 118,
+    "totalPRs": 240
+  },
+  {
+    "name": "vue",
+    "nameWithOwner": "vuejs/vue",
+    "url": "https://github.com/vuejs/vue",
+    "stargazerCount": 209837,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 1136
+    },
+    "closedPRs": {
+      "totalCount": 1231
+    },
+    "mergedPRsCount": 1136,
+    "closedPRsCount": 1231,
+    "totalPRs": 2367
+  },
+  {
+    "name": "computer-science",
+    "nameWithOwner": "ossu/computer-science",
+    "url": "https://github.com/ossu/computer-science",
+    "stargazerCount": 203213,
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "mergedPRs": {
+      "totalCount": 313
+    },
+    "closedPRs": {
+      "totalCount": 198
+    },
+    "mergedPRsCount": 313,
+    "closedPRsCount": 198,
+    "totalPRs": 511
+  },
+  {
+    "name": "javascript-algorithms",
+    "nameWithOwner": "trekhleb/javascript-algorithms",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "stargazerCount": 195867,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 304
+    },
+    "closedPRs": {
+      "totalCount": 271
+    },
+    "mergedPRsCount": 304,
+    "closedPRsCount": 271,
+    "totalPRs": 575
+  },
+  {
+    "name": "tensorflow",
+    "nameWithOwner": "tensorflow/tensorflow",
+    "url": "https://github.com/tensorflow/tensorflow",
+    "stargazerCount": 194830,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "mergedPRs": {
+      "totalCount": 44227
+    },
+    "closedPRs": {
+      "totalCount": 23844
+    },
+    "mergedPRsCount": 44227,
+    "closedPRsCount": 23844,
+    "totalPRs": 68071
+  },
+  {
+    "name": "ohmyzsh",
+    "nameWithOwner": "ohmyzsh/ohmyzsh",
+    "url": "https://github.com/ohmyzsh/ohmyzsh",
+    "stargazerCount": 186426,
+    "primaryLanguage": {
+      "name": "Shell"
+    },
+    "mergedPRs": {
+      "totalCount": 3550
+    },
+    "closedPRs": {
+      "totalCount": 4082
+    },
+    "mergedPRsCount": 3550,
+    "closedPRsCount": 4082,
+    "totalPRs": 7632
+  },
+  {
+    "name": "n8n",
+    "nameWithOwner": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "stargazerCount": 185118,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 15200
+    },
+    "closedPRs": {
+      "totalCount": 3685
+    },
+    "mergedPRsCount": 15200,
+    "closedPRsCount": 3685,
+    "totalPRs": 18885
+  },
+  {
+    "name": "You-Dont-Know-JS",
+    "nameWithOwner": "getify/You-Dont-Know-JS",
+    "url": "https://github.com/getify/You-Dont-Know-JS",
+    "stargazerCount": 184462,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 370
+    },
+    "closedPRs": {
+      "totalCount": 527
+    },
+    "mergedPRsCount": 370,
+    "closedPRsCount": 527,
+    "totalPRs": 897
+  },
+  {
+    "name": "CS-Notes",
+    "nameWithOwner": "CyC2018/CS-Notes",
+    "url": "https://github.com/CyC2018/CS-Notes",
+    "stargazerCount": 184242,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 374
+    },
+    "closedPRs": {
+      "totalCount": 187
+    },
+    "mergedPRsCount": 374,
+    "closedPRsCount": 187,
+    "totalPRs": 561
+  },
+  {
+    "name": "vscode",
+    "nameWithOwner": "microsoft/vscode",
+    "url": "https://github.com/microsoft/vscode",
+    "stargazerCount": 184142,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 45846
+    },
+    "closedPRs": {
+      "totalCount": 7836
+    },
+    "mergedPRsCount": 45846,
+    "closedPRsCount": 7836,
+    "totalPRs": 53682
+  },
+  {
+    "name": "AutoGPT",
+    "nameWithOwner": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "stargazerCount": 183665,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 4270
+    },
+    "closedPRs": {
+      "totalCount": 3401
+    },
+    "mergedPRsCount": 4270,
+    "closedPRsCount": 3401,
+    "totalPRs": 7671
+  },
+  {
+    "name": "Python-100-Days",
+    "nameWithOwner": "jackfrued/Python-100-Days",
+    "url": "https://github.com/jackfrued/Python-100-Days",
+    "stargazerCount": 181745,
+    "primaryLanguage": {
+      "name": "Jupyter Notebook"
+    },
+    "mergedPRs": {
+      "totalCount": 13
+    },
+    "closedPRs": {
+      "totalCount": 203
+    },
+    "mergedPRsCount": 13,
+    "closedPRsCount": 203,
+    "totalPRs": 216
+  },
+  {
+    "name": "flutter",
+    "nameWithOwner": "flutter/flutter",
+    "url": "https://github.com/flutter/flutter",
+    "stargazerCount": 176069,
+    "primaryLanguage": {
+      "name": "Dart"
+    },
+    "mergedPRs": {
+      "totalCount": 47686
+    },
+    "closedPRs": {
+      "totalCount": 22746
+    },
+    "mergedPRsCount": 47686,
+    "closedPRsCount": 22746,
+    "totalPRs": 70432
+  },
+  {
+    "name": "bootstrap",
+    "nameWithOwner": "twbs/bootstrap",
+    "url": "https://github.com/twbs/bootstrap",
+    "stargazerCount": 174195,
+    "primaryLanguage": {
+      "name": "MDX"
+    },
+    "mergedPRs": {
+      "totalCount": 9234
+    },
+    "closedPRs": {
+      "totalCount": 6769
+    },
+    "mergedPRsCount": 9234,
+    "closedPRsCount": 6769,
+    "totalPRs": 16003
+  },
+  {
+    "name": "gitignore",
+    "nameWithOwner": "github/gitignore",
+    "url": "https://github.com/github/gitignore",
+    "stargazerCount": 173539,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 1762
+    },
+    "closedPRs": {
+      "totalCount": 2897
+    },
+    "mergedPRsCount": 1762,
+    "closedPRsCount": 2897,
+    "totalPRs": 4659
+  },
+  {
+    "name": "awesome-go",
+    "nameWithOwner": "avelino/awesome-go",
+    "url": "https://github.com/avelino/awesome-go",
+    "stargazerCount": 170677,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "mergedPRs": {
+      "totalCount": 3698
+    },
+    "closedPRs": {
+      "totalCount": 1412
+    },
+    "mergedPRsCount": 3698,
+    "closedPRsCount": 1412,
+    "totalPRs": 5110
+  },
+  {
+    "name": "ollama",
+    "nameWithOwner": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "stargazerCount": 169691,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "mergedPRs": {
+      "totalCount": 3257
+    },
+    "closedPRs": {
+      "totalCount": 1301
+    },
+    "mergedPRsCount": 3257,
+    "closedPRsCount": 1301,
+    "totalPRs": 4558
+  },
+  {
+    "name": "superpowers",
+    "nameWithOwner": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "stargazerCount": 164013,
+    "primaryLanguage": {
+      "name": "Shell"
+    },
+    "mergedPRs": {
+      "totalCount": 59
+    },
+    "closedPRs": {
+      "totalCount": 420
+    },
+    "mergedPRsCount": 59,
+    "closedPRsCount": 420,
+    "totalPRs": 479
+  },
+  {
+    "name": "everything-claude-code",
+    "nameWithOwner": "affaan-m/everything-claude-code",
+    "url": "https://github.com/affaan-m/everything-claude-code",
+    "stargazerCount": 163900,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 368
+    },
+    "closedPRs": {
+      "totalCount": 554
+    },
+    "mergedPRsCount": 368,
+    "closedPRsCount": 554,
+    "totalPRs": 922
+  },
+  {
+    "name": "stable-diffusion-webui",
+    "nameWithOwner": "AUTOMATIC1111/stable-diffusion-webui",
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "stargazerCount": 162544,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 1876
+    },
+    "closedPRs": {
+      "totalCount": 1391
+    },
+    "mergedPRsCount": 1876,
+    "closedPRsCount": 1391,
+    "totalPRs": 3267
+  },
+  {
+    "name": "the-art-of-command-line",
+    "nameWithOwner": "jlevy/the-art-of-command-line",
+    "url": "https://github.com/jlevy/the-art-of-command-line",
+    "stargazerCount": 160776,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 317
+    },
+    "closedPRs": {
+      "totalCount": 158
+    },
+    "mergedPRsCount": 317,
+    "closedPRsCount": 158,
+    "totalPRs": 475
+  },
+  {
+    "name": "prompts.chat",
+    "nameWithOwner": "f/prompts.chat",
+    "url": "https://github.com/f/prompts.chat",
+    "stargazerCount": 160399,
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "mergedPRs": {
+      "totalCount": 219
+    },
+    "closedPRs": {
+      "totalCount": 623
+    },
+    "mergedPRsCount": 219,
+    "closedPRsCount": 623,
+    "totalPRs": 842
+  },
+  {
+    "name": "transformers",
+    "nameWithOwner": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "stargazerCount": 159746,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 19203
+    },
+    "closedPRs": {
+      "totalCount": 5567
+    },
+    "mergedPRsCount": 19203,
+    "closedPRsCount": 5567,
+    "totalPRs": 24770
+  },
+  {
+    "name": "yt-dlp",
+    "nameWithOwner": "yt-dlp/yt-dlp",
+    "url": "https://github.com/yt-dlp/yt-dlp",
+    "stargazerCount": 158105,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 3266
+    },
+    "closedPRs": {
+      "totalCount": 909
+    },
+    "mergedPRsCount": 3266,
+    "closedPRsCount": 909,
+    "totalPRs": 4175
+  },
+  {
+    "name": "JavaGuide",
+    "nameWithOwner": "Snailclimb/JavaGuide",
+    "url": "https://github.com/Snailclimb/JavaGuide",
+    "stargazerCount": 155145,
+    "primaryLanguage": {
+      "name": "Java"
+    },
+    "mergedPRs": {
+      "totalCount": 1235
+    },
+    "closedPRs": {
+      "totalCount": 332
+    },
+    "mergedPRsCount": 1235,
+    "closedPRsCount": 332,
+    "totalPRs": 1567
+  },
+  {
+    "name": "javascript",
+    "nameWithOwner": "airbnb/javascript",
+    "url": "https://github.com/airbnb/javascript",
+    "stargazerCount": 148134,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 822
+    },
+    "closedPRs": {
+      "totalCount": 814
+    },
+    "mergedPRsCount": 822,
+    "closedPRsCount": 814,
+    "totalPRs": 1636
+  },
+  {
+    "name": "opencode",
+    "nameWithOwner": "anomalyco/opencode",
+    "url": "https://github.com/anomalyco/opencode",
+    "stargazerCount": 147553,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 3691
+    },
+    "closedPRs": {
+      "totalCount": 4341
+    },
+    "mergedPRsCount": 3691,
+    "closedPRsCount": 4341,
+    "totalPRs": 8032
+  },
+  {
+    "name": "langflow",
+    "nameWithOwner": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "stargazerCount": 147247,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 6148
+    },
+    "closedPRs": {
+      "totalCount": 2034
+    },
+    "mergedPRsCount": 6148,
+    "closedPRsCount": 2034,
+    "totalPRs": 8182
+  },
+  {
+    "name": "youtube-dl",
+    "nameWithOwner": "ytdl-org/youtube-dl",
+    "url": "https://github.com/ytdl-org/youtube-dl",
+    "stargazerCount": 140123,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 1646
+    },
+    "closedPRs": {
+      "totalCount": 2865
+    },
+    "mergedPRsCount": 1646,
+    "closedPRsCount": 2865,
+    "totalPRs": 4511
+  },
+  {
+    "name": "next.js",
+    "nameWithOwner": "vercel/next.js",
+    "url": "https://github.com/vercel/next.js",
+    "stargazerCount": 139081,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 26767
+    },
+    "closedPRs": {
+      "totalCount": 7987
+    },
+    "mergedPRsCount": 26767,
+    "closedPRsCount": 7987,
+    "totalPRs": 34754
+  },
+  {
+    "name": "tech-interview-handbook",
+    "nameWithOwner": "yangshun/tech-interview-handbook",
+    "url": "https://github.com/yangshun/tech-interview-handbook",
+    "stargazerCount": 138962,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 493
+    },
+    "closedPRs": {
+      "totalCount": 94
+    },
+    "mergedPRsCount": 493,
+    "closedPRsCount": 94,
+    "totalPRs": 587
+  },
+  {
+    "name": "scrcpy",
+    "nameWithOwner": "Genymobile/scrcpy",
+    "url": "https://github.com/Genymobile/scrcpy",
+    "stargazerCount": 138865,
+    "primaryLanguage": {
+      "name": "C"
+    },
+    "mergedPRs": {
+      "totalCount": 133
+    },
+    "closedPRs": {
+      "totalCount": 435
+    },
+    "mergedPRsCount": 133,
+    "closedPRsCount": 435,
+    "totalPRs": 568
+  },
+  {
+    "name": "dify",
+    "nameWithOwner": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "stargazerCount": 138766,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 10868
+    },
+    "closedPRs": {
+      "totalCount": 1975
+    },
+    "mergedPRsCount": 10868,
+    "closedPRsCount": 1975,
+    "totalPRs": 12843
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools",
+    "nameWithOwner": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "stargazerCount": 135770,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 46
+    },
+    "closedPRs": {
+      "totalCount": 84
+    },
+    "mergedPRsCount": 46,
+    "closedPRsCount": 84,
+    "totalPRs": 130
+  },
+  {
+    "name": "langchain",
+    "nameWithOwner": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "stargazerCount": 134489,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 16400
+    },
+    "closedPRs": {
+      "totalCount": 5447
+    },
+    "mergedPRsCount": 16400,
+    "closedPRsCount": 5447,
+    "totalPRs": 21847
+  },
+  {
+    "name": "go",
+    "nameWithOwner": "golang/go",
+    "url": "https://github.com/golang/go",
+    "stargazerCount": 133590,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "mergedPRs": {
+      "totalCount": 1
+    },
+    "closedPRs": {
+      "totalCount": 4591
+    },
+    "mergedPRsCount": 1,
+    "closedPRsCount": 4591,
+    "totalPRs": 4592
+  },
+  {
+    "name": "open-webui",
+    "nameWithOwner": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "stargazerCount": 133321,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 3519
+    },
+    "closedPRs": {
+      "totalCount": 3729
+    },
+    "mergedPRsCount": 3519,
+    "closedPRsCount": 3729,
+    "totalPRs": 7248
+  },
+  {
+    "name": "fucking-algorithm",
+    "nameWithOwner": "labuladong/fucking-algorithm",
+    "url": "https://github.com/labuladong/fucking-algorithm",
+    "stargazerCount": 133315,
+    "primaryLanguage": {
+      "name": "Markdown"
+    },
+    "mergedPRs": {
+      "totalCount": 244
+    },
+    "closedPRs": {
+      "totalCount": 265
+    },
+    "mergedPRsCount": 244,
+    "closedPRsCount": 265,
+    "totalPRs": 509
+  },
+  {
+    "name": "PowerToys",
+    "nameWithOwner": "microsoft/PowerToys",
+    "url": "https://github.com/microsoft/PowerToys",
+    "stargazerCount": 131921,
+    "primaryLanguage": {
+      "name": "C#"
+    },
+    "mergedPRs": {
+      "totalCount": 6521
+    },
+    "closedPRs": {
+      "totalCount": 1019
+    },
+    "mergedPRsCount": 6521,
+    "closedPRsCount": 1019,
+    "totalPRs": 7540
+  },
+  {
+    "name": "30-seconds-of-code",
+    "nameWithOwner": "Chalarangelo/30-seconds-of-code",
+    "url": "https://github.com/Chalarangelo/30-seconds-of-code",
+    "stargazerCount": 127539,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 843
+    },
+    "closedPRs": {
+      "totalCount": 818
+    },
+    "mergedPRsCount": 843,
+    "closedPRsCount": 818,
+    "totalPRs": 1661
+  },
+  {
+    "name": "react-native",
+    "nameWithOwner": "facebook/react-native",
+    "url": "https://github.com/facebook/react-native",
+    "stargazerCount": 125740,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "mergedPRs": {
+      "totalCount": 964
+    },
+    "closedPRs": {
+      "totalCount": 25378
+    },
+    "mergedPRsCount": 964,
+    "closedPRsCount": 25378,
+    "totalPRs": 26342
+  },
+  {
+    "name": "hello-algo",
+    "nameWithOwner": "krahets/hello-algo",
+    "url": "https://github.com/krahets/hello-algo",
+    "stargazerCount": 125579,
+    "primaryLanguage": {
+      "name": "Java"
+    },
+    "mergedPRs": {
+      "totalCount": 989
+    },
+    "closedPRs": {
+      "totalCount": 247
+    },
+    "mergedPRsCount": 989,
+    "closedPRsCount": 247,
+    "totalPRs": 1236
+  },
+  {
+    "name": "skills",
+    "nameWithOwner": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "stargazerCount": 122188,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 29
+    },
+    "closedPRs": {
+      "totalCount": 156
+    },
+    "mergedPRsCount": 29,
+    "closedPRsCount": 156,
+    "totalPRs": 185
+  },
+  {
+    "name": "kubernetes",
+    "nameWithOwner": "kubernetes/kubernetes",
+    "url": "https://github.com/kubernetes/kubernetes",
+    "stargazerCount": 121846,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "mergedPRs": {
+      "totalCount": 64357
+    },
+    "closedPRs": {
+      "totalCount": 23637
+    },
+    "mergedPRsCount": 64357,
+    "closedPRsCount": 23637,
+    "totalPRs": 87994
+  },
+  {
+    "name": "excalidraw",
+    "nameWithOwner": "excalidraw/excalidraw",
+    "url": "https://github.com/excalidraw/excalidraw",
+    "stargazerCount": 121710,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 3865
+    },
+    "closedPRs": {
+      "totalCount": 1203
+    },
+    "mergedPRsCount": 3865,
+    "closedPRsCount": 1203,
+    "totalPRs": 5068
+  },
+  {
+    "name": "electron",
+    "nameWithOwner": "electron/electron",
+    "url": "https://github.com/electron/electron",
+    "stargazerCount": 120997,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "mergedPRs": {
+      "totalCount": 25413
+    },
+    "closedPRs": {
+      "totalCount": 3183
+    },
+    "mergedPRsCount": 25413,
+    "closedPRsCount": 3183,
+    "totalPRs": 28596
+  },
+  {
+    "name": "free-for-dev",
+    "nameWithOwner": "ripienaar/free-for-dev",
+    "url": "https://github.com/ripienaar/free-for-dev",
+    "stargazerCount": 120855,
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "mergedPRs": {
+      "totalCount": 2939
+    },
+    "closedPRs": {
+      "totalCount": 1185
+    },
+    "mergedPRsCount": 2939,
+    "closedPRsCount": 1185,
+    "totalPRs": 4124
+  },
+  {
+    "name": "claude-code",
+    "nameWithOwner": "anthropics/claude-code",
+    "url": "https://github.com/anthropics/claude-code",
+    "stargazerCount": 116877,
+    "primaryLanguage": {
+      "name": "Shell"
+    },
+    "mergedPRs": {
+      "totalCount": 149
+    },
+    "closedPRs": {
+      "totalCount": 278
+    },
+    "mergedPRsCount": 149,
+    "closedPRsCount": 278,
+    "totalPRs": 427
+  },
+  {
+    "name": "node",
+    "nameWithOwner": "nodejs/node",
+    "url": "https://github.com/nodejs/node",
+    "stargazerCount": 116867,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 12180
+    },
+    "closedPRs": {
+      "totalCount": 27119
+    },
+    "mergedPRsCount": 12180,
+    "closedPRsCount": 27119,
+    "totalPRs": 39299
+  },
+  {
+    "name": "free-programming-books-zh_CN",
+    "nameWithOwner": "justjavac/free-programming-books-zh_CN",
+    "url": "https://github.com/justjavac/free-programming-books-zh_CN",
+    "stargazerCount": 116692,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 282
+    },
+    "closedPRs": {
+      "totalCount": 157
+    },
+    "mergedPRsCount": 282,
+    "closedPRsCount": 157,
+    "totalPRs": 439
+  },
+  {
+    "name": "iptv",
+    "nameWithOwner": "iptv-org/iptv",
+    "url": "https://github.com/iptv-org/iptv",
+    "stargazerCount": 115046,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 6865
+    },
+    "closedPRs": {
+      "totalCount": 950
+    },
+    "mergedPRsCount": 6865,
+    "closedPRsCount": 950,
+    "totalPRs": 7815
+  },
+  {
+    "name": "markitdown",
+    "nameWithOwner": "microsoft/markitdown",
+    "url": "https://github.com/microsoft/markitdown",
+    "stargazerCount": 114658,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 175
+    },
+    "closedPRs": {
+      "totalCount": 105
+    },
+    "mergedPRsCount": 175,
+    "closedPRsCount": 105,
+    "totalPRs": 280
+  },
+  {
+    "name": "ui",
+    "nameWithOwner": "shadcn-ui/ui",
+    "url": "https://github.com/shadcn-ui/ui",
+    "stargazerCount": 112801,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 1163
+    },
+    "closedPRs": {
+      "totalCount": 1856
+    },
+    "mergedPRsCount": 1163,
+    "closedPRsCount": 1856,
+    "totalPRs": 3019
+  },
+  {
+    "name": "d3",
+    "nameWithOwner": "d3/d3",
+    "url": "https://github.com/d3/d3",
+    "stargazerCount": 112773,
+    "primaryLanguage": {
+      "name": "Shell"
+    },
+    "mergedPRs": {
+      "totalCount": 494
+    },
+    "closedPRs": {
+      "totalCount": 707
+    },
+    "mergedPRsCount": 494,
+    "closedPRsCount": 707,
+    "totalPRs": 1201
+  },
+  {
+    "name": "rustdesk",
+    "nameWithOwner": "rustdesk/rustdesk",
+    "url": "https://github.com/rustdesk/rustdesk",
+    "stargazerCount": 112658,
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "mergedPRs": {
+      "totalCount": 3995
+    },
+    "closedPRs": {
+      "totalCount": 1004
+    },
+    "mergedPRsCount": 3995,
+    "closedPRsCount": 1004,
+    "totalPRs": 4999
+  },
+  {
+    "name": "clash-verge-rev",
+    "nameWithOwner": "clash-verge-rev/clash-verge-rev",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+    "stargazerCount": 112573,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 842
+    },
+    "closedPRs": {
+      "totalCount": 229
+    },
+    "mergedPRsCount": 842,
+    "closedPRsCount": 229,
+    "totalPRs": 1071
+  },
+  {
+    "name": "rust",
+    "nameWithOwner": "rust-lang/rust",
+    "url": "https://github.com/rust-lang/rust",
+    "stargazerCount": 112207,
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "mergedPRs": {
+      "totalCount": 70660
+    },
+    "closedPRs": {
+      "totalCount": 21160
+    },
+    "mergedPRsCount": 70660,
+    "closedPRsCount": 21160,
+    "totalPRs": 91820
+  },
+  {
+    "name": "three.js",
+    "nameWithOwner": "mrdoob/three.js",
+    "url": "https://github.com/mrdoob/three.js",
+    "stargazerCount": 112120,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 15416
+    },
+    "closedPRs": {
+      "totalCount": 4047
+    },
+    "mergedPRsCount": 15416,
+    "closedPRsCount": 4047,
+    "totalPRs": 19463
+  },
+  {
+    "name": "firecrawl",
+    "nameWithOwner": "firecrawl/firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "stargazerCount": 111533,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 1537
+    },
+    "closedPRs": {
+      "totalCount": 708
+    },
+    "mergedPRsCount": 1537,
+    "closedPRsCount": 708,
+    "totalPRs": 2245
+  },
+  {
+    "name": "Awesome-Hacking",
+    "nameWithOwner": "Hack-with-Github/Awesome-Hacking",
+    "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+    "stargazerCount": 110821,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 36
+    },
+    "closedPRs": {
+      "totalCount": 93
+    },
+    "mergedPRsCount": 36,
+    "closedPRsCount": 93,
+    "totalPRs": 129
+  },
+  {
+    "name": "hermes-agent",
+    "nameWithOwner": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "stargazerCount": 110008,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 2430
+    },
+    "closedPRs": {
+      "totalCount": 4236
+    },
+    "mergedPRsCount": 2430,
+    "closedPRsCount": 4236,
+    "totalPRs": 6666
+  },
+  {
+    "name": "godot",
+    "nameWithOwner": "godotengine/godot",
+    "url": "https://github.com/godotengine/godot",
+    "stargazerCount": 109819,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "mergedPRs": {
+      "totalCount": 42089
+    },
+    "closedPRs": {
+      "totalCount": 8705
+    },
+    "mergedPRsCount": 42089,
+    "closedPRsCount": 8705,
+    "totalPRs": 50794
+  },
+  {
+    "name": "generative-ai-for-beginners",
+    "nameWithOwner": "microsoft/generative-ai-for-beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "stargazerCount": 109665,
+    "primaryLanguage": {
+      "name": "Jupyter Notebook"
+    },
+    "mergedPRs": {
+      "totalCount": 558
+    },
+    "closedPRs": {
+      "totalCount": 233
+    },
+    "mergedPRsCount": 558,
+    "closedPRsCount": 233,
+    "totalPRs": 791
+  },
+  {
+    "name": "ComfyUI",
+    "nameWithOwner": "Comfy-Org/ComfyUI",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "stargazerCount": 109630,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 2418
+    },
+    "closedPRs": {
+      "totalCount": 940
+    },
+    "mergedPRsCount": 2418,
+    "closedPRsCount": 940,
+    "totalPRs": 3358
+  },
+  {
+    "name": "axios",
+    "nameWithOwner": "axios/axios",
+    "url": "https://github.com/axios/axios",
+    "stargazerCount": 109043,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 1273
+    },
+    "closedPRs": {
+      "totalCount": 1071
+    },
+    "mergedPRsCount": 1273,
+    "closedPRsCount": 1071,
+    "totalPRs": 2344
+  },
+  {
+    "name": "TypeScript",
+    "nameWithOwner": "microsoft/TypeScript",
+    "url": "https://github.com/microsoft/TypeScript",
+    "stargazerCount": 108626,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 14875
+    },
+    "closedPRs": {
+      "totalCount": 4231
+    },
+    "mergedPRsCount": 14875,
+    "closedPRsCount": 4231,
+    "totalPRs": 19106
+  },
+  {
+    "name": "awesome-llm-apps",
+    "nameWithOwner": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "stargazerCount": 106868,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 175
+    },
+    "closedPRs": {
+      "totalCount": 312
+    },
+    "mergedPRsCount": 175,
+    "closedPRsCount": 312,
+    "totalPRs": 487
+  },
+  {
+    "name": "deno",
+    "nameWithOwner": "denoland/deno",
+    "url": "https://github.com/denoland/deno",
+    "stargazerCount": 106553,
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "mergedPRs": {
+      "totalCount": 14706
+    },
+    "closedPRs": {
+      "totalCount": 2821
+    },
+    "mergedPRsCount": 14706,
+    "closedPRsCount": 2821,
+    "totalPRs": 17527
+  },
+  {
+    "name": "frp",
+    "nameWithOwner": "fatedier/frp",
+    "url": "https://github.com/fatedier/frp",
+    "stargazerCount": 106084,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "mergedPRs": {
+      "totalCount": 781
+    },
+    "closedPRs": {
+      "totalCount": 356
+    },
+    "mergedPRsCount": 781,
+    "closedPRsCount": 356,
+    "totalPRs": 1137
+  },
+  {
+    "name": "tauri",
+    "nameWithOwner": "tauri-apps/tauri",
+    "url": "https://github.com/tauri-apps/tauri",
+    "stargazerCount": 105752,
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "mergedPRs": {
+      "totalCount": 5451
+    },
+    "closedPRs": {
+      "totalCount": 866
+    },
+    "mergedPRsCount": 5451,
+    "closedPRsCount": 866,
+    "totalPRs": 6317
+  },
+  {
+    "name": "llama.cpp",
+    "nameWithOwner": "ggml-org/llama.cpp",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "stargazerCount": 105712,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "mergedPRs": {
+      "totalCount": 8151
+    },
+    "closedPRs": {
+      "totalCount": 2046
+    },
+    "mergedPRsCount": 8151,
+    "closedPRsCount": 2046,
+    "totalPRs": 10197
+  },
+  {
+    "name": "papers-we-love",
+    "nameWithOwner": "papers-we-love/papers-we-love",
+    "url": "https://github.com/papers-we-love/papers-we-love",
+    "stargazerCount": 105506,
+    "primaryLanguage": {
+      "name": "Shell"
+    },
+    "mergedPRs": {
+      "totalCount": 441
+    },
+    "closedPRs": {
+      "totalCount": 88
+    },
+    "mergedPRsCount": 441,
+    "closedPRsCount": 88,
+    "totalPRs": 529
+  },
+  {
+    "name": "nodebestpractices",
+    "nameWithOwner": "goldbergyoni/nodebestpractices",
+    "url": "https://github.com/goldbergyoni/nodebestpractices",
+    "stargazerCount": 105226,
+    "primaryLanguage": {
+      "name": "Dockerfile"
+    },
+    "mergedPRs": {
+      "totalCount": 766
+    },
+    "closedPRs": {
+      "totalCount": 165
+    },
+    "mergedPRsCount": 766,
+    "closedPRsCount": 165,
+    "totalPRs": 931
+  },
+  {
+    "name": "create-react-app",
+    "nameWithOwner": "facebook/create-react-app",
+    "url": "https://github.com/facebook/create-react-app",
+    "stargazerCount": 103524,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 1949
+    },
+    "closedPRs": {
+      "totalCount": 1921
+    },
+    "mergedPRsCount": 1949,
+    "closedPRsCount": 1921,
+    "totalPRs": 3870
+  },
+  {
+    "name": "v2rayN",
+    "nameWithOwner": "2dust/v2rayN",
+    "url": "https://github.com/2dust/v2rayN",
+    "stargazerCount": 102988,
+    "primaryLanguage": {
+      "name": "C#"
+    },
+    "mergedPRs": {
+      "totalCount": 458
+    },
+    "closedPRs": {
+      "totalCount": 286
+    },
+    "mergedPRsCount": 458,
+    "closedPRsCount": 286,
+    "totalPRs": 744
+  },
+  {
+    "name": "terminal",
+    "nameWithOwner": "microsoft/terminal",
+    "url": "https://github.com/microsoft/terminal",
+    "stargazerCount": 102840,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "mergedPRs": {
+      "totalCount": 4428
+    },
+    "closedPRs": {
+      "totalCount": 660
+    },
+    "mergedPRsCount": 4428,
+    "closedPRsCount": 660,
+    "totalPRs": 5088
+  },
+  {
+    "name": "DeepSeek-V3",
+    "nameWithOwner": "deepseek-ai/DeepSeek-V3",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+    "stargazerCount": 102722,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 25
+    },
+    "closedPRs": {
+      "totalCount": 110
+    },
+    "mergedPRsCount": 25,
+    "closedPRsCount": 110,
+    "totalPRs": 135
+  },
+  {
+    "name": "awesome-mac",
+    "nameWithOwner": "jaywcjlove/awesome-mac",
+    "url": "https://github.com/jaywcjlove/awesome-mac",
+    "stargazerCount": 102447,
+    "primaryLanguage": {
+      "name": "Swift"
+    },
+    "mergedPRs": {
+      "totalCount": 1138
+    },
+    "closedPRs": {
+      "totalCount": 145
+    },
+    "mergedPRsCount": 1138,
+    "closedPRsCount": 145,
+    "totalPRs": 1283
+  },
+  {
+    "name": "gemini-cli",
+    "nameWithOwner": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "stargazerCount": 102109,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 6157
+    },
+    "closedPRs": {
+      "totalCount": 4355
+    },
+    "mergedPRsCount": 6157,
+    "closedPRsCount": 4355,
+    "totalPRs": 10512
+  },
+  {
+    "name": "supabase",
+    "nameWithOwner": "supabase/supabase",
+    "url": "https://github.com/supabase/supabase",
+    "stargazerCount": 101251,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 16454
+    },
+    "closedPRs": {
+      "totalCount": 3278
+    },
+    "mergedPRsCount": 16454,
+    "closedPRsCount": 3278,
+    "totalPRs": 19732
+  },
+  {
+    "name": "angular",
+    "nameWithOwner": "angular/angular",
+    "url": "https://github.com/angular/angular",
+    "stargazerCount": 100076,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 6143
+    },
+    "closedPRs": {
+      "totalCount": 29503
+    },
+    "mergedPRsCount": 6143,
+    "closedPRsCount": 29503,
+    "totalPRs": 35646
+  },
+  {
+    "name": "HowToCook",
+    "nameWithOwner": "Anduin2017/HowToCook",
+    "url": "https://github.com/Anduin2017/HowToCook",
+    "stargazerCount": 99594,
+    "primaryLanguage": {
+      "name": "Dockerfile"
+    },
+    "mergedPRs": {
+      "totalCount": 624
+    },
+    "closedPRs": {
+      "totalCount": 233
+    },
+    "mergedPRsCount": 624,
+    "closedPRsCount": 233,
+    "totalPRs": 857
+  },
+  {
+    "name": "pytorch",
+    "nameWithOwner": "pytorch/pytorch",
+    "url": "https://github.com/pytorch/pytorch",
+    "stargazerCount": 99345,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 6474
+    },
+    "closedPRs": {
+      "totalCount": 113674
+    },
+    "mergedPRsCount": 6474,
+    "closedPRsCount": 113674,
+    "totalPRs": 120148
+  },
+  {
+    "name": "neovim",
+    "nameWithOwner": "neovim/neovim",
+    "url": "https://github.com/neovim/neovim",
+    "stargazerCount": 98962,
+    "primaryLanguage": {
+      "name": "Vim Script"
+    },
+    "mergedPRs": {
+      "totalCount": 18412
+    },
+    "closedPRs": {
+      "totalCount": 5244
+    },
+    "mergedPRsCount": 18412,
+    "closedPRsCount": 5244,
+    "totalPRs": 23656
+  },
+  {
+    "name": "every-programmer-should-know",
+    "nameWithOwner": "mtdvio/every-programmer-should-know",
+    "url": "https://github.com/mtdvio/every-programmer-should-know",
+    "stargazerCount": 98808,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 110
+    },
+    "closedPRs": {
+      "totalCount": 56
+    },
+    "mergedPRsCount": 110,
+    "closedPRsCount": 56,
+    "totalPRs": 166
+  },
+  {
+    "name": "immich",
+    "nameWithOwner": "immich-app/immich",
+    "url": "https://github.com/immich-app/immich",
+    "stargazerCount": 98378,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 9115
+    },
+    "closedPRs": {
+      "totalCount": 1677
+    },
+    "mergedPRsCount": 9115,
+    "closedPRsCount": 1677,
+    "totalPRs": 10792
+  },
+  {
+    "name": "material-ui",
+    "nameWithOwner": "mui/material-ui",
+    "url": "https://github.com/mui/material-ui",
+    "stargazerCount": 98207,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 21800
+    },
+    "closedPRs": {
+      "totalCount": 4625
+    },
+    "mergedPRsCount": 21800,
+    "closedPRsCount": 4625,
+    "totalPRs": 26425
+  },
+  {
+    "name": "whisper",
+    "nameWithOwner": "openai/whisper",
+    "url": "https://github.com/openai/whisper",
+    "stargazerCount": 98197,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 121
+    },
+    "closedPRs": {
+      "totalCount": 123
+    },
+    "mergedPRsCount": 121,
+    "closedPRsCount": 123,
+    "totalPRs": 244
+  },
+  {
+    "name": "ant-design",
+    "nameWithOwner": "ant-design/ant-design",
+    "url": "https://github.com/ant-design/ant-design",
+    "stargazerCount": 97843,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 17403
+    },
+    "closedPRs": {
+      "totalCount": 4564
+    },
+    "mergedPRsCount": 17403,
+    "closedPRsCount": 4564,
+    "totalPRs": 21967
+  },
+  {
+    "name": "fastapi",
+    "nameWithOwner": "fastapi/fastapi",
+    "url": "https://github.com/fastapi/fastapi",
+    "stargazerCount": 97518,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 3250
+    },
+    "closedPRs": {
+      "totalCount": 2238
+    },
+    "mergedPRsCount": 3250,
+    "closedPRsCount": 2238,
+    "totalPRs": 5488
+  },
+  {
+    "name": "thefuck",
+    "nameWithOwner": "nvbn/thefuck",
+    "url": "https://github.com/nvbn/thefuck",
+    "stargazerCount": 96660,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 482
+    },
+    "closedPRs": {
+      "totalCount": 135
+    },
+    "mergedPRsCount": 482,
+    "closedPRsCount": 135,
+    "totalPRs": 617
+  },
+  {
+    "name": "Web-Dev-For-Beginners",
+    "nameWithOwner": "microsoft/Web-Dev-For-Beginners",
+    "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+    "stargazerCount": 95650,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 687
+    },
+    "closedPRs": {
+      "totalCount": 468
+    },
+    "mergedPRsCount": 687,
+    "closedPRsCount": 468,
+    "totalPRs": 1155
+  },
+  {
+    "name": "tailwindcss",
+    "nameWithOwner": "tailwindlabs/tailwindcss",
+    "url": "https://github.com/tailwindlabs/tailwindcss",
+    "stargazerCount": 94692,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 3336
+    },
+    "closedPRs": {
+      "totalCount": 835
+    },
+    "mergedPRsCount": 3336,
+    "closedPRsCount": 835,
+    "totalPRs": 4171
+  },
+  {
+    "name": "clean-code-javascript",
+    "nameWithOwner": "ryanmcdermott/clean-code-javascript",
+    "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+    "stargazerCount": 94306,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 149
+    },
+    "closedPRs": {
+      "totalCount": 111
+    },
+    "mergedPRsCount": 149,
+    "closedPRsCount": 111,
+    "totalPRs": 260
+  },
+  {
+    "name": "puppeteer",
+    "nameWithOwner": "puppeteer/puppeteer",
+    "url": "https://github.com/puppeteer/puppeteer",
+    "stargazerCount": 94162,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 5924
+    },
+    "closedPRs": {
+      "totalCount": 1400
+    },
+    "mergedPRsCount": 5924,
+    "closedPRsCount": 1400,
+    "totalPRs": 7324
+  },
+  {
+    "name": "java-design-patterns",
+    "nameWithOwner": "iluwatar/java-design-patterns",
+    "url": "https://github.com/iluwatar/java-design-patterns",
+    "stargazerCount": 93919,
+    "primaryLanguage": {
+      "name": "Java"
+    },
+    "mergedPRs": {
+      "totalCount": 1520
+    },
+    "closedPRs": {
+      "totalCount": 812
+    },
+    "mergedPRsCount": 1520,
+    "closedPRsCount": 812,
+    "totalPRs": 2332
+  },
+  {
+    "name": "app-ideas",
+    "nameWithOwner": "florinpop17/app-ideas",
+    "url": "https://github.com/florinpop17/app-ideas",
+    "stargazerCount": 93291,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 151
+    },
+    "closedPRs": {
+      "totalCount": 252
+    },
+    "mergedPRsCount": 151,
+    "closedPRsCount": 252,
+    "totalPRs": 403
+  },
+  {
+    "name": "nvm",
+    "nameWithOwner": "nvm-sh/nvm",
+    "url": "https://github.com/nvm-sh/nvm",
+    "stargazerCount": 93039,
+    "primaryLanguage": {
+      "name": "Shell"
+    },
+    "mergedPRs": {
+      "totalCount": 747
+    },
+    "closedPRs": {
+      "totalCount": 409
+    },
+    "mergedPRsCount": 747,
+    "closedPRsCount": 409,
+    "totalPRs": 1156
+  },
+  {
+    "name": "Deep-Live-Cam",
+    "nameWithOwner": "hacksider/Deep-Live-Cam",
+    "url": "https://github.com/hacksider/Deep-Live-Cam",
+    "stargazerCount": 91686,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 110
+    },
+    "closedPRs": {
+      "totalCount": 202
+    },
+    "mergedPRsCount": 110,
+    "closedPRsCount": 202,
+    "totalPRs": 312
+  },
+  {
+    "name": "LLMs-from-scratch",
+    "nameWithOwner": "rasbt/LLMs-from-scratch",
+    "url": "https://github.com/rasbt/LLMs-from-scratch",
+    "stargazerCount": 91232,
+    "primaryLanguage": {
+      "name": "Jupyter Notebook"
+    },
+    "mergedPRs": {
+      "totalCount": 492
+    },
+    "closedPRs": {
+      "totalCount": 74
+    },
+    "mergedPRsCount": 492,
+    "closedPRsCount": 74,
+    "totalPRs": 566
+  },
+  {
+    "name": "vue-element-admin",
+    "nameWithOwner": "PanJiaChen/vue-element-admin",
+    "url": "https://github.com/PanJiaChen/vue-element-admin",
+    "stargazerCount": 90295,
+    "primaryLanguage": {
+      "name": "Vue"
+    },
+    "mergedPRs": {
+      "totalCount": 311
+    },
+    "closedPRs": {
+      "totalCount": 178
+    },
+    "mergedPRsCount": 311,
+    "closedPRsCount": 178,
+    "totalPRs": 489
+  },
+  {
+    "name": "spec-kit",
+    "nameWithOwner": "github/spec-kit",
+    "url": "https://github.com/github/spec-kit",
+    "stargazerCount": 90135,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 429
+    },
+    "closedPRs": {
+      "totalCount": 335
+    },
+    "mergedPRsCount": 429,
+    "closedPRsCount": 335,
+    "totalPRs": 764
+  },
+  {
+    "name": "storybook",
+    "nameWithOwner": "storybookjs/storybook",
+    "url": "https://github.com/storybookjs/storybook",
+    "stargazerCount": 89767,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 12505
+    },
+    "closedPRs": {
+      "totalCount": 3135
+    },
+    "mergedPRsCount": 12505,
+    "closedPRsCount": 3135,
+    "totalPRs": 15640
+  },
+  {
+    "name": "browser-use",
+    "nameWithOwner": "browser-use/browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "stargazerCount": 89450,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 1755
+    },
+    "closedPRs": {
+      "totalCount": 940
+    },
+    "mergedPRsCount": 1755,
+    "closedPRsCount": 940,
+    "totalPRs": 2695
+  },
+  {
+    "name": "bun",
+    "nameWithOwner": "oven-sh/bun",
+    "url": "https://github.com/oven-sh/bun",
+    "stargazerCount": 89265,
+    "primaryLanguage": {
+      "name": "Zig"
+    },
+    "mergedPRs": {
+      "totalCount": 7480
+    },
+    "closedPRs": {
+      "totalCount": 3034
+    },
+    "mergedPRsCount": 7480,
+    "closedPRsCount": 3034,
+    "totalPRs": 10514
+  },
+  {
+    "name": "weekly",
+    "nameWithOwner": "ruanyf/weekly",
+    "url": "https://github.com/ruanyf/weekly",
+    "stargazerCount": 89193,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 110
+    },
+    "closedPRs": {
+      "totalCount": 40
+    },
+    "mergedPRsCount": 110,
+    "closedPRsCount": 40,
+    "totalPRs": 150
+  },
+  {
+    "name": "bitcoin",
+    "nameWithOwner": "bitcoin/bitcoin",
+    "url": "https://github.com/bitcoin/bitcoin",
+    "stargazerCount": 88895,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "mergedPRs": {
+      "totalCount": 16372
+    },
+    "closedPRs": {
+      "totalCount": 7621
+    },
+    "mergedPRsCount": 16372,
+    "closedPRsCount": 7621,
+    "totalPRs": 23993
+  },
+  {
+    "name": "gin",
+    "nameWithOwner": "gin-gonic/gin",
+    "url": "https://github.com/gin-gonic/gin",
+    "stargazerCount": 88373,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "mergedPRs": {
+      "totalCount": 1231
+    },
+    "closedPRs": {
+      "totalCount": 859
+    },
+    "mergedPRsCount": 1231,
+    "closedPRsCount": 859,
+    "totalPRs": 2090
+  },
+  {
+    "name": "NextChat",
+    "nameWithOwner": "ChatGPTNextWeb/NextChat",
+    "url": "https://github.com/ChatGPTNextWeb/NextChat",
+    "stargazerCount": 87766,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 893
+    },
+    "closedPRs": {
+      "totalCount": 1656
+    },
+    "mergedPRsCount": 893,
+    "closedPRsCount": 1656,
+    "totalPRs": 2549
+  },
+  {
+    "name": "hugo",
+    "nameWithOwner": "gohugoio/hugo",
+    "url": "https://github.com/gohugoio/hugo",
+    "stargazerCount": 87723,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "mergedPRs": {
+      "totalCount": 3320
+    },
+    "closedPRs": {
+      "totalCount": 3107
+    },
+    "mergedPRsCount": 3320,
+    "closedPRsCount": 3107,
+    "totalPRs": 6427
+  },
+  {
+    "name": "mermaid",
+    "nameWithOwner": "mermaid-js/mermaid",
+    "url": "https://github.com/mermaid-js/mermaid",
+    "stargazerCount": 87561,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 2665
+    },
+    "closedPRs": {
+      "totalCount": 609
+    },
+    "mergedPRsCount": 2665,
+    "closedPRsCount": 609,
+    "totalPRs": 3274
+  },
+  {
+    "name": "django",
+    "nameWithOwner": "django/django",
+    "url": "https://github.com/django/django",
+    "stargazerCount": 87306,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 10435
+    },
+    "closedPRs": {
+      "totalCount": 10223
+    },
+    "mergedPRsCount": 10435,
+    "closedPRsCount": 10223,
+    "totalPRs": 20658
+  },
+  {
+    "name": "opencv",
+    "nameWithOwner": "opencv/opencv",
+    "url": "https://github.com/opencv/opencv",
+    "stargazerCount": 87209,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "mergedPRs": {
+      "totalCount": 13598
+    },
+    "closedPRs": {
+      "totalCount": 3362
+    },
+    "mergedPRsCount": 13598,
+    "closedPRsCount": 3362,
+    "totalPRs": 16960
+  },
+  {
+    "name": "playwright",
+    "nameWithOwner": "microsoft/playwright",
+    "url": "https://github.com/microsoft/playwright",
+    "stargazerCount": 87038,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 16708
+    },
+    "closedPRs": {
+      "totalCount": 2730
+    },
+    "mergedPRsCount": 16708,
+    "closedPRsCount": 2730,
+    "totalPRs": 19438
+  },
+  {
+    "name": "svelte",
+    "nameWithOwner": "sveltejs/svelte",
+    "url": "https://github.com/sveltejs/svelte",
+    "stargazerCount": 86396,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 6623
+    },
+    "closedPRs": {
+      "totalCount": 1426
+    },
+    "mergedPRsCount": 6623,
+    "closedPRsCount": 1426,
+    "totalPRs": 8049
+  },
+  {
+    "name": "manim",
+    "nameWithOwner": "3b1b/manim",
+    "url": "https://github.com/3b1b/manim",
+    "stargazerCount": 86213,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 666
+    },
+    "closedPRs": {
+      "totalCount": 253
+    },
+    "mergedPRsCount": 666,
+    "closedPRsCount": 253,
+    "totalPRs": 919
+  },
+  {
+    "name": "core",
+    "nameWithOwner": "home-assistant/core",
+    "url": "https://github.com/home-assistant/core",
+    "stargazerCount": 86162,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 84673
+    },
+    "closedPRs": {
+      "totalCount": 13058
+    },
+    "mergedPRsCount": 84673,
+    "closedPRsCount": 13058,
+    "totalPRs": 97731
+  },
+  {
+    "name": "uptime-kuma",
+    "nameWithOwner": "louislam/uptime-kuma",
+    "url": "https://github.com/louislam/uptime-kuma",
+    "stargazerCount": 85599,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 1721
+    },
+    "closedPRs": {
+      "totalCount": 696
+    },
+    "mergedPRsCount": 1721,
+    "closedPRsCount": 696,
+    "totalPRs": 2417
+  },
+  {
+    "name": "ML-For-Beginners",
+    "nameWithOwner": "microsoft/ML-For-Beginners",
+    "url": "https://github.com/microsoft/ML-For-Beginners",
+    "stargazerCount": 85377,
+    "primaryLanguage": {
+      "name": "Jupyter Notebook"
+    },
+    "mergedPRs": {
+      "totalCount": 465
+    },
+    "closedPRs": {
+      "totalCount": 184
+    },
+    "mergedPRsCount": 465,
+    "closedPRsCount": 184,
+    "totalPRs": 649
+  },
+  {
+    "name": "awesome-mcp-servers",
+    "nameWithOwner": "punkpeye/awesome-mcp-servers",
+    "url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "stargazerCount": 85341,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 2025
+    },
+    "closedPRs": {
+      "totalCount": 1840
+    },
+    "mergedPRsCount": 2025,
+    "closedPRsCount": 1840,
+    "totalPRs": 3865
+  },
+  {
+    "name": "agency-agents",
+    "nameWithOwner": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "stargazerCount": 85271,
+    "primaryLanguage": {
+      "name": "Shell"
+    },
+    "mergedPRs": {
+      "totalCount": 119
+    },
+    "closedPRs": {
+      "totalCount": 129
+    },
+    "mergedPRsCount": 119,
+    "closedPRsCount": 129,
+    "totalPRs": 248
+  },
+  {
+    "name": "awesome-for-beginners",
+    "nameWithOwner": "MunGell/awesome-for-beginners",
+    "url": "https://github.com/MunGell/awesome-for-beginners",
+    "stargazerCount": 84870,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 482
+    },
+    "closedPRs": {
+      "totalCount": 1180
+    },
+    "mergedPRsCount": 482,
+    "closedPRsCount": 1180,
+    "totalPRs": 1662
+  },
+  {
+    "name": "servers",
+    "nameWithOwner": "modelcontextprotocol/servers",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "stargazerCount": 84307,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 1199
+    },
+    "closedPRs": {
+      "totalCount": 1612
+    },
+    "mergedPRsCount": 1199,
+    "closedPRsCount": 1612,
+    "totalPRs": 2811
+  },
+  {
+    "name": "laravel",
+    "nameWithOwner": "laravel/laravel",
+    "url": "https://github.com/laravel/laravel",
+    "stargazerCount": 84078,
+    "primaryLanguage": {
+      "name": "Blade"
+    },
+    "mergedPRs": {
+      "totalCount": 1685
+    },
+    "closedPRs": {
+      "totalCount": 3442
+    },
+    "mergedPRsCount": 1685,
+    "closedPRsCount": 3442,
+    "totalPRs": 5127
+  },
+  {
+    "name": "uv",
+    "nameWithOwner": "astral-sh/uv",
+    "url": "https://github.com/astral-sh/uv",
+    "stargazerCount": 83738,
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "mergedPRs": {
+      "totalCount": 8890
+    },
+    "closedPRs": {
+      "totalCount": 933
+    },
+    "mergedPRsCount": 8890,
+    "closedPRsCount": 933,
+    "totalPRs": 9823
+  },
+  {
+    "name": "mall",
+    "nameWithOwner": "macrozheng/mall",
+    "url": "https://github.com/macrozheng/mall",
+    "stargazerCount": 83464,
+    "primaryLanguage": {
+      "name": "Java"
+    },
+    "mergedPRs": {
+      "totalCount": 1
+    },
+    "closedPRs": {
+      "totalCount": 145
+    },
+    "mergedPRsCount": 1,
+    "closedPRsCount": 145,
+    "totalPRs": 146
+  },
+  {
+    "name": "realworld",
+    "nameWithOwner": "realworld-apps/realworld",
+    "url": "https://github.com/realworld-apps/realworld",
+    "stargazerCount": 83225,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 434
+    },
+    "closedPRs": {
+      "totalCount": 483
+    },
+    "mergedPRsCount": 434,
+    "closedPRsCount": 483,
+    "totalPRs": 917
+  },
+  {
+    "name": "syncthing",
+    "nameWithOwner": "syncthing/syncthing",
+    "url": "https://github.com/syncthing/syncthing",
+    "stargazerCount": 82849,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "mergedPRs": {
+      "totalCount": 2853
+    },
+    "closedPRs": {
+      "totalCount": 1809
+    },
+    "mergedPRsCount": 2853,
+    "closedPRsCount": 1809,
+    "totalPRs": 4662
+  },
+  {
+    "name": "animate.css",
+    "nameWithOwner": "animate-css/animate.css",
+    "url": "https://github.com/animate-css/animate.css",
+    "stargazerCount": 82549,
+    "primaryLanguage": {
+      "name": "CSS"
+    },
+    "mergedPRs": {
+      "totalCount": 315
+    },
+    "closedPRs": {
+      "totalCount": 586
+    },
+    "mergedPRsCount": 315,
+    "closedPRsCount": 586,
+    "totalPRs": 901
+  },
+  {
+    "name": "awesome-interview-questions",
+    "nameWithOwner": "DopplerHQ/awesome-interview-questions",
+    "url": "https://github.com/DopplerHQ/awesome-interview-questions",
+    "stargazerCount": 82116,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 175
+    },
+    "closedPRs": {
+      "totalCount": 36
+    },
+    "mergedPRsCount": 175,
+    "closedPRsCount": 36,
+    "totalPRs": 211
+  },
+  {
+    "name": "devops-exercises",
+    "nameWithOwner": "bregman-arie/devops-exercises",
+    "url": "https://github.com/bregman-arie/devops-exercises",
+    "stargazerCount": 82108,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 309
+    },
+    "closedPRs": {
+      "totalCount": 116
+    },
+    "mergedPRsCount": 309,
+    "closedPRsCount": 116,
+    "totalPRs": 425
+  },
+  {
+    "name": "sherlock",
+    "nameWithOwner": "sherlock-project/sherlock",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "stargazerCount": 81734,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 738
+    },
+    "closedPRs": {
+      "totalCount": 589
+    },
+    "mergedPRsCount": 738,
+    "closedPRsCount": 589,
+    "totalPRs": 1327
+  },
+  {
+    "name": "FiraCode",
+    "nameWithOwner": "tonsky/FiraCode",
+    "url": "https://github.com/tonsky/FiraCode",
+    "stargazerCount": 81468,
+    "primaryLanguage": {
+      "name": "Clojure"
+    },
+    "mergedPRs": {
+      "totalCount": 144
+    },
+    "closedPRs": {
+      "totalCount": 58
+    },
+    "mergedPRsCount": 144,
+    "closedPRsCount": 58,
+    "totalPRs": 202
+  },
+  {
+    "name": "spring-boot",
+    "nameWithOwner": "spring-projects/spring-boot",
+    "url": "https://github.com/spring-projects/spring-boot",
+    "stargazerCount": 80473,
+    "primaryLanguage": {
+      "name": "Java"
+    },
+    "mergedPRs": {
+      "totalCount": 88
+    },
+    "closedPRs": {
+      "totalCount": 7390
+    },
+    "mergedPRsCount": 88,
+    "closedPRsCount": 7390,
+    "totalPRs": 7478
+  },
+  {
+    "name": "cs-video-courses",
+    "nameWithOwner": "Developer-Y/cs-video-courses",
+    "url": "https://github.com/Developer-Y/cs-video-courses",
+    "stargazerCount": 80427,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 265
+    },
+    "closedPRs": {
+      "totalCount": 55
+    },
+    "mergedPRsCount": 265,
+    "closedPRsCount": 55,
+    "totalPRs": 320
+  },
+  {
+    "name": "gstack",
+    "nameWithOwner": "garrytan/gstack",
+    "url": "https://github.com/garrytan/gstack",
+    "stargazerCount": 80165,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 198
+    },
+    "closedPRs": {
+      "totalCount": 396
+    },
+    "mergedPRsCount": 198,
+    "closedPRsCount": 396,
+    "totalPRs": 594
+  },
+  {
+    "name": "vite",
+    "nameWithOwner": "vitejs/vite",
+    "url": "https://github.com/vitejs/vite",
+    "stargazerCount": 80108,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 6229
+    },
+    "closedPRs": {
+      "totalCount": 1845
+    },
+    "mergedPRsCount": 6229,
+    "closedPRsCount": 1845,
+    "totalPRs": 8074
+  },
+  {
+    "name": "fzf",
+    "nameWithOwner": "junegunn/fzf",
+    "url": "https://github.com/junegunn/fzf",
+    "stargazerCount": 79726,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "mergedPRs": {
+      "totalCount": 657
+    },
+    "closedPRs": {
+      "totalCount": 444
+    },
+    "mergedPRsCount": 657,
+    "closedPRsCount": 444,
+    "totalPRs": 1101
+  },
+  {
+    "name": "zed",
+    "nameWithOwner": "zed-industries/zed",
+    "url": "https://github.com/zed-industries/zed",
+    "stargazerCount": 79527,
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "mergedPRs": {
+      "totalCount": 23662
+    },
+    "closedPRs": {
+      "totalCount": 3539
+    },
+    "mergedPRsCount": 23662,
+    "closedPRsCount": 3539,
+    "totalPRs": 27201
+  },
+  {
+    "name": "github-readme-stats",
+    "nameWithOwner": "anuraghazra/github-readme-stats",
+    "url": "https://github.com/anuraghazra/github-readme-stats",
+    "stargazerCount": 79124,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 1568
+    },
+    "closedPRs": {
+      "totalCount": 1295
+    },
+    "mergedPRsCount": 1568,
+    "closedPRsCount": 1295,
+    "totalPRs": 2863
+  },
+  {
+    "name": "hoppscotch",
+    "nameWithOwner": "hoppscotch/hoppscotch",
+    "url": "https://github.com/hoppscotch/hoppscotch",
+    "stargazerCount": 79006,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 2075
+    },
+    "closedPRs": {
+      "totalCount": 963
+    },
+    "mergedPRsCount": 2075,
+    "closedPRsCount": 963,
+    "totalPRs": 3038
+  },
+  {
+    "name": "advanced-java",
+    "nameWithOwner": "doocs/advanced-java",
+    "url": "https://github.com/doocs/advanced-java",
+    "stargazerCount": 78951,
+    "primaryLanguage": {
+      "name": "Java"
+    },
+    "mergedPRs": {
+      "totalCount": 91
+    },
+    "closedPRs": {
+      "totalCount": 51
+    },
+    "mergedPRsCount": 91,
+    "closedPRsCount": 51,
+    "totalPRs": 142
+  },
+  {
+    "name": "ragflow",
+    "nameWithOwner": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "stargazerCount": 78745,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 5881
+    },
+    "closedPRs": {
+      "totalCount": 679
+    },
+    "mergedPRsCount": 5881,
+    "closedPRsCount": 679,
+    "totalPRs": 6560
+  },
+  {
+    "name": "localsend",
+    "nameWithOwner": "localsend/localsend",
+    "url": "https://github.com/localsend/localsend",
+    "stargazerCount": 78627,
+    "primaryLanguage": {
+      "name": "Dart"
+    },
+    "mergedPRs": {
+      "totalCount": 703
+    },
+    "closedPRs": {
+      "totalCount": 109
+    },
+    "mergedPRsCount": 703,
+    "closedPRsCount": 109,
+    "totalPRs": 812
+  },
+  {
+    "name": "netdata",
+    "nameWithOwner": "netdata/netdata",
+    "url": "https://github.com/netdata/netdata",
+    "stargazerCount": 78555,
+    "primaryLanguage": {
+      "name": "C"
+    },
+    "mergedPRs": {
+      "totalCount": 11978
+    },
+    "closedPRs": {
+      "totalCount": 1323
+    },
+    "mergedPRsCount": 11978,
+    "closedPRsCount": 1323,
+    "totalPRs": 13301
+  },
+  {
+    "name": "vllm",
+    "nameWithOwner": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "stargazerCount": 77694,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 15939
+    },
+    "closedPRs": {
+      "totalCount": 6452
+    },
+    "mergedPRsCount": 15939,
+    "closedPRsCount": 6452,
+    "totalPRs": 22391
+  },
+  {
+    "name": "models",
+    "nameWithOwner": "tensorflow/models",
+    "url": "https://github.com/tensorflow/models",
+    "stargazerCount": 77669,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 2344
+    },
+    "closedPRs": {
+      "totalCount": 1344
+    },
+    "mergedPRsCount": 2344,
+    "closedPRsCount": 1344,
+    "totalPRs": 3688
+  },
+  {
+    "name": "Stirling-PDF",
+    "nameWithOwner": "Stirling-Tools/Stirling-PDF",
+    "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+    "stargazerCount": 77563,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 3324
+    },
+    "closedPRs": {
+      "totalCount": 754
+    },
+    "mergedPRsCount": 3324,
+    "closedPRsCount": 754,
+    "totalPRs": 4078
+  },
+  {
+    "name": "d2l-zh",
+    "nameWithOwner": "d2l-ai/d2l-zh",
+    "url": "https://github.com/d2l-ai/d2l-zh",
+    "stargazerCount": 77372,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 1019
+    },
+    "closedPRs": {
+      "totalCount": 255
+    },
+    "mergedPRsCount": 1019,
+    "closedPRsCount": 255,
+    "totalPRs": 1274
+  },
+  {
+    "name": "gpt4all",
+    "nameWithOwner": "nomic-ai/gpt4all",
+    "url": "https://github.com/nomic-ai/gpt4all",
+    "stargazerCount": 77355,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "mergedPRs": {
+      "totalCount": 938
+    },
+    "closedPRs": {
+      "totalCount": 222
+    },
+    "mergedPRsCount": 938,
+    "closedPRsCount": 222,
+    "totalPRs": 1160
+  },
+  {
+    "name": "code-server",
+    "nameWithOwner": "coder/code-server",
+    "url": "https://github.com/coder/code-server",
+    "stargazerCount": 77222,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 1670
+    },
+    "closedPRs": {
+      "totalCount": 479
+    },
+    "mergedPRsCount": 1670,
+    "closedPRsCount": 479,
+    "totalPRs": 2149
+  },
+  {
+    "name": "PayloadsAllTheThings",
+    "nameWithOwner": "swisskyrepo/PayloadsAllTheThings",
+    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+    "stargazerCount": 77090,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 567
+    },
+    "closedPRs": {
+      "totalCount": 163
+    },
+    "mergedPRsCount": 567,
+    "closedPRsCount": 163,
+    "totalPRs": 730
+  },
+  {
+    "name": "codex",
+    "nameWithOwner": "openai/codex",
+    "url": "https://github.com/openai/codex",
+    "stargazerCount": 76978,
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "mergedPRs": {
+      "totalCount": 5725
+    },
+    "closedPRs": {
+      "totalCount": 3073
+    },
+    "mergedPRsCount": 5725,
+    "closedPRsCount": 3073,
+    "totalPRs": 8798
+  },
+  {
+    "name": "lazygit",
+    "nameWithOwner": "jesseduffield/lazygit",
+    "url": "https://github.com/jesseduffield/lazygit",
+    "stargazerCount": 76854,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "mergedPRs": {
+      "totalCount": 1875
+    },
+    "closedPRs": {
+      "totalCount": 362
+    },
+    "mergedPRsCount": 1875,
+    "closedPRsCount": 362,
+    "totalPRs": 2237
+  },
+  {
+    "name": "elasticsearch",
+    "nameWithOwner": "elastic/elasticsearch",
+    "url": "https://github.com/elastic/elasticsearch",
+    "stargazerCount": 76565,
+    "primaryLanguage": {
+      "name": "Java"
+    },
+    "mergedPRs": {
+      "totalCount": 89441
+    },
+    "closedPRs": {
+      "totalCount": 12025
+    },
+    "mergedPRsCount": 89441,
+    "closedPRsCount": 12025,
+    "totalPRs": 101466
+  },
+  {
+    "name": "Font-Awesome",
+    "nameWithOwner": "FortAwesome/Font-Awesome",
+    "url": "https://github.com/FortAwesome/Font-Awesome",
+    "stargazerCount": 76526,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 220
+    },
+    "closedPRs": {
+      "totalCount": 474
+    },
+    "mergedPRsCount": 220,
+    "closedPRsCount": 474,
+    "totalPRs": 694
+  },
+  {
+    "name": "PaddleOCR",
+    "nameWithOwner": "PaddlePaddle/PaddleOCR",
+    "url": "https://github.com/PaddlePaddle/PaddleOCR",
+    "stargazerCount": 76173,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 3149
+    },
+    "closedPRs": {
+      "totalCount": 750
+    },
+    "mergedPRsCount": 3149,
+    "closedPRsCount": 750,
+    "totalPRs": 3899
+  },
+  {
+    "name": "Ventoy",
+    "nameWithOwner": "ventoy/Ventoy",
+    "url": "https://github.com/ventoy/Ventoy",
+    "stargazerCount": 76013,
+    "primaryLanguage": {
+      "name": "C"
+    },
+    "mergedPRs": {
+      "totalCount": 296
+    },
+    "closedPRs": {
+      "totalCount": 168
+    },
+    "mergedPRsCount": 296,
+    "closedPRsCount": 168,
+    "totalPRs": 464
+  },
+  {
+    "name": "Best-websites-a-programmer-should-visit",
+    "nameWithOwner": "sdmg15/Best-websites-a-programmer-should-visit",
+    "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
+    "stargazerCount": 75993,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 431
+    },
+    "closedPRs": {
+      "totalCount": 582
+    },
+    "mergedPRsCount": 431,
+    "closedPRsCount": 582,
+    "totalPRs": 1013
+  },
+  {
+    "name": "json-server",
+    "nameWithOwner": "typicode/json-server",
+    "url": "https://github.com/typicode/json-server",
+    "stargazerCount": 75588,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "mergedPRs": {
+      "totalCount": 171
+    },
+    "closedPRs": {
+      "totalCount": 233
+    },
+    "mergedPRsCount": 171,
+    "closedPRsCount": 233,
+    "totalPRs": 404
+  },
+  {
+    "name": "autoresearch",
+    "nameWithOwner": "karpathy/autoresearch",
+    "url": "https://github.com/karpathy/autoresearch",
+    "stargazerCount": 75519,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 7
+    },
+    "closedPRs": {
+      "totalCount": 185
+    },
+    "mergedPRsCount": 7,
+    "closedPRsCount": 185,
+    "totalPRs": 192
+  },
+  {
+    "name": "lobehub",
+    "nameWithOwner": "lobehub/lobehub",
+    "url": "https://github.com/lobehub/lobehub",
+    "stargazerCount": 75485,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 5033
+    },
+    "closedPRs": {
+      "totalCount": 1569
+    },
+    "mergedPRsCount": 5033,
+    "closedPRsCount": 1569,
+    "totalPRs": 6602
+  },
+  {
+    "name": "nest",
+    "nameWithOwner": "nestjs/nest",
+    "url": "https://github.com/nestjs/nest",
+    "stargazerCount": 75289,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 8263
+    },
+    "closedPRs": {
+      "totalCount": 2341
+    },
+    "mergedPRsCount": 8263,
+    "closedPRsCount": 2341,
+    "totalPRs": 10604
+  },
+  {
+    "name": "awesome-public-datasets",
+    "nameWithOwner": "awesomedata/awesome-public-datasets",
+    "url": "https://github.com/awesomedata/awesome-public-datasets",
+    "stargazerCount": 74141,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 188
+    },
+    "closedPRs": {
+      "totalCount": 108
+    },
+    "mergedPRsCount": 188,
+    "closedPRsCount": 108,
+    "totalPRs": 296
+  },
+  {
+    "name": "union",
+    "nameWithOwner": "unionlabs/union",
+    "url": "https://github.com/unionlabs/union",
+    "stargazerCount": 74130,
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "mergedPRs": {
+      "totalCount": 3103
+    },
+    "closedPRs": {
+      "totalCount": 330
+    },
+    "mergedPRsCount": 3103,
+    "closedPRsCount": 330,
+    "totalPRs": 3433
+  },
+  {
+    "name": "redis",
+    "nameWithOwner": "redis/redis",
+    "url": "https://github.com/redis/redis",
+    "stargazerCount": 73954,
+    "primaryLanguage": {
+      "name": "C"
+    },
+    "mergedPRs": {
+      "totalCount": 4513
+    },
+    "closedPRs": {
+      "totalCount": 2601
+    },
+    "mergedPRsCount": 4513,
+    "closedPRsCount": 2601,
+    "totalPRs": 7114
+  },
+  {
+    "name": "Prompt-Engineering-Guide",
+    "nameWithOwner": "dair-ai/Prompt-Engineering-Guide",
+    "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+    "stargazerCount": 73674,
+    "primaryLanguage": {
+      "name": "MDX"
+    },
+    "mergedPRs": {
+      "totalCount": 342
+    },
+    "closedPRs": {
+      "totalCount": 62
+    },
+    "mergedPRsCount": 342,
+    "closedPRsCount": 62,
+    "totalPRs": 404
+  },
+  {
+    "name": "tesseract",
+    "nameWithOwner": "tesseract-ocr/tesseract",
+    "url": "https://github.com/tesseract-ocr/tesseract",
+    "stargazerCount": 73662,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "mergedPRs": {
+      "totalCount": 1434
+    },
+    "closedPRs": {
+      "totalCount": 252
+    },
+    "mergedPRsCount": 1434,
+    "closedPRsCount": 252,
+    "totalPRs": 1686
+  },
+  {
+    "name": "awesome-vue",
+    "nameWithOwner": "vuejs/awesome-vue",
+    "url": "https://github.com/vuejs/awesome-vue",
+    "stargazerCount": 73610,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 3622
+    },
+    "closedPRs": {
+      "totalCount": 390
+    },
+    "mergedPRsCount": 3622,
+    "closedPRsCount": 390,
+    "totalPRs": 4012
+  },
+  {
+    "name": "grafana",
+    "nameWithOwner": "grafana/grafana",
+    "url": "https://github.com/grafana/grafana",
+    "stargazerCount": 73360,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 64886
+    },
+    "closedPRs": {
+      "totalCount": 10784
+    },
+    "mergedPRsCount": 64886,
+    "closedPRsCount": 10784,
+    "totalPRs": 75670
+  },
+  {
+    "name": "the-algorithm",
+    "nameWithOwner": "twitter/the-algorithm",
+    "url": "https://github.com/twitter/the-algorithm",
+    "stargazerCount": 73044,
+    "primaryLanguage": {
+      "name": "Scala"
+    },
+    "mergedPRs": {
+      "totalCount": 2
+    },
+    "closedPRs": {
+      "totalCount": 378
+    },
+    "mergedPRsCount": 2,
+    "closedPRsCount": 378,
+    "totalPRs": 380
+  },
+  {
+    "name": "awesome-react",
+    "nameWithOwner": "enaqx/awesome-react",
+    "url": "https://github.com/enaqx/awesome-react",
+    "stargazerCount": 72983,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 797
+    },
+    "closedPRs": {
+      "totalCount": 619
+    },
+    "mergedPRsCount": 797,
+    "closedPRsCount": 619,
+    "totalPRs": 1416
+  },
+  {
+    "name": "openai-cookbook",
+    "nameWithOwner": "openai/openai-cookbook",
+    "url": "https://github.com/openai/openai-cookbook",
+    "stargazerCount": 72879,
+    "primaryLanguage": {
+      "name": "Jupyter Notebook"
+    },
+    "mergedPRs": {
+      "totalCount": 1018
+    },
+    "closedPRs": {
+      "totalCount": 510
+    },
+    "mergedPRsCount": 1018,
+    "closedPRsCount": 510,
+    "totalPRs": 1528
+  },
+  {
+    "name": "imgui",
+    "nameWithOwner": "ocornut/imgui",
+    "url": "https://github.com/ocornut/imgui",
+    "stargazerCount": 72739,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "mergedPRs": {
+      "totalCount": 420
+    },
+    "closedPRs": {
+      "totalCount": 1111
+    },
+    "mergedPRsCount": 420,
+    "closedPRsCount": 1111,
+    "totalPRs": 1531
+  },
+  {
+    "name": "superset",
+    "nameWithOwner": "apache/superset",
+    "url": "https://github.com/apache/superset",
+    "stargazerCount": 72534,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 16975
+    },
+    "closedPRs": {
+      "totalCount": 5016
+    },
+    "mergedPRsCount": 16975,
+    "closedPRsCount": 5016,
+    "totalPRs": 21991
+  },
+  {
+    "name": "Front-End-Checklist",
+    "nameWithOwner": "thedaviddias/Front-End-Checklist",
+    "url": "https://github.com/thedaviddias/Front-End-Checklist",
+    "stargazerCount": 72506,
+    "primaryLanguage": null,
+    "mergedPRs": {
+      "totalCount": 179
+    },
+    "closedPRs": {
+      "totalCount": 135
+    },
+    "mergedPRsCount": 179,
+    "closedPRsCount": 135,
+    "totalPRs": 314
+  },
+  {
+    "name": "cs-self-learning",
+    "nameWithOwner": "PKUFlyingPig/cs-self-learning",
+    "url": "https://github.com/PKUFlyingPig/cs-self-learning",
+    "stargazerCount": 72454,
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "mergedPRs": {
+      "totalCount": 315
+    },
+    "closedPRs": {
+      "totalCount": 61
+    },
+    "mergedPRsCount": 315,
+    "closedPRsCount": 61,
+    "totalPRs": 376
+  },
+  {
+    "name": "cpython",
+    "nameWithOwner": "python/cpython",
+    "url": "https://github.com/python/cpython",
+    "stargazerCount": 72411,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 58327
+    },
+    "closedPRs": {
+      "totalCount": 9999
+    },
+    "mergedPRsCount": 58327,
+    "closedPRsCount": 9999,
+    "totalPRs": 68326
+  },
+  {
+    "name": "daytona",
+    "nameWithOwner": "daytonaio/daytona",
+    "url": "https://github.com/daytonaio/daytona",
+    "stargazerCount": 72360,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 2170
+    },
+    "closedPRs": {
+      "totalCount": 1076
+    },
+    "mergedPRsCount": 2170,
+    "closedPRsCount": 1076,
+    "totalPRs": 3246
+  },
+  {
+    "name": "screenshot-to-code",
+    "nameWithOwner": "abi/screenshot-to-code",
+    "url": "https://github.com/abi/screenshot-to-code",
+    "stargazerCount": 72314,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 77
+    },
+    "closedPRs": {
+      "totalCount": 89
+    },
+    "mergedPRsCount": 77,
+    "closedPRsCount": 89,
+    "totalPRs": 166
+  },
+  {
+    "name": "awesome-machine-learning",
+    "nameWithOwner": "josephmisiti/awesome-machine-learning",
+    "url": "https://github.com/josephmisiti/awesome-machine-learning",
+    "stargazerCount": 72280,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 914
+    },
+    "closedPRs": {
+      "totalCount": 149
+    },
+    "mergedPRsCount": 914,
+    "closedPRsCount": 149,
+    "totalPRs": 1063
+  },
+  {
+    "name": "strapi",
+    "nameWithOwner": "strapi/strapi",
+    "url": "https://github.com/strapi/strapi",
+    "stargazerCount": 71975,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "mergedPRs": {
+      "totalCount": 9733
+    },
+    "closedPRs": {
+      "totalCount": 2820
+    },
+    "mergedPRsCount": 9733,
+    "closedPRsCount": 2820,
+    "totalPRs": 12553
+  },
+  {
+    "name": "obs-studio",
+    "nameWithOwner": "obsproject/obs-studio",
+    "url": "https://github.com/obsproject/obs-studio",
+    "stargazerCount": 71863,
+    "primaryLanguage": {
+      "name": "C"
+    },
+    "mergedPRs": {
+      "totalCount": 5437
+    },
+    "closedPRs": {
+      "totalCount": 2012
+    },
+    "mergedPRsCount": 5437,
+    "closedPRsCount": 2012,
+    "totalPRs": 7449
+  },
+  {
+    "name": "caddy",
+    "nameWithOwner": "caddyserver/caddy",
+    "url": "https://github.com/caddyserver/caddy",
+    "stargazerCount": 71759,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "mergedPRs": {
+      "totalCount": 2294
+    },
+    "closedPRs": {
+      "totalCount": 535
+    },
+    "mergedPRsCount": 2294,
+    "closedPRsCount": 535,
+    "totalPRs": 2829
+  },
+  {
+    "name": "OpenHands",
+    "nameWithOwner": "OpenHands/OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "stargazerCount": 71739,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "mergedPRs": {
+      "totalCount": 6807
+    },
+    "closedPRs": {
+      "totalCount": 2760
+    },
+    "mergedPRsCount": 6807,
+    "closedPRsCount": 2760,
+    "totalPRs": 9567
+  }
+]

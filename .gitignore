@@ -47,3 +47,6 @@ desktop.ini
 .cache/
 **/data/ck-results
 **/data/repos
+
+# Lab 03 — checkpoints JSON por repositório (grandes; não enviar ao GitHub)
+Laboratorios/Lab-03/data/prs_brutos/

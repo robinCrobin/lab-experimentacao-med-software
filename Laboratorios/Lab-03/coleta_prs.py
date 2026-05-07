@@ -2,7 +2,7 @@
 
   - state: MERGED ou CLOSED;
   - reviews.totalCount >= 1;
-  - (closedAt|mergedAt) - createdAt >= 1 hora.
+  - (closedAt|mergedAt) - createdAt > 1 hora.
 
 Para cada repositório é gerado um arquivo JSON em `data/prs_brutos/`
 (checkpoint), permitindo retomar a execução de onde parou.
@@ -23,10 +23,16 @@ from dotenv import load_dotenv
 
 GRAPHQL_URL = "https://api.github.com/graphql"
 TIMEOUT = 90
-PAGE_SIZE = 30            # listagem leve — pode ser maior, mas 30 é seguro contra 502
+# Listagem só pede poucos campos; 100 reduz páginas em repositórios enormes (ex.: tensorflow).
+LIST_PAGE_SIZE = 100
+LISTAGEM_LOG_A_CADA_PAGINAS = 12
 DETAILS_BATCH_SIZE = 10   # quantos PRs detalhar por request (batch via aliases)
-MIN_REVIEW_HOURS = 1      # filtro de tempo mínimo de revisão
+DETALHES_LOG_A_CADA_LOTES = 25
+MIN_REVIEW_HOURS = 1      # filtro de tempo de revisão: estritamente maior que 1h
 MAX_RETRIES = 10
+# Limite padrão: repositórios grandes podem ter dezenas de milhares de PRs filtrados;
+# sem teto, a fase de detalhes vira milhares de requisições GraphQL (horas/dias).
+DEFAULT_MAX_PRS_PER_REPO = 2500
 
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
@@ -184,7 +190,7 @@ def parse_iso(dt_str):
 
 
 def passes_filters(pr):
-    """Filtros do enunciado: >=1 review e tempo de revisão >= 1h."""
+    """Filtros do enunciado: >=1 review e tempo de revisão > 1h."""
     if pr["reviews"]["totalCount"] < 1:
         return False
 
@@ -194,13 +200,22 @@ def passes_filters(pr):
         return False
 
     delta_hours = (end - created).total_seconds() / 3600
-    return delta_hours >= MIN_REVIEW_HOURS
+    return delta_hours > MIN_REVIEW_HOURS
 
 
 def fetch_pr_details(token, owner, name, numbers):
     """Fase 2: busca campos pesados (additions/deletions/body/...) em batch via aliases."""
     detalhes = []
+    total = len(numbers)
+    total_lotes = max(1, (total + DETAILS_BATCH_SIZE - 1) // DETAILS_BATCH_SIZE)
     for i in range(0, len(numbers), DETAILS_BATCH_SIZE):
+        lote_idx = i // DETAILS_BATCH_SIZE + 1
+        if lote_idx == 1 or lote_idx % DETALHES_LOG_A_CADA_LOTES == 0 or lote_idx == total_lotes:
+            print(
+                f"   … detalhes: lote {lote_idx}/{total_lotes} "
+                f"({min(i + DETAILS_BATCH_SIZE, total)}/{total} PRs)…",
+                flush=True,
+            )
         chunk = numbers[i : i + DETAILS_BATCH_SIZE]
         query = build_details_query(chunk)
         data = graphql_request(token, query, {"owner": owner, "name": name})
@@ -216,20 +231,30 @@ def fetch_pr_details(token, owner, name, numbers):
     return detalhes
 
 
-def fetch_prs_for_repo(token, owner, name):
-    """Pagina sobre PRs MERGED/CLOSED (query leve), filtra, depois busca detalhes em batch."""
+def fetch_prs_for_repo(token, owner, name, max_prs_per_repo=0):
+    """Pagina sobre PRs MERGED/CLOSED (query leve), filtra, depois busca detalhes em batch.
+
+    A listagem usa orderBy CREATED_AT DESC: os PRs aprovados são dos mais recentes para
+    os mais antigos. Se max_prs_per_repo > 0, para a listagem ao atingir esse total
+    (amostra dos mais recentes) e evita varrer todo o histórico do repositório.
+    max_prs_per_repo == 0 significa sem limite.
+    """
     aprovados_numbers = []
     total_vistos = 0
     cursor = None
     has_next = True
+    listagem_cortada_por_limite = False
+    limite = max_prs_per_repo if max_prs_per_repo and max_prs_per_repo > 0 else 0
+    pagina_listagem = 0
 
     # Fase 1: listagem leve + filtragem
     while has_next:
+        pagina_listagem += 1
         variables = {
             "owner": owner,
             "name": name,
             "cursor": cursor,
-            "first": PAGE_SIZE,
+            "first": LIST_PAGE_SIZE,
         }
         data = graphql_request(token, LIST_QUERY, variables)
         if data is None or data.get("repository") is None:
@@ -244,17 +269,47 @@ def fetch_prs_for_repo(token, owner, name):
             total_vistos += 1
             if passes_filters(pr):
                 aprovados_numbers.append(pr["number"])
+                if limite and len(aprovados_numbers) >= limite:
+                    listagem_cortada_por_limite = True
+                    has_next = False
+                    break
+
+        if listagem_cortada_por_limite:
+            break
+
+        if (
+            pagina_listagem == 1
+            or pagina_listagem % LISTAGEM_LOG_A_CADA_PAGINAS == 0
+        ):
+            print(
+                f"   … listagem em curso: {total_vistos} PRs vistos, "
+                f"{len(aprovados_numbers)} aprovados (pág. {pagina_listagem})…",
+                flush=True,
+            )
 
         cursor = page_info["endCursor"]
         has_next = page_info["hasNextPage"]
 
         time.sleep(0.4 + random.uniform(0, 0.3))
 
+    if limite:
+        aprovados_numbers = aprovados_numbers[:limite]
+
+    total_aprovados_listagem = len(aprovados_numbers)
+
     # Fase 2: detalhes só dos aprovados
-    print(f"   listagem: {total_vistos} vistos, {len(aprovados_numbers)} aprovados — buscando detalhes...")
+    print(
+        f"   listagem: {total_vistos} vistos, {total_aprovados_listagem} aprovados "
+        f"(limite={'∞' if not limite else limite}) — buscando detalhes..."
+    )
     selecionados = fetch_pr_details(token, owner, name, aprovados_numbers)
 
-    return selecionados, total_vistos
+    meta = {
+        "max_prs_per_repo": limite or None,
+        "listagem_cortada_por_limite": listagem_cortada_por_limite,
+        "total_aprovados_na_listagem": total_aprovados_listagem,
+    }
+    return selecionados, total_vistos, meta
 
 
 def filename_for(name_with_owner):
@@ -280,10 +335,23 @@ def main():
         action="store_true",
         help="Reprocessa repositórios mesmo que já tenham checkpoint.",
     )
+    parser.add_argument(
+        "--max-prs-per-repo",
+        type=int,
+        default=DEFAULT_MAX_PRS_PER_REPO,
+        help=(
+            "Máximo de PRs filtrados por repositório (mais recentes primeiro). "
+            f"Padrão {DEFAULT_MAX_PRS_PER_REPO}. Use 0 para sem limite (pode ser muito lento)."
+        ),
+    )
     args = parser.parse_args()
 
     if not Path(args.input).exists():
         print(f"Erro: {args.input} não encontrado.", file=sys.stderr)
+        sys.exit(1)
+
+    if args.max_prs_per_repo < 0:
+        print("Erro: --max-prs-per-repo deve ser >= 0 (0 = sem limite).", file=sys.stderr)
         sys.exit(1)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -306,13 +374,17 @@ def main():
             continue
 
         print(f"[{idx}/{total_repos}] {nwo} ...")
-        prs, total_vistos = fetch_prs_for_repo(token, owner, name)
+        max_repo = args.max_prs_per_repo if args.max_prs_per_repo > 0 else 0
+        prs, total_vistos, meta = fetch_prs_for_repo(
+            token, owner, name, max_prs_per_repo=max_repo
+        )
 
         payload = {
             "repo": nwo,
             "fetched_at": datetime.now(timezone.utc).isoformat(),
             "total_prs_vistos": total_vistos,
             "total_prs_filtrados": len(prs),
+            "coleta_meta": meta,
             "prs": prs,
         }
         with open(out_path, "w", encoding="utf-8") as f:

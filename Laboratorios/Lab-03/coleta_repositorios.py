@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import time
+import random
 import argparse
 from pathlib import Path
 
@@ -14,13 +15,41 @@ TIMEOUT = 60
 
 TARGET_REPOS = 200
 MIN_PRS = 100
-PAGE_SIZE = 25
+PAGE_SIZE = 100
+MAX_RETRIES = 8
 
 DATA_DIR = Path(__file__).parent / "data"
 JSON_PATH = DATA_DIR / "repositorios.json"
 CSV_PATH = DATA_DIR / "repositorios.csv"
 
 load_dotenv()
+
+TOP_REPOS_QUERY = """
+query TopRepos($cursor: String, $first: Int!) {
+  search(
+    query: "stars:>10000 sort:stars-desc"
+    type: REPOSITORY
+    first: $first
+    after: $cursor
+  ) {
+    pageInfo {
+      endCursor
+      hasNextPage
+    }
+    nodes {
+      ... on Repository {
+        name
+        nameWithOwner
+        url
+        stargazerCount
+        primaryLanguage { name }
+        mergedPRs: pullRequests(states: MERGED) { totalCount }
+        closedPRs: pullRequests(states: CLOSED) { totalCount }
+      }
+    }
+  }
+}
+"""
 
 
 def get_token():
@@ -32,42 +61,12 @@ def get_token():
     return token
 
 
-def build_query():
-    """Query GraphQL: top repositórios por estrelas, contando PRs MERGED e CLOSED."""
-    return """
-    query TopRepos($cursor: String, $first: Int!) {
-      search(
-        query: "stars:>10000 sort:stars-desc"
-        type: REPOSITORY
-        first: $first
-        after: $cursor
-      ) {
-        pageInfo {
-          endCursor
-          hasNextPage
-        }
-        nodes {
-          ... on Repository {
-            name
-            nameWithOwner
-            url
-            stargazerCount
-            primaryLanguage { name }
-            mergedPRs: pullRequests(states: MERGED) { totalCount }
-            closedPRs: pullRequests(states: CLOSED) { totalCount }
-          }
-        }
-      }
-    }
-    """
-
-
-def fetch_page(token, cursor=None, max_attempts=5):
+def fetch_page(token, cursor=None, page_size=PAGE_SIZE, max_attempts=MAX_RETRIES):
     """Busca uma página da API GraphQL, com retry para erros temporários."""
     headers = {"Authorization": f"Bearer {token}"}
     payload = {
-        "query": build_query(),
-        "variables": {"cursor": cursor, "first": PAGE_SIZE},
+        "query": TOP_REPOS_QUERY,
+        "variables": {"cursor": cursor, "first": page_size},
     }
 
     for attempt in range(max_attempts):
@@ -76,17 +75,47 @@ def fetch_page(token, cursor=None, max_attempts=5):
                 GRAPHQL_URL, json=payload, headers=headers, timeout=TIMEOUT
             )
 
+            remaining = response.headers.get("X-RateLimit-Remaining", "?")
+            reset = response.headers.get("X-RateLimit-Reset", "?")
+            if remaining == "0":
+                reset_time = int(reset) if reset != "?" else 0
+                wait = max(reset_time - int(time.time()), 60)
+                print(
+                    f"Rate limit primário atingido. Aguardando {wait}s...",
+                    file=sys.stderr,
+                )
+                time.sleep(wait)
+                continue
+
             if response.status_code == 200:
                 data = response.json()
                 if "errors" in data:
+                    error_msg = str(data["errors"]).lower()
+                    if "timeout" in error_msg or "deadline exceeded" in error_msg:
+                        wait = min(2 ** attempt * 3, 60) + random.uniform(0, 0.3)
+                        print(
+                            f"Timeout GraphQL. Retry em {wait:.1f}s...",
+                            file=sys.stderr,
+                        )
+                        time.sleep(wait)
+                        continue
                     print("Erro GraphQL:", data["errors"], file=sys.stderr)
-                    sys.exit(1)
+                    return None
                 return data["data"]["search"]
 
-            if response.status_code in {502, 503, 504}:
-                wait = 5 * (attempt + 1)
+            if response.status_code == 403 and "rate limit" in response.text.lower():
+                wait = min(2 ** attempt * 10, 300) + random.uniform(0, 1.0)
                 print(
-                    f"Erro {response.status_code}. Tentando novamente em {wait}s...",
+                    f"Rate limit secundário. Retry em {wait:.1f}s...",
+                    file=sys.stderr,
+                )
+                time.sleep(wait)
+                continue
+
+            if response.status_code in {502, 503, 504, 429}:
+                wait = min(2 ** attempt * 3, 120) + random.uniform(0, 0.5)
+                print(
+                    f"Erro {response.status_code}. Tentando novamente em {wait:.1f}s...",
                     file=sys.stderr,
                 )
                 time.sleep(wait)
@@ -95,17 +124,18 @@ def fetch_page(token, cursor=None, max_attempts=5):
             print(
                 f"Erro HTTP {response.status_code}: {response.text}", file=sys.stderr
             )
-            sys.exit(1)
+            return None
 
         except requests.RequestException as e:
-            print(f"Erro de conexão: {e}", file=sys.stderr)
-            time.sleep(5)
+            wait = min(2 ** attempt * 3, 60) + random.uniform(0, 0.5)
+            print(f"Erro de conexão: {e}. Retry em {wait:.1f}s...", file=sys.stderr)
+            time.sleep(wait)
 
     print("Máximo de tentativas atingido.", file=sys.stderr)
-    sys.exit(1)
+    return None
 
 
-def fetch_repositories(token, target=TARGET_REPOS, min_prs=MIN_PRS):
+def fetch_repositories(token, target=TARGET_REPOS, min_prs=MIN_PRS, page_size=PAGE_SIZE):
     """Coleta repos populares até obter `target` que satisfaçam MERGED+CLOSED >= min_prs."""
     selecionados = []
     descartados = 0
@@ -115,7 +145,10 @@ def fetch_repositories(token, target=TARGET_REPOS, min_prs=MIN_PRS):
     print(f"Coletando até {target} repositórios com >= {min_prs} PRs (MERGED+CLOSED).")
 
     while has_next and len(selecionados) < target:
-        result = fetch_page(token, cursor)
+        result = fetch_page(token, cursor, page_size=page_size)
+        if result is None:
+            print("Falha ao buscar página de repositórios. Encerrando coleta.", file=sys.stderr)
+            break
         nodes = result["nodes"]
         page_info = result["pageInfo"]
 
@@ -182,13 +215,46 @@ def main():
         action="store_true",
         help="Apenas (re)gera o CSV a partir do JSON já existente.",
     )
+    parser.add_argument(
+        "--target",
+        type=int,
+        default=TARGET_REPOS,
+        help=f"Quantidade alvo de repositórios selecionados (padrão: {TARGET_REPOS}).",
+    )
+    parser.add_argument(
+        "--min-prs",
+        type=int,
+        default=MIN_PRS,
+        help=f"Mínimo de PRs (MERGED+CLOSED) por repositório (padrão: {MIN_PRS}).",
+    )
+    parser.add_argument(
+        "--page-size",
+        type=int,
+        default=PAGE_SIZE,
+        help=f"Tamanho da página na busca GraphQL (1 a 100, padrão: {PAGE_SIZE}).",
+    )
     args = parser.parse_args()
+
+    if args.target < 1:
+        print("Erro: --target deve ser >= 1.", file=sys.stderr)
+        sys.exit(1)
+    if args.min_prs < 0:
+        print("Erro: --min-prs deve ser >= 0.", file=sys.stderr)
+        sys.exit(1)
+    if not 1 <= args.page_size <= 100:
+        print("Erro: --page-size deve estar entre 1 e 100.", file=sys.stderr)
+        sys.exit(1)
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     if args.fetch:
         token = get_token()
-        repos = fetch_repositories(token)
+        repos = fetch_repositories(
+            token,
+            target=args.target,
+            min_prs=args.min_prs,
+            page_size=args.page_size,
+        )
         with open(JSON_PATH, "w", encoding="utf-8") as f:
             json.dump(repos, f, ensure_ascii=False, indent=2)
         print(f"JSON salvo em {JSON_PATH}")

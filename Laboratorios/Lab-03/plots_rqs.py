@@ -85,7 +85,8 @@ def faixas_reviews(s):
 
 def plot_status(df, rq, dimensao, metricas, corr_df, out_dir):
     n = len(metricas)
-    fig, axes = plt.subplots(1, n, figsize=(5.5 * n, 5), squeeze=False)
+    width = max(7.0, 5.5 * n)
+    fig, axes = plt.subplots(1, n, figsize=(width, 5.5), squeeze=False)
     for ax, (col, label, logscale) in zip(axes[0], metricas):
         sub = df[[col, "status_label"]].copy()
         if logscale:
@@ -93,6 +94,7 @@ def plot_status(df, rq, dimensao, metricas, corr_df, out_dir):
         sns.boxplot(
             data=sub, x="status_label", y=col, ax=ax,
             order=["MERGED", "CLOSED"], showfliers=False,
+            hue="status_label", legend=False,
             palette={"MERGED": "#4c9f70", "CLOSED": "#c0504d"},
         )
         if logscale:
@@ -100,10 +102,10 @@ def plot_status(df, rq, dimensao, metricas, corr_df, out_dir):
         ax.set_xlabel("Status do PR")
         ax.set_ylabel(label)
         info = rho_de(corr_df, rq, col)
-        suffix = f"  (ρ={info[0]:.3f}, p={info[1]:.2g})" if info else ""
-        ax.set_title(f"{label}{suffix}")
-    fig.suptitle(f"{rq} — {dimensao} vs Status do PR", fontsize=14, fontweight="bold")
-    fig.tight_layout(rect=[0, 0, 1, 0.95])
+        suffix = f"\nρ={info[0]:.3f}  p={info[1]:.2g}" if info else ""
+        ax.set_title(f"{label}{suffix}", fontsize=13)
+    fig.suptitle(f"{rq} — {dimensao} vs Status do PR", fontsize=15, fontweight="bold")
+    fig.tight_layout(rect=[0, 0, 1, 0.93])
     out_path = out_dir / f"{rq.lower()}_{dimensao.lower().replace(' ', '_')}_status.png"
     fig.savefig(out_path, dpi=130)
     plt.close(fig)
@@ -116,7 +118,8 @@ def plot_reviews(df, rq, dimensao, metricas, corr_df, out_dir):
     df = df.dropna(subset=["reviews_faixa"])
 
     n = len(metricas)
-    fig, axes = plt.subplots(1, n, figsize=(5.5 * n, 5), squeeze=False)
+    width = max(7.0, 5.5 * n)
+    fig, axes = plt.subplots(1, n, figsize=(width, 5.5), squeeze=False)
     for ax, (col, label, logscale) in zip(axes[0], metricas):
         sub = df[[col, "reviews_faixa"]].copy()
         if logscale:
@@ -130,10 +133,10 @@ def plot_reviews(df, rq, dimensao, metricas, corr_df, out_dir):
         ax.set_xlabel("Número de revisões")
         ax.set_ylabel(label)
         info = rho_de(corr_df, rq, col)
-        suffix = f"  (ρ={info[0]:.3f}, p={info[1]:.2g})" if info else ""
-        ax.set_title(f"{label}{suffix}")
-    fig.suptitle(f"{rq} — {dimensao} vs Nº de Revisões", fontsize=14, fontweight="bold")
-    fig.tight_layout(rect=[0, 0, 1, 0.95])
+        suffix = f"\nρ={info[0]:.3f}  p={info[1]:.2g}" if info else ""
+        ax.set_title(f"{label}{suffix}", fontsize=13)
+    fig.suptitle(f"{rq} — {dimensao} vs Nº de Revisões", fontsize=15, fontweight="bold")
+    fig.tight_layout(rect=[0, 0, 1, 0.93])
     out_path = out_dir / f"{rq.lower()}_{dimensao.lower().replace(' ', '_')}_reviews.png"
     fig.savefig(out_path, dpi=130)
     plt.close(fig)

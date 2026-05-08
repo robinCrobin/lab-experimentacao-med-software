@@ -118,6 +118,7 @@ $env:GITHUB_TOKEN = "token_do_participante_C"
 **Nunca commitar**
 
 - Tokens, `.env` com segredos, ou qualquer arquivo que contenha `GITHUB_TOKEN`.
+- Pasta **`Laboratorios/Lab-03/auxiliar/`** (PDF do enunciado, rascunhos, materiais locais). Está listada no `.gitignore` do repositório — não enviar ao GitHub.
 
 ---
 

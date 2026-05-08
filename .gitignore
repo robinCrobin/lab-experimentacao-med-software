@@ -1,5 +1,10 @@
-# Pasta local – Rascunhos e ideias para trabalhar
+# Pastas auxiliares locais (PDFs do enunciado, rascunhos, notas — não versionar).
+# Inclui variações de nome/caminho para funcionar em sistemas case-sensitive.
 Auxiliar/
+**/Auxiliar/
+auxiliar/
+**/auxiliar/
+Laboratorios/Lab-03/auxiliar/
 
 # Ambiente e tokens (não versionar)
 .env

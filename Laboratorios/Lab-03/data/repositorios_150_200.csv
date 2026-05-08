@@ -1,13 +1,4 @@
 nameWithOwner,name,url,stars,primary_language,mergedPRsCount,closedPRsCount,totalPRs
-astral-sh/uv,uv,https://github.com/astral-sh/uv,84496,Rust,8979,969,9948
-laravel/laravel,laravel,https://github.com/laravel/laravel,84187,Blade,1690,3452,5142
-syncthing/syncthing,syncthing,https://github.com/syncthing/syncthing,83651,Go,2868,1818,4686
-macrozheng/mall,mall,https://github.com/macrozheng/mall,83557,Java,1,152,153
-realworld-apps/realworld,realworld,https://github.com/realworld-apps/realworld,83386,TypeScript,434,483,917
-sherlock-project/sherlock,sherlock,https://github.com/sherlock-project/sherlock,83030,Python,743,602,1345
-animate-css/animate.css,animate.css,https://github.com/animate-css/animate.css,82513,CSS,315,586,901
-DopplerHQ/awesome-interview-questions,awesome-interview-questions,https://github.com/DopplerHQ/awesome-interview-questions,82409,,175,36,211
-bregman-arie/devops-exercises,devops-exercises,https://github.com/bregman-arie/devops-exercises,82252,Python,309,116,425
 zed-industries/zed,zed,https://github.com/zed-industries/zed,82118,Rust,24141,3722,27863
 tonsky/FiraCode,FiraCode,https://github.com/tonsky/FiraCode,81567,Clojure,144,59,203
 Developer-Y/cs-video-courses,cs-video-courses,https://github.com/Developer-Y/cs-video-courses,81045,,265,55,320

@@ -16,6 +16,10 @@ Aqui serão colocados o planejamento, scripts de coleta (ex.: API do GitHub para
 
 Os fichamentos em `Artigos/Fichamentos/` (GitHub API, estudos de caso, evidência empírica) e o uso da API no Lab 01 podem apoiar este laboratório.
 
+## Coleta particionada em equipe
+
+Veja `TUTORIAL_COLETA_PARTICIONADA.md` (fatias por participante, CSVs e scripts `.ps1`).
+
 ## Lab03S01 — Sprint 1
 
 ### 1. Coleta dos repositórios (`coleta_repositorios.py`)

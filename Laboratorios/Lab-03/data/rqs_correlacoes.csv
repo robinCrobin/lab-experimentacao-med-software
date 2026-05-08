@@ -1,0 +1,15 @@
+rq,alvo,dimensao,metrica,spearman_rho,p_value,n
+RQ01,status (MERGED=1),Tamanho,additions,-0.026893688592326583,2.1644228952817106e-37,225684
+RQ01,status (MERGED=1),Tamanho,deletions,0.10057774442806305,0.0,225684
+RQ01,status (MERGED=1),Tamanho,files_changed,0.05015929720789701,1.1782999993216405e-125,225684
+RQ02,status (MERGED=1),Tempo de Análise,analysis_time_hours,-0.2675907312769621,0.0,225684
+RQ03,status (MERGED=1),Descrição,body_length,-0.06525587687852666,1.9049653708842897e-211,225684
+RQ04,status (MERGED=1),Interações,comments,-0.19237627097425095,0.0,225684
+RQ04,status (MERGED=1),Interações,participants,-0.03715139944708122,9.277372633816372e-70,225684
+RQ05,reviews_count,Tamanho,additions,0.3314566498350062,0.0,225684
+RQ05,reviews_count,Tamanho,deletions,0.18108128857543673,0.0,225684
+RQ05,reviews_count,Tamanho,files_changed,0.2688195395760983,0.0,225684
+RQ06,reviews_count,Tempo de Análise,analysis_time_hours,0.23066600207269983,0.0,225684
+RQ07,reviews_count,Descrição,body_length,0.14031730749397664,0.0,225684
+RQ08,reviews_count,Interações,comments,0.2996402226823796,0.0,225684
+RQ08,reviews_count,Interações,participants,0.40937651131348407,0.0,225684

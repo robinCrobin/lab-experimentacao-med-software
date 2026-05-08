@@ -1,0 +1,9 @@
+dimensao,metrica,descricao,mediana_global,mediana_merged,mediana_closed,media_global
+Tamanho,files_changed,Número de arquivos alterados,2.0,2.0,2.0,15.34743712447493
+Tamanho,additions,Linhas adicionadas,26.0,24.0,32.0,1296.3407419223338
+Tamanho,deletions,Linhas removidas,5.0,5.0,3.0,440.6888481239255
+Tempo de Análise,analysis_time_hours,Horas entre criação e fechamento,43.99722222222222,30.519861111111112,209.7215277777778,746.6980321206249
+Descrição,body_length,Caracteres na descrição (markdown),732.0,687.0,875.0,1431.6190647099484
+Interações,participants,Número de participantes,3.0,3.0,3.0,3.1546720192836
+Interações,comments,Número de comentários,2.0,1.0,3.0,3.2771795962496233
+Revisões,reviews_count,Número de revisões realizadas,2.0,2.0,1.0,3.446553588202974

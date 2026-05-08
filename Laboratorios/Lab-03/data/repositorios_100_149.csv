@@ -1,23 +1,4 @@
 nameWithOwner,name,url,stars,primary_language,mergedPRsCount,closedPRsCount,totalPRs
-Shubhamsaboo/awesome-llm-apps,awesome-llm-apps,https://github.com/Shubhamsaboo/awesome-llm-apps,109123,Python,180,340,520
-axios/axios,axios,https://github.com/axios/axios,109037,JavaScript,1328,1143,2471
-ggml-org/llama.cpp,llama.cpp,https://github.com/ggml-org/llama.cpp,108824,C++,8315,2141,10456
-microsoft/TypeScript,TypeScript,https://github.com/microsoft/TypeScript,108775,TypeScript,14877,4244,19121
-denoland/deno,deno,https://github.com/denoland/deno,106608,Rust,15100,2892,17992
-tauri-apps/tauri,tauri,https://github.com/tauri-apps/tauri,106306,Rust,5489,883,6372
-fatedier/frp,frp,https://github.com/fatedier/frp,106301,Go,786,358,1144
-papers-we-love/papers-we-love,papers-we-love,https://github.com/papers-we-love/papers-we-love,105945,Shell,441,90,531
-goldbergyoni/nodebestpractices,nodebestpractices,https://github.com/goldbergyoni/nodebestpractices,105256,Dockerfile,766,165,931
-2dust/v2rayN,v2rayN,https://github.com/2dust/v2rayN,104786,C#,471,291,762
-jaywcjlove/awesome-mac,awesome-mac,https://github.com/jaywcjlove/awesome-mac,103510,Swift,1146,149,1295
-deepseek-ai/DeepSeek-V3,DeepSeek-V3,https://github.com/deepseek-ai/DeepSeek-V3,103424,Python,25,111,136
-facebook/create-react-app,create-react-app,https://github.com/facebook/create-react-app,103393,JavaScript,1949,1922,3871
-google-gemini/gemini-cli,gemini-cli,https://github.com/google-gemini/gemini-cli,103341,TypeScript,6343,4642,10985
-microsoft/terminal,terminal,https://github.com/microsoft/terminal,103053,C++,4447,667,5114
-supabase/supabase,supabase,https://github.com/supabase/supabase,101998,TypeScript,16798,3348,20146
-angular/angular,angular,https://github.com/angular/angular,100063,TypeScript,6303,29552,35855
-immich-app/immich,immich,https://github.com/immich-app/immich,99887,TypeScript,9193,1716,10909
-Anduin2017/HowToCook,HowToCook,https://github.com/Anduin2017/HowToCook,99784,JavaScript,625,233,858
 pytorch/pytorch,pytorch,https://github.com/pytorch/pytorch,99725,Python,6524,114913,121437
 neovim/neovim,neovim,https://github.com/neovim/neovim,99445,Vim Script,18630,5281,23911
 openai/whisper,whisper,https://github.com/openai/whisper,99071,Python,121,121,242
@@ -59,3 +40,12 @@ louislam/uptime-kuma,uptime-kuma,https://github.com/louislam/uptime-kuma,86346,J
 microsoft/ML-For-Beginners,ML-For-Beginners,https://github.com/microsoft/ML-For-Beginners,85681,Jupyter Notebook,471,186,657
 MunGell/awesome-for-beginners,awesome-for-beginners,https://github.com/MunGell/awesome-for-beginners,85330,,482,1185,1667
 modelcontextprotocol/servers,servers,https://github.com/modelcontextprotocol/servers,85202,TypeScript,1198,1633,2831
+astral-sh/uv,uv,https://github.com/astral-sh/uv,84496,Rust,8979,969,9948
+laravel/laravel,laravel,https://github.com/laravel/laravel,84187,Blade,1690,3452,5142
+syncthing/syncthing,syncthing,https://github.com/syncthing/syncthing,83651,Go,2868,1818,4686
+macrozheng/mall,mall,https://github.com/macrozheng/mall,83557,Java,1,152,153
+realworld-apps/realworld,realworld,https://github.com/realworld-apps/realworld,83386,TypeScript,434,483,917
+sherlock-project/sherlock,sherlock,https://github.com/sherlock-project/sherlock,83030,Python,743,602,1345
+animate-css/animate.css,animate.css,https://github.com/animate-css/animate.css,82513,CSS,315,586,901
+DopplerHQ/awesome-interview-questions,awesome-interview-questions,https://github.com/DopplerHQ/awesome-interview-questions,82409,,175,36,211
+bregman-arie/devops-exercises,devops-exercises,https://github.com/bregman-arie/devops-exercises,82252,Python,309,116,425

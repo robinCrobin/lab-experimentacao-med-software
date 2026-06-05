@@ -1,0 +1,501 @@
+owner,name,repo_full,url,stars,contributors,commits_5_anos,default_branch,faixa_stars,faixa_contributors,faixa_commits
+public-apis,public-apis,public-apis/public-apis,https://github.com/public-apis/public-apis,436823,1441,1793,master,6. > 100k,5. > 1000,3. 1k–5k
+EbookFoundation,free-programming-books,EbookFoundation/free-programming-books,https://github.com/EbookFoundation/free-programming-books,388835,3495,3920,main,6. > 100k,5. > 1000,3. 1k–5k
+vinta,awesome-python,vinta/awesome-python,https://github.com/vinta/awesome-python,299247,542,835,master,6. > 100k,4. 201–1000,2. 500–999
+TheAlgorithms,Python,TheAlgorithms/Python,https://github.com/TheAlgorithms/Python,221341,1330,1554,master,6. > 100k,5. > 1000,3. 1k–5k
+Significant-Gravitas,AutoGPT,Significant-Gravitas/AutoGPT,https://github.com/Significant-Gravitas/AutoGPT,184481,819,8606,master,6. > 100k,4. 201–1000,4. 5k–20k
+yt-dlp,yt-dlp,yt-dlp/yt-dlp,https://github.com/yt-dlp/yt-dlp,164947,1729,4878,master,6. > 100k,5. > 1000,3. 1k–5k
+NousResearch,hermes-agent,NousResearch/hermes-agent,https://github.com/NousResearch/hermes-agent,164441,1289,9291,main,6. > 100k,5. > 1000,4. 5k–20k
+AUTOMATIC1111,stable-diffusion-webui,AUTOMATIC1111/stable-diffusion-webui,https://github.com/AUTOMATIC1111/stable-diffusion-webui,163242,639,7689,master,6. > 100k,4. 201–1000,4. 5k–20k
+huggingface,transformers,huggingface/transformers,https://github.com/huggingface/transformers,160907,3943,15682,main,6. > 100k,5. > 1000,4. 5k–20k
+521xueweihan,HelloGitHub,521xueweihan/HelloGitHub,https://github.com/521xueweihan/HelloGitHub,158282,11,117,master,6. > 100k,2. 11–50,1. 100–499
+langflow-ai,langflow,langflow-ai/langflow,https://github.com/langflow-ai/langflow,148693,342,17702,main,6. > 100k,4. 201–1000,4. 5k–20k
+ytdl-org,youtube-dl,ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl,140357,1011,517,master,6. > 100k,5. > 1000,2. 500–999
+open-webui,open-webui,open-webui/open-webui,https://github.com/open-webui/open-webui,138375,826,16562,main,6. > 100k,4. 201–1000,4. 5k–20k
+langchain-ai,langchain,langchain-ai/langchain,https://github.com/langchain-ai/langchain,137486,3686,16045,master,6. > 100k,5. > 1000,4. 5k–20k
+microsoft,markitdown,microsoft/markitdown,https://github.com/microsoft/markitdown,124839,80,308,main,6. > 100k,3. 51–200,1. 100–499
+Comfy-Org,ComfyUI,Comfy-Org/ComfyUI,https://github.com/Comfy-Org/ComfyUI,114196,315,5293,master,6. > 100k,4. 201–1000,4. 5k–20k
+Shubhamsaboo,awesome-llm-apps,Shubhamsaboo/awesome-llm-apps,https://github.com/Shubhamsaboo/awesome-llm-apps,111581,82,1005,main,6. > 100k,3. 51–200,3. 1k–5k
+github,spec-kit,github/spec-kit,https://github.com/github/spec-kit,105311,202,993,main,6. > 100k,4. 201–1000,2. 500–999
+openai,whisper,openai/whisper,https://github.com/openai/whisper,100303,81,168,main,6. > 100k,3. 51–200,1. 100–499
+pytorch,pytorch,pytorch/pytorch,https://github.com/pytorch/pytorch,100141,6571,67869,main,6. > 100k,5. > 1000,5. > 20k
+fastapi,fastapi,fastapi/fastapi,https://github.com/fastapi/fastapi,98467,896,5610,master,5. 50k–100k,4. 201–1000,4. 5k–20k
+browser-use,browser-use,browser-use/browser-use,https://github.com/browser-use/browser-use,95237,334,9281,main,5. 50k–100k,4. 201–1000,4. 5k–20k
+hacksider,Deep-Live-Cam,hacksider/Deep-Live-Cam,https://github.com/hacksider/Deep-Live-Cam,93312,72,611,main,5. 50k–100k,3. 51–200,2. 500–999
+django,django,django/django,https://github.com/django/django,87565,3442,5007,main,5. 50k–100k,5. > 1000,4. 5k–20k
+home-assistant,core,home-assistant/core,https://github.com/home-assistant/core,87198,5447,73960,dev,5. 50k–100k,5. > 1000,5. > 20k
+3b1b,manim,3b1b/manim,https://github.com/3b1b/manim,87081,198,2358,master,5. 50k–100k,3. 51–200,3. 1k–5k
+sherlock-project,sherlock,sherlock-project/sherlock,https://github.com/sherlock-project/sherlock,83624,313,1407,master,5. 50k–100k,4. 201–1000,3. 1k–5k
+bregman-arie,devops-exercises,bregman-arie/devops-exercises,https://github.com/bregman-arie/devops-exercises,82464,220,336,master,5. 50k–100k,4. 201–1000,1. 100–499
+nextlevelbuilder,ui-ux-pro-max-skill,nextlevelbuilder/ui-ux-pro-max-skill,https://github.com/nextlevelbuilder/ui-ux-pro-max-skill,81998,31,134,main,5. 50k–100k,2. 11–50,1. 100–499
+infiniflow,ragflow,infiniflow/ragflow,https://github.com/infiniflow/ragflow,81097,604,6357,main,5. 50k–100k,4. 201–1000,4. 5k–20k
+vllm-project,vllm,vllm-project/vllm,https://github.com/vllm-project/vllm,80816,2698,16915,main,5. 50k–100k,5. > 1000,4. 5k–20k
+TauricResearch,TradingAgents,TauricResearch/TradingAgents,https://github.com/TauricResearch/TradingAgents,78918,20,190,main,5. 50k–100k,2. 11–50,1. 100–499
+PaddlePaddle,PaddleOCR,PaddlePaddle/PaddleOCR,https://github.com/PaddlePaddle/PaddleOCR,78421,293,4699,main,5. 50k–100k,4. 201–1000,3. 1k–5k
+swisskyrepo,PayloadsAllTheThings,swisskyrepo/PayloadsAllTheThings,https://github.com/swisskyrepo/PayloadsAllTheThings,77896,321,1127,master,5. 50k–100k,4. 201–1000,3. 1k–5k
+tensorflow,models,tensorflow/models,https://github.com/tensorflow/models,77663,957,2893,master,5. 50k–100k,4. 201–1000,3. 1k–5k
+Z4nzu,hackingtool,Z4nzu/hackingtool,https://github.com/Z4nzu/hackingtool,76316,40,170,master,5. 50k–100k,2. 11–50,1. 100–499
+OpenHands,OpenHands,OpenHands/OpenHands,https://github.com/OpenHands/OpenHands,74657,474,6784,main,5. 50k–100k,4. 201–1000,4. 5k–20k
+python,cpython,python/cpython,https://github.com/python/cpython,72873,3833,21465,main,5. 50k–100k,5. > 1000,5. > 20k
+josephmisiti,awesome-machine-learning,josephmisiti/awesome-machine-learning,https://github.com/josephmisiti/awesome-machine-learning,72551,725,531,master,5. 50k–100k,4. 201–1000,2. 500–999
+pallets,flask,pallets/flask,https://github.com/pallets/flask,71572,862,1218,main,5. 50k–100k,4. 201–1000,3. 1k–5k
+hiyouga,LlamaFactory,hiyouga/LlamaFactory,https://github.com/hiyouga/LlamaFactory,71530,273,3030,main,5. 50k–100k,4. 201–1000,3. 1k–5k
+binary-husky,gpt_academic,binary-husky/gpt_academic,https://github.com/binary-husky/gpt_academic,70719,114,2403,master,5. 50k–100k,3. 51–200,3. 1k–5k
+bytedance,deer-flow,bytedance/deer-flow,https://github.com/bytedance/deer-flow,69317,254,2157,main,5. 50k–100k,4. 201–1000,3. 1k–5k
+ansible,ansible,ansible/ansible,https://github.com/ansible/ansible,68684,6939,3867,devel,5. 50k–100k,5. > 1000,3. 1k–5k
+FoundationAgents,MetaGPT,FoundationAgents/MetaGPT,https://github.com/FoundationAgents/MetaGPT,68239,148,6367,main,5. 50k–100k,3. 51–200,4. 5k–20k
+OpenBB-finance,OpenBB,OpenBB-finance/OpenBB,https://github.com/OpenBB-finance/OpenBB,67993,268,4908,develop,5. 50k–100k,4. 201–1000,3. 1k–5k
+labmlai,annotated_deep_learning_paper_implementations,labmlai/annotated_deep_learning_paper_implementations,https://github.com/labmlai/annotated_deep_learning_paper_implementations,66801,42,457,master,5. 50k–100k,2. 11–50,1. 100–499
+xtekky,gpt4free,xtekky/gpt4free,https://github.com/xtekky/gpt4free,66275,275,4280,main,5. 50k–100k,4. 201–1000,3. 1k–5k
+scikit-learn,scikit-learn,scikit-learn/scikit-learn,https://github.com/scikit-learn/scikit-learn,66167,3513,6900,main,5. 50k–100k,5. > 1000,4. 5k–20k
+unclecode,crawl4ai,unclecode/crawl4ai,https://github.com/unclecode/crawl4ai,66135,79,1468,main,5. 50k–100k,3. 51–200,3. 1k–5k
+unslothai,unsloth,unslothai/unsloth,https://github.com/unslothai/unsloth,65031,184,5390,main,5. 50k–100k,3. 51–200,4. 5k–20k
+localstack,localstack,localstack/localstack,https://github.com/localstack/localstack,64973,657,5846,main,5. 50k–100k,4. 201–1000,4. 5k–20k
+opendatalab,MinerU,opendatalab/MinerU,https://github.com/opendatalab/MinerU,64631,98,5467,master,5. 50k–100k,3. 51–200,4. 5k–20k
+keras-team,keras,keras-team/keras,https://github.com/keras-team/keras,64087,1518,6914,master,5. 50k–100k,5. > 1000,4. 5k–20k
+openinterpreter,open-interpreter,openinterpreter/open-interpreter,https://github.com/openinterpreter/open-interpreter,63642,133,3120,main,5. 50k–100k,3. 51–200,3. 1k–5k
+pathwaycom,pathway,pathwaycom/pathway,https://github.com/pathwaycom/pathway,63252,40,1973,main,5. 50k–100k,2. 11–50,3. 1k–5k
+Asabeneh,30-Days-Of-Python,Asabeneh/30-Days-Of-Python,https://github.com/Asabeneh/30-Days-Of-Python,63038,84,393,master,5. 50k–100k,3. 51–200,1. 100–499
+scrapy,scrapy,scrapy/scrapy,https://github.com/scrapy/scrapy,61794,714,2135,master,5. 50k–100k,4. 201–1000,3. 1k–5k
+commaai,openpilot,commaai/openpilot,https://github.com/commaai/openpilot,61018,722,12963,master,5. 50k–100k,4. 201–1000,4. 5k–20k
+docling-project,docling,docling-project/docling,https://github.com/docling-project/docling,60257,225,1053,main,5. 50k–100k,4. 201–1000,3. 1k–5k
+virattt,ai-hedge-fund,virattt/ai-hedge-fund,https://github.com/virattt/ai-hedge-fund,59162,45,842,main,5. 50k–100k,2. 11–50,2. 500–999
+karpathy,nanoGPT,karpathy/nanoGPT,https://github.com/karpathy/nanoGPT,58668,37,210,master,5. 50k–100k,2. 11–50,1. 100–499
+microsoft,autogen,microsoft/autogen,https://github.com/microsoft/autogen,58323,533,3718,main,5. 50k–100k,4. 201–1000,3. 1k–5k
+RVC-Boss,GPT-SoVITS,RVC-Boss/GPT-SoVITS,https://github.com/RVC-Boss/GPT-SoVITS,57708,100,1044,main,5. 50k–100k,3. 51–200,3. 1k–5k
+harry0703,MoneyPrinterTurbo,harry0703/MoneyPrinterTurbo,https://github.com/harry0703/MoneyPrinterTurbo,57663,46,544,main,5. 50k–100k,2. 11–50,2. 500–999
+ultralytics,ultralytics,ultralytics/ultralytics,https://github.com/ultralytics/ultralytics,57490,359,4005,main,5. 50k–100k,4. 201–1000,3. 1k–5k
+ultralytics,yolov5,ultralytics/yolov5,https://github.com/ultralytics/yolov5,57421,347,1829,master,5. 50k–100k,4. 201–1000,3. 1k–5k
+zylon-ai,private-gpt,zylon-ai/private-gpt,https://github.com/zylon-ai/private-gpt,57215,94,334,main,5. 50k–100k,3. 51–200,1. 100–499
+soimort,you-get,soimort/you-get,https://github.com/soimort/you-get,56857,264,221,develop,5. 50k–100k,4. 201–1000,1. 100–499
+mem0ai,mem0,mem0ai/mem0,https://github.com/mem0ai/mem0,56537,313,2202,main,5. 50k–100k,4. 201–1000,3. 1k–5k
+Textualize,rich,Textualize/rich,https://github.com/Textualize/rich,56425,289,2488,master,5. 50k–100k,4. 201–1000,3. 1k–5k
+FoundationAgents,OpenManus,FoundationAgents/OpenManus,https://github.com/FoundationAgents/OpenManus,56356,60,526,main,5. 50k–100k,3. 51–200,2. 500–999
+deepfakes,faceswap,deepfakes/faceswap,https://github.com/deepfakes/faceswap,55237,98,530,master,5. 50k–100k,3. 51–200,2. 500–999
+Zie619,n8n-workflows,Zie619/n8n-workflows,https://github.com/Zie619/n8n-workflows,54681,38,151,main,5. 50k–100k,2. 11–50,1. 100–499
+karpathy,nanochat,karpathy/nanochat,https://github.com/karpathy/nanochat,54066,55,381,master,5. 50k–100k,3. 51–200,1. 100–499
+psf,requests,psf/requests,https://github.com/psf/requests,54011,793,438,main,5. 50k–100k,4. 201–1000,1. 100–499
+D4Vinci,Scrapling,D4Vinci/Scrapling,https://github.com/D4Vinci/Scrapling,53683,17,1442,main,5. 50k–100k,2. 11–50,3. 1k–5k
+MemPalace,mempalace,MemPalace/mempalace,https://github.com/MemPalace/mempalace,52717,90,1078,develop,5. 50k–100k,3. 51–200,3. 1k–5k
+datawhalechina,hello-agents,datawhalechina/hello-agents,https://github.com/datawhalechina/hello-agents,52642,85,791,main,5. 50k–100k,3. 51–200,2. 500–999
+safishamsi,graphify,safishamsi/graphify,https://github.com/safishamsi/graphify,52484,51,529,v8,5. 50k–100k,3. 51–200,2. 500–999
+crewAIInc,crewAI,crewAIInc/crewAI,https://github.com/crewAIInc/crewAI,52033,299,2433,main,5. 50k–100k,4. 201–1000,3. 1k–5k
+odoo,odoo,odoo/odoo,https://github.com/odoo/odoo,51476,4087,52674,19.0,5. 50k–100k,5. > 1000,5. > 20k
+charlax,professional-programming,charlax/professional-programming,https://github.com/charlax/professional-programming,51007,41,214,master,5. 50k–100k,2. 11–50,1. 100–499
+freqtrade,freqtrade,freqtrade/freqtrade,https://github.com/freqtrade/freqtrade,50674,388,19979,develop,5. 50k–100k,4. 201–1000,4. 5k–20k
+jingyaogong,minimind,jingyaogong/minimind,https://github.com/jingyaogong/minimind,50459,11,353,master,5. 50k–100k,2. 11–50,1. 100–499
+NanmiCoder,MediaCrawler,NanmiCoder/MediaCrawler,https://github.com/NanmiCoder/MediaCrawler,50067,76,761,main,5. 50k–100k,3. 51–200,2. 500–999
+run-llama,llama_index,run-llama/llama_index,https://github.com/run-llama/llama_index,49618,1939,7807,main,4. 25k–50k,5. > 1000,4. 5k–20k
+lllyasviel,Fooocus,lllyasviel/Fooocus,https://github.com/lllyasviel/Fooocus,48850,59,1144,main,4. 25k–50k,3. 51–200,3. 1k–5k
+pandas-dev,pandas,pandas-dev/pandas,https://github.com/pandas-dev/pandas,48832,4210,11164,main,4. 25k–50k,5. > 1000,4. 5k–20k
+BerriAI,litellm,BerriAI/litellm,https://github.com/BerriAI/litellm,48029,1526,39380,litellm_internal_staging,4. 25k–50k,5. > 1000,5. > 20k
+microsoft,VibeVoice,microsoft/VibeVoice,https://github.com/microsoft/VibeVoice,47384,20,135,main,4. 25k–50k,2. 11–50,1. 100–499
+oobabooga,textgen,oobabooga/textgen,https://github.com/oobabooga/textgen,47205,393,5749,main,4. 25k–50k,4. 201–1000,4. 5k–20k
+apache,airflow,apache/airflow,https://github.com/apache/airflow,45510,4384,25986,main,4. 25k–50k,5. > 1000,5. > 20k
+Aider-AI,aider,Aider-AI/aider,https://github.com/Aider-AI/aider,45213,182,13138,main,4. 25k–50k,3. 51–200,4. 5k–20k
+9001,copyparty,9001/copyparty,https://github.com/9001/copyparty,44968,114,4006,hovudstraum,4. 25k–50k,3. 51–200,3. 1k–5k
+exo-explore,exo,exo-explore/exo,https://github.com/exo-explore/exo,44881,105,2344,main,4. 25k–50k,3. 51–200,3. 1k–5k
+zhayujie,CowAgent,zhayujie/CowAgent,https://github.com/zhayujie/CowAgent,44751,115,1898,master,4. 25k–50k,3. 51–200,3. 1k–5k
+streamlit,streamlit,streamlit/streamlit,https://github.com/streamlit/streamlit,44692,329,5637,develop,4. 25k–50k,4. 201–1000,4. 5k–20k
+SimplifyJobs,Summer2026-Internships,SimplifyJobs/Summer2026-Internships,https://github.com/SimplifyJobs/Summer2026-Internships,44665,894,45983,dev,4. 25k–50k,4. 201–1000,5. > 20k
+hesreallyhim,awesome-claude-code,hesreallyhim/awesome-claude-code,https://github.com/hesreallyhim/awesome-claude-code,44622,16,1157,main,4. 25k–50k,2. 11–50,3. 1k–5k
+hiroi-sora,Umi-OCR,hiroi-sora/Umi-OCR,https://github.com/hiroi-sora/Umi-OCR,44438,17,1267,main,4. 25k–50k,2. 11–50,3. 1k–5k
+getsentry,sentry,getsentry/sentry,https://github.com/getsentry/sentry,43953,1050,67779,master,4. 25k–50k,5. > 1000,5. > 20k
+mitmproxy,mitmproxy,mitmproxy/mitmproxy,https://github.com/mitmproxy/mitmproxy,43657,604,1866,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+microsoft,qlib,microsoft/qlib,https://github.com/microsoft/qlib,43390,151,995,main,4. 25k–50k,3. 51–200,2. 500–999
+HKUDS,nanobot,HKUDS/nanobot,https://github.com/HKUDS/nanobot,43047,331,2640,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+faif,python-patterns,faif/python-patterns,https://github.com/faif/python-patterns,42757,150,116,master,4. 25k–50k,3. 51–200,1. 100–499
+gradio-app,gradio,gradio-app/gradio,https://github.com/gradio-app/gradio,42670,499,6427,main,4. 25k–50k,4. 201–1000,4. 5k–20k
+ray-project,ray,ray-project/ray,https://github.com/ray-project/ray,42641,1582,22317,master,4. 25k–50k,5. > 1000,5. > 20k
+ccxt,ccxt,ccxt/ccxt,https://github.com/ccxt/ccxt,42574,893,53233,master,4. 25k–50k,4. 201–1000,5. > 20k
+deepspeedai,DeepSpeed,deepspeedai/DeepSpeed,https://github.com/deepspeedai/DeepSpeed,42390,465,2579,master,4. 25k–50k,4. 201–1000,3. 1k–5k
+mingrammer,diagrams,mingrammer/diagrams,https://github.com/mingrammer/diagrams,42297,177,247,master,4. 25k–50k,3. 51–200,1. 100–499
+psf,black,psf/black,https://github.com/psf/black,41520,525,1216,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+hpcaitech,ColossalAI,hpcaitech/ColossalAI,https://github.com/hpcaitech/ColossalAI,41392,199,3977,main,4. 25k–50k,3. 51–200,3. 1k–5k
+666ghj,BettaFish,666ghj/BettaFish,https://github.com/666ghj/BettaFish,41019,43,1000,main,4. 25k–50k,2. 11–50,3. 1k–5k
+paperless-ngx,paperless-ngx,paperless-ngx/paperless-ngx,https://github.com/paperless-ngx/paperless-ngx,40933,437,7445,dev,4. 25k–50k,4. 201–1000,4. 5k–20k
+vnpy,vnpy,vnpy/vnpy,https://github.com/vnpy/vnpy,40860,154,1077,master,4. 25k–50k,3. 51–200,3. 1k–5k
+agno-agi,agno,agno-agi/agno,https://github.com/agno-agi/agno,40315,444,5603,main,4. 25k–50k,4. 201–1000,4. 5k–20k
+HKUDS,CLI-Anything,HKUDS/CLI-Anything,https://github.com/HKUDS/CLI-Anything,39807,100,688,main,4. 25k–50k,3. 51–200,2. 500–999
+roboflow,supervision,roboflow/supervision,https://github.com/roboflow/supervision,39518,154,4866,develop,4. 25k–50k,3. 51–200,3. 1k–5k
+lm-sys,FastChat,lm-sys/FastChat,https://github.com/lm-sys/FastChat,39480,246,890,main,4. 25k–50k,4. 201–1000,2. 500–999
+2noise,ChatTTS,2noise/ChatTTS,https://github.com/2noise/ChatTTS,39306,59,434,main,4. 25k–50k,3. 51–200,1. 100–499
+mindsdb,minds-platform,mindsdb/minds-platform,https://github.com/mindsdb/minds-platform,39204,908,17111,main,4. 25k–50k,4. 201–1000,4. 5k–20k
+QuivrHQ,quivr,QuivrHQ/quivr,https://github.com/QuivrHQ/quivr,39157,119,2295,main,4. 25k–50k,3. 51–200,3. 1k–5k
+ManimCommunity,manim,ManimCommunity/manim,https://github.com/ManimCommunity/manim,38604,493,1256,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+ZhuLinsen,daily_stock_analysis,ZhuLinsen/daily_stock_analysis,https://github.com/ZhuLinsen/daily_stock_analysis,38593,75,668,main,4. 25k–50k,3. 51–200,2. 500–999
+sickn33,antigravity-awesome-skills,sickn33/antigravity-awesome-skills,https://github.com/sickn33/antigravity-awesome-skills,38483,215,1720,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+gto76,python-cheatsheet,gto76/python-cheatsheet,https://github.com/gto76/python-cheatsheet,38417,14,796,main,4. 25k–50k,2. 11–50,2. 500–999
+chatchat-space,Langchain-Chatchat,chatchat-space/Langchain-Chatchat,https://github.com/chatchat-space/Langchain-Chatchat,38070,173,2471,master,4. 25k–50k,3. 51–200,3. 1k–5k
+sqlmapproject,sqlmap,sqlmapproject/sqlmap,https://github.com/sqlmapproject/sqlmap,37461,154,775,master,4. 25k–50k,3. 51–200,2. 500–999
+openai,gym,openai/gym,https://github.com/openai/gym,37212,385,513,master,4. 25k–50k,4. 201–1000,2. 500–999
+satwikkansal,wtfpython,satwikkansal/wtfpython,https://github.com/satwikkansal/wtfpython,36953,82,190,master,4. 25k–50k,3. 51–200,1. 100–499
+babysor,MockingBird,babysor/MockingBird,https://github.com/babysor/MockingBird,36901,41,215,main,4. 25k–50k,2. 11–50,1. 100–499
+huggingface,pytorch-image-models,huggingface/pytorch-image-models,https://github.com/huggingface/pytorch-image-models,36822,193,2184,main,4. 25k–50k,3. 51–200,3. 1k–5k
+google,langextract,google/langextract,https://github.com/google/langextract,36532,23,163,main,4. 25k–50k,2. 11–50,1. 100–499
+hankcs,HanLP,hankcs/HanLP,https://github.com/hankcs/HanLP,36318,46,285,doc-zh,4. 25k–50k,2. 11–50,1. 100–499
+Textualize,textual,Textualize/textual,https://github.com/Textualize/textual,36004,191,13081,main,4. 25k–50k,3. 51–200,4. 5k–20k
+wshobson,agents,wshobson/agents,https://github.com/wshobson/agents,35842,62,394,main,4. 25k–50k,3. 51–200,1. 100–499
+jax-ml,jax,jax-ml/jax,https://github.com/jax-ml/jax,35680,1070,27938,main,4. 25k–50k,5. > 1000,5. > 20k
+HKUDS,LightRAG,HKUDS/LightRAG,https://github.com/HKUDS/LightRAG,35626,280,7853,main,4. 25k–50k,4. 201–1000,4. 5k–20k
+datalab-to,marker,datalab-to/marker,https://github.com/datalab-to/marker,35368,29,1359,master,4. 25k–50k,2. 11–50,3. 1k–5k
+geekcomputers,Python,geekcomputers/Python,https://github.com/geekcomputers/Python,35031,847,2803,master,4. 25k–50k,4. 201–1000,3. 1k–5k
+frappe,erpnext,frappe/erpnext,https://github.com/frappe/erpnext,34920,917,21756,develop,4. 25k–50k,4. 201–1000,5. > 20k
+khoj-ai,khoj,khoj-ai/khoj,https://github.com/khoj-ai/khoj,34674,71,5167,master,4. 25k–50k,3. 51–200,4. 5k–20k
+PostHog,posthog,PostHog/posthog,https://github.com/PostHog/posthog,34660,486,38923,master,4. 25k–50k,4. 201–1000,5. > 20k
+stanfordnlp,dspy,stanfordnlp/dspy,https://github.com/stanfordnlp/dspy,34604,427,4524,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+facebookresearch,detectron2,facebookresearch/detectron2,https://github.com/facebookresearch/detectron2,34493,285,414,main,4. 25k–50k,4. 201–1000,1. 100–499
+python-poetry,poetry,python-poetry/poetry,https://github.com/python-poetry/poetry,34290,655,1994,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+PDFMathTranslate,PDFMathTranslate,PDFMathTranslate/PDFMathTranslate,https://github.com/PDFMathTranslate/PDFMathTranslate,33965,57,1144,main,4. 25k–50k,3. 51–200,3. 1k–5k
+luongnv89,claude-howto,luongnv89/claude-howto,https://github.com/luongnv89/claude-howto,33955,20,212,main,4. 25k–50k,2. 11–50,1. 100–499
+Pythagora-io,gpt-pilot,Pythagora-io/gpt-pilot,https://github.com/Pythagora-io/gpt-pilot,33771,63,2884,main,4. 25k–50k,3. 51–200,3. 1k–5k
+github,awesome-copilot,github/awesome-copilot,https://github.com/github/awesome-copilot,33700,386,1752,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+ocrmypdf,OCRmyPDF,ocrmypdf/OCRmyPDF,https://github.com/ocrmypdf/OCRmyPDF,33692,121,1368,main,4. 25k–50k,3. 51–200,3. 1k–5k
+huggingface,diffusers,huggingface/diffusers,https://github.com/huggingface/diffusers,33685,1108,6519,main,4. 25k–50k,5. > 1000,4. 5k–20k
+explosion,spaCy,explosion/spaCy,https://github.com/explosion/spaCy,33605,780,1684,master,4. 25k–50k,4. 201–1000,3. 1k–5k
+XX-net,XX-Net,XX-net/XX-Net,https://github.com/XX-net/XX-Net,33460,95,379,master,4. 25k–50k,3. 51–200,1. 100–499
+microsoft,graphrag,microsoft/graphrag,https://github.com/microsoft/graphrag,33183,51,465,main,4. 25k–50k,3. 51–200,1. 100–499
+OpenBMB,ChatDev,OpenBMB/ChatDev,https://github.com/OpenBMB/ChatDev,33168,16,190,main,4. 25k–50k,2. 11–50,1. 100–499
+kovidgoyal,kitty,kovidgoyal/kitty,https://github.com/kovidgoyal/kitty,33079,442,11298,master,4. 25k–50k,4. 201–1000,4. 5k–20k
+certbot,certbot,certbot/certbot,https://github.com/certbot/certbot,33044,550,1175,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+AstrBotDevs,AstrBot,AstrBotDevs/AstrBot,https://github.com/AstrBotDevs/AstrBot,32929,279,4698,master,4. 25k–50k,4. 201–1000,3. 1k–5k
+langchain-ai,langgraph,langchain-ai/langgraph,https://github.com/langchain-ai/langgraph,32779,279,6880,main,4. 25k–50k,4. 201–1000,4. 5k–20k
+tinygrad,tinygrad,tinygrad/tinygrad,https://github.com/tinygrad/tinygrad,32750,473,12876,master,4. 25k–50k,4. 201–1000,4. 5k–20k
+nicolargo,glances,nicolargo/glances,https://github.com/nicolargo/glances,32624,243,3151,develop,4. 25k–50k,4. 201–1000,3. 1k–5k
+0xAX,linux-insides,0xAX/linux-insides,https://github.com/0xAX/linux-insides,32569,343,245,master,4. 25k–50k,4. 201–1000,1. 100–499
+facebookresearch,fairseq,facebookresearch/fairseq,https://github.com/facebookresearch/fairseq,32220,433,431,main,4. 25k–50k,4. 201–1000,1. 100–499
+numpy,numpy,numpy/numpy,https://github.com/numpy/numpy,32084,2080,14584,main,4. 25k–50k,5. > 1000,4. 5k–20k
+OWASP,CheatSheetSeries,OWASP/CheatSheetSeries,https://github.com/OWASP/CheatSheetSeries,32077,624,970,master,4. 25k–50k,4. 201–1000,2. 500–999
+VectifyAI,PageIndex,VectifyAI/PageIndex,https://github.com/VectifyAI/PageIndex,32036,11,284,main,4. 25k–50k,2. 11–50,1. 100–499
+dgtlmoon,changedetection.io,dgtlmoon/changedetection.io,https://github.com/dgtlmoon/changedetection.io,31677,134,2115,master,4. 25k–50k,3. 51–200,3. 1k–5k
+tqdm,tqdm,tqdm/tqdm,https://github.com/tqdm/tqdm,31167,119,202,master,4. 25k–50k,3. 51–200,1. 100–499
+Lightning-AI,pytorch-lightning,Lightning-AI/pytorch-lightning,https://github.com/Lightning-AI/pytorch-lightning,31152,1060,6115,master,4. 25k–50k,5. > 1000,4. 5k–20k
+openai,openai-python,openai/openai-python,https://github.com/openai/openai-python,30826,152,1364,main,4. 25k–50k,3. 51–200,3. 1k–5k
+searxng,searxng,searxng/searxng,https://github.com/searxng/searxng,30555,339,5050,master,4. 25k–50k,4. 201–1000,4. 5k–20k
+FujiwaraChoki,MoneyPrinterV2,FujiwaraChoki/MoneyPrinterV2,https://github.com/FujiwaraChoki/MoneyPrinterV2,30536,11,114,main,4. 25k–50k,2. 11–50,1. 100–499
+jumpserver,jumpserver,jumpserver/jumpserver,https://github.com/jumpserver/jumpserver,30487,179,6763,dev,4. 25k–50k,3. 51–200,4. 5k–20k
+fishaudio,fish-speech,fishaudio/fish-speech,https://github.com/fishaudio/fish-speech,30470,95,729,main,4. 25k–50k,3. 51–200,2. 500–999
+StevenBlack,hosts,StevenBlack/hosts,https://github.com/StevenBlack/hosts,30411,172,1845,master,4. 25k–50k,3. 51–200,3. 1k–5k
+trailofbits,algo,trailofbits/algo,https://github.com/trailofbits/algo,30241,202,260,main,4. 25k–50k,4. 201–1000,1. 100–499
+soxoj,maigret,soxoj/maigret,https://github.com/soxoj/maigret,30057,60,1026,main,4. 25k–50k,3. 51–200,3. 1k–5k
+encode,django-rest-framework,encode/django-rest-framework,https://github.com/encode/django-rest-framework,30027,1481,571,main,4. 25k–50k,5. > 1000,2. 500–999
+onyx-dot-app,onyx,onyx-dot-app/onyx,https://github.com/onyx-dot-app/onyx,29646,192,8115,main,4. 25k–50k,3. 51–200,4. 5k–20k
+AtsushiSakai,PythonRobotics,AtsushiSakai/PythonRobotics,https://github.com/AtsushiSakai/PythonRobotics,29596,147,611,master,4. 25k–50k,3. 51–200,2. 500–999
+JaidedAI,EasyOCR,JaidedAI/EasyOCR,https://github.com/JaidedAI/EasyOCR,29505,129,214,master,4. 25k–50k,3. 51–200,1. 100–499
+python-telegram-bot,python-telegram-bot,python-telegram-bot/python-telegram-bot,https://github.com/python-telegram-bot/python-telegram-bot,29163,210,942,master,4. 25k–50k,4. 201–1000,2. 500–999
+hpcaitech,Open-Sora,hpcaitech/Open-Sora,https://github.com/hpcaitech/Open-Sora,29010,67,1333,main,4. 25k–50k,3. 51–200,3. 1k–5k
+Genesis-Embodied-AI,genesis-world,Genesis-Embodied-AI/genesis-world,https://github.com/Genesis-Embodied-AI/genesis-world,28834,89,1414,main,4. 25k–50k,3. 51–200,3. 1k–5k
+deepinsight,insightface,deepinsight/insightface,https://github.com/deepinsight/insightface,28784,67,861,master,4. 25k–50k,3. 51–200,2. 500–999
+Ebazhanov,linkedin-skill-assessments-quizzes,Ebazhanov/linkedin-skill-assessments-quizzes,https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes,28753,1687,5610,main,4. 25k–50k,5. > 1000,4. 5k–20k
+521xueweihan,GitHub520,521xueweihan/GitHub520,https://github.com/521xueweihan/GitHub520,28728,18,21742,main,4. 25k–50k,2. 11–50,5. > 20k
+Alishahryar1,free-claude-code,Alishahryar1/free-claude-code,https://github.com/Alishahryar1/free-claude-code,28600,31,653,main,4. 25k–50k,2. 11–50,2. 500–999
+getredash,redash,getredash/redash,https://github.com/getredash/redash,28590,544,727,master,4. 25k–50k,4. 201–1000,2. 500–999
+celery,celery,celery/celery,https://github.com/celery/celery,28522,1507,1491,main,4. 25k–50k,5. > 1000,3. 1k–5k
+reflex-dev,reflex,reflex-dev/reflex,https://github.com/reflex-dev/reflex,28447,203,3117,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+stanford-oval,storm,stanford-oval/storm,https://github.com/stanford-oval/storm,28254,26,238,main,4. 25k–50k,2. 11–50,1. 100–499
+sgl-project,sglang,sgl-project/sglang,https://github.com/sgl-project/sglang,28164,1426,13068,main,4. 25k–50k,5. > 1000,4. 5k–20k
+pydantic,pydantic,pydantic/pydantic,https://github.com/pydantic/pydantic,27839,761,4439,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+locustio,locust,locustio/locust,https://github.com/locustio/locust,27814,386,3606,master,4. 25k–50k,4. 201–1000,3. 1k–5k
+ArchiveBox,ArchiveBox,ArchiveBox/ArchiveBox,https://github.com/ArchiveBox/ArchiveBox,27530,144,2319,dev,4. 25k–50k,3. 51–200,3. 1k–5k
+davila7,claude-code-templates,davila7/claude-code-templates,https://github.com/davila7/claude-code-templates,27511,80,1218,main,4. 25k–50k,3. 51–200,3. 1k–5k
+huggingface,smolagents,huggingface/smolagents,https://github.com/huggingface/smolagents,27475,203,1043,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+assafelovic,gpt-researcher,assafelovic/gpt-researcher,https://github.com/assafelovic/gpt-researcher,27248,240,2936,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+QwenLM,Qwen3,QwenLM/Qwen3,https://github.com/QwenLM/Qwen3,27246,50,303,main,4. 25k–50k,2. 11–50,1. 100–499
+hsliuping,TradingAgents-CN,hsliuping/TradingAgents-CN,https://github.com/hsliuping/TradingAgents-CN,27207,19,1225,main,4. 25k–50k,2. 11–50,3. 1k–5k
+squidfunk,mkdocs-material,squidfunk/mkdocs-material,https://github.com/squidfunk/mkdocs-material,26780,333,3397,master,4. 25k–50k,4. 201–1000,3. 1k–5k
+ungoogled-software,ungoogled-chromium,ungoogled-software/ungoogled-chromium,https://github.com/ungoogled-software/ungoogled-chromium,26702,107,525,master,4. 25k–50k,3. 51–200,2. 500–999
+openai,openai-agents-python,openai/openai-agents-python,https://github.com/openai/openai-agents-python,26602,276,1583,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+getzep,graphiti,getzep/graphiti,https://github.com/getzep/graphiti,26437,41,831,main,4. 25k–50k,2. 11–50,2. 500–999
+anthropics,claude-plugins-official,anthropics/claude-plugins-official,https://github.com/anthropics/claude-plugins-official,26428,32,405,main,4. 25k–50k,2. 11–50,1. 100–499
+Fosowl,agenticSeek,Fosowl/agenticSeek,https://github.com/Fosowl/agenticSeek,26419,45,944,main,4. 25k–50k,2. 11–50,2. 500–999
+mvanhorn,last30days-skill,mvanhorn/last30days-skill,https://github.com/mvanhorn/last30days-skill,26406,48,618,main,4. 25k–50k,2. 11–50,2. 500–999
+WZMIAOMIAO,deep-learning-for-image-processing,WZMIAOMIAO/deep-learning-for-image-processing,https://github.com/WZMIAOMIAO/deep-learning-for-image-processing,26240,7,653,master,4. 25k–50k,1. 5–10,2. 500–999
+subframe7536,maple-font,subframe7536/maple-font,https://github.com/subframe7536/maple-font,26117,17,723,variable,4. 25k–50k,2. 11–50,2. 500–999
+walter201230,Python,walter201230/Python,https://github.com/walter201230/Python,26104,10,119,master,4. 25k–50k,1. 5–10,1. 100–499
+mlflow,mlflow,mlflow/mlflow,https://github.com/mlflow/mlflow,26077,1057,10268,master,4. 25k–50k,5. > 1000,4. 5k–20k
+huggingface,open-r1,huggingface/open-r1,https://github.com/huggingface/open-r1,26022,44,199,main,4. 25k–50k,2. 11–50,1. 100–499
+ycm-core,YouCompleteMe,ycm-core/YouCompleteMe,https://github.com/ycm-core/YouCompleteMe,25909,200,447,master,4. 25k–50k,3. 51–200,1. 100–499
+ScrapeGraphAI,Scrapegraph-ai,ScrapeGraphAI/Scrapegraph-ai,https://github.com/ScrapeGraphAI/Scrapegraph-ai,25806,119,2875,main,4. 25k–50k,3. 51–200,3. 1k–5k
+usestrix,strix,usestrix/strix,https://github.com/usestrix/strix,25564,37,364,main,4. 25k–50k,2. 11–50,1. 100–499
+agentscope-ai,agentscope,agentscope-ai/agentscope,https://github.com/agentscope-ai/agentscope,25507,54,276,main,4. 25k–50k,3. 51–200,1. 100–499
+keon,algorithms,keon/algorithms,https://github.com/keon/algorithms,25451,221,123,main,4. 25k–50k,4. 201–1000,1. 100–499
+Cinnamon,kotaemon,Cinnamon/kotaemon,https://github.com/Cinnamon/kotaemon,25394,39,326,main,4. 25k–50k,2. 11–50,1. 100–499
+K-Dense-AI,scientific-agent-skills,K-Dense-AI/scientific-agent-skills,https://github.com/K-Dense-AI/scientific-agent-skills,25361,41,474,main,4. 25k–50k,2. 11–50,1. 100–499
+zai-org,Open-AutoGLM,zai-org/Open-AutoGLM,https://github.com/zai-org/Open-AutoGLM,25351,13,106,main,4. 25k–50k,2. 11–50,1. 100–499
+PrefectHQ,fastmcp,PrefectHQ/fastmcp,https://github.com/PrefectHQ/fastmcp,25283,249,3504,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+zulip,zulip,zulip/zulip,https://github.com/zulip/zulip,25264,1310,28258,main,4. 25k–50k,5. > 1000,5. > 20k
+OpenBMB,MiniCPM-V,OpenBMB/MiniCPM-V,https://github.com/OpenBMB/MiniCPM-V,25214,36,674,main,4. 25k–50k,2. 11–50,2. 500–999
+lucidrains,vit-pytorch,lucidrains/vit-pytorch,https://github.com/lucidrains/vit-pytorch,25201,27,255,main,4. 25k–50k,2. 11–50,1. 100–499
+pypa,pipenv,pypa/pipenv,https://github.com/pypa/pipenv,25074,542,2542,main,4. 25k–50k,4. 201–1000,3. 1k–5k
+kovidgoyal,calibre,kovidgoyal/calibre,https://github.com/kovidgoyal/calibre,24896,470,10160,master,3. 10k–25k,4. 201–1000,4. 5k–20k
+cookiecutter,cookiecutter,cookiecutter/cookiecutter,https://github.com/cookiecutter/cookiecutter,24892,333,420,main,3. 10k–25k,4. 201–1000,1. 100–499
+spotDL,spotify-downloader,spotDL/spotify-downloader,https://github.com/spotDL/spotify-downloader,24884,188,1738,master,3. 10k–25k,3. 51–200,3. 1k–5k
+microsoft,JARVIS,microsoft/JARVIS,https://github.com/microsoft/JARVIS,24757,23,112,main,3. 10k–25k,2. 11–50,1. 100–499
+volcengine,OpenViking,volcengine/OpenViking,https://github.com/volcengine/OpenViking,24563,157,1201,main,3. 10k–25k,3. 51–200,3. 1k–5k
+oraios,serena,oraios/serena,https://github.com/oraios/serena,24543,181,2898,main,3. 10k–25k,3. 51–200,3. 1k–5k
+huggingface,lerobot,huggingface/lerobot,https://github.com/huggingface/lerobot,24269,217,1469,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+harvard-edge,cs249r_book,harvard-edge/cs249r_book,https://github.com/harvard-edge/cs249r_book,24245,112,15677,dev,3. 10k–25k,3. 51–200,4. 5k–20k
+HKUDS,DeepTutor,HKUDS/DeepTutor,https://github.com/HKUDS/DeepTutor,24235,66,750,main,3. 10k–25k,3. 51–200,2. 500–999
+plotly,dash,plotly/dash,https://github.com/plotly/dash,24209,212,4433,dev,3. 10k–25k,4. 201–1000,3. 1k–5k
+pytorch,examples,pytorch/examples,https://github.com/pytorch/examples,23903,285,287,main,3. 10k–25k,4. 201–1000,1. 100–499
+Guovin,iptv-api,Guovin/iptv-api,https://github.com/Guovin/iptv-api,23889,6,2096,master,3. 10k–25k,1. 5–10,3. 1k–5k
+Delgan,loguru,Delgan/loguru,https://github.com/Delgan/loguru,23886,76,470,master,3. 10k–25k,3. 51–200,1. 100–499
+Dao-AILab,flash-attention,Dao-AILab/flash-attention,https://github.com/Dao-AILab/flash-attention,23877,181,1489,main,3. 10k–25k,3. 51–200,3. 1k–5k
+ranaroussi,yfinance,ranaroussi/yfinance,https://github.com/ranaroussi/yfinance,23787,167,1505,main,3. 10k–25k,3. 51–200,3. 1k–5k
+pyg-team,pytorch_geometric,pyg-team/pytorch_geometric,https://github.com/pyg-team/pytorch_geometric,23781,566,3402,master,3. 10k–25k,4. 201–1000,3. 1k–5k
+sinaptik-ai,pandas-ai,sinaptik-ai/pandas-ai,https://github.com/sinaptik-ai/pandas-ai,23549,112,1416,main,3. 10k–25k,3. 51–200,3. 1k–5k
+vanna-ai,vanna,vanna-ai/vanna,https://github.com/vanna-ai/vanna,23494,88,972,main,3. 10k–25k,3. 51–200,2. 500–999
+deepseek-ai,DeepSeek-Coder,deepseek-ai/DeepSeek-Coder,https://github.com/deepseek-ai/DeepSeek-Coder,23429,17,109,main,3. 10k–25k,2. 11–50,1. 100–499
+jhao104,proxy_pool,jhao104/proxy_pool,https://github.com/jhao104/proxy_pool,23359,64,107,master,3. 10k–25k,3. 51–200,1. 100–499
+timqian,chinese-independent-blogs,timqian/chinese-independent-blogs,https://github.com/timqian/chinese-independent-blogs,23255,1455,2555,master,3. 10k–25k,5. > 1000,3. 1k–5k
+langchain-ai,deepagents,langchain-ai/deepagents,https://github.com/langchain-ai/deepagents,23239,118,1958,main,3. 10k–25k,3. 51–200,3. 1k–5k
+Fincept-Corporation,FinceptTerminal,Fincept-Corporation/FinceptTerminal,https://github.com/Fincept-Corporation/FinceptTerminal,23109,36,952,main,3. 10k–25k,2. 11–50,2. 500–999
+modelcontextprotocol,python-sdk,modelcontextprotocol/python-sdk,https://github.com/modelcontextprotocol/python-sdk,23103,185,856,main,3. 10k–25k,3. 51–200,2. 500–999
+SYSTRAN,faster-whisper,SYSTRAN/faster-whisper,https://github.com/SYSTRAN/faster-whisper,23100,47,263,master,3. 10k–25k,2. 11–50,1. 100–499
+Vonng,ddia,Vonng/ddia,https://github.com/Vonng/ddia,23059,127,716,main,3. 10k–25k,3. 51–200,2. 500–999
+danielgatis,rembg,danielgatis/rembg,https://github.com/danielgatis/rembg,23057,82,455,main,3. 10k–25k,3. 51–200,1. 100–499
+saleor,saleor,saleor/saleor,https://github.com/saleor/saleor,22921,323,3928,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+letta-ai,letta,letta-ai/letta,https://github.com/letta-ai/letta,22916,153,7464,main,3. 10k–25k,3. 51–200,4. 5k–20k
+SuperClaude-Org,SuperClaude_Framework,SuperClaude-Org/SuperClaude_Framework,https://github.com/SuperClaude-Org/SuperClaude_Framework,22915,43,345,master,3. 10k–25k,2. 11–50,1. 100–499
+emmabostian,developer-portfolios,emmabostian/developer-portfolios,https://github.com/emmabostian/developer-portfolios,22861,2205,5117,master,3. 10k–25k,5. > 1000,4. 5k–20k
+matplotlib,matplotlib,matplotlib/matplotlib,https://github.com/matplotlib/matplotlib,22829,1919,15345,main,3. 10k–25k,5. > 1000,4. 5k–20k
+serengil,deepface,serengil/deepface,https://github.com/serengil/deepface,22815,97,1603,master,3. 10k–25k,3. 51–200,3. 1k–5k
+mlc-ai,mlc-llm,mlc-ai/mlc-llm,https://github.com/mlc-ai/mlc-llm,22702,164,1799,main,3. 10k–25k,3. 51–200,3. 1k–5k
+magic-wormhole,magic-wormhole,magic-wormhole/magic-wormhole,https://github.com/magic-wormhole/magic-wormhole,22629,90,851,master,3. 10k–25k,3. 51–200,2. 500–999
+PrefectHQ,prefect,PrefectHQ/prefect,https://github.com/PrefectHQ/prefect,22451,441,21521,main,3. 10k–25k,4. 201–1000,5. > 20k
+PromtEngineer,localGPT,PromtEngineer/localGPT,https://github.com/PromtEngineer/localGPT,22213,51,340,main,3. 10k–25k,3. 51–200,1. 100–499
+tornadoweb,tornado,tornadoweb/tornado,https://github.com/tornadoweb/tornado,22183,474,693,master,3. 10k–25k,4. 201–1000,2. 500–999
+microsoft,unilm,microsoft/unilm,https://github.com/microsoft/unilm,22131,77,1008,master,3. 10k–25k,3. 51–200,3. 1k–5k
+cheahjs,free-llm-api-resources,cheahjs/free-llm-api-resources,https://github.com/cheahjs/free-llm-api-resources,22116,5,413,main,3. 10k–25k,1. 5–10,1. 100–499
+mkdocs,mkdocs,mkdocs/mkdocs,https://github.com/mkdocs/mkdocs,22103,262,588,master,3. 10k–25k,4. 201–1000,2. 500–999
+graphdeco-inria,gaussian-splatting,graphdeco-inria/gaussian-splatting,https://github.com/graphdeco-inria/gaussian-splatting,22077,14,250,main,3. 10k–25k,2. 11–50,1. 100–499
+m-bain,whisperX,m-bain/whisperX,https://github.com/m-bain/whisperX,22055,115,545,main,3. 10k–25k,3. 51–200,2. 500–999
+OthmanAdi,planning-with-files,OthmanAdi/planning-with-files,https://github.com/OthmanAdi/planning-with-files,21935,35,236,master,3. 10k–25k,2. 11–50,1. 100–499
+ahujasid,blender-mcp,ahujasid/blender-mcp,https://github.com/ahujasid/blender-mcp,21930,20,139,main,3. 10k–25k,2. 11–50,1. 100–499
+recommenders-team,recommenders,recommenders-team/recommenders,https://github.com/recommenders-team/recommenders,21717,147,2930,main,3. 10k–25k,3. 51–200,3. 1k–5k
+Skyvern-AI,skyvern,Skyvern-AI/skyvern,https://github.com/Skyvern-AI/skyvern,21707,87,4915,main,3. 10k–25k,3. 51–200,3. 1k–5k
+XiaoMi,ha_xiaomi_home,XiaoMi/ha_xiaomi_home,https://github.com/XiaoMi/ha_xiaomi_home,21696,37,267,main,3. 10k–25k,2. 11–50,1. 100–499
+goauthentik,authentik,goauthentik/authentik,https://github.com/goauthentik/authentik,21610,546,17168,main,3. 10k–25k,4. 201–1000,4. 5k–20k
+huggingface,datasets,huggingface/datasets,https://github.com/huggingface/datasets,21534,665,2648,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+verl-project,verl,verl-project/verl,https://github.com/verl-project/verl,21506,618,2537,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+airbytehq,airbyte,airbytehq/airbyte,https://github.com/airbytehq/airbyte,21315,1202,44674,master,3. 10k–25k,5. > 1000,5. > 20k
+p-e-w,heretic,p-e-w/heretic,https://github.com/p-e-w/heretic,21272,24,158,master,3. 10k–25k,2. 11–50,1. 100–499
+FunAudioLLM,CosyVoice,FunAudioLLM/CosyVoice,https://github.com/FunAudioLLM/CosyVoice,21206,52,551,main,3. 10k–25k,3. 51–200,2. 500–999
+huggingface,peft,huggingface/peft,https://github.com/huggingface/peft,21184,300,1700,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+QwenLM,Qwen,QwenLM/Qwen,https://github.com/QwenLM/Qwen,21177,34,517,main,3. 10k–25k,2. 11–50,2. 500–999
+RasaHQ,rasa,RasaHQ/rasa,https://github.com/RasaHQ/rasa,21176,599,5489,3.6.x,3. 10k–25k,4. 201–1000,4. 5k–20k
+marimo-team,marimo,marimo-team/marimo,https://github.com/marimo-team/marimo,21129,292,6118,main,3. 10k–25k,4. 201–1000,4. 5k–20k
+Zeyi-Lin,HivisionIDPhotos,Zeyi-Lin/HivisionIDPhotos,https://github.com/Zeyi-Lin/HivisionIDPhotos,21114,24,445,master,3. 10k–25k,2. 11–50,1. 100–499
+LiLittleCat,awesome-free-chatgpt,LiLittleCat/awesome-free-chatgpt,https://github.com/LiLittleCat/awesome-free-chatgpt,21080,21,375,main,3. 10k–25k,2. 11–50,1. 100–499
+1Panel-dev,MaxKB,1Panel-dev/MaxKB,https://github.com/1Panel-dev/MaxKB,21035,83,7044,v2,3. 10k–25k,3. 51–200,4. 5k–20k
+onnx,onnx,onnx/onnx,https://github.com/onnx/onnx,20872,392,2022,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+index-tts,index-tts,index-tts/index-tts,https://github.com/index-tts/index-tts,20704,22,232,main,3. 10k–25k,2. 11–50,1. 100–499
+netbox-community,netbox,netbox-community/netbox,https://github.com/netbox-community/netbox,20588,461,7841,main,3. 10k–25k,4. 201–1000,4. 5k–20k
+HKUDS,RAG-Anything,HKUDS/RAG-Anything,https://github.com/HKUDS/RAG-Anything,20557,46,404,main,3. 10k–25k,2. 11–50,1. 100–499
+python,mypy,python/mypy,https://github.com/python/mypy,20443,855,4111,master,3. 10k–25k,4. 201–1000,3. 1k–5k
+wagtail,wagtail,wagtail/wagtail,https://github.com/wagtail/wagtail,20331,1089,8606,main,3. 10k–25k,5. > 1000,4. 5k–20k
+w-okada,voice-changer,w-okada/voice-changer,https://github.com/w-okada/voice-changer,20270,26,1754,master,3. 10k–25k,2. 11–50,3. 1k–5k
+facebook,prophet,facebook/prophet,https://github.com/facebook/prophet,20191,191,179,main,3. 10k–25k,3. 51–200,1. 100–499
+hugohe3,ppt-master,hugohe3/ppt-master,https://github.com/hugohe3/ppt-master,20160,9,666,main,3. 10k–25k,1. 5–10,2. 500–999
+Panniantong,Agent-Reach,Panniantong/Agent-Reach,https://github.com/Panniantong/Agent-Reach,20140,21,249,main,3. 10k–25k,2. 11–50,1. 100–499
+openai,gpt-oss,openai/gpt-oss,https://github.com/openai/gpt-oss,20117,64,128,main,3. 10k–25k,3. 51–200,1. 100–499
+google-research,timesfm,google-research/timesfm,https://github.com/google-research/timesfm,20076,23,320,master,3. 10k–25k,2. 11–50,1. 100–499
+openai,skills,openai/skills,https://github.com/openai/skills,20069,34,110,main,3. 10k–25k,2. 11–50,1. 100–499
+nginx-proxy,nginx-proxy,nginx-proxy/nginx-proxy,https://github.com/nginx-proxy/nginx-proxy,19839,170,1006,main,3. 10k–25k,3. 51–200,3. 1k–5k
+google,adk-python,google/adk-python,https://github.com/google/adk-python,19821,286,2706,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+camel-ai,owl,camel-ai/owl,https://github.com/camel-ai/owl,19801,47,641,main,3. 10k–25k,2. 11–50,2. 500–999
+datalab-to,surya,datalab-to/surya,https://github.com/datalab-to/surya,19766,18,960,master,3. 10k–25k,2. 11–50,2. 500–999
+Imbad0202,academic-research-skills,Imbad0202/academic-research-skills,https://github.com/Imbad0202/academic-research-skills,19706,7,429,main,3. 10k–25k,1. 5–10,1. 100–499
+OpenBMB,VoxCPM,OpenBMB/VoxCPM,https://github.com/OpenBMB/VoxCPM,19654,27,144,main,3. 10k–25k,2. 11–50,1. 100–499
+akfamily,akshare,akfamily/akshare,https://github.com/akfamily/akshare,19624,22,837,main,3. 10k–25k,2. 11–50,2. 500–999
+CloakHQ,CloakBrowser,CloakHQ/CloakBrowser,https://github.com/CloakHQ/CloakBrowser,19557,16,175,main,3. 10k–25k,2. 11–50,1. 100–499
+kaixindelele,ChatPaper,kaixindelele/ChatPaper,https://github.com/kaixindelele/ChatPaper,19510,15,348,main,3. 10k–25k,2. 11–50,1. 100–499
+stitionai,devika,stitionai/devika,https://github.com/stitionai/devika,19508,47,186,main,3. 10k–25k,2. 11–50,1. 100–499
+fastapi,typer,fastapi/typer,https://github.com/fastapi/typer,19459,103,1344,master,3. 10k–25k,3. 51–200,3. 1k–5k
+chidiwilliams,buzz,chidiwilliams/buzz,https://github.com/chidiwilliams/buzz,19372,31,719,main,3. 10k–25k,2. 11–50,2. 500–999
+comet-ml,opik,comet-ml/opik,https://github.com/comet-ml/opik,19360,125,5873,main,3. 10k–25k,3. 51–200,4. 5k–20k
+AIDC-AI,Pixelle-Video,AIDC-AI/Pixelle-Video,https://github.com/AIDC-AI/Pixelle-Video,19356,17,347,main,3. 10k–25k,2. 11–50,1. 100–499
+SWE-agent,SWE-agent,SWE-agent/SWE-agent,https://github.com/SWE-agent/SWE-agent,19280,96,2158,main,3. 10k–25k,3. 51–200,3. 1k–5k
+joke2k,faker,joke2k/faker,https://github.com/joke2k/faker,19259,665,1579,master,3. 10k–25k,4. 201–1000,3. 1k–5k
+agentskills,agentskills,agentskills/agentskills,https://github.com/agentskills/agentskills,19246,37,123,main,3. 10k–25k,2. 11–50,1. 100–499
+Avaiga,taipy,Avaiga/taipy,https://github.com/Avaiga/taipy,19221,96,7595,develop,3. 10k–25k,3. 51–200,4. 5k–20k
+RunaCapital,awesome-oss-alternatives,RunaCapital/awesome-oss-alternatives,https://github.com/RunaCapital/awesome-oss-alternatives,19138,154,409,main,3. 10k–25k,3. 51–200,1. 100–499
+DrewThomasson,ebook2audiobook,DrewThomasson/ebook2audiobook,https://github.com/DrewThomasson/ebook2audiobook,19010,35,14077,main,3. 10k–25k,2. 11–50,4. 5k–20k
+mxrch,GHunt,mxrch/GHunt,https://github.com/mxrch/GHunt,18972,37,142,master,3. 10k–25k,2. 11–50,1. 100–499
+kivy,kivy,kivy/kivy,https://github.com/kivy/kivy,18944,637,647,master,3. 10k–25k,4. 201–1000,2. 500–999
+Alibaba-NLP,DeepResearch,Alibaba-NLP/DeepResearch,https://github.com/Alibaba-NLP/DeepResearch,18943,30,300,main,3. 10k–25k,2. 11–50,1. 100–499
+ymcui,Chinese-LLaMA-Alpaca,ymcui/Chinese-LLaMA-Alpaca,https://github.com/ymcui/Chinese-LLaMA-Alpaca,18941,11,558,main,3. 10k–25k,2. 11–50,2. 500–999
+eosphoros-ai,DB-GPT,eosphoros-ai/DB-GPT,https://github.com/eosphoros-ai/DB-GPT,18822,184,3325,main,3. 10k–25k,3. 51–200,3. 1k–5k
+lss233,kirara-ai,lss233/kirara-ai,https://github.com/lss233/kirara-ai,18759,49,1633,master,3. 10k–25k,2. 11–50,3. 1k–5k
+astral-sh,ty,astral-sh/ty,https://github.com/astral-sh/ty,18725,44,487,main,3. 10k–25k,2. 11–50,1. 100–499
+spotify,luigi,spotify/luigi,https://github.com/spotify/luigi,18722,635,316,master,3. 10k–25k,4. 201–1000,1. 100–499
+huggingface,sentence-transformers,huggingface/sentence-transformers,https://github.com/huggingface/sentence-transformers,18715,262,1966,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+pyscript,pyscript,pyscript/pyscript,https://github.com/pyscript/pyscript,18689,127,1326,main,3. 10k–25k,3. 51–200,3. 1k–5k
+hummingbot,hummingbot,hummingbot/hummingbot,https://github.com/hummingbot/hummingbot,18649,311,17516,master,3. 10k–25k,4. 201–1000,4. 5k–20k
+sanic-org,sanic,sanic-org/sanic,https://github.com/sanic-org/sanic,18638,369,471,main,3. 10k–25k,4. 201–1000,1. 100–499
+HKUDS,AI-Trader,HKUDS/AI-Trader,https://github.com/HKUDS/AI-Trader,18561,19,343,main,3. 10k–25k,2. 11–50,1. 100–499
+plotly,plotly.py,plotly/plotly.py,https://github.com/plotly/plotly.py,18548,321,3616,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+openai,evals,openai/evals,https://github.com/openai/evals,18522,442,691,main,3. 10k–25k,4. 201–1000,2. 500–999
+huggingface,trl,huggingface/trl,https://github.com/huggingface/trl,18448,482,2797,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+KlingAIResearch,LivePortrait,KlingAIResearch/LivePortrait,https://github.com/KlingAIResearch/LivePortrait,18408,12,125,main,3. 10k–25k,2. 11–50,1. 100–499
+state-spaces,mamba,state-spaces/mamba,https://github.com/state-spaces/mamba,18292,55,226,main,3. 10k–25k,3. 51–200,1. 100–499
+mikf,gallery-dl,mikf/gallery-dl,https://github.com/mikf/gallery-dl,18254,210,4982,master,3. 10k–25k,4. 201–1000,3. 1k–5k
+emcie-co,parlant,emcie-co/parlant,https://github.com/emcie-co/parlant,18086,46,5476,develop,3. 10k–25k,2. 11–50,4. 5k–20k
+Evil0ctal,Douyin_TikTok_Download_API,Evil0ctal/Douyin_TikTok_Download_API,https://github.com/Evil0ctal/Douyin_TikTok_Download_API,18018,24,1123,main,3. 10k–25k,2. 11–50,3. 1k–5k
+fastapi,sqlmodel,fastapi/sqlmodel,https://github.com/fastapi/sqlmodel,17972,112,1230,main,3. 10k–25k,3. 51–200,3. 1k–5k
+stas00,ml-engineering,stas00/ml-engineering,https://github.com/stas00/ml-engineering,17970,49,1024,master,3. 10k–25k,2. 11–50,3. 1k–5k
+xming521,WeClone,xming521/WeClone,https://github.com/xming521/WeClone,17939,12,440,master,3. 10k–25k,2. 11–50,1. 100–499
+arc53,DocsGPT,arc53/DocsGPT,https://github.com/arc53/DocsGPT,17896,236,4757,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+smicallef,spiderfoot,smicallef/spiderfoot,https://github.com/smicallef/spiderfoot,17883,57,595,master,3. 10k–25k,3. 51–200,2. 500–999
+apple,ml-stable-diffusion,apple/ml-stable-diffusion,https://github.com/apple/ml-stable-diffusion,17852,40,127,main,3. 10k–25k,2. 11–50,1. 100–499
+fail2ban,fail2ban,fail2ban/fail2ban,https://github.com/fail2ban/fail2ban,17822,293,667,master,3. 10k–25k,4. 201–1000,2. 500–999
+agent0ai,agent-zero,agent0ai/agent-zero,https://github.com/agent0ai/agent-zero,17779,52,2195,main,3. 10k–25k,3. 51–200,3. 1k–5k
+pytorch,vision,pytorch/vision,https://github.com/pytorch/vision,17692,684,2466,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+ActivityWatch,activitywatch,ActivityWatch/activitywatch,https://github.com/ActivityWatch/activitywatch,17647,32,395,master,3. 10k–25k,2. 11–50,1. 100–499
+jianchang512,pyvideotrans,jianchang512/pyvideotrans,https://github.com/jianchang512/pyvideotrans,17513,29,1212,main,3. 10k–25k,2. 11–50,3. 1k–5k
+pallets,click,pallets/click,https://github.com/pallets/click,17508,445,1270,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+topoteretes,cognee,topoteretes/cognee,https://github.com/topoteretes/cognee,17476,160,7577,main,3. 10k–25k,3. 51–200,4. 5k–20k
+dortania,OpenCore-Legacy-Patcher,dortania/OpenCore-Legacy-Patcher,https://github.com/dortania/OpenCore-Legacy-Patcher,17462,42,3166,main,3. 10k–25k,2. 11–50,3. 1k–5k
+MustardChef,WSABuilds,MustardChef/WSABuilds,https://github.com/MustardChef/WSABuilds,17397,37,1476,master,3. 10k–25k,2. 11–50,3. 1k–5k
+allenai,olmocr,allenai/olmocr,https://github.com/allenai/olmocr,17347,16,2126,main,3. 10k–25k,2. 11–50,3. 1k–5k
+tirth8205,code-review-graph,tirth8205/code-review-graph,https://github.com/tirth8205/code-review-graph,17258,78,442,main,3. 10k–25k,3. 51–200,1. 100–499
+NVIDIA-NeMo,NeMo,NVIDIA-NeMo/NeMo,https://github.com/NVIDIA-NeMo/NeMo,17253,491,5712,main,3. 10k–25k,4. 201–1000,4. 5k–20k
+pydantic,pydantic-ai,pydantic/pydantic-ai,https://github.com/pydantic/pydantic-ai,17242,452,2102,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+microsoft,agent-lightning,microsoft/agent-lightning,https://github.com/microsoft/agent-lightning,17212,31,255,main,3. 10k–25k,2. 11–50,1. 100–499
+ranger,ranger,ranger/ranger,https://github.com/ranger/ranger,17197,271,710,master,3. 10k–25k,4. 201–1000,2. 500–999
+kvcache-ai,ktransformers,kvcache-ai/ktransformers,https://github.com/kvcache-ai/ktransformers,17190,115,1275,main,3. 10k–25k,3. 51–200,3. 1k–5k
+Huanshere,VideoLingo,Huanshere/VideoLingo,https://github.com/Huanshere/VideoLingo,17130,19,969,main,3. 10k–25k,2. 11–50,2. 500–999
+google,magika,google/magika,https://github.com/google/magika,17042,43,1745,main,3. 10k–25k,2. 11–50,3. 1k–5k
+camel-ai,camel,camel-ai/camel,https://github.com/camel-ai/camel,17025,213,2209,master,3. 10k–25k,4. 201–1000,3. 1k–5k
+aws,aws-cli,aws/aws-cli,https://github.com/aws/aws-cli,16984,500,4561,develop,3. 10k–25k,4. 201–1000,3. 1k–5k
+networkx,networkx,networkx/networkx,https://github.com/networkx/networkx,16938,832,1806,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+agentscope-ai,QwenPaw,agentscope-ai/QwenPaw,https://github.com/agentscope-ai/QwenPaw,16903,164,1254,main,3. 10k–25k,3. 51–200,3. 1k–5k
+exaloop,codon,exaloop/codon,https://github.com/exaloop/codon,16782,21,955,develop,3. 10k–25k,2. 11–50,2. 500–999
+ipython,ipython,ipython/ipython,https://github.com/ipython/ipython,16705,1069,3359,main,3. 10k–25k,5. > 1000,3. 1k–5k
+rendercv,rendercv,rendercv/rendercv,https://github.com/rendercv/rendercv,16693,63,1961,main,3. 10k–25k,3. 51–200,3. 1k–5k
+caronc,apprise,caronc/apprise,https://github.com/caronc/apprise,16613,103,626,master,3. 10k–25k,3. 51–200,2. 500–999
+QwenLM,Qwen3-Coder,QwenLM/Qwen3-Coder,https://github.com/QwenLM/Qwen3-Coder,16549,35,353,main,3. 10k–25k,2. 11–50,1. 100–499
+suitenumerique,docs,suitenumerique/docs,https://github.com/suitenumerique/docs,16529,73,2096,main,3. 10k–25k,3. 51–200,3. 1k–5k
+AsyncFuncAI,deepwiki-open,AsyncFuncAI/deepwiki-open,https://github.com/AsyncFuncAI/deepwiki-open,16521,66,219,main,3. 10k–25k,3. 51–200,1. 100–499
+Free-TV,IPTV,Free-TV/IPTV,https://github.com/Free-TV/IPTV,16443,104,1444,master,3. 10k–25k,3. 51–200,3. 1k–5k
+aio-libs,aiohttp,aio-libs/aiohttp,https://github.com/aio-libs/aiohttp,16441,839,5523,master,3. 10k–25k,4. 201–1000,4. 5k–20k
+NVIDIA,Megatron-LM,NVIDIA/Megatron-LM,https://github.com/NVIDIA/Megatron-LM,16431,338,7999,main,3. 10k–25k,4. 201–1000,4. 5k–20k
+piskvorky,gensim,piskvorky/gensim,https://github.com/piskvorky/gensim,16417,464,392,develop,3. 10k–25k,4. 201–1000,1. 100–499
+QwenLM,Qwen-Agent,QwenLM/Qwen-Agent,https://github.com/QwenLM/Qwen-Agent,16385,35,304,main,3. 10k–25k,2. 11–50,1. 100–499
+laramies,theHarvester,laramies/theHarvester,https://github.com/laramies/theHarvester,16299,123,2068,master,3. 10k–25k,3. 51–200,3. 1k–5k
+modelscope,FunASR,modelscope/FunASR,https://github.com/modelscope/FunASR,16211,176,4934,main,3. 10k–25k,3. 51–200,3. 1k–5k
+raga-ai-hub,RagaAI-Catalyst,raga-ai-hub/RagaAI-Catalyst,https://github.com/raga-ai-hub/RagaAI-Catalyst,16165,28,1095,main,3. 10k–25k,2. 11–50,3. 1k–5k
+flet-dev,flet,flet-dev/flet,https://github.com/flet-dev/flet,16119,90,1431,main,3. 10k–25k,3. 51–200,3. 1k–5k
+langbot-app,LangBot,langbot-app/LangBot,https://github.com/langbot-app/LangBot,16093,84,3533,master,3. 10k–25k,3. 51–200,3. 1k–5k
+tgbot-collection,YYeTsBot,tgbot-collection/YYeTsBot,https://github.com/tgbot-collection/YYeTsBot,16083,8,368,master,3. 10k–25k,1. 5–10,1. 100–499
+Rapptz,discord.py,Rapptz/discord.py,https://github.com/Rapptz/discord.py,16067,455,2293,master,3. 10k–25k,4. 201–1000,3. 1k–5k
+alirezarezvani,claude-skills,alirezarezvani/claude-skills,https://github.com/alirezarezvani/claude-skills,16011,31,979,main,3. 10k–25k,2. 11–50,2. 500–999
+browser-use,web-ui,browser-use/web-ui,https://github.com/browser-use/web-ui,15992,57,450,main,3. 10k–25k,3. 51–200,1. 100–499
+MatrixTM,MHDDoS,MatrixTM/MHDDoS,https://github.com/MatrixTM/MHDDoS,15937,32,476,main,3. 10k–25k,2. 11–50,1. 100–499
+muratcankoylan,Agent-Skills-for-Context-Engineering,muratcankoylan/Agent-Skills-for-Context-Engineering,https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering,15907,10,162,main,3. 10k–25k,1. 5–10,1. 100–499
+wkentaro,labelme,wkentaro/labelme,https://github.com/wkentaro/labelme,15902,83,1583,main,3. 10k–25k,3. 51–200,3. 1k–5k
+cvat-ai,cvat,cvat-ai/cvat,https://github.com/cvat-ai/cvat,15890,304,4031,develop,3. 10k–25k,4. 201–1000,3. 1k–5k
+cft0808,edict,cft0808/edict,https://github.com/cft0808/edict,15847,17,149,main,3. 10k–25k,2. 11–50,1. 100–499
+zauberzeug,nicegui,zauberzeug/nicegui,https://github.com/zauberzeug/nicegui,15833,218,6437,main,3. 10k–25k,4. 201–1000,4. 5k–20k
+jaakkopasanen,AutoEq,jaakkopasanen/AutoEq,https://github.com/jaakkopasanen/AutoEq,15824,19,391,master,3. 10k–25k,2. 11–50,1. 100–499
+Kanaries,pygwalker,Kanaries/pygwalker,https://github.com/Kanaries/pygwalker,15804,27,637,main,3. 10k–25k,2. 11–50,2. 500–999
+pyecharts,pyecharts,pyecharts/pyecharts,https://github.com/pyecharts/pyecharts,15767,45,187,master,3. 10k–25k,2. 11–50,1. 100–499
+fortra,impacket,fortra/impacket,https://github.com/fortra/impacket,15746,306,819,master,3. 10k–25k,4. 201–1000,2. 500–999
+HKUDS,DeepCode,HKUDS/DeepCode,https://github.com/HKUDS/DeepCode,15684,8,161,main,3. 10k–25k,1. 5–10,1. 100–499
+confident-ai,deepeval,confident-ai/deepeval,https://github.com/confident-ai/deepeval,15655,288,9473,main,3. 10k–25k,4. 201–1000,4. 5k–20k
+treeverse,dvc,treeverse/dvc,https://github.com/treeverse/dvc,15622,331,2965,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+dagster-io,dagster,dagster-io/dagster,https://github.com/dagster-io/dagster,15562,675,19877,master,3. 10k–25k,4. 201–1000,4. 5k–20k
+mindverse,Second-Me,mindverse/Second-Me,https://github.com/mindverse/Second-Me,15543,35,186,master,3. 10k–25k,2. 11–50,1. 100–499
+microsoft,pyright,microsoft/pyright,https://github.com/microsoft/pyright,15451,145,5030,main,3. 10k–25k,3. 51–200,4. 5k–20k
+saltstack,salt,saltstack/salt,https://github.com/saltstack/salt,15448,4034,12767,master,3. 10k–25k,5. > 1000,4. 5k–20k
+fabric,fabric,fabric/fabric,https://github.com/fabric/fabric,15437,19,156,main,3. 10k–25k,2. 11–50,1. 100–499
+ansible,awx,ansible/awx,https://github.com/ansible/awx,15428,689,5203,devel,3. 10k–25k,4. 201–1000,4. 5k–20k
+edent,SuperTinyIcons,edent/SuperTinyIcons,https://github.com/edent/SuperTinyIcons,15339,178,924,master,3. 10k–25k,3. 51–200,2. 500–999
+rossant,awesome-math,rossant/awesome-math,https://github.com/rossant/awesome-math,15339,80,139,master,3. 10k–25k,3. 51–200,1. 100–499
+GaiZhenbiao,ChuanhuChatGPT,GaiZhenbiao/ChuanhuChatGPT,https://github.com/GaiZhenbiao/ChuanhuChatGPT,15332,55,1263,main,3. 10k–25k,3. 51–200,3. 1k–5k
+jupyter,jupyter,jupyter/jupyter,https://github.com/jupyter/jupyter,15313,107,318,master,3. 10k–25k,3. 51–200,1. 100–499
+Canner,WrenAI,Canner/WrenAI,https://github.com/Canner/WrenAI,15311,61,2465,main,3. 10k–25k,3. 51–200,3. 1k–5k
+mail-in-a-box,mailinabox,mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox,15311,242,363,main,3. 10k–25k,4. 201–1000,1. 100–499
+pre-commit,pre-commit,pre-commit/pre-commit,https://github.com/pre-commit/pre-commit,15300,166,824,main,3. 10k–25k,3. 51–200,2. 500–999
+albumentations-team,albumentations,albumentations-team/albumentations,https://github.com/albumentations-team/albumentations,15298,172,695,main,3. 10k–25k,3. 51–200,2. 500–999
+encode,httpx,encode/httpx,https://github.com/encode/httpx,15287,247,522,master,3. 10k–25k,4. 201–1000,2. 500–999
+lra,mackup,lra/mackup,https://github.com/lra/mackup,15243,501,325,master,3. 10k–25k,4. 201–1000,1. 100–499
+beetbox,beets,beetbox/beets,https://github.com/beetbox/beets,15174,706,4417,master,3. 10k–25k,4. 201–1000,3. 1k–5k
+budtmo,docker-android,budtmo/docker-android,https://github.com/budtmo/docker-android,15144,59,242,master,3. 10k–25k,3. 51–200,1. 100–499
+andkret,Cookbook,andkret/Cookbook,https://github.com/andkret/Cookbook,15105,40,124,master,3. 10k–25k,2. 11–50,1. 100–499
+bloomberg,memray,bloomberg/memray,https://github.com/bloomberg/memray,15048,71,1269,main,3. 10k–25k,3. 51–200,3. 1k–5k
+jundot,omlx,jundot/omlx,https://github.com/jundot/omlx,14991,113,1237,main,3. 10k–25k,3. 51–200,3. 1k–5k
+llmware-ai,llmware,llmware-ai/llmware,https://github.com/llmware-ai/llmware,14863,89,2386,main,3. 10k–25k,3. 51–200,3. 1k–5k
+Nuitka,Nuitka,Nuitka/Nuitka,https://github.com/Nuitka/Nuitka,14852,210,7185,develop,3. 10k–25k,4. 201–1000,4. 5k–20k
+MemoriLabs,Memori,MemoriLabs/Memori,https://github.com/MemoriLabs/Memori,14816,37,600,main,3. 10k–25k,2. 11–50,2. 500–999
+teng-lin,notebooklm-py,teng-lin/notebooklm-py,https://github.com/teng-lin/notebooklm-py,14809,25,1231,main,3. 10k–25k,2. 11–50,3. 1k–5k
+Comfy-Org,ComfyUI-Manager,Comfy-Org/ComfyUI-Manager,https://github.com/Comfy-Org/ComfyUI-Manager,14773,824,4756,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+coderamp-labs,gitingest,coderamp-labs/gitingest,https://github.com/coderamp-labs/gitingest,14752,55,405,main,3. 10k–25k,3. 51–200,1. 100–499
+scipy,scipy,scipy/scipy,https://github.com/scipy/scipy,14716,1911,11762,main,3. 10k–25k,5. > 1000,4. 5k–20k
+WEIFENG2333,VideoCaptioner,WEIFENG2333/VideoCaptioner,https://github.com/WEIFENG2333/VideoCaptioner,14700,13,527,master,3. 10k–25k,2. 11–50,2. 500–999
+horovod,horovod,horovod/horovod,https://github.com/horovod/horovod,14690,176,399,master,3. 10k–25k,3. 51–200,1. 100–499
+Anionex,banana-slides,Anionex/banana-slides,https://github.com/Anionex/banana-slides,14674,17,771,main,3. 10k–25k,2. 11–50,2. 500–999
+microsoft,playwright-python,microsoft/playwright-python,https://github.com/microsoft/playwright-python,14664,53,669,main,3. 10k–25k,3. 51–200,2. 500–999
+sympy,sympy,sympy/sympy,https://github.com/sympy/sympy,14643,1489,15033,master,3. 10k–25k,5. > 1000,4. 5k–20k
+Zulko,moviepy,Zulko/moviepy,https://github.com/Zulko/moviepy,14630,191,494,master,3. 10k–25k,3. 51–200,1. 100–499
+nltk,nltk,nltk/nltk,https://github.com/nltk/nltk,14623,497,1092,develop,3. 10k–25k,4. 201–1000,3. 1k–5k
+google-deepmind,alphafold,google-deepmind/alphafold,https://github.com/google-deepmind/alphafold,14612,25,209,main,3. 10k–25k,2. 11–50,1. 100–499
+pyodide,pyodide,pyodide/pyodide,https://github.com/pyodide/pyodide,14612,306,2763,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+SWivid,F5-TTS,SWivid/F5-TTS,https://github.com/SWivid/F5-TTS,14577,63,696,main,3. 10k–25k,3. 51–200,2. 500–999
+BlinkDL,RWKV-LM,BlinkDL/RWKV-LM,https://github.com/BlinkDL/RWKV-LM,14537,5,877,main,3. 10k–25k,1. 5–10,2. 500–999
+JoeanAmier,TikTokDownloader,JoeanAmier/TikTokDownloader,https://github.com/JoeanAmier/TikTokDownloader,14530,5,1895,master,3. 10k–25k,1. 5–10,3. 1k–5k
+gunthercox,ChatterBot,gunthercox/ChatterBot,https://github.com/gunthercox/ChatterBot,14484,107,198,master,3. 10k–25k,3. 51–200,1. 100–499
+LibreTranslate,LibreTranslate,LibreTranslate/LibreTranslate,https://github.com/LibreTranslate/LibreTranslate,14414,292,1550,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+flairNLP,flair,flairNLP/flair,https://github.com/flairNLP/flair,14380,278,3311,master,3. 10k–25k,4. 201–1000,3. 1k–5k
+vectorize-io,hindsight,vectorize-io/hindsight,https://github.com/vectorize-io/hindsight,14317,97,1408,main,3. 10k–25k,3. 51–200,3. 1k–5k
+MODSetter,SurfSense,MODSetter/SurfSense,https://github.com/MODSetter/SurfSense,14292,80,5994,main,3. 10k–25k,3. 51–200,4. 5k–20k
+maurosoria,dirsearch,maurosoria/dirsearch,https://github.com/maurosoria/dirsearch,14288,113,886,master,3. 10k–25k,3. 51–200,2. 500–999
+dmlc,dgl,dmlc/dgl,https://github.com/dmlc/dgl,14275,298,2703,master,3. 10k–25k,4. 201–1000,3. 1k–5k
+optuna,optuna,optuna/optuna,https://github.com/optuna/optuna,14237,386,10848,master,3. 10k–25k,4. 201–1000,4. 5k–20k
+modelscope,ms-swift,modelscope/ms-swift,https://github.com/modelscope/ms-swift,14232,147,3325,main,3. 10k–25k,3. 51–200,3. 1k–5k
+SFTtech,openage,SFTtech/openage,https://github.com/SFTtech/openage,14220,221,1866,master,3. 10k–25k,4. 201–1000,3. 1k–5k
+PaddlePaddle,PaddleDetection,PaddlePaddle/PaddleDetection,https://github.com/PaddlePaddle/PaddleDetection,14216,188,1375,release/2.9,3. 10k–25k,3. 51–200,3. 1k–5k
+unifyai,ivy,unifyai/ivy,https://github.com/unifyai/ivy,14190,1486,19003,main,3. 10k–25k,5. > 1000,4. 5k–20k
+sml2h3,ddddocr,sml2h3/ddddocr,https://github.com/sml2h3/ddddocr,14110,9,111,master,3. 10k–25k,1. 5–10,1. 100–499
+geldata,gel,geldata/gel,https://github.com/geldata/gel,14089,140,4162,master,3. 10k–25k,3. 51–200,3. 1k–5k
+idank,explainshell,idank/explainshell,https://github.com/idank/explainshell,14061,27,475,master,3. 10k–25k,2. 11–50,1. 100–499
+vibrantlabsai,ragas,vibrantlabsai/ragas,https://github.com/vibrantlabsai/ragas,14029,246,1147,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+FlareSolverr,FlareSolverr,FlareSolverr/FlareSolverr,https://github.com/FlareSolverr/FlareSolverr,14006,46,334,master,3. 10k–25k,2. 11–50,1. 100–499
+google,yapf,google/yapf,https://github.com/google/yapf,13983,156,232,main,3. 10k–25k,3. 51–200,1. 100–499
+mwaskom,seaborn,mwaskom/seaborn,https://github.com/mwaskom/seaborn,13887,216,466,master,3. 10k–25k,4. 201–1000,1. 100–499
+dottxt-ai,outlines,dottxt-ai/outlines,https://github.com/dottxt-ai/outlines,13879,157,1254,main,3. 10k–25k,3. 51–200,3. 1k–5k
+pytest-dev,pytest,pytest-dev/pytest,https://github.com/pytest-dev/pytest,13870,1117,3651,main,3. 10k–25k,5. > 1000,3. 1k–5k
+prowler-cloud,prowler,prowler-cloud/prowler,https://github.com/prowler-cloud/prowler,13865,397,6870,master,3. 10k–25k,4. 201–1000,4. 5k–20k
+mlfoundations,open_clip,mlfoundations/open_clip,https://github.com/mlfoundations/open_clip,13847,68,680,main,3. 10k–25k,3. 51–200,2. 500–999
+dask,dask,dask/dask,https://github.com/dask/dask,13844,650,3264,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+Tencent-Hunyuan,Hunyuan3D-2,Tencent-Hunyuan/Hunyuan3D-2,https://github.com/Tencent-Hunyuan/Hunyuan3D-2,13824,37,184,main,3. 10k–25k,2. 11–50,1. 100–499
+andrewyng,aisuite,andrewyng/aisuite,https://github.com/andrewyng/aisuite,13780,33,298,main,3. 10k–25k,2. 11–50,1. 100–499
+rohitg00,ai-engineering-from-scratch,rohitg00/ai-engineering-from-scratch,https://github.com/rohitg00/ai-engineering-from-scratch,13777,6,1115,main,3. 10k–25k,1. 5–10,3. 1k–5k
+ag-ui-protocol,ag-ui,ag-ui-protocol/ag-ui,https://github.com/ag-ui-protocol/ag-ui,13768,110,1844,main,3. 10k–25k,3. 51–200,3. 1k–5k
+yusufkaraaslan,Skill_Seekers,yusufkaraaslan/Skill_Seekers,https://github.com/yusufkaraaslan/Skill_Seekers,13725,40,726,development,3. 10k–25k,2. 11–50,2. 500–999
+NVIDIA,TensorRT-LLM,NVIDIA/TensorRT-LLM,https://github.com/NVIDIA/TensorRT-LLM,13703,384,6808,main,3. 10k–25k,4. 201–1000,4. 5k–20k
+NevaMind-AI,memU,NevaMind-AI/memU,https://github.com/NevaMind-AI/memU,13692,30,288,main,3. 10k–25k,2. 11–50,1. 100–499
+evilsocket,opensnitch,evilsocket/opensnitch,https://github.com/evilsocket/opensnitch,13678,105,1312,master,3. 10k–25k,3. 51–200,3. 1k–5k
+alexta69,metube,alexta69/metube,https://github.com/alexta69/metube,13621,87,651,master,3. 10k–25k,3. 51–200,2. 500–999
+nikopueringer,CorridorKey,nikopueringer/CorridorKey,https://github.com/nikopueringer/CorridorKey,13605,35,196,main,3. 10k–25k,2. 11–50,1. 100–499
+python-pillow,Pillow,python-pillow/Pillow,https://github.com/python-pillow/Pillow,13579,505,8366,main,3. 10k–25k,4. 201–1000,4. 5k–20k
+browser-use,browser-harness,browser-use/browser-harness,https://github.com/browser-use/browser-harness,13576,68,391,main,3. 10k–25k,3. 51–200,1. 100–499
+Data-Centric-AI-Community,fg-data-profiling,Data-Centric-AI-Community/fg-data-profiling,https://github.com/Data-Centric-AI-Community/fg-data-profiling,13570,141,710,develop,3. 10k–25k,3. 51–200,2. 500–999
+redis,redis-py,redis/redis-py,https://github.com/redis/redis-py,13538,546,1193,master,3. 10k–25k,4. 201–1000,3. 1k–5k
+cookiecutter,cookiecutter-django,cookiecutter/cookiecutter-django,https://github.com/cookiecutter/cookiecutter-django,13524,472,3906,main,3. 10k–25k,4. 201–1000,3. 1k–5k
+searx,searx,searx/searx,https://github.com/searx/searx,13497,208,360,master,3. 10k–25k,4. 201–1000,1. 100–499
+Gallopsled,pwntools,Gallopsled/pwntools,https://github.com/Gallopsled/pwntools,13457,306,627,dev,3. 10k–25k,4. 201–1000,2. 500–999
+plasma-umass,scalene,plasma-umass/scalene,https://github.com/plasma-umass/scalene,13425,57,2169,master,3. 10k–25k,3. 51–200,3. 1k–5k
+apache,tvm,apache/tvm,https://github.com/apache/tvm,13382,1144,7846,main,3. 10k–25k,5. > 1000,4. 5k–20k
+Lightning-AI,litgpt,Lightning-AI/litgpt,https://github.com/Lightning-AI/litgpt,13380,132,1475,main,3. 10k–25k,3. 51–200,3. 1k–5k
+TomSchimansky,CustomTkinter,TomSchimansky/CustomTkinter,https://github.com/TomSchimansky/CustomTkinter,13368,14,551,master,3. 10k–25k,2. 11–50,2. 500–999
+borgbackup,borg,borgbackup/borg,https://github.com/borgbackup/borg,13357,364,3729,master,3. 10k–25k,4. 201–1000,3. 1k–5k
+sshuttle,sshuttle,sshuttle/sshuttle,https://github.com/sshuttle/sshuttle,13334,156,476,master,3. 10k–25k,3. 51–200,1. 100–499
+DLR-RM,stable-baselines3,DLR-RM/stable-baselines3,https://github.com/DLR-RM/stable-baselines3,13316,172,398,master,3. 10k–25k,3. 51–200,1. 100–499
+getpelican,pelican,getpelican/pelican,https://github.com/getpelican/pelican,13303,485,560,main,3. 10k–25k,4. 201–1000,2. 500–999
+FujiwaraChoki,MoneyPrinter,FujiwaraChoki/MoneyPrinter,https://github.com/FujiwaraChoki/MoneyPrinter,13298,29,219,main,3. 10k–25k,2. 11–50,1. 100–499
+GreyDGL,PentestGPT,GreyDGL/PentestGPT,https://github.com/GreyDGL/PentestGPT,13249,24,302,main,3. 10k–25k,2. 11–50,1. 100–499
+dbcli,pgcli,dbcli/pgcli,https://github.com/dbcli/pgcli,13182,197,180,main,3. 10k–25k,3. 51–200,1. 100–499
+microsoft,RD-Agent,microsoft/RD-Agent,https://github.com/microsoft/RD-Agent,13175,37,1009,main,3. 10k–25k,2. 11–50,3. 1k–5k
+Jiayi-Pan,TinyZero,Jiayi-Pan/TinyZero,https://github.com/Jiayi-Pan/TinyZero,13111,15,156,main,3. 10k–25k,2. 11–50,1. 100–499
+567-labs,instructor,567-labs/instructor,https://github.com/567-labs/instructor,13010,251,1557,main,3. 10k–25k,4. 201–1000,3. 1k–5k

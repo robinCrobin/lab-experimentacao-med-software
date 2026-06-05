@@ -1,0 +1,8 @@
+analise,estatistica,p_valor,significativo,interpretacao
+Spearman log1p(LOC) × comentários (base completa),"ρ = 0,21","< 0,001",Sim,Mais comentários em PRs maiores
+Spearman log1p(LOC) × comentários (S3),"ρ = 0,42","< 0,001",Sim,Associação reforçada no subconjunto com revisão formal
+Mann-Whitney comentários (LOC≤25 vs >125),"1,58 vs 5,94","< 0,001",Sim,"PRs grandes ~3,8x mais comentários"
+Spearman log1p(LOC) × coment./LOC (LOC>0),"ρ = -0,36","< 0,001",Sim,Densidade de discussão cai com o tamanho
+Spearman log1p(LOC) × coment./LOC (S3),"ρ = -0,50","< 0,001",Sim,Revisão proporcionalmente mais superficial em PRs grandes
+Spearman log1p(LOC) × latência 1ª revisão (S3),"ρ ≈ 0,11","< 0,001",Sim,"Efeito detectável, mas de magnitude prática limitada"
+Tempo até fechamento por faixa LOC (S4),"3,95h → 12,70h","< 0,001",Sim,"Cresce monotonicamente (~3,2x entre extremos)"

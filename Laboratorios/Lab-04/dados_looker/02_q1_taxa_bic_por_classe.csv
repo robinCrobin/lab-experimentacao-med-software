@@ -1,0 +1,4 @@
+classe_tamanho,n_commits,n_bic,taxa_bic_pct,ic95_inf_pct,ic95_sup_pct,loc_mediana,arquivos_mediana
+1. Pequeno,861904,7065,0.82,0.8,0.84,6.0,1.0
+2. Médio,621612,18012,2.9,2.86,2.94,72.0,3.0
+3. Grande,191632,13383,6.98,6.87,7.1,478.0,12.0

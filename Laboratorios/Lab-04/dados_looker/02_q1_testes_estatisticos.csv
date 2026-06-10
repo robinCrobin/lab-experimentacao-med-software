@@ -1,0 +1,6 @@
+analise,estatistica,p_valor,significativo,interpretacao
+Cochran-Armitage (tendência classe → taxa BIC),"Z = 163,54",< 1e-50,Sim,"Taxa de BICs cresce monotonicamente com o tamanho (≈8,5x do pequeno ao grande)"
+Qui-quadrado (classe × grupo BIC/não-BIC),"χ² = 28.149,51 (gl=2)",< 1e-50,Sim,Composição das classes difere entre BIC e não-BIC
+Cramér's V (tamanho de efeito),"V = 0,13",—,—,"Efeito pequeno em magnitude, direção clara"
+Spearman por repo (% grandes × taxa BIC),"ρ = 0,10","0,049",Sim,Associação positiva fraca no nível de projeto (n=395 repos)
+Cliff's Delta (LOC BIC vs não-BIC),"δ = 0,48",—,—,BICs medianos 143 LOC vs 23 LOC dos demais

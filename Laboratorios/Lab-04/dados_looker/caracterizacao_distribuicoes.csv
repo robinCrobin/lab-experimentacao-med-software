@@ -1,0 +1,15 @@
+dimensao,faixa,n_repositorios
+Estrelas,6. > 100k,20
+Estrelas,5. 50k–100k,66
+Estrelas,4. 25k–50k,142
+Estrelas,3. 10k–25k,272
+Contribuidores,5. > 1000,45
+Contribuidores,4. 201–1000,160
+Contribuidores,2. 11–50,123
+Contribuidores,3. 51–200,159
+Contribuidores,1. 5–10,13
+Commits (5 anos),3. 1k–5k,182
+Commits (5 anos),2. 500–999,80
+Commits (5 anos),4. 5k–20k,82
+Commits (5 anos),1. 100–499,139
+Commits (5 anos),5. > 20k,17

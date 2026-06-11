@@ -163,28 +163,4 @@ Use o campo original (`classe_tamanho`) para **Ordenar por** e o campo calculado
 (O Looker não permite ordenar por outro campo diretamente em todos os gráficos; se der
 conflito, mantenha o prefixo — é aceitável.)
 
----
 
-## Exportação final (entrega)
-
-1. Canto superior direito → **Compartilhar → Fazer download** (ou **Arquivo → Download**)
-   → **PDF**. Marque "todas as páginas". Esse PDF é a entrega do dashboard (LAB04).
-2. Também **Compartilhe o link** (Compartilhar → qualquer pessoa com o link pode ver) e
-   coloque no README do Lab-04.
-3. Insira as figuras no artigo de TIS 6:
-   - **Caracterização (Página 0)** → Seção 3 (Metodologia).
-   - **Q1/Q2/Q3 (Páginas 1–3)** → Seção 4 (Resultados).
-   - Cada figura deve ser **citada e explicada** no texto.
-
----
-
-## Checklist de requisitos do enunciado
-
-- [ ] Dashboard feito em ferramenta de BI nomeada (Looker Studio) ✔ ao concluir este guia
-- [ ] Caracterização do dataset **completo** (KPIs, distribuições, Top 15)
-- [ ] Caracterização dos **subgrupos** (classes de tamanho — visual 0.4)
-- [ ] Uma+ visualização por RQ (Q1, Q2, Q3) com **todas as métricas**
-- [ ] Dashboard **auto-explicativo** (pergunta + narrativa em cada página)
-- [ ] **Medidas de tendência central** adequadas (mediana p/ assimétricos) e **labels claras**
-- [ ] Dashboard exportado em **PDF**
-- [ ] Artigo de TIS 6 atualizado com os gráficos (citados e explicados)

@@ -1,4 +1,0 @@
-categoria_tamanho,n_commits,media_loc_M3_1,media_cc_max,cc_por_loc_M3_2,taxa_revert_pct_M3_3,taxa_bugfix_pct
-1. Pequeno,254663,7.8,7.94,1.9572,1.26,36.18
-2. Médio,228527,285.8,10.54,0.1562,1.99,35.15
-3. Grande,77477,7512.4,19.72,0.0401,3.56,31.15

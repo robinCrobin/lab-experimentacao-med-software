@@ -1,4 +1,0 @@
-analise,estatistica,interpretacao
-Densidade ciclomática (CC/LOC) por classe,"1,96 → 0,16 → 0,04",Cai com o tamanho: commits grandes têm lógica diluída
-Taxa de reverts por classe,"1,26% → 1,99% → 3,56%","Cresce ~2,8x do pequeno ao grande"
-Taxa de bug fixes por classe,"36,18% → 35,15% → 31,15%",Cai com o tamanho: commits menores favorecem correções atômicas

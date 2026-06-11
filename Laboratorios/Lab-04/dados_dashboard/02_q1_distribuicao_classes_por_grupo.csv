@@ -1,7 +1,0 @@
-grupo,classe_tamanho,n_commits,pct_dentro_grupo
-Bug-Introducing (A),1. Pequeno,7065,18.37
-Bug-Introducing (A),2. Médio,18012,46.83
-Bug-Introducing (A),3. Grande,13383,34.8
-Não Bug-Introducing (B),1. Pequeno,854839,52.23
-Não Bug-Introducing (B),2. Médio,603600,36.88
-Não Bug-Introducing (B),3. Grande,178249,10.89

@@ -15,6 +15,7 @@ Também gera dois auxiliares "long" que rendem gráficos melhores no Looker:
 Rodar:
     python3 preparar_dados_looker.py
 """
+import argparse
 import csv
 import os
 import shutil
@@ -99,10 +100,69 @@ def q1_taxa_ic():
               "erro_inf", "erro_sup", "loc_mediana", "arquivos_mediana"], linhas)
 
 
-def main():
+def parse_args():
+    p = argparse.ArgumentParser(
+        description=(
+            "Prepara CSVs para upload no Google Looker Studio (LAB04)."
+            " Permite opções para diretórios de entrada/saída, modo dry-run e verboso."
+        )
+    )
+    p.add_argument("--src", default=SRC, help="diretório fonte dos CSVs (padrão: dados_dashboard)")
+    p.add_argument("--out", default=OUT, help="diretório de saída para dados preparados (padrão: dados_looker)")
+    p.add_argument("--dry-run", action="store_true", help="apenas listar ações sem escrever arquivos")
+    p.add_argument("--verbose", "-v", action="store_true", help="mostrar passos detalhados")
+    p.add_argument("--list-missing", action="store_true", help="apenas listar arquivos faltantes e sair")
+    return p.parse_args()
+
+
+def main(args=None):
+    """Ponto principal do script.
+
+    Quando chamado sem `args` (None), mantém o comportamento original.
+    Se um Namespace do argparse for passado, permite ajustar SRC/OUT em tempo de
+    execução e fornece opções de dry-run/verbose.
+    """
+    # Se o usuário forneceu argumentos, aplicamos os overrides locais.
+    if args is not None:
+        # Atualiza as variáveis globais SRC/OUT para que as funções existentes
+        # (`ler`, `escrever`, `copia_limpa`) continuem funcionando sem alterações.
+        globals()["SRC"] = args.src
+        globals()["OUT"] = args.out
+        os.makedirs(OUT, exist_ok=True)
+
+    # Verifica se os arquivos de origem existem antes de processar.
+    missing = [f for f in COPIAR if not os.path.exists(os.path.join(SRC, f))]
+    if missing:
+        print("Arquivos de origem ausentes em", SRC)
+        for m in missing:
+            print(" -", m)
+        if args is None or not getattr(args, "list_missing", False):
+            print("Abortando. Coloque os CSVs esperados em 'dados_dashboard' ou revise a variável SRC.")
+        return
+
+    # Se o usuário pediu apenas para listar os faltantes, já retornamos.
+    if args is not None and args.list_missing:
+        print("Nenhum arquivo faltante encontrado.")
+        return
+
+    # Execução real (ou dry-run)
+    if args is not None and args.dry_run:
+        print("Dry-run: os seguintes arquivos seriam processados:")
+        for nome in COPIAR:
+            print(" -", nome)
+        print("Também seriam gerados: caracterizacao_distribuicoes.csv e q1_taxa_bic_ic.csv")
+        return
+
+    # Execução padrão: processa e escreve os arquivos.
     for nome in COPIAR:
+        if args is not None and args.verbose:
+            print(f"Copiando {nome} -> {OUT}")
         copia_limpa(nome)
+    if args is not None and args.verbose:
+        print("Gerando distribuicoes long...")
     distribuicoes_long()
+    if args is not None and args.verbose:
+        print("Gerando q1 taxa com IC...")
     q1_taxa_ic()
     arquivos = sorted(os.listdir(OUT))
     print(f"{len(arquivos)} arquivos gerados em dados_looker/:")
@@ -111,4 +171,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    ns = parse_args()
+    main(ns)

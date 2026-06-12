@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard LAB-04 · Tamanho do Commit × Qualidade</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#0f1419; --panel:#1a212b; --panel2:#222b37; --line:#2d3744;
+    --txt:#e6edf3; --muted:#9aa7b4; --accent:#4f8cff;
+    --green:#2e8b57; --amber:#f5a623; --red:#d9534f; --blue:#4f8cff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--txt);line-height:1.5}
+  header{padding:28px 36px 18px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#161d27,#0f1419)}
+  header>*,footer>*{max-width:1180px;margin-left:auto;margin-right:auto}
+  .kpis{max-width:1180px;margin-left:auto;margin-right:auto;width:100%}
+  nav{justify-content:center}
+  header h1{margin:0 0 6px;font-size:1.6rem;font-weight:700}
+  header p{margin:0;color:var(--muted);font-size:.9rem}
+  .kpis{display:flex;flex-wrap:wrap;gap:14px;padding:20px 36px 6px}
+  .kpi{flex:1 1 170px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .kpi .v{font-size:1.7rem;font-weight:700}
+  .kpi .l{color:var(--muted);font-size:.76rem;text-transform:uppercase;letter-spacing:.4px;margin-top:2px}
+  nav{display:flex;gap:8px;flex-wrap:wrap;padding:14px 36px 0;position:sticky;top:0;background:var(--bg);z-index:10;border-bottom:1px solid var(--line)}
+  nav button{background:transparent;border:none;color:var(--muted);font-size:.94rem;font-weight:600;
+    padding:11px 18px;border-radius:8px 8px 0 0;cursor:pointer;border-bottom:3px solid transparent}
+  nav button:hover{color:var(--txt)}
+  nav button.active{color:var(--txt);border-bottom-color:var(--accent)}
+  main{padding:26px 36px 70px;max-width:1180px;margin:0 auto}
+  .tab{display:none}
+  .tab.active{display:block}
+  h2{font-size:1.28rem;margin:0 0 4px}
+  .sub{color:var(--muted);font-size:.9rem;margin:0 0 22px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:22px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
+  .card h3{margin:0 0 2px;font-size:1.02rem}
+  .card .ch{color:var(--muted);font-size:.79rem;margin:0 0 16px}
+  .chart-wrap{position:relative;height:380px}
+  .chart-wrap.tall{height:460px}
+  .insight{margin-top:22px;background:var(--panel2);border-left:4px solid var(--accent);border-radius:0 10px 10px 0;
+    padding:15px 20px;font-size:.92rem}
+  .insight.green{border-left-color:var(--green)}
+  .insight.amber{border-left-color:var(--amber)}
+  .insight b{color:#fff}
+  table{width:100%;border-collapse:collapse;font-size:.87rem;margin-top:6px}
+  th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line)}
+  th{background:var(--panel2);color:var(--muted);font-weight:600;text-transform:uppercase;font-size:.71rem;letter-spacing:.4px}
+  td:first-child{font-weight:600}
+  .stats div{padding:8px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;font-size:.86rem}
+  .stats div:last-child{border-bottom:none}
+  .stats .s{color:var(--muted)}
+  .tag{display:inline-block;font-size:.7rem;padding:2px 8px;border-radius:20px;font-weight:700}
+  .tag.ok{background:rgba(46,139,87,.2);color:#7ee2a8}
+  .controls{display:flex;gap:18px;align-items:center;margin-bottom:16px;flex-wrap:wrap;
+    background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 16px}
+  .controls .field{display:flex;flex-direction:column;gap:4px}
+  .controls label{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+  select,input[type=text]{background:var(--panel);color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:7px 10px;font-size:.86rem}
+  input[type=range]{accent-color:var(--accent);width:180px}
+  .seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  .seg button{background:var(--panel);color:var(--muted);border:none;padding:7px 13px;font-size:.82rem;cursor:pointer;font-weight:600}
+  .seg button.on{background:var(--accent);color:#fff}
+  .rng-val{font-variant-numeric:tabular-nums;color:var(--txt);font-weight:600;font-size:.85rem}
+  footer{padding:22px 36px;color:var(--muted);font-size:.8rem;border-top:1px solid var(--line)}
+  .full{grid-column:1/-1}
+  .badge{font-size:.78rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Tamanho do Commit × Qualidade do Software</h1>
+  <p>LAB-04 · 500 repositórios Python populares (GitHub) · 1.675.148 commits analisados · janela de 5 anos</p>
+</header>
+
+<section class="kpis">
+  <div class="kpi"><div class="v">500</div><div class="l">Repositórios</div></div>
+  <div class="kpi"><div class="v">1,68M</div><div class="l">Commits analisados</div></div>
+  <div class="kpi"><div class="v">23.174</div><div class="l">Mediana de stars</div></div>
+  <div class="kpi"><div class="v">147,5</div><div class="l">Mediana de contribuidores</div></div>
+  <div class="kpi"><div class="v">1.234</div><div class="l">Mediana de commits (5a)</div></div>
+</section>
+
+<nav>
+  <button class="active" data-tab="t0">0 · Caracterização</button>
+  <button data-tab="t1">Q1 · Bugs</button>
+  <button data-tab="t2">Q2 · Revisão</button>
+  <button data-tab="t3">Q3 · Manutenibilidade</button>
+</nav>
+
+<main>
+  <!-- ===== TAB 0 ===== -->
+  <section class="tab active" id="t0">
+    <h2>Caracterização do Dataset</h2>
+    <p class="sub">Composição do universo de 1.675.148 commits e distribuição das métricas-base dos 500 repositórios.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Universo de commits por classe de tamanho</h3>
+        <p class="ch">Particionamento por LOC (Hattori &amp; Lanza, 2008)</p>
+        <div class="chart-wrap"><canvas id="c_pie"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Distribuição dos repositórios</h3>
+        <p class="ch">Quantidade de repos por faixa — selecione a dimensão</p>
+        <div class="controls">
+          <div class="field">
+            <label for="sel_dim">Dimensão</label>
+            <select id="sel_dim">
+              <option value="Estrelas">Estrelas (stars)</option>
+              <option value="Contribuidores">Contribuidores</option>
+              <option value="Commits">Commits (5 anos)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Tipo de gráfico</label>
+            <div class="seg" id="seg_dim">
+              <button class="on" data-t="bar">Barras</button>
+              <button data-t="polarArea">Polar</button>
+            </div>
+          </div>
+        </div>
+        <div class="chart-wrap"><canvas id="c_dist"></canvas></div>
+      </div>
+      <div class="card full">
+        <h3>Resumo das métricas-base</h3>
+        <p class="ch">n = 500 repositórios</p>
+        <table>
+          <thead><tr><th>Métrica</th><th>Mínimo</th><th>Mediana</th><th>Média</th><th>Máximo</th><th>Total</th></tr></thead>
+          <tbody>
+            <tr><td>Estrelas (stars)</td><td>13.010</td><td>23.174</td><td>35.219</td><td>436.823</td><td>17.609.524</td></tr>
+            <tr><td>Contribuidores</td><td>5</td><td>147,5</td><td>393,6</td><td>6.939</td><td>196.803</td></tr>
+            <tr><td>Commits (5 anos)</td><td>106</td><td>1.234</td><td>3.927,5</td><td>73.960</td><td>1.963.741</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="insight">
+      O estudo analisa <b>500 repositórios Python populares</b> do GitHub, com mediana de 23.174 estrelas e 1.234 commits
+      no período de 5 anos. O universo de 1,68M commits é majoritariamente composto por commits
+      <b>pequenos (51,5%)</b>, seguidos de médios (37,1%) e grandes (11,4%).
+    </div>
+  </section>
+
+  <!-- ===== TAB 1 ===== -->
+  <section class="tab" id="t1">
+    <h2>Q1 — Tamanho do Commit × Ocorrência de Bugs</h2>
+    <p class="sub">A probabilidade de um commit introduzir bug (BIC — Bug-Introducing Commit) aumenta com seu tamanho?</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Taxa de Bug-Introducing Commits por classe</h3>
+        <p class="ch">% de commits que introduzem bug · barras de erro = IC 95%</p>
+        <div class="chart-wrap"><canvas id="c_bic"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Composição das classes: BIC vs Não-BIC</h3>
+        <p class="ch">% de cada classe dentro do grupo</p>
+        <div class="controls">
+          <div class="field">
+            <label>Empilhamento</label>
+            <div class="seg" id="seg_comp">
+              <button class="on" data-s="group">Agrupado</button>
+              <button data-s="stack">Empilhado 100%</button>
+            </div>
+          </div>
+        </div>
+        <div class="chart-wrap"><canvas id="c_comp"></canvas></div>
+      </div>
+      <div class="card full">
+        <h3>Distribuição da taxa de BIC por classe (foco nos commits)</h3>
+        <p class="ch">Análise no nível de commit · 1.675.148 commits classificados por tamanho · IC 95% por classe</p>
+        <div class="chart-wrap"><canvas id="c_bic_h"></canvas></div>
+      </div>
+      <div class="card full">
+        <h3>Testes estatísticos (Q1) — nível de commit</h3>
+        <div class="stats">
+          <div><span><b>Cochran-Armitage</b> (tendência classe → taxa BIC)</span><span class="s">Z = 163,54 · p &lt; 1e-50 <span class="tag ok">Sig.</span></span></div>
+          <div><span><b>Qui-quadrado</b> (classe × grupo BIC)</span><span class="s">χ² = 28.149,51 (gl=2) · p &lt; 1e-50 <span class="tag ok">Sig.</span></span></div>
+          <div><span><b>Cramér's V</b> (tamanho de efeito)</span><span class="s">V = 0,13 · efeito pequeno, direção clara</span></div>
+          <div><span><b>Cliff's Delta</b> (LOC BIC vs não-BIC)</span><span class="s">δ = 0,48 · 143 LOC vs 23 LOC</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="insight green">
+      <b>Hipótese comprovada:</b> a taxa de BICs cresce monotonicamente com o tamanho —
+      <b>0,82% → 2,90% → 6,98%</b> (≈8,5× entre extremos). Commits maiores estão significativamente
+      associados a maior introdução de bugs.
+    </div>
+  </section>
+
+  <!-- ===== TAB 2 ===== -->
+  <section class="tab" id="t2">
+    <h2>Q2 — Tamanho do PR × Complexidade da Revisão</h2>
+    <p class="sub">PRs maiores recebem revisão proporcionalmente mais cuidadosa, ou apenas mais demorada e superficial?</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Volume de comentários por categoria</h3>
+        <p class="ch">Média de comentários por PR</p>
+        <div class="chart-wrap"><canvas id="c_coment"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Densidade de comentários (proporcional ao tamanho)</h3>
+        <p class="ch">Mediana de comentários por LOC — escala log</p>
+        <div class="chart-wrap"><canvas id="c_dens"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Tempo até fechamento por faixa de LOC</h3>
+        <p class="ch">Mediana de horas até o fechamento do PR</p>
+        <div class="chart-wrap"><canvas id="c_tempo"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Comparativo entre classes por métrica</h3>
+        <p class="ch">Cada métrica reescalada a 100% no maior valor — barra mais longa = classe que mais pontua naquela métrica</p>
+        <div class="chart-wrap"><canvas id="c_radar2"></canvas></div>
+      </div>
+      <div class="card full">
+        <h3>Testes estatísticos (Q2)</h3>
+        <div class="stats">
+          <div><span><b>Spearman</b> log(LOC) × comentários</span><span class="s">ρ = 0,21 · p &lt; 0,001 <span class="tag ok">Sig.</span></span></div>
+          <div><span><b>Spearman</b> log(LOC) × comentários (revisão formal)</span><span class="s">ρ = 0,42 · p &lt; 0,001 <span class="tag ok">Sig.</span></span></div>
+          <div><span><b>Spearman</b> log(LOC) × coment./LOC</span><span class="s">ρ = −0,36 · p &lt; 0,001 <span class="tag ok">Sig.</span></span></div>
+          <div><span><b>Spearman</b> log(LOC) × coment./LOC (revisão formal)</span><span class="s">ρ = −0,50 · p &lt; 0,001 <span class="tag ok">Sig.</span></span></div>
+          <div><span><b>Mann-Whitney</b> comentários (≤25 vs &gt;125 LOC)</span><span class="s">1,58 vs 5,94 · ~3,8× <span class="tag ok">Sig.</span></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="insight amber">
+      <b>Hipótese parcialmente qualificada:</b> PRs maiores recebem mais comentários (<b>1,58 → 5,67</b>) e levam mais
+      tempo até fechamento (<b>3,95h → 12,70h</b>). Porém, a densidade de comentários por LOC <b>cai</b>
+      (0,125 → 0,004): revisões de mudanças extensas são proporcionalmente mais superficiais (ρ = −0,50).
+    </div>
+  </section>
+
+  <!-- ===== TAB 3 ===== -->
+  <section class="tab" id="t3">
+    <h2>Q3 — Tamanho do Commit × Manutenibilidade</h2>
+    <p class="sub">Commits maiores comprometem a manutenibilidade (complexidade diluída, mais reverts, menos correções atômicas)?</p>
+    <div class="grid">
+      <div class="card full">
+        <div class="controls">
+          <div class="field">
+            <label for="sel_q3">Métrica em foco</label>
+            <select id="sel_q3">
+              <option value="cc">Densidade Ciclomática (CC/LOC)</option>
+              <option value="revert">Taxa de Reverts (%)</option>
+              <option value="bugfix">Taxa de Bug Fixes (%)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Tipo de gráfico</label>
+            <div class="seg" id="seg_q3">
+              <button class="on" data-t="bar">Barras</button>
+              <button data-t="line">Linha</button>
+            </div>
+          </div>
+        </div>
+        <h3 id="q3_title">Densidade Ciclomática (CC/LOC)</h3>
+        <p class="ch" id="q3_sub">Complexidade ciclomática por linha de código</p>
+        <div class="chart-wrap"><canvas id="c_q3"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Tamanho × complexidade absorvida</h3>
+        <p class="ch">LOC médio (barras, log) vs CC/LOC (linha) — combo dual-axis</p>
+        <div class="chart-wrap"><canvas id="c_combo"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Comparativo de manutenibilidade por métrica</h3>
+        <p class="ch">Cada métrica reescalada a 100% no maior valor — passe o mouse para ver o valor real</p>
+        <div class="chart-wrap"><canvas id="c_radar3"></canvas></div>
+      </div>
+      <div class="card full">
+        <h3>Tabela consolidada por classe</h3>
+        <table>
+          <thead><tr><th>Classe</th><th>n commits</th><th>LOC médio</th><th>CC/LOC</th><th>Reverts</th><th>Bug Fixes</th></tr></thead>
+          <tbody>
+            <tr><td>Pequeno</td><td>254.663</td><td>7,8</td><td>1,9572</td><td>1,26%</td><td>36,18%</td></tr>
+            <tr><td>Médio</td><td>228.527</td><td>285,8</td><td>0,1562</td><td>1,99%</td><td>35,15%</td></tr>
+            <tr><td>Grande</td><td>77.477</td><td>7.512,4</td><td>0,0401</td><td>3,56%</td><td>31,15%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="insight green">
+      <b>Hipótese comprovada:</b> commits grandes têm lógica <b>diluída</b> (CC/LOC 1,96 → 0,04),
+      são revertidos <b>~2,8× mais</b> (1,26% → 3,56%) e correspondem a menos correções atômicas
+      (bug fixes 36,18% → 31,15%). Commits menores favorecem manutenibilidade.
+    </div>
+  </section>
+</main>
+
+<footer>
+  Dashboard interativo · LAB-04 — Experimentação em Engenharia de Software · Dados: <code>dados_looker/</code> ·
+  Classificação de tamanho por LOC (Hattori &amp; Lanza, 2008).
+</footer>
+
+<script>
+const COLORS=['#2e8b57','#f5a623','#d9534f'];
+const C_T=['rgba(46,139,87,.7)','rgba(245,166,35,.7)','rgba(217,83,79,.7)'];
+const CLASSES=['Pequeno','Médio','Grande'];
+Chart.defaults.color='#9aa7b4';
+Chart.defaults.font.family='-apple-system,Segoe UI,Roboto,sans-serif';
+Chart.defaults.plugins.legend.labels.usePointStyle=true;
+Chart.defaults.maintainAspectRatio=false;
+Chart.defaults.animation={duration:250};
+Chart.defaults.animations.colors=false;
+Chart.defaults.transitions.active.animation.duration=0;
+const grid={color:'#2d3744'};
+
+// Tabs
+document.querySelectorAll('nav button').forEach(b=>{
+  b.onclick=()=>{
+    document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    document.getElementById(b.dataset.tab).classList.add('active');
+  };
+});
+
+// ============ TAB 0 ============
+new Chart(c_pie,{type:'doughnut',data:{labels:['Pequeno (51,5%)','Médio (37,1%)','Grande (11,4%)'],
+  datasets:[{data:[861904,621612,191632],backgroundColor:COLORS,borderColor:'#1a212b',borderWidth:3}]},
+  options:{plugins:{legend:{position:'bottom'},tooltip:{callbacks:{label:c=>` ${c.label}: ${c.raw.toLocaleString('pt-BR')} commits`}}},cutout:'52%'}});
+
+const DIST={
+  Estrelas:{labels:['10k–25k','25k–50k','50k–100k','>100k'],data:[272,142,66,20]},
+  Contribuidores:{labels:['5–10','11–50','51–200','201–1000','>1000'],data:[13,123,159,160,45]},
+  Commits:{labels:['100–499','500–999','1k–5k','5k–20k','>20k'],data:[139,80,182,82,17]}
+};
+const DPAL=['#4f8cff','#6aa6ff','#86bdff','#a9d2ff','#cfe6ff'];
+let distType='bar';
+let cdist=null;
+function drawDist(){
+  const d=DIST[document.getElementById('sel_dim').value];
+  if(cdist)cdist.destroy();
+  const isBar=distType==='bar';
+  cdist=new Chart(c_dist,{type:distType,
+    data:{labels:d.labels,datasets:[{label:'Repositórios',data:d.data,
+      backgroundColor:isBar?'#4f8cff':d.labels.map((_,i)=>DPAL[i%DPAL.length]),borderColor:'#1a212b',borderWidth:isBar?0:2}]},
+    options:{indexAxis:isBar?'y':'x',plugins:{legend:{display:!isBar,position:'bottom'}},
+      scales:isBar?{x:{grid,title:{display:true,text:'Qtd. de repos'}},y:{grid:{display:false}}}:{r:{grid,ticks:{backdropColor:'transparent'}}}}});
+}
+document.getElementById('sel_dim').onchange=drawDist;
+document.querySelectorAll('#seg_dim button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#seg_dim button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');distType=b.dataset.t;drawDist();
+});
+drawDist();
+
+// ============ TAB 1 ============
+const bic=[0.82,2.90,6.98], bicLo=[0.02,0.04,0.11], bicHi=[0.02,0.04,0.12];
+const errBar={id:'errBar',afterDatasetsDraw(ch){const {ctx}=ch;const m=ch.getDatasetMeta(0);
+  if(!ch.$err)return;m.data.forEach((bar,i)=>{const x=bar.x;const yT=ch.scales.y.getPixelForValue(ch.$err.v[i]+ch.$err.hi[i]);
+  const yB=ch.scales.y.getPixelForValue(ch.$err.v[i]-ch.$err.lo[i]);ctx.save();ctx.strokeStyle='#e6edf3';ctx.lineWidth=1.6;
+  ctx.beginPath();ctx.moveTo(x,yT);ctx.lineTo(x,yB);ctx.moveTo(x-6,yT);ctx.lineTo(x+6,yT);ctx.moveTo(x-6,yB);ctx.lineTo(x+6,yB);ctx.stroke();ctx.restore();});}};
+const cbic=new Chart(c_bic,{type:'bar',plugins:[errBar],data:{labels:CLASSES,
+  datasets:[{label:'Taxa BIC (%)',data:bic,backgroundColor:COLORS}]},
+  options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>` ${c.raw}% (IC95: ${(c.raw-bicLo[c.dataIndex]).toFixed(2)}–${(c.raw+bicHi[c.dataIndex]).toFixed(2)}%)`}}},
+  scales:{y:{grid,title:{display:true,text:'Taxa BIC (%)'},beginAtZero:true},x:{grid:{display:false}}}}});
+cbic.$err={v:bic,lo:bicLo,hi:bicHi};cbic.update();
+
+const ccomp=new Chart(c_comp,{type:'bar',data:{labels:['Bug-Introducing (A)','Não Bug-Introducing (B)'],
+  datasets:[
+    {label:'Pequeno',data:[18.37,52.23],backgroundColor:COLORS[0]},
+    {label:'Médio',data:[46.83,36.88],backgroundColor:COLORS[1]},
+    {label:'Grande',data:[34.80,10.89],backgroundColor:COLORS[2]}]},
+  options:{plugins:{legend:{position:'bottom'},tooltip:{callbacks:{label:c=>` ${c.dataset.label}: ${c.raw}%`}}},
+  scales:{y:{grid,title:{display:true,text:'% dentro do grupo'}},x:{grid:{display:false}}}}});
+document.querySelectorAll('#seg_comp button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#seg_comp button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');const st=b.dataset.s==='stack';
+  ccomp.options.scales.x.stacked=st;ccomp.options.scales.y.stacked=st;
+  ccomp.options.scales.y.max=st?100:undefined;ccomp.update();
+});
+
+// horizontal bars: taxa BIC por classe (nível de commit) com n de commits
+const bicN=[861904,621612,191632], bicBIC=[7065,18012,13383];
+new Chart(c_bic_h,{type:'bar',plugins:[errBar],data:{labels:CLASSES,
+  datasets:[{label:'Taxa BIC (%)',data:bic,backgroundColor:COLORS}]},
+  options:{indexAxis:'y',plugins:{legend:{display:false},tooltip:{callbacks:{
+    label:c=>` ${c.raw}% · ${bicBIC[c.dataIndex].toLocaleString('pt-BR')} BIC de ${bicN[c.dataIndex].toLocaleString('pt-BR')} commits`}}},
+  scales:{x:{grid,title:{display:true,text:'Taxa BIC (%)'},beginAtZero:true},y:{grid:{display:false}}}}});
+
+// ============ TAB 2 ============
+new Chart(c_coment,{type:'bar',data:{labels:CLASSES,
+  datasets:[{label:'Média de comentários',data:[1.58,2.45,5.67],backgroundColor:COLORS}]},
+  options:{plugins:{legend:{display:false}},scales:{y:{grid,title:{display:true,text:'Média de comentários'}},x:{grid:{display:false}}}}});
+
+new Chart(c_dens,{type:'bar',data:{labels:CLASSES,
+  datasets:[{label:'Comentários/LOC',data:[0.125,0.024,0.004],backgroundColor:COLORS}]},
+  options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>` ${c.raw} coment./LOC`}}},
+  scales:{y:{type:'logarithmic',grid,title:{display:true,text:'Mediana coment./LOC (log)'}},x:{grid:{display:false}}}}});
+
+new Chart(c_tempo,{type:'line',data:{labels:['≤ 25','26–125','> 125'],
+  datasets:[{label:'Mediana (horas)',data:[3.95,8.44,12.70],borderColor:'#d9534f',backgroundColor:'rgba(217,83,79,.15)',
+    fill:true,tension:.25,pointRadius:7,pointBackgroundColor:'#d9534f'}]},
+  options:{plugins:{legend:{display:false}},scales:{y:{grid,title:{display:true,text:'Horas até fechamento'},beginAtZero:true},x:{grid:{display:false},title:{display:true,text:'Faixa de LOC'}}}}});
+
+// Q2: barras horizontais agrupadas, normalizadas por métrica (com valor real no tooltip)
+function nrm(a){const mx=Math.max(...a);return a.map(v=>+(v/mx*100).toFixed(1));}
+const q2m=[
+  {lab:'Volume coment.',raw:[1.58,2.45,5.67],fmt:v=>v.toFixed(2)},
+  {lab:'Latência 1ª revisão',raw:[3.7,4.7,5.6],fmt:v=>v+' min'},
+  {lab:'Tempo fechamento',raw:[4.04,10.19,10.92],fmt:v=>v+' h'},
+  {lab:'Densidade coment./LOC',raw:[0.125,0.024,0.004],fmt:v=>v}
+];
+function cmpBars(canvas,metrics){
+  const norm=metrics.map(m=>nrm(m.raw));
+  return new Chart(canvas,{type:'bar',
+    data:{labels:metrics.map(m=>m.lab),datasets:CLASSES.map((c,i)=>({label:c,
+      data:metrics.map((m,j)=>norm[j][i]),backgroundColor:COLORS[i],borderRadius:4,
+      _raw:metrics.map(m=>m.fmt(m.raw[i]))}))},
+    options:{indexAxis:'y',plugins:{legend:{position:'bottom'},
+      tooltip:{callbacks:{label:c=>` ${c.dataset.label}: ${c.dataset._raw[c.dataIndex]} (${c.raw}%)`}}},
+      scales:{x:{grid,min:0,max:100,title:{display:true,text:'% relativo ao máximo'},ticks:{callback:v=>v+'%'}},
+        y:{grid:{display:false}}}}});
+}
+cmpBars(c_radar2,q2m);
+
+// ============ TAB 3 ============
+const Q3={
+  cc:{title:'Densidade Ciclomática (CC/LOC)',sub:'Complexidade ciclomática por linha de código',data:[1.9572,0.1562,0.0401],unit:'',axis:'CC/LOC'},
+  revert:{title:'Taxa de Reverts (%)',sub:'% de commits revertidos (rollbacks)',data:[1.26,1.99,3.56],unit:'%',axis:'Taxa de reverts (%)'},
+  bugfix:{title:'Taxa de Bug Fixes (%)',sub:'% de commits que são correções',data:[36.18,35.15,31.15],unit:'%',axis:'Taxa de bug fixes (%)'}
+};
+let q3type='bar', cq3=null;
+function drawQ3(){
+  const q=Q3[document.getElementById('sel_q3').value];
+  if(cq3)cq3.destroy();
+  cq3=new Chart(c_q3,{type:q3type,
+    data:{labels:CLASSES,datasets:[{label:q.axis,data:q.data,
+      backgroundColor:q3type==='bar'?COLORS:'rgba(79,140,255,.15)',
+      borderColor:q3type==='line'?'#4f8cff':undefined,pointBackgroundColor:'#4f8cff',pointRadius:7,fill:true,tension:.25}]},
+    options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>` ${c.raw}${q.unit}`}}},
+      scales:{y:{grid,beginAtZero:true,title:{display:true,text:q.axis}},x:{grid:{display:false}}}}});
+  document.getElementById('q3_title').textContent=q.title;
+  document.getElementById('q3_sub').textContent=q.sub;
+}
+document.getElementById('sel_q3').onchange=drawQ3;
+document.querySelectorAll('#seg_q3 button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#seg_q3 button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');q3type=b.dataset.t;drawQ3();
+});
+drawQ3();
+
+// combo dual-axis: LOC médio (bar log) + CC/LOC (line)
+new Chart(c_combo,{data:{labels:CLASSES,datasets:[
+  {type:'bar',label:'LOC médio',data:[7.8,285.8,7512.4],backgroundColor:'rgba(245,166,35,.65)',yAxisID:'y'},
+  {type:'line',label:'CC/LOC',data:[1.9572,0.1562,0.0401],borderColor:'#d9534f',backgroundColor:'#d9534f',pointRadius:6,yAxisID:'y2',tension:.25}
+]},options:{plugins:{legend:{position:'bottom'}},scales:{
+  y:{type:'logarithmic',position:'left',grid,title:{display:true,text:'LOC médio (log)'}},
+  y2:{position:'right',grid:{display:false},title:{display:true,text:'CC/LOC'}},
+  x:{grid:{display:false}}}}});
+
+// Q3: barras horizontais agrupadas, normalizadas por métrica
+const q3m=[
+  {lab:'CC/LOC',raw:[1.9572,0.1562,0.0401],fmt:v=>v},
+  {lab:'Taxa reverts',raw:[1.26,1.99,3.56],fmt:v=>v+'%'},
+  {lab:'Taxa bug fixes',raw:[36.18,35.15,31.15],fmt:v=>v+'%'},
+  {lab:'LOC médio',raw:[7.8,285.8,7512.4],fmt:v=>v.toLocaleString('pt-BR')}
+];
+cmpBars(c_radar3,q3m);
+</script>
+</body>
+</html>

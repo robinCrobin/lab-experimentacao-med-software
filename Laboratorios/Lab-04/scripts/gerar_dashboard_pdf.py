@@ -12,7 +12,7 @@ from collections import defaultdict
 import numpy as np
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA = os.path.join(BASE, "dados_dashboard")
+DATA = os.path.join(BASE, "dados_looker")
 OUT = os.path.join(BASE, "dashboard_output")
 os.makedirs(OUT, exist_ok=True)
 
@@ -20,7 +20,7 @@ os.makedirs(OUT, exist_ok=True)
 CORES = {"1. Pequeno": "#2E7D32", "2. Médio": "#F9A825", "3. Grande": "#C62828"}
 
 def load_csv(name):
-    """Carrega CSV de dados_dashboard."""
+    """Carrega CSV de dados_looker/."""
     path = os.path.join(DATA, name)
     with open(path, encoding="utf-8") as f:
         return list(csv.DictReader(f))

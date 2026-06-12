@@ -5,9 +5,9 @@ Monta: Caracterização, Q1, Q2, Q3.
 """
 import csv
 import os
+import textwrap
 from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
 from collections import defaultdict
 import numpy as np
 
@@ -33,24 +33,47 @@ def fmt_num(v):
         return f"{int(v):,}".replace(",", ".")
     return f"{v:,.2f}".replace(",", ".")
 
+def page_title(fig, title):
+    """Título da página com margem para não sobrepor os gráficos."""
+    fig.suptitle(title, fontsize=18, fontweight="bold", y=0.97)
+
+def gridspec_layout(fig, rows, cols, **kwargs):
+    """Grid com margem superior reservada ao título."""
+    defaults = dict(hspace=0.45, wspace=0.32, top=0.84, bottom=0.08, left=0.08, right=0.92)
+    defaults.update(kwargs)
+    return fig.add_gridspec(rows, cols, **defaults)
+
+def wrapped_text(text, width=105):
+    return "\n".join(textwrap.wrap(text, width=width))
+
+def annotate_bars(ax, values, fmt, pad=0.12, yerr_top=None):
+    """Rótulos acima das barras com espaço no eixo Y."""
+    ymax = max(values)
+    if yerr_top is not None:
+        ymax = max(ymax, max(yerr_top))
+    offset = ymax * pad
+    ax.set_ylim(0, ymax + offset * 2.5)
+    for i, v in enumerate(values):
+        ax.text(i, v + offset, fmt(v), ha="center", fontsize=9, fontweight="bold")
+
 # ============================================================================
 # PÁGINA 0: CARACTERIZAÇÃO
 # ============================================================================
 def page_caracterizacao():
     fig = plt.figure(figsize=(11, 8.5))
-    fig.suptitle("0 · Caracterização do Dataset", fontsize=18, fontweight="bold", y=0.98)
+    page_title(fig, "0 · Caracterização do Dataset")
 
-    gs = fig.add_gridspec(3, 2, hspace=0.4, wspace=0.3, top=0.94, bottom=0.05, left=0.08, right=0.92)
+    gs = gridspec_layout(fig, 3, 2, hspace=0.5, bottom=0.06)
 
     # KPIs
     ax = fig.add_subplot(gs[0, :])
     ax.axis("off")
     kpis = load_csv("01b_caracterizacao_resumo.csv")
-    txt = "📊 500 repositórios Python populares (GitHub)\n"
-    txt += f"  • Mediana de ⭐ {fmt_num(float(kpis[0]['mediana']))}\n"
+    txt = "500 repositórios Python populares (GitHub)\n"
+    txt += f"  • Mediana de stars: {fmt_num(float(kpis[0]['mediana']))}\n"
     txt += f"  • Mediana de contribuidores: {fmt_num(float(kpis[1]['mediana']))}\n"
     txt += f"  • Mediana de commits (5 anos): {fmt_num(float(kpis[2]['mediana']))}"
-    ax.text(0.05, 0.5, txt, fontsize=11, family="monospace", va="center")
+    ax.text(0.05, 0.5, txt, fontsize=11, va="center")
 
     # Distribuição stars
     ax = fig.add_subplot(gs[1, 0])
@@ -60,11 +83,13 @@ def page_caracterizacao():
         faixa = r["faixa_stars"]
         stars_faixa[faixa] += 1
     faixas = sorted(stars_faixa.keys())
-    ax.bar(range(len(faixas)), [stars_faixa[f] for f in faixas], color="#1976D2", alpha=0.7)
+    vals = [stars_faixa[f] for f in faixas]
+    ax.bar(range(len(faixas)), vals, color="#1976D2", alpha=0.7)
     ax.set_xticks(range(len(faixas)))
-    ax.set_xticklabels([f.replace(". ", "\n") for f in faixas], fontsize=9)
+    ax.set_xticklabels([f.replace(". ", "\n") for f in faixas], fontsize=8)
     ax.set_ylabel("Quantidade de repos", fontsize=10)
-    ax.set_title("Distribuição de ⭐ (stars)", fontsize=11, fontweight="bold")
+    ax.set_title("Distribuição de stars", fontsize=11, fontweight="bold", pad=12)
+    ax.set_ylim(0, max(vals) * 1.12)
     ax.grid(axis="y", alpha=0.3)
 
     # Distribuição commits por classe
@@ -73,12 +98,12 @@ def page_caracterizacao():
     labels = [r["classe_tamanho"].replace("1. ", "").replace("2. ", "").replace("3. ", "") for r in commits_clase]
     sizes = [float(r["pct_do_total"]) for r in commits_clase]
     colors = [CORES.get(r["classe_tamanho"], "#999") for r in commits_clase]
-    wedges, texts, autotexts = ax.pie(sizes, labels=labels, autopct="%1.1f%%", colors=colors, startangle=90)
-    for autotext in autotexts:
-        autotext.set_color("white")
-        autotext.set_fontsize(10)
-        autotext.set_fontweight("bold")
-    ax.set_title("Universo de 1.675.148 commits\npor classe de tamanho", fontsize=11, fontweight="bold")
+    wedges, _ = ax.pie(sizes, colors=colors, startangle=90)
+    ax.legend(
+        wedges, [f"{label} ({size:.1f}%)" for label, size in zip(labels, sizes)],
+        loc="center left", bbox_to_anchor=(1.02, 0.5), fontsize=9, frameon=False,
+    )
+    ax.set_title("Universo de 1.675.148 commits\npor classe de tamanho", fontsize=11, fontweight="bold", pad=12)
 
     # Texto narrativo
     ax = fig.add_subplot(gs[2, :])
@@ -88,7 +113,7 @@ def page_caracterizacao():
         "e 1.234 commits no período de 5 anos. Como as análises particionam os dados por classe de tamanho (Hattori & Lanza, 2008), "
         "apresentamos também a composição do universo de 1.675.148 commits: 51,4% pequenos, 37,1% médios e 11,4% grandes."
     )
-    ax.text(0.05, 0.5, txt, fontsize=10, wrap=True, va="center")
+    ax.text(0.02, 0.85, wrapped_text(txt, width=115), fontsize=10, va="top")
 
     return fig
 
@@ -97,9 +122,9 @@ def page_caracterizacao():
 # ============================================================================
 def page_q1():
     fig = plt.figure(figsize=(11, 8.5))
-    fig.suptitle("1 · Q1 — Tamanho do Commit × Ocorrência de Bugs", fontsize=18, fontweight="bold", y=0.98)
+    page_title(fig, "1 · Q1 — Tamanho do Commit × Ocorrência de Bugs")
 
-    gs = fig.add_gridspec(2, 2, hspace=0.35, wspace=0.3, top=0.94, bottom=0.05, left=0.08, right=0.92)
+    gs = gridspec_layout(fig, 2, 2, hspace=0.5)
 
     # Taxa BIC por classe
     ax = fig.add_subplot(gs[0, 0])
@@ -110,14 +135,13 @@ def page_q1():
     ic_sup = [float(r["ic95_sup_pct"]) for r in q1_taxa]
     erros = [np.array(ic_sup) - np.array(taxa), np.array(taxa) - np.array(ic_inf)]
 
-    bars = ax.bar(range(len(classes)), taxa, color=[CORES[c] for c in classes], alpha=0.7, yerr=erros, capsize=5)
+    ax.bar(range(len(classes)), taxa, color=[CORES[c] for c in classes], alpha=0.7, yerr=erros, capsize=5)
     ax.set_xticks(range(len(classes)))
     ax.set_xticklabels([c.replace("1. ", "").replace("2. ", "").replace("3. ", "") for c in classes], fontsize=10)
     ax.set_ylabel("Taxa BIC (%)", fontsize=10)
-    ax.set_title("Taxa de Bug-Introducing Commits\npor Classe de Tamanho", fontsize=11, fontweight="bold")
+    ax.set_title("Taxa de Bug-Introducing Commits\npor Classe de Tamanho", fontsize=11, fontweight="bold", pad=12)
     ax.grid(axis="y", alpha=0.3)
-    for i, v in enumerate(taxa):
-        ax.text(i, v + 0.5, f"{v:.2f}%", ha="center", fontsize=9, fontweight="bold")
+    annotate_bars(ax, taxa, lambda v: f"{v:.2f}%", pad=0.15, yerr_top=ic_sup)
 
     # Distribuição BIC vs não-BIC
     ax = fig.add_subplot(gs[0, 1])
@@ -132,10 +156,11 @@ def page_q1():
         ax.bar(x + i * width, vals, width, label=cls.replace("1. ", "").replace("2. ", "").replace("3. ", ""), color=CORES[cls], alpha=0.7)
 
     ax.set_ylabel("% dentro do grupo", fontsize=10)
-    ax.set_title("Composição das Classes:\nBIC vs Não-BIC", fontsize=11, fontweight="bold")
+    ax.set_title("Composição das Classes:\nBIC vs Não-BIC", fontsize=11, fontweight="bold", pad=12)
     ax.set_xticks(x + width)
     ax.set_xticklabels(grupos, fontsize=9)
-    ax.legend(fontsize=9)
+    ax.legend(fontsize=9, loc="upper right")
+    ax.set_ylim(0, 55)
     ax.grid(axis="y", alpha=0.3)
 
     # Testes estatísticos
@@ -143,19 +168,26 @@ def page_q1():
     ax.axis("off")
     testes = load_csv("02_q1_testes_estatisticos.csv")
 
-    y = 0.9
-    ax.text(0.05, y, "📊 Testes Estatísticos (Q1):", fontsize=11, fontweight="bold")
-    y -= 0.12
+    lines = ["Testes Estatísticos (Q1):", ""]
     for teste in testes[:2]:
-        ax.text(0.05, y, f"• {teste['analise']}", fontsize=9, fontweight="bold")
-        ax.text(0.08, y - 0.08, f"  {teste['estatistica']} | p{teste['p_valor']} | {teste['significativo']}", fontsize=9, family="monospace")
-        ax.text(0.08, y - 0.14, f"  ➜ {teste['interpretacao']}", fontsize=9, style="italic")
-        y -= 0.22
+        lines.append(f"• {teste['analise']}")
+        lines.append(f"  {teste['estatistica']} | p{teste['p_valor']} | {teste['significativo']}")
+        lines.append(f"  -> {teste['interpretacao']}")
+        lines.append("")
 
-    ax.text(0.05, 0.05,
-        "✅ Hipótese comprovada: A taxa de BICs cresce monotonicamente com o tamanho (8,5× entre extremos). "
-        "Commits maiores estão significativamente associados a maior introdução de bugs.",
-        fontsize=10, bbox=dict(boxstyle="round", facecolor="#E8F5E9", alpha=0.5), wrap=True)
+    conclusao = (
+        "Hipótese comprovada: A taxa de BICs cresce monotonicamente com o tamanho (8,5x entre extremos). "
+        "Commits maiores estão significativamente associados a maior introdução de bugs."
+    )
+    ax.text(
+        0.02, 0.98, "\n".join(lines), fontsize=9, va="top", family="sans-serif",
+        transform=ax.transAxes,
+    )
+    ax.text(
+        0.02, 0.08, wrapped_text(conclusao, width=120), fontsize=10, va="bottom",
+        bbox=dict(boxstyle="round", facecolor="#E8F5E9", alpha=0.5),
+        transform=ax.transAxes,
+    )
 
     return fig
 
@@ -164,9 +196,9 @@ def page_q1():
 # ============================================================================
 def page_q2():
     fig = plt.figure(figsize=(11, 8.5))
-    fig.suptitle("2 · Q2 — Tamanho do PR × Complexidade da Revisão", fontsize=18, fontweight="bold", y=0.98)
+    page_title(fig, "2 · Q2 — Tamanho do PR × Complexidade da Revisão")
 
-    gs = fig.add_gridspec(3, 2, hspace=0.4, wspace=0.3, top=0.94, bottom=0.05, left=0.08, right=0.92)
+    gs = gridspec_layout(fig, 3, 2, hspace=0.55, bottom=0.06)
 
     # Comentários
     ax = fig.add_subplot(gs[0, 0])
@@ -177,10 +209,9 @@ def page_q2():
     ax.set_xticks(range(len(classes)))
     ax.set_xticklabels([c.replace("1. ", "").replace("2. ", "").replace("3. ", "") for c in classes], fontsize=10)
     ax.set_ylabel("Média de comentários", fontsize=10)
-    ax.set_title("Volume de Comentários por Categoria", fontsize=11, fontweight="bold")
+    ax.set_title("Volume de Comentários por Categoria", fontsize=11, fontweight="bold", pad=12)
     ax.grid(axis="y", alpha=0.3)
-    for i, v in enumerate(coments):
-        ax.text(i, v + 0.1, f"{v:.2f}", ha="center", fontsize=9, fontweight="bold")
+    annotate_bars(ax, coments, lambda v: f"{v:.2f}")
 
     # Densidade
     ax = fig.add_subplot(gs[0, 1])
@@ -189,10 +220,9 @@ def page_q2():
     ax.set_xticks(range(len(classes)))
     ax.set_xticklabels([c.replace("1. ", "").replace("2. ", "").replace("3. ", "") for c in classes], fontsize=10)
     ax.set_ylabel("Mediana (comentários/LOC)", fontsize=10)
-    ax.set_title("Densidade de Comentários\n(proporcional ao tamanho)", fontsize=11, fontweight="bold")
+    ax.set_title("Densidade de Comentários\n(proporcional ao tamanho)", fontsize=11, fontweight="bold", pad=12)
     ax.grid(axis="y", alpha=0.3)
-    for i, v in enumerate(dens):
-        ax.text(i, v + 0.01, f"{v:.4f}", ha="center", fontsize=9, fontweight="bold")
+    annotate_bars(ax, dens, lambda v: f"{v:.4f}")
 
     # Tempo até fechamento
     ax = fig.add_subplot(gs[1, :])
@@ -202,25 +232,33 @@ def page_q2():
     ax.plot(range(len(faixas)), tempos, marker="o", markersize=10, linewidth=2.5, color="#D32F2F")
     ax.fill_between(range(len(faixas)), tempos, alpha=0.3, color="#D32F2F")
     ax.set_xticks(range(len(faixas)))
-    ax.set_xticklabels([f.replace("1. ", "").replace("2. ", "").replace("3. ", "") for f in faixas], fontsize=10)
+    ax.set_xticklabels(
+        [f.replace("1. ", "").replace("2. ", "").replace("3. ", "") for f in faixas],
+        fontsize=9, rotation=12, ha="right",
+    )
     ax.set_ylabel("Mediana (horas)", fontsize=10)
-    ax.set_title("Tempo até Fechamento por Faixa de LOC (S4)", fontsize=11, fontweight="bold")
+    ax.set_title("Tempo até Fechamento por Faixa de LOC (S4)", fontsize=11, fontweight="bold", pad=12)
     ax.grid(alpha=0.3)
+    ymax = max(tempos)
+    ax.set_ylim(0, ymax * 1.18)
     for i, v in enumerate(tempos):
-        ax.text(i, v + 0.3, f"{v:.2f}h", ha="center", fontsize=9, fontweight="bold")
+        ax.text(i, v + ymax * 0.04, f"{v:.2f}h", ha="center", fontsize=9, fontweight="bold")
 
-    # Testes e narrativa
+    # Narrativa
     ax = fig.add_subplot(gs[2, :])
     ax.axis("off")
-    ax.text(0.05, 0.85,
-        "✅ Hipótese comprovada (parcialmente qualificada):",
-        fontsize=11, fontweight="bold")
-    ax.text(0.05, 0.65,
-        "PRs maiores recebem mais comentários (1,58 → 5,67) e levam mais tempo até fechamento (3,95h → 12,70h). "
-        "Porém, a **densidade de comentários por LOC cai** (0,125 → 0,004): revisões de mudanças extensas são "
-        "proporcionalmente mais superficiais (ρ=−0,50 em S3). Isso sugere que o aumento do escopo reduz a capacidade "
-        "de revisão criteriosa.",
-        fontsize=10, wrap=True, bbox=dict(boxstyle="round", facecolor="#FFF3E0", alpha=0.5))
+    narrativa = (
+        "Hipótese comprovada (parcialmente qualificada): PRs maiores recebem mais comentários "
+        "(1,58 -> 5,67) e levam mais tempo até fechamento (3,95h -> 12,70h). Porém, a densidade de "
+        "comentários por LOC cai (0,125 -> 0,004): revisões de mudanças extensas são proporcionalmente "
+        "mais superficiais (rho=-0,50 em S3). Isso sugere que o aumento do escopo reduz a capacidade "
+        "de revisão criteriosa."
+    )
+    ax.text(
+        0.02, 0.95, wrapped_text(narrativa, width=118), fontsize=10, va="top",
+        bbox=dict(boxstyle="round", facecolor="#FFF3E0", alpha=0.5),
+        transform=ax.transAxes,
+    )
 
     return fig
 
@@ -229,9 +267,9 @@ def page_q2():
 # ============================================================================
 def page_q3():
     fig = plt.figure(figsize=(11, 8.5))
-    fig.suptitle("3 · Q3 — Tamanho do Commit × Manutenibilidade", fontsize=18, fontweight="bold", y=0.98)
+    page_title(fig, "3 · Q3 — Tamanho do Commit × Manutenibilidade")
 
-    gs = fig.add_gridspec(2, 3, hspace=0.35, wspace=0.35, top=0.94, bottom=0.05, left=0.08, right=0.92)
+    gs = gridspec_layout(fig, 2, 3, hspace=0.45, wspace=0.35)
 
     q3_resumo = load_csv("04_q3_resumo_categoria.csv")
     classes = [r["categoria_tamanho"] for r in q3_resumo]
@@ -243,10 +281,9 @@ def page_q3():
     ax.set_xticks(range(len(classes)))
     ax.set_xticklabels([c.replace("1. ", "").replace("2. ", "").replace("3. ", "") for c in classes], fontsize=10)
     ax.set_ylabel("CC/LOC", fontsize=10)
-    ax.set_title("Densidade Ciclomática\n(CC/LOC)", fontsize=11, fontweight="bold")
+    ax.set_title("Densidade Ciclomática\n(CC/LOC)", fontsize=11, fontweight="bold", pad=12)
     ax.grid(axis="y", alpha=0.3)
-    for i, v in enumerate(cc_loc):
-        ax.text(i, v + 0.05, f"{v:.3f}", ha="center", fontsize=9, fontweight="bold")
+    annotate_bars(ax, cc_loc, lambda v: f"{v:.3f}")
 
     # Taxa reverts
     ax = fig.add_subplot(gs[0, 1])
@@ -255,10 +292,9 @@ def page_q3():
     ax.set_xticks(range(len(classes)))
     ax.set_xticklabels([c.replace("1. ", "").replace("2. ", "").replace("3. ", "") for c in classes], fontsize=10)
     ax.set_ylabel("Taxa de reverts (%)", fontsize=10)
-    ax.set_title("Taxa de Reverts\n(rollbacks)", fontsize=11, fontweight="bold")
+    ax.set_title("Taxa de Reverts\n(rollbacks)", fontsize=11, fontweight="bold", pad=12)
     ax.grid(axis="y", alpha=0.3)
-    for i, v in enumerate(reverts):
-        ax.text(i, v + 0.1, f"{v:.2f}%", ha="center", fontsize=9, fontweight="bold")
+    annotate_bars(ax, reverts, lambda v: f"{v:.2f}%")
 
     # Taxa bug fix
     ax = fig.add_subplot(gs[0, 2])
@@ -267,10 +303,9 @@ def page_q3():
     ax.set_xticks(range(len(classes)))
     ax.set_xticklabels([c.replace("1. ", "").replace("2. ", "").replace("3. ", "") for c in classes], fontsize=10)
     ax.set_ylabel("Taxa de bug fixes (%)", fontsize=10)
-    ax.set_title("Taxa de Bug Fixes\n(correções)", fontsize=11, fontweight="bold")
+    ax.set_title("Taxa de Bug Fixes\n(correções)", fontsize=11, fontweight="bold", pad=12)
     ax.grid(axis="y", alpha=0.3)
-    for i, v in enumerate(bugfix):
-        ax.text(i, v + 0.3, f"{v:.2f}%", ha="center", fontsize=9, fontweight="bold")
+    annotate_bars(ax, bugfix, lambda v: f"{v:.2f}%")
 
     # Tabela resumo
     ax = fig.add_subplot(gs[1, :])
@@ -316,25 +351,26 @@ if __name__ == "__main__":
     with PdfPages(pdf_path) as pdf:
         plt.style.use("default")
 
-        print("  • Página 0: Caracterização...")
+        print("  - Pagina 0: Caracterizacao...")
         fig = page_caracterizacao()
-        pdf.savefig(fig, bbox_inches="tight")
+        pdf.savefig(fig, bbox_inches="tight", pad_inches=0.25)
         plt.close(fig)
 
-        print("  • Página 1: Q1...")
+        print("  - Pagina 1: Q1...")
         fig = page_q1()
-        pdf.savefig(fig, bbox_inches="tight")
+        pdf.savefig(fig, bbox_inches="tight", pad_inches=0.25)
         plt.close(fig)
 
-        print("  • Página 2: Q2...")
+        print("  - Pagina 2: Q2...")
         fig = page_q2()
-        pdf.savefig(fig, bbox_inches="tight")
+        pdf.savefig(fig, bbox_inches="tight", pad_inches=0.25)
         plt.close(fig)
 
-        print("  • Página 3: Q3...")
+        print("  - Pagina 3: Q3...")
         fig = page_q3()
-        pdf.savefig(fig, bbox_inches="tight")
+        pdf.savefig(fig, bbox_inches="tight", pad_inches=0.25)
         plt.close(fig)
 
-    print(f"\n✅ Dashboard gerado: {pdf_path}")
-    print(f"   4 páginas | Tamanho: {os.path.getsize(pdf_path) / 1024 / 1024:.2f} MB")
+    size_mb = os.path.getsize(pdf_path) / 1024 / 1024
+    print(f"\nDashboard gerado: {pdf_path}")
+    print(f"   4 paginas | Tamanho: {size_mb:.2f} MB")

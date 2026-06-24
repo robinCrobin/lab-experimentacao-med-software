@@ -1,0 +1,602 @@
+[
+  {
+    "owner": "codecrafters-io",
+    "name": "build-your-own-x",
+    "nameWithOwner": "codecrafters-io/build-your-own-x",
+    "stargazerCount": 518860
+  },
+  {
+    "owner": "sindresorhus",
+    "name": "awesome",
+    "nameWithOwner": "sindresorhus/awesome",
+    "stargazerCount": 478239
+  },
+  {
+    "owner": "freeCodeCamp",
+    "name": "freeCodeCamp",
+    "nameWithOwner": "freeCodeCamp/freeCodeCamp",
+    "stargazerCount": 450348
+  },
+  {
+    "owner": "public-apis",
+    "name": "public-apis",
+    "nameWithOwner": "public-apis/public-apis",
+    "stargazerCount": 443741
+  },
+  {
+    "owner": "EbookFoundation",
+    "name": "free-programming-books",
+    "nameWithOwner": "EbookFoundation/free-programming-books",
+    "stargazerCount": 390682
+  },
+  {
+    "owner": "openclaw",
+    "name": "openclaw",
+    "nameWithOwner": "openclaw/openclaw",
+    "stargazerCount": 380133
+  },
+  {
+    "owner": "nilbuild",
+    "name": "developer-roadmap",
+    "nameWithOwner": "nilbuild/developer-roadmap",
+    "stargazerCount": 358084
+  },
+  {
+    "owner": "donnemartin",
+    "name": "system-design-primer",
+    "nameWithOwner": "donnemartin/system-design-primer",
+    "stargazerCount": 354521
+  },
+  {
+    "owner": "jwasham",
+    "name": "coding-interview-university",
+    "nameWithOwner": "jwasham/coding-interview-university",
+    "stargazerCount": 353717
+  },
+  {
+    "owner": "vinta",
+    "name": "awesome-python",
+    "nameWithOwner": "vinta/awesome-python",
+    "stargazerCount": 304477
+  },
+  {
+    "owner": "awesome-selfhosted",
+    "name": "awesome-selfhosted",
+    "nameWithOwner": "awesome-selfhosted/awesome-selfhosted",
+    "stargazerCount": 300788
+  },
+  {
+    "owner": "996icu",
+    "name": "996.ICU",
+    "nameWithOwner": "996icu/996.ICU",
+    "stargazerCount": 276318
+  },
+  {
+    "owner": "practical-tutorials",
+    "name": "project-based-learning",
+    "nameWithOwner": "practical-tutorials/project-based-learning",
+    "stargazerCount": 270610
+  },
+  {
+    "owner": "react",
+    "name": "react",
+    "nameWithOwner": "react/react",
+    "stargazerCount": 246077
+  },
+  {
+    "owner": "torvalds",
+    "name": "linux",
+    "nameWithOwner": "torvalds/linux",
+    "stargazerCount": 237410
+  },
+  {
+    "owner": "obra",
+    "name": "superpowers",
+    "nameWithOwner": "obra/superpowers",
+    "stargazerCount": 236846
+  },
+  {
+    "owner": "trimstray",
+    "name": "the-book-of-secret-knowledge",
+    "nameWithOwner": "trimstray/the-book-of-secret-knowledge",
+    "stargazerCount": 229914
+  },
+  {
+    "owner": "TheAlgorithms",
+    "name": "Python",
+    "nameWithOwner": "TheAlgorithms/Python",
+    "stargazerCount": 222161
+  },
+  {
+    "owner": "affaan-m",
+    "name": "ECC",
+    "nameWithOwner": "affaan-m/ECC",
+    "stargazerCount": 220386
+  },
+  {
+    "owner": "vuejs",
+    "name": "vue",
+    "nameWithOwner": "vuejs/vue",
+    "stargazerCount": 210016
+  },
+  {
+    "owner": "ossu",
+    "name": "computer-science",
+    "nameWithOwner": "ossu/computer-science",
+    "stargazerCount": 205206
+  },
+  {
+    "owner": "NousResearch",
+    "name": "hermes-agent",
+    "nameWithOwner": "NousResearch/hermes-agent",
+    "stargazerCount": 200791
+  },
+  {
+    "owner": "trekhleb",
+    "name": "javascript-algorithms",
+    "nameWithOwner": "trekhleb/javascript-algorithms",
+    "stargazerCount": 196122
+  },
+  {
+    "owner": "tensorflow",
+    "name": "tensorflow",
+    "nameWithOwner": "tensorflow/tensorflow",
+    "stargazerCount": 195908
+  },
+  {
+    "owner": "ultraworkers",
+    "name": "claw-code",
+    "nameWithOwner": "ultraworkers/claw-code",
+    "stargazerCount": 194213
+  },
+  {
+    "owner": "n8n-io",
+    "name": "n8n",
+    "nameWithOwner": "n8n-io/n8n",
+    "stargazerCount": 193784
+  },
+  {
+    "owner": "ohmyzsh",
+    "name": "ohmyzsh",
+    "nameWithOwner": "ohmyzsh/ohmyzsh",
+    "stargazerCount": 188217
+  },
+  {
+    "owner": "microsoft",
+    "name": "vscode",
+    "nameWithOwner": "microsoft/vscode",
+    "stargazerCount": 186725
+  },
+  {
+    "owner": "Significant-Gravitas",
+    "name": "AutoGPT",
+    "nameWithOwner": "Significant-Gravitas/AutoGPT",
+    "stargazerCount": 185112
+  },
+  {
+    "owner": "CyC2018",
+    "name": "CS-Notes",
+    "nameWithOwner": "CyC2018/CS-Notes",
+    "stargazerCount": 184601
+  },
+  {
+    "owner": "getify",
+    "name": "You-Dont-Know-JS",
+    "nameWithOwner": "getify/You-Dont-Know-JS",
+    "stargazerCount": 184539
+  },
+  {
+    "owner": "jackfrued",
+    "name": "Python-100-Days",
+    "nameWithOwner": "jackfrued/Python-100-Days",
+    "stargazerCount": 183629
+  },
+  {
+    "owner": "multica-ai",
+    "name": "andrej-karpathy-skills",
+    "nameWithOwner": "multica-ai/andrej-karpathy-skills",
+    "stargazerCount": 180941
+  },
+  {
+    "owner": "massgravel",
+    "name": "Microsoft-Activation-Scripts",
+    "nameWithOwner": "massgravel/Microsoft-Activation-Scripts",
+    "stargazerCount": 180447
+  },
+  {
+    "owner": "DigitalPlatDev",
+    "name": "FreeDomain",
+    "nameWithOwner": "DigitalPlatDev/FreeDomain",
+    "stargazerCount": 180060
+  },
+  {
+    "owner": "anomalyco",
+    "name": "opencode",
+    "nameWithOwner": "anomalyco/opencode",
+    "stargazerCount": 177750
+  },
+  {
+    "owner": "flutter",
+    "name": "flutter",
+    "nameWithOwner": "flutter/flutter",
+    "stargazerCount": 177063
+  },
+  {
+    "owner": "avelino",
+    "name": "awesome-go",
+    "nameWithOwner": "avelino/awesome-go",
+    "stargazerCount": 176219
+  },
+  {
+    "owner": "ollama",
+    "name": "ollama",
+    "nameWithOwner": "ollama/ollama",
+    "stargazerCount": 174803
+  },
+  {
+    "owner": "github",
+    "name": "gitignore",
+    "nameWithOwner": "github/gitignore",
+    "stargazerCount": 174574
+  },
+  {
+    "owner": "twbs",
+    "name": "bootstrap",
+    "nameWithOwner": "twbs/bootstrap",
+    "stargazerCount": 174385
+  },
+  {
+    "owner": "yt-dlp",
+    "name": "yt-dlp",
+    "nameWithOwner": "yt-dlp/yt-dlp",
+    "stargazerCount": 172875
+  },
+  {
+    "owner": "f",
+    "name": "prompts.chat",
+    "nameWithOwner": "f/prompts.chat",
+    "stargazerCount": 164183
+  },
+  {
+    "owner": "AUTOMATIC1111",
+    "name": "stable-diffusion-webui",
+    "nameWithOwner": "AUTOMATIC1111/stable-diffusion-webui",
+    "stargazerCount": 163853
+  },
+  {
+    "owner": "521xueweihan",
+    "name": "HelloGitHub",
+    "nameWithOwner": "521xueweihan/HelloGitHub",
+    "stargazerCount": 162452
+  },
+  {
+    "owner": "huggingface",
+    "name": "transformers",
+    "nameWithOwner": "huggingface/transformers",
+    "stargazerCount": 161844
+  },
+  {
+    "owner": "jlevy",
+    "name": "the-art-of-command-line",
+    "nameWithOwner": "jlevy/the-art-of-command-line",
+    "stargazerCount": 161419
+  },
+  {
+    "owner": "microsoft",
+    "name": "markitdown",
+    "nameWithOwner": "microsoft/markitdown",
+    "stargazerCount": 158178
+  },
+  {
+    "owner": "Snailclimb",
+    "name": "JavaGuide",
+    "nameWithOwner": "Snailclimb/JavaGuide",
+    "stargazerCount": 156553
+  },
+  {
+    "owner": "anthropics",
+    "name": "skills",
+    "nameWithOwner": "anthropics/skills",
+    "stargazerCount": 154307
+  },
+  {
+    "owner": "langflow-ai",
+    "name": "langflow",
+    "nameWithOwner": "langflow-ai/langflow",
+    "stargazerCount": 149983
+  },
+  {
+    "owner": "airbnb",
+    "name": "javascript",
+    "nameWithOwner": "airbnb/javascript",
+    "stargazerCount": 148095
+  },
+  {
+    "owner": "langgenius",
+    "name": "dify",
+    "nameWithOwner": "langgenius/dify",
+    "stargazerCount": 146304
+  },
+  {
+    "owner": "Genymobile",
+    "name": "scrcpy",
+    "nameWithOwner": "Genymobile/scrcpy",
+    "stargazerCount": 144207
+  },
+  {
+    "owner": "mattpocock",
+    "name": "skills",
+    "nameWithOwner": "mattpocock/skills",
+    "stargazerCount": 143142
+  },
+  {
+    "owner": "open-webui",
+    "name": "open-webui",
+    "nameWithOwner": "open-webui/open-webui",
+    "stargazerCount": 142754
+  },
+  {
+    "owner": "x1xhlol",
+    "name": "system-prompts-and-models-of-ai-tools",
+    "nameWithOwner": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "stargazerCount": 141064
+  },
+  {
+    "owner": "ytdl-org",
+    "name": "youtube-dl",
+    "nameWithOwner": "ytdl-org/youtube-dl",
+    "stargazerCount": 140588
+  },
+  {
+    "owner": "yangshun",
+    "name": "tech-interview-handbook",
+    "nameWithOwner": "yangshun/tech-interview-handbook",
+    "stargazerCount": 140446
+  },
+  {
+    "owner": "vercel",
+    "name": "next.js",
+    "nameWithOwner": "vercel/next.js",
+    "stargazerCount": 140210
+  },
+  {
+    "owner": "langchain-ai",
+    "name": "langchain",
+    "nameWithOwner": "langchain-ai/langchain",
+    "stargazerCount": 140001
+  },
+  {
+    "owner": "firecrawl",
+    "name": "firecrawl",
+    "nameWithOwner": "firecrawl/firecrawl",
+    "stargazerCount": 138070
+  },
+  {
+    "owner": "microsoft",
+    "name": "PowerToys",
+    "nameWithOwner": "microsoft/PowerToys",
+    "stargazerCount": 135428
+  },
+  {
+    "owner": "golang",
+    "name": "go",
+    "nameWithOwner": "golang/go",
+    "stargazerCount": 134936
+  },
+  {
+    "owner": "labuladong",
+    "name": "fucking-algorithm",
+    "nameWithOwner": "labuladong/fucking-algorithm",
+    "stargazerCount": 134507
+  },
+  {
+    "owner": "anthropics",
+    "name": "claude-code",
+    "nameWithOwner": "anthropics/claude-code",
+    "stargazerCount": 133966
+  },
+  {
+    "owner": "Chalarangelo",
+    "name": "30-seconds-of-code",
+    "nameWithOwner": "Chalarangelo/30-seconds-of-code",
+    "stargazerCount": 128184
+  },
+  {
+    "owner": "iptv-org",
+    "name": "iptv",
+    "nameWithOwner": "iptv-org/iptv",
+    "stargazerCount": 127949
+  },
+  {
+    "owner": "krahets",
+    "name": "hello-algo",
+    "nameWithOwner": "krahets/hello-algo",
+    "stargazerCount": 127881
+  },
+  {
+    "owner": "clash-verge-rev",
+    "name": "clash-verge-rev",
+    "nameWithOwner": "clash-verge-rev/clash-verge-rev",
+    "stargazerCount": 127407
+  },
+  {
+    "owner": "react",
+    "name": "react-native",
+    "nameWithOwner": "react/react-native",
+    "stargazerCount": 126066
+  },
+  {
+    "owner": "excalidraw",
+    "name": "excalidraw",
+    "nameWithOwner": "excalidraw/excalidraw",
+    "stargazerCount": 126045
+  },
+  {
+    "owner": "ripienaar",
+    "name": "free-for-dev",
+    "nameWithOwner": "ripienaar/free-for-dev",
+    "stargazerCount": 123346
+  },
+  {
+    "owner": "kubernetes",
+    "name": "kubernetes",
+    "nameWithOwner": "kubernetes/kubernetes",
+    "stargazerCount": 123251
+  },
+  {
+    "owner": "electron",
+    "name": "electron",
+    "nameWithOwner": "electron/electron",
+    "stargazerCount": 121735
+  },
+  {
+    "owner": "Comfy-Org",
+    "name": "ComfyUI",
+    "nameWithOwner": "Comfy-Org/ComfyUI",
+    "stargazerCount": 118097
+  },
+  {
+    "owner": "nodejs",
+    "name": "node",
+    "nameWithOwner": "nodejs/node",
+    "stargazerCount": 117997
+  },
+  {
+    "owner": "ggml-org",
+    "name": "llama.cpp",
+    "nameWithOwner": "ggml-org/llama.cpp",
+    "stargazerCount": 117834
+  },
+  {
+    "owner": "shadcn-ui",
+    "name": "ui",
+    "nameWithOwner": "shadcn-ui/ui",
+    "stargazerCount": 117256
+  },
+  {
+    "owner": "justjavac",
+    "name": "free-programming-books-zh_CN",
+    "nameWithOwner": "justjavac/free-programming-books-zh_CN",
+    "stargazerCount": 117168
+  },
+  {
+    "owner": "rustdesk",
+    "name": "rustdesk",
+    "nameWithOwner": "rustdesk/rustdesk",
+    "stargazerCount": 116770
+  },
+  {
+    "owner": "Shubhamsaboo",
+    "name": "awesome-llm-apps",
+    "nameWithOwner": "Shubhamsaboo/awesome-llm-apps",
+    "stargazerCount": 115411
+  },
+  {
+    "owner": "msitarzewski",
+    "name": "agency-agents",
+    "nameWithOwner": "msitarzewski/agency-agents",
+    "stargazerCount": 115349
+  },
+  {
+    "owner": "github",
+    "name": "spec-kit",
+    "nameWithOwner": "github/spec-kit",
+    "stargazerCount": 114999
+  },
+  {
+    "owner": "Hack-with-Github",
+    "name": "Awesome-Hacking",
+    "nameWithOwner": "Hack-with-Github/Awesome-Hacking",
+    "stargazerCount": 114922
+  },
+  {
+    "owner": "rust-lang",
+    "name": "rust",
+    "nameWithOwner": "rust-lang/rust",
+    "stargazerCount": 114120
+  },
+  {
+    "owner": "garrytan",
+    "name": "gstack",
+    "nameWithOwner": "garrytan/gstack",
+    "stargazerCount": 113940
+  },
+  {
+    "owner": "mrdoob",
+    "name": "three.js",
+    "nameWithOwner": "mrdoob/three.js",
+    "stargazerCount": 113263
+  },
+  {
+    "owner": "d3",
+    "name": "d3",
+    "nameWithOwner": "d3/d3",
+    "stargazerCount": 113122
+  },
+  {
+    "owner": "godotengine",
+    "name": "godot",
+    "nameWithOwner": "godotengine/godot",
+    "stargazerCount": 112974
+  },
+  {
+    "owner": "microsoft",
+    "name": "generative-ai-for-beginners",
+    "nameWithOwner": "microsoft/generative-ai-for-beginners",
+    "stargazerCount": 112245
+  },
+  {
+    "owner": "2dust",
+    "name": "v2rayN",
+    "nameWithOwner": "2dust/v2rayN",
+    "stargazerCount": 109764
+  },
+  {
+    "owner": "microsoft",
+    "name": "TypeScript",
+    "nameWithOwner": "microsoft/TypeScript",
+    "stargazerCount": 109370
+  },
+  {
+    "owner": "axios",
+    "name": "axios",
+    "nameWithOwner": "axios/axios",
+    "stargazerCount": 109086
+  },
+  {
+    "owner": "GrowingGit",
+    "name": "GitHub-Chinese-Top-Charts",
+    "nameWithOwner": "GrowingGit/GitHub-Chinese-Top-Charts",
+    "stargazerCount": 108520
+  },
+  {
+    "owner": "tauri-apps",
+    "name": "tauri",
+    "nameWithOwner": "tauri-apps/tauri",
+    "stargazerCount": 108249
+  },
+  {
+    "owner": "fatedier",
+    "name": "frp",
+    "nameWithOwner": "fatedier/frp",
+    "stargazerCount": 107508
+  },
+  {
+    "owner": "papers-we-love",
+    "name": "papers-we-love",
+    "nameWithOwner": "papers-we-love/papers-we-love",
+    "stargazerCount": 107284
+  },
+  {
+    "owner": "denoland",
+    "name": "deno",
+    "nameWithOwner": "denoland/deno",
+    "stargazerCount": 107245
+  },
+  {
+    "owner": "farion1231",
+    "name": "cc-switch",
+    "nameWithOwner": "farion1231/cc-switch",
+    "stargazerCount": 107036
+  }
+]
